@@ -7,9 +7,7 @@ uploadpicture = {
     "url": f'{sysurl}tr/api/item/upload/picture',
 
     "header": {
-        "Cookie": cookie,
-        "Accept": "*/*",
-        "Content-Type": "multipart/form-data"
+        "Cookie": cookie
     }
 
 }
