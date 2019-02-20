@@ -8,7 +8,8 @@ import logging.handlers
 import random
 import pymysql
 import subprocess
+import urllib
 import imp
 
 
-__all__ = ['unittest', 'requests', 'json', 'os', 'warnings', 'dirname', 'logging', 'random', 'pymysql', 'subprocess', 'sys', 'time', 'imp', 'datetime', 're']
+__all__ = ['unittest', 'requests', 'json', 'os', 'warnings', 'dirname', 'logging', 'random', 'pymysql', 'subprocess', 'sys', 'time', 'imp', 'datetime', 're', 'urllib']
