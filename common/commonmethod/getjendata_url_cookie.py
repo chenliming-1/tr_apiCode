@@ -2,6 +2,7 @@
 #!@Author：龚远琪
 from module import *
 from commidware import *
+import commidware.recognize.driver as dw
 
 def getJenkinsData():
     if len(sys.argv) > 1:
@@ -34,7 +35,7 @@ def GetUrl():
 
 
 def checkout_user(user_name, pwd, url):
-    cookie = ck.get_cookie(user_name, pwd, url)
+    cookie = dw.get_login_driver(user_name, pwd, url)[1]
     return cookie
 
 sysurl = GetUrl()
