@@ -31,7 +31,7 @@ class UploadPicture(unittest.TestCase):
         except Exception as error:
             log.error("item/题库：上传png图片接口失败，失败原因："f'{error}')
         finally:
-            self.assertTrue(actsuccess, "item/题库-上传png图片success为false！")
+            self.assertTrue(actsuccess, "item/题库-上传png图片success为False！")
             self.assertIsNotNone(actimageurl, "item/题库-上传png图片URL返回为空！")
             self.assertEqual(imageresponse.status, 200, "通过URL获取图片失败！")
             self.assertIsNotNone(actdata["picUuid"], "item/题库-上传png图片ID返回为空！")
@@ -54,7 +54,7 @@ class UploadPicture(unittest.TestCase):
         except Exception as error:
             log.error("item/题库：上传jpg图片接口失败，失败原因："f'{error}')
         finally:
-            self.assertTrue(actsuccess, "item/题库-上传jpg图片success为false！")
+            self.assertTrue(actsuccess, "item/题库-上传jpg图片success为False！")
             self.assertIsNotNone(actimageurl, "item/题库-上传jpg图片URL返回为空！")
             self.assertEqual(imageresponse.status, 200, "通过URL获取图片失败！")
             self.assertIsNotNone(actdata["picUuid"], "item/题库-上传jpg图片ID返回为空！")
@@ -74,11 +74,12 @@ class UploadPicture(unittest.TestCase):
         except Exception as error:
             log.error("item/题库：上传gif图片测试失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "item/题库-上传gif图片success为false！")
+            self.assertFalse(actsuccess, "item/题库-上传gif图片success为True！")
 
     @classmethod
     def tearDownClass(self):
         pass
+
 
 if __name__ == '__main__':
     unittest.main()

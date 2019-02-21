@@ -1,10 +1,10 @@
-#!Date：2019/02/20 16:48
+#!Date：2019/02/21 20:31
 # !@Author：龚远琪
 #
 from common.commonmethod import *
 
-token = {
-    "url": f'{sysurl}tr/api/common/upload/token',
+sign = {
+    "url": f'{sysurl}tr/api/video/sign',
 
     "header": {
         "Cookie": cookie,
