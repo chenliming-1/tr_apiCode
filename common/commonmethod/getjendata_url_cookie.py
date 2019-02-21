@@ -4,6 +4,7 @@ from module import *
 from commidware import *
 import commidware.recognize.driver as dw
 
+
 def getJenkinsData():
     if len(sys.argv) > 1:
         env = sys.argv[2]
@@ -28,15 +29,17 @@ def getJenkinsData():
             testcase = '*_test.py'
     return runmode, testcase, project, env
 
+
 def GetUrl():
     runmode, testcase, project, env = getJenkinsData()
     sysurl=url.getSysUrl("tr", env, project)
-    return sysurl
+    return sysurl, env
 
 
 def checkout_user(user_name, pwd, url):
     cookie = dw.get_login_driver(user_name, pwd, url)[1]
     return cookie
 
-sysurl = GetUrl()
+
+sysurl, env = GetUrl()
 cookie = checkout_user("gongyq", "111111", url=f'{sysurl}')

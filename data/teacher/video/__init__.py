@@ -1,6 +1,6 @@
 #!Date：2019/02/20 17:15
 # !@Author：龚远琪
 
-from .token import token
+from .sign import sign
 
-__all__ = ['token']
+__all__ = ['sign']

@@ -9,7 +9,9 @@ import random
 import pymysql
 import subprocess
 import urllib
+from urllib.parse import quote
+import string
 import imp
 
 
-__all__ = ['unittest', 'requests', 'json', 'os', 'warnings', 'dirname', 'logging', 'random', 'pymysql', 'subprocess', 'sys', 'time', 'imp', 'datetime', 're', 'urllib']
+__all__ = ['unittest', 'requests', 'json', 'os', 'warnings', 'dirname', 'logging', 'random', 'pymysql', 'subprocess', 'sys', 'time', 'imp', 'datetime', 're', 'urllib', 'quote', 'string']
