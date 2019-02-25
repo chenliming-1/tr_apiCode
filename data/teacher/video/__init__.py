@@ -2,5 +2,7 @@
 # !@Author：龚远琪
 
 from .sign import sign
+from .resource import resource
+from .uploadfile import uploadfile
 
-__all__ = ['sign']
+__all__ = ['sign', 'resource', 'uploadfile']

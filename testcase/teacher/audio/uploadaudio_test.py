@@ -52,7 +52,7 @@ class UploadAudio(unittest.TestCase):
         except Exception as error:
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "audio/音频：音频上传success返回false！")
+            self.assertFalse(actsuccess, "audio/音频：音频上传success返回True！")
             self.assertEqual(actmessage, "文件名称不能为空", "audio/音频：音频上传message返回信息不一致！")
 
     def test_uploadaudio_keyisnull(self):

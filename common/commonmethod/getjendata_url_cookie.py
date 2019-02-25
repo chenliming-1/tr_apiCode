@@ -1,8 +1,9 @@
 #!Date：2019/2/14 10:35
-#!@Author：龚远琪
+# !@Author：龚远琪
 from module import *
 from commidware import *
 import commidware.recognize.driver as dw
+sys_name = "tr"
 
 
 def getJenkinsData():
@@ -18,7 +19,7 @@ def getJenkinsData():
         else:
             testcase = '*_test.py'
     else:  # local
-        env = 'rls'
+        env = 'test'
         project = 'teacher'
         runmode = 'all'  # 接收的是跑case的类型：all，suites，single
         if runmode == 'suites':
@@ -32,14 +33,21 @@ def getJenkinsData():
 
 def GetUrl():
     runmode, testcase, project, env = getJenkinsData()
-    sysurl=url.getSysUrl("tr", env, project)
+    sysurl = url.getSysUrl(sys_name, env, project)
     return sysurl, env
 
 
-def checkout_user(user_name, pwd, url):
+def Checkout_user(user_name, pwd, url):
     cookie = dw.get_login_driver(user_name, pwd, url)[1]
     return cookie
 
 
+def GetDbName():
+    runmode, testcase, project, env = getJenkinsData()
+    sysdbname = dbname.getSysDbName(sys_name, env)
+    return sysdbname
+
+
 sysurl, env = GetUrl()
-cookie = checkout_user("gongyq", "111111", url=f'{sysurl}')
+cookie = Checkout_user("gongyq", "111111", url=f'{sysurl}')
+db = GetDbName()
