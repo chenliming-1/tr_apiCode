@@ -4,4 +4,4 @@
 from .getjendata_url_cookie import *
 from .getprojectpath import *
 
-__all__ = ['sysurl', 'env', 'cookie', 'projectpath']
+__all__ = ['sysurl', 'env', 'cookie', 'projectpath', 'db']
