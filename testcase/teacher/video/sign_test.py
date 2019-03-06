@@ -20,13 +20,13 @@ class Sign(unittest.TestCase):
             actsuccess = self.signResponse.json()["success"]
             actdata = self.signResponse.json()["data"]
             actmessage = self.signResponse.json()["message"]
-            log.info("video/视频：获取视频上传的签名成功用例测试通过！")
         except Exception as error:
             log.error("video/视频：获取视频上传的签名接口失败，失败原因："f'{error}')
         finally:
             self.assertTrue(actsuccess, "video/视频：获取视频上传的签名success返回false！")
             self.assertIsNotNone(actdata, "video/视频：获取视频上传的签名返回data为空！")
             self.assertEqual(actmessage, "操作成功！", "message对比失败！")
+            log.info("video/视频：获取视频上传的签名成功用例测试通过！")
 
     def test_sign_fail(self):
         """
@@ -35,11 +35,11 @@ class Sign(unittest.TestCase):
         self.signResponse = request.run_main(sign["url"], method='POST', headers=sign["header"])
         try:
             actsuccess = self.signResponse.json()["success"]
-            log.info("video/视频：获取视频上传的签名失败用例测试通过！")
         except Exception as error:
             log.error("video/视频：获取视频上传的签名接口失败，失败原因："f'{error}')
         finally:
             self.assertFalse(actsuccess, "video/视频：获取视频上传的签名success返回True！")
+            log.info("video/视频：获取视频上传的签名失败用例测试通过！")
 
     @classmethod
     def tearDownClass(self):

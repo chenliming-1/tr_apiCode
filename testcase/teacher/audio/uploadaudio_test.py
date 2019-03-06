@@ -24,7 +24,6 @@ class UploadAudio(unittest.TestCase):
             actaudiourl = actdata["linkUrl"]
             # URL只允许一部分ASCII 字符（数字字母和部分符号），不支持汉字，需编码转换#
             audioresponse = urllib.request.urlopen(quote(actaudiourl, safe=string.printable))
-            log.info("audio/音频：音频上传成功用例测试通过！")
         except Exception as error:
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
@@ -38,6 +37,7 @@ class UploadAudio(unittest.TestCase):
             self.assertEqual(actdata["originalName"], uploadaudio[env+"_body_success"]["fileName"],
                              "audio/音频：音频上传名称不一致！")
             self.assertEqual(actdata["status"], "AVAILABLE", "audio/音频：音频上传返回状态不一致！")
+            log.info("audio/音频：音频上传成功用例测试通过！")
 
     def test_uploadaudio_filenameisnull(self):
         """
@@ -48,12 +48,12 @@ class UploadAudio(unittest.TestCase):
         try:
             actsuccess = self.uploadaudioResponse.json()["success"]
             actmessage = self.uploadaudioResponse.json()["message"]
-            log.info("audio/音频：音频上传失败用例-filename为NULL测试通过！")
         except Exception as error:
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
             self.assertFalse(actsuccess, "audio/音频：音频上传success返回True！")
             self.assertEqual(actmessage, "文件名称不能为空", "audio/音频：音频上传message返回信息不一致！")
+            log.info("audio/音频：音频上传失败用例-filename为NULL测试通过！")
 
     def test_uploadaudio_keyisnull(self):
         """
@@ -64,12 +64,12 @@ class UploadAudio(unittest.TestCase):
         try:
             actsuccess = self.uploadaudioResponse.json()["success"]
             actmessage = self.uploadaudioResponse.json()["message"]
-            log.info("audio/音频：音频上传失败用例-key为NULL测试通过！")
         except Exception as error:
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
             self.assertFalse(actsuccess, "audio/音频：音频上传success返回false！")
             self.assertEqual(actmessage, "七牛返回key（url相对路径）不能为空", "audio/音频：音频上传message返回信息不一致！")
+            log.info("audio/音频：音频上传失败用例-key为NULL测试通过！")
 
     def test_uploadaudio_sizeisnull(self):
         """
@@ -80,12 +80,12 @@ class UploadAudio(unittest.TestCase):
         try:
             actsuccess = self.uploadaudioResponse.json()["success"]
             actmessage = self.uploadaudioResponse.json()["message"]
-            log.info("audio/音频：音频上传失败用例-size为NULL测试通过！")
         except Exception as error:
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
             self.assertFalse(actsuccess, "audio/音频：音频上传success返回false！")
             self.assertEqual(actmessage, "文件大小不能为空", "audio/音频：音频上传message返回信息不一致！")
+            log.info("audio/音频：音频上传失败用例-size为NULL测试通过！")
 
     @classmethod
     def tearDownClass(self):

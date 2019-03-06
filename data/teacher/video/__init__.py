@@ -4,5 +4,8 @@
 from .sign import sign
 from .resource import resource
 from .uploadfile import uploadfile
+from .createrelation import createrelation, randbusinessId, urldata
+from .deleterelation import deleterelation
+from .videopage import videopage
 
-__all__ = ['sign', 'resource', 'uploadfile']
+__all__ = ['sign', 'resource', 'uploadfile', 'createrelation', 'randbusinessId', 'urldata', 'deleterelation', 'videopage']
