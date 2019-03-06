@@ -27,7 +27,6 @@ class UploadPicture(unittest.TestCase):
             actdata = self.uploadpictureResponse.json()["data"]
             actimageurl = actdata["picUrl"]
             imageresponse = urllib.request.urlopen(actimageurl)
-            log.info("item/题库：上传png图片成功用例测试通过！")
         except Exception as error:
             log.error("item/题库：上传png图片接口失败，失败原因："f'{error}')
         finally:
@@ -35,6 +34,7 @@ class UploadPicture(unittest.TestCase):
             self.assertIsNotNone(actimageurl, "item/题库-上传png图片URL返回为空！")
             self.assertEqual(imageresponse.status, 200, "通过URL获取图片失败！")
             self.assertIsNotNone(actdata["picUuid"], "item/题库-上传png图片ID返回为空！")
+            log.info("item/题库：上传png图片成功用例测试通过！")
 
     def test_uploadpicture_jpg(self):
         """
@@ -50,7 +50,6 @@ class UploadPicture(unittest.TestCase):
             actdata = self.uploadpictureResponse.json()["data"]
             actimageurl = actdata["picUrl"]
             imageresponse = urllib.request.urlopen(actimageurl)
-            log.info("item/题库：上传jpg图片成功用例测试通过！")
         except Exception as error:
             log.error("item/题库：上传jpg图片接口失败，失败原因："f'{error}')
         finally:
@@ -58,6 +57,7 @@ class UploadPicture(unittest.TestCase):
             self.assertIsNotNone(actimageurl, "item/题库-上传jpg图片URL返回为空！")
             self.assertEqual(imageresponse.status, 200, "通过URL获取图片失败！")
             self.assertIsNotNone(actdata["picUuid"], "item/题库-上传jpg图片ID返回为空！")
+            log.info("item/题库：上传jpg图片成功用例测试通过！")
 
     def test_uploadpicture_gif(self):
         """
@@ -70,11 +70,11 @@ class UploadPicture(unittest.TestCase):
         image.close()
         try:
             actsuccess = self.uploadpictureResponse.json()["success"]
-            log.info("item/题库：上传gif图片失败用例测试通过！")
         except Exception as error:
             log.error("item/题库：上传gif图片测试失败，失败原因："f'{error}')
         finally:
             self.assertFalse(actsuccess, "item/题库-上传gif图片success为True！")
+            log.info("item/题库：上传gif图片失败用例测试通过！")
 
     @classmethod
     def tearDownClass(self):

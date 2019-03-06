@@ -20,13 +20,13 @@ class Token(unittest.TestCase):
             actsuccess = self.tokenResponse.json()["success"]
             actdata = self.tokenResponse.json()["data"]
             actmessage = self.tokenResponse.json()["message"]
-            log.info("commonupload/通用上传：获取token成功用例测试通过！")
         except Exception as error:
             log.error("commonupload/通用上传：获取token接口失败，失败原因："f'{error}')
         finally:
             self.assertTrue(actsuccess, "commonupload/通用上传-token:success为false！")
             self.assertIsNotNone(actdata, "commonupload/通用上传-token：返回data为空！")
             self.assertEqual(actmessage, "查询成功", "message对比失败！")
+            log.info("commonupload/通用上传：获取token成功用例测试通过！")
 
     def test_token_fail(self):
         """
@@ -35,11 +35,11 @@ class Token(unittest.TestCase):
         self.tokenResponse = request.run_main(token["url"], method='POST', headers=token["header"])
         try:
             actsuccess = self.tokenResponse.json()["success"]
-            log.info("commonupload/通用上传：获取token失败用例测试通过！")
         except Exception as error:
             log.error("commonupload/通用上传：获取token接口失败，失败原因："f'{error}')
         finally:
             self.assertFalse(actsuccess, "commonupload/通用上传-token:success为True！")
+            log.info("commonupload/通用上传：获取token失败用例测试通过！")
 
     @classmethod
     def tearDownClass(self):
