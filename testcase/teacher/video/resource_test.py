@@ -30,8 +30,10 @@ class Resource(unittest.TestCase):
         finally:
             self.assertTrue(actsuccess, "video/视频：视频上传resource success返回false！")
             self.assertFalse(actdata["defaultShow"], "video/视频：视频上传resource defaultShow返回True!")
-            self.assertEqual(actdata["fileLength"], resource[env+"_body_success"]["fsize"], "video/视频：视频上传resource文件大小不一致！")
-            self.assertEqual(actdata["fileName"], resource[env+"_body_success"]["fileName"], "video/视频：视频上传resource名称不一致！")
+            self.assertEqual(actdata["fileLength"], resource[env+"_body_success"]["fsize"],
+                             "video/视频：视频上传resource文件大小不一致！")
+            self.assertEqual(actdata["fileName"], resource[env+"_body_success"]["fileName"],
+                             "video/视频：视频上传resource名称不一致！")
             self.assertEqual(Resource.video_id, actdata["id"], "video/视频：视频上传resource ID不存在！")
             self.assertEqual(actdata["sourceType"], "dingdang", "video/视频：视频上传resource类型错误！")
             self.assertEqual(actdata["statusCode"], 1, "video/视频：视频上传resource状态返回错误！")
@@ -55,6 +57,21 @@ class Resource(unittest.TestCase):
             self.assertFalse(actsuccess, "video/视频：视频上传resource success返回True！")
             self.assertEqual(actmessage, "操作失败:视频上传失败;操作失败,请稍后重试", "video/视频：视频上传resource message返回信息不一致！")
             log.info("video/视频：视频上传resource失败用例-type为NULL测试通过！")
+
+    def test_resource_fileisnull(self):
+        """
+        video/视频：视频上传resource失败的测试用例-上传file为NULL
+        """
+        self.resourceResponse = request.run_main(resource["url"], method='POST', headers=resource["header"], data=[])
+        try:
+            actsuccess = self.resourceResponse.json()["success"]
+            actmessage = self.resourceResponse.json()["message"]
+        except Exception as error:
+            log.error("video/视频：视频上传resource接口失败，失败原因："f'{error}')
+        finally:
+            self.assertFalse(actsuccess, "video/视频：视频上传-file为NULL success返回True！")
+            self.assertIn("操作失败", actmessage, "video/视频：视频上传-file为NULL message返回信息不一致！")
+            log.info("video/视频：视频上传resource失败用例--file为NULL测试通过！")
 
     @classmethod
     def tearDownClass(self):

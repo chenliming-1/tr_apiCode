@@ -17,9 +17,10 @@ class UploadPicture(unittest.TestCase):
         """
         item/题库：uploadpicture上传png图片成功的测试用例
         """
-        imagepath = os.path.join(projectpath, 'file/image/') + "3-1.png"
+        randimage = random.choice(('3-1.png', '3-2.png', '3-3.png', '3-4.png', '3-5.png'))
+        imagepath = os.path.join(projectpath, 'file/image/') + randimage
         image = open(imagepath, "rb")
-        files = [("file", ("4-1.png", image, "image/png"))]
+        files = [("file", (randimage, image, "image/png"))]
         self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST', headers=uploadpicture["header"], files=files)
         image.close()
         try:
@@ -75,6 +76,19 @@ class UploadPicture(unittest.TestCase):
         finally:
             self.assertFalse(actsuccess, "item/题库-上传gif图片success为True！")
             log.info("item/题库：上传gif图片失败用例测试通过！")
+
+    def test_uploadpicture_fail(self):
+        """
+        item/题库：uploadpicture上传图片失败的测试用例-上传列表为空
+        """
+        self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST', headers=uploadpicture["header"], files=[])
+        try:
+            actsuccess = self.uploadpictureResponse.json()["success"]
+        except Exception as error:
+            log.error("item/题库：上传图片-上传列表为空测试失败，失败原因："f'{error}')
+        finally:
+            self.assertFalse(actsuccess, "item/题库-上传图片-上传列表为空success为True！")
+            log.info("item/题库：上传图片失败用例-上传列表为空测试通过！")
 
     @classmethod
     def tearDownClass(self):

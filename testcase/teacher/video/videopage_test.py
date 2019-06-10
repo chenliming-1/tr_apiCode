@@ -18,7 +18,7 @@ class VideoPage(unittest.TestCase):
 
     def test_TlessonPage_success(self):
         """
-        video/视频：查询说课视频列表成功的测试用例
+        video/视频：查询视频列表成功的测试用例-双师教材章节
         """
         self.tlessonPageResponse = request.run_main(videopage["textbook_lessonUrl"], method='POST',
                                                     headers=videopage["header"], data=videopage["body"])
@@ -27,25 +27,24 @@ class VideoPage(unittest.TestCase):
             actmessage = self.tlessonPageResponse.json()["message"]
             actdata = self.tlessonPageResponse.json()["data"]
         except Exception as error:
-            log.error("video/视频：查询说课视频列表接口失败，失败原因："f'{error}')
+            log.error("video/视频：查询视频列表接口失败，失败原因："f'{error}')
         finally:
-            self.assertTrue(actsuccess, "video/视频：查询说课视频列表success返回false！")
+            self.assertTrue(actsuccess, "video/视频：查询视频列表success返回false！")
             self.assertEqual(actdata["currentPage"], videopage["body"]["currentPage"],
-                             "video/视频：查询说课视频列表当前页不一致")
-            self.assertNotEqual(len(actdata["list"]), 0, "video/视频：查询说课视频列表为空")
-            print(len(actdata["list"]))
+                             "video/视频：查询视频列表当前页不一致")
+            self.assertNotEqual(len(actdata["list"]), 0, "video/视频：查询视频列表为空")
             self.assertEqual(actdata["pageSize"], videopage["body"]["pageSize"],
-                             "video/视频：查询说课视频列表每页大小不一致！")
-            self.assertGreaterEqual(actdata["total"], 1, "video/视频：查询说课视频列表总数小于1！")
-            self.assertEqual(actmessage, "查询成功", "video/视频：查询说课视频列表message不一致！")
+                             "video/视频：查询视频列表每页大小不一致！")
+            self.assertGreaterEqual(actdata["total"], 1, "video/视频：查询视频列表总数小于1！")
+            self.assertEqual(actmessage, "查询成功", "video/视频：查询视频列表message不一致！")
             log.info("video/视频：查询说课视频列表成功用例测试通过！")
 
     def test_searchPage_success(self):
         """
-        video/视频：查询说课视频列表成功的测试用例--根据名称查询视频列表
+        video/视频：查询视频列表成功的测试用例--根据名称查询视频列表
         """
         self.searchPageResponse = request.run_main(videopage["textbook_lessonUrl"], method='POST',
-                                                    headers=videopage["header"], data=videopage["searchBody"])
+                                                   headers=videopage["header"], data=videopage["searchBody"])
         try:
             actsuccess = self.searchPageResponse.json()["success"]
             actmessage = self.searchPageResponse.json()["message"]
@@ -86,6 +85,27 @@ class VideoPage(unittest.TestCase):
             self.assertGreaterEqual(actdata["total"], 1, "video/视频：查询说课视频列表总数小于1！")
             self.assertEqual(actmessage, "查询成功", "video/视频：查询视频列表-列表设置message不一致！")
             log.info("video/视频：查询视频列表-列表设置成功用例测试通过！")
+
+    def test_pageNull_success(self):
+        """
+        video/视频：查询视频列表成功测试用例--未设置列表（取默认值）
+        """
+        self.pageSetResponse = request.run_main(videopage["textbook_lessonUrl"], method='POST',
+                                                headers=videopage["header"], data={})
+        try:
+            actsuccess = self.pageSetResponse.json()["success"]
+            actmessage = self.pageSetResponse.json()["message"]
+            actdata = self.pageSetResponse.json()["data"]
+        except Exception as error:
+            log.error("video/视频：查询视频列表-未设置列表接口失败，失败原因："f'{error}')
+        finally:
+            self.assertTrue(actsuccess, "video/视频：查询视频列表-未设置列表success返回false！")
+            self.assertEqual(actdata["currentPage"], 1, "video/视频：查询视频列表-未设置列表当前页不一致")
+            self.assertGreaterEqual(len(actdata["list"]), 1, "video/视频：查询视频列表-未设置列表数据错误！")
+            self.assertEqual(actdata["pageSize"], 10, "video/视频：查询视频列表-未设置列表每页大小不一致！")
+            self.assertGreaterEqual(actdata["total"], 1, "video/视频：查询视频列表总数小于1！")
+            self.assertEqual(actmessage, "查询成功", "video/视频：查询视频列表-未设置列表message不一致！")
+            log.info("video/视频：查询视频列表-未设置列表成功用例测试通过！")
 
     def test_businessTypeNull_fail(self):
         """

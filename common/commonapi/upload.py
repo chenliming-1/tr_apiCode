@@ -23,16 +23,21 @@ class Upload():
             log.error("获取token失败，失败原因：" + f'{error}')
 
     def upload_image(self):
-        imagepath = os.path.join(projectpath, 'file/image/') + "3-1.png"
+        randimage = randdata.getpicture()
+        imagepath = os.path.join(projectpath, 'file/image/') + randimage
         image = open(imagepath, "rb")
-        files = [("file", ("4-1.png", image, "image/png"))]
-        uploadimageResponse = request.run_main(uploadpicture["url"], method='POST',
-                                                      headers=uploadpicture["header"], files=files)
+        files = [("file", (randimage, image, "image/png"))]
+        uploadimageResponse = request.run_main(uploadpicture["url"], method='POST', headers=uploadpicture["header"],
+                                               files=files)
         image.close()
         try:
             actsuccess = uploadimageResponse.json()["success"]
-            assert actsuccess == True, "上传图片失败！"
-            return uploadimageResponse
+            actdata = uploadimageResponse.json()["data"]
+            if actsuccess == True:
+                imagelab = '<img alt='+actdata["reflectImage"]+' src='+actdata["picUrl"]+' id='+actdata["picUuid"]+'>'
+                return uploadimageResponse, imagelab
+            else:
+                log.error("上传图片失败！")
         except AssertionError as error:
             log.error("上传图片失败，失败原因：" + f'{error}')
 
@@ -101,10 +106,10 @@ class Upload():
         deleteResponse = request.run_main(deleterelation["url"]+str(relationId), method='DELETE', headers=deleterelation["header"], data={})
         try:
             actsuccess = deleteResponse.json()["success"]
-            assert actsuccess == True, "上传音频失败！"
+            assert actsuccess == True, "删除视频关联失败！"
             return deleteResponse
         except AssertionError as error:
-            log.error("video/视频：视频上传接口失败，失败原因："f'{error}')
+            log.error("video/视频：删除视频关联失败，失败原因："f'{error}')
 
 
 upload = Upload()
