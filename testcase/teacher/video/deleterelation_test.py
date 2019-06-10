@@ -36,7 +36,7 @@ class DeleteRelation(unittest.TestCase):
         """
         video/视频：删除视频关联记录失败用例--Id为空
         """
-        self.deleteResponse = request.run_main(deleterelation["url"]+"", method='DELETE',
+        self.deleteResponse = request.run_main(deleterelation["url"]+"NULL", method='DELETE',
                                                headers=createrelation["header"], data={})
         try:
             actsuccess = self.deleteResponse.json()["success"]
@@ -45,7 +45,7 @@ class DeleteRelation(unittest.TestCase):
             log.error("video/视频：删除视频关联记录接口失败，失败原因："f'{error}')
         finally:
             self.assertFalse(actsuccess, "video/视频：删除视频关联记录success返回true！")
-            self.assertEqual(actmessage, "请求方法不支持", "video/视频：删除视频关联记录message返回信息不一致！")
+            self.assertEqual(actmessage, "参数类型不匹配异常", "video/视频：删除视频关联记录message返回信息不一致！")
             log.info("video/视频：删除视频关联记录失败用例测试通过！")
 
     def test_delete_relationIdErr(self):

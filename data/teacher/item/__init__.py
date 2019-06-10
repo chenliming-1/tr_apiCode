@@ -2,5 +2,6 @@
 # !@Author：龚远琪
 
 from .uploadpicture import uploadpicture
+from .deleteitem import deleteitem
 
-__all__ = ['uploadpicture'] 
+__all__ = ['uploadpicture', 'deleteitem']
