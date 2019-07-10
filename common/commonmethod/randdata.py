@@ -9,11 +9,12 @@ region = [1, 9, 115, 124, 135, 152, 153, 154, 156, 161, 173, 207, 221, 1834]    
 picture = ['1-1.jpg', '3-1.png', '3-2.png', '3-3.png', '3-4.png', '3-5.png']    #图片
 period = [10003, 100000282, 10001, 10002]     #学段
 productline = ['DOUBLE_TEACHER', 'TEACHER_COLLEGE', 'HI_STUDY-INDIVIDUATION', 'HI_STUDY-FULLFILL_CLASS']  #产品线
+itemMouldType = ['SINGLE_CHOICE', 'MULTIPLE_CHOICE', 'EXPLANATION', 'REDUCTIVE_READ', 'WORD_CHOOSE', 'COMPREHENSIVE', 'CLOZE_TEST']   #题型模版
 
 
 class RandData(object):
-    def getsubject(self):
-        return random.choice(subject)
+    def getsubject(self, length=1):
+        return random.sample(subject, length)
 
     def getdifflevel(self):
         return random.choice(difflevel)
@@ -33,5 +34,9 @@ class RandData(object):
     def getproductline(self):
         return random.choice(productline)
 
+    def getitemmouldtype(self):
+        return random.choice(itemMouldType)
+
 
 randdata = RandData()
+# print(randdata.getsubject(3))

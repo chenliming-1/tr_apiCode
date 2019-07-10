@@ -39,12 +39,12 @@ class DeleteRelation(unittest.TestCase):
         self.deleteResponse = request.run_main(deleterelation["url"]+"NULL", method='DELETE',
                                                headers=createrelation["header"], data={})
         try:
-            actsuccess = self.deleteResponse.json()["success"]
+            status_code = self.deleteResponse.status_code
             actmessage = self.deleteResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：删除视频关联记录接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：删除视频关联记录success返回true！")
+            self.assertEqual(status_code, 400, "video/视频：删除视频关联记录-状态码错误！")
             self.assertEqual(actmessage, "参数类型不匹配异常", "video/视频：删除视频关联记录message返回信息不一致！")
             log.info("video/视频：删除视频关联记录失败用例测试通过！")
 
@@ -55,12 +55,12 @@ class DeleteRelation(unittest.TestCase):
         self.deleteResponse = request.run_main(deleterelation["url"]+"30", method='DELETE',
                                                headers=createrelation["header"], data={})
         try:
-            actsuccess = self.deleteResponse.json()["success"]
+            status_code = self.deleteResponse.status_code
             actmessage = self.deleteResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：删除视频关联记录接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：删除视频关联记录success返回true！")
+            self.assertEqual(status_code, 400, "video/视频：删除视频关联记录-状态码错误！")
             self.assertEqual(actmessage, "找不到视频关联记录！", "video/视频：删除视频关联记录message返回信息不一致！")
             log.info("video/视频：删除视频关联记录失败用例测试通过！")
 

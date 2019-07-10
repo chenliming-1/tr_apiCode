@@ -58,12 +58,12 @@ class CreateRelation(unittest.TestCase):
         self.businessIdIsNullResponse = request.run_main(createrelation["businessIdIsNull"], method='POST',
                                                     headers=createrelation["header"], data=CreateRelation.uploadfiledata)
         try:
-            actsuccess = self.businessIdIsNullResponse.json()["success"]
+            status_code = self.businessIdIsNullResponse.status_code
             actmessage = self.businessIdIsNullResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：创建视频记录接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：创建记录失败用例-关联Id为空success返回true！")
+            self.assertEqual(status_code, 400, "video/视频：创建记录失败用例-关联Id为空-状态码错误！")
             self.assertEqual(actmessage, "业务ID为空", "video/视频：创建记录失败用例-关联Id为空message返回信息不一致！")
             log.info("video/视频：创建记录失败用例-关联Id为空测试通过！")
 
@@ -74,12 +74,12 @@ class CreateRelation(unittest.TestCase):
         self.businessTypeIsNullResponse = request.run_main(createrelation["businessTypeIsNull"], method='POST',
                                                            headers=createrelation["header"], data=CreateRelation.uploadfiledata)
         try:
-            actsuccess = self.businessTypeIsNullResponse.json()["success"]
+            status_code = self.businessTypeIsNullResponse.status_code
             actmessage = self.businessTypeIsNullResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：创建视频记录接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：创建记录失败用例-关联Type为空success返回true！")
+            self.assertEqual(status_code, 400, "video/视频：创建记录失败用例-关联Type为空-状态码错误！")
             self.assertEqual(actmessage, "视频关联类型为NULL", "video/视频：创建记录失败用例-关联Type为空message返回信息不一致！")
             log.info("video/视频：创建记录失败用例-关联Type为空测试通过！")
 
@@ -90,12 +90,12 @@ class CreateRelation(unittest.TestCase):
         self.businessTypeErrResponse = request.run_main(createrelation["businessTypeErr"], method='POST',
                                                         headers=createrelation["header"], data=CreateRelation.uploadfiledata)
         try:
-            actsuccess = self.businessTypeErrResponse.json()["success"]
+            status_code = self.businessTypeErrResponse.status_code
             actmessage = self.businessTypeErrResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：创建视频记录接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：创建记录失败用例-关联Type为错误值 success返回true！")
+            self.assertEqual(status_code, 400, "video/视频：创建记录失败用例-关联Type为错误值-状态码错误！")
             self.assertEqual(actmessage, "参数类型不匹配异常", "video/视频：创建记录失败用例-关联Type为错误值 message返回信息不一致！")
             log.info("video/视频：创建记录失败用例-关联Type为错误值测试通过！")
 
@@ -106,12 +106,12 @@ class CreateRelation(unittest.TestCase):
         self.dataErrResponse = request.run_main(createrelation["textbook_lessonUrl"], method='POST',
                                                 headers=createrelation["header"], data=[])
         try:
-            actsuccess = self.dataErrResponse.json()["success"]
+            status_code = self.dataErrResponse.status_code
             actmessage = self.dataErrResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：创建视频记录接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：创建视频记录失败用例-视频列表为空success返回true！")
+            self.assertEqual(status_code, 400, "video/视频：创建视频记录失败用例-视频列表为空-状态码错误！")
             self.assertEqual(actmessage, "视频列表为空", "video/视频：创建视频记录失败用例-视频列表为空message返回信息不一致！")
             log.info("video/视频：创建视频记录失败用例-视频列表为空测试通过！")
 

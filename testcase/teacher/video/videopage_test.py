@@ -114,12 +114,12 @@ class VideoPage(unittest.TestCase):
         self.pageSetResponse = request.run_main(videopage["businessTypeNull"], method='POST',
                                                 headers=videopage["header"], data=videopage["body"])
         try:
-            actsuccess = self.pageSetResponse.json()["success"]
+            status_code = self.pageSetResponse.status_code
             actmessage = self.pageSetResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：查询视频列表-业务类型为空接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：查询视频列表-业务类型为空success返回true！")
+            self.assertEqual(status_code, 400, "video/视频：查询视频列表-业务类型为空-状态码错误！")
             self.assertEqual(actmessage, "参数类型不匹配异常", "video/视频：查询视频列表-业务类型为空message不一致！")
             log.info("video/视频：查询视频列表-业务类型为空失败用例测试通过！")
 
@@ -130,12 +130,12 @@ class VideoPage(unittest.TestCase):
         self.pageSetResponse = request.run_main(videopage["businessTypeErr"], method='POST',
                                                 headers=videopage["header"], data=videopage["body"])
         try:
-            actsuccess = self.pageSetResponse.json()["success"]
+            status_code = self.pageSetResponse.status_code
             actmessage = self.pageSetResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：查询视频列表-业务类型错误接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：查询视频列表-业务类型错误success返回true！")
+            self.assertEqual(status_code, 400, "video/视频：查询视频列表-业务类型为空-状态码错误！")
             self.assertEqual(actmessage, "参数类型不匹配异常", "video/视频：查询视频列表-业务类型错误message不一致！")
             log.info("video/视频：查询视频列表-业务类型错误 失败用例测试通过！")
 

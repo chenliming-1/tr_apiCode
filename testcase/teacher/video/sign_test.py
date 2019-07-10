@@ -34,11 +34,13 @@ class Sign(unittest.TestCase):
         """
         self.signResponse = request.run_main(sign["url"], method='POST', headers=sign["header"])
         try:
-            actsuccess = self.signResponse.json()["success"]
+            status_code = self.signResponse.status_code
+            actmessage = self.signResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：获取视频上传的签名接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：获取视频上传的签名success返回True！")
+            self.assertEqual(status_code, 400, "video/视频：获取视频上传的签名失败用例-状态码错误！")
+            self.assertEqual(actmessage, "请求方法不支持", "video/视频：获取视频上传的签名失败用例message返回信息不一致！")
             log.info("video/视频：获取视频上传的签名失败用例测试通过！")
 
     @classmethod
