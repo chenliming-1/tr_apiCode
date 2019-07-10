@@ -43,13 +43,14 @@ class UploadFile(unittest.TestCase):
         self.uploadfileResponse = request.run_main(uploadfile["url"], method='POST', headers=uploadfile["header"],
                                                     data=uploadfile["body_typeError"][0])
         try:
-            actsuccess = self.uploadfileResponse.json()["success"]
+            status_code = self.uploadfileResponse.status_code
             actmessage = self.uploadfileResponse.json()["message"]
+            # print(self.uploadfileResponse.json())
         except Exception as error:
-            log.error("video/视频：视频上传接口失败，失败原因："f'{error}')
+            log.error("video/视频：视频上传失败的测试用例-type为NULL接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "video/视频：视频上传success返回True！")
-            self.assertEqual(actmessage, "操作失败:视频上传失败,操作失败,请稍后重试", "video/视频：视频上传message返回信息不一致！")
+            self.assertEqual(status_code, 500, "video/视频：视频上传失败的测试用例-type为NULL-状态码错误！")
+            self.assertEqual(actmessage, "视频上传失败,操作失败,请稍后重试", "video/视频：视频上传失败的测试用例-type为NULL message返回信息不一致！")
             log.info("video/视频：视频上传失败用例-type为NULL测试通过！")
 
     @classmethod
