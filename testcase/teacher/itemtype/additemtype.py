@@ -48,7 +48,7 @@ class AddItemType(unittest.TestCase):
             status_code = self.addItemTypeResponse.status_code
             actdata = self.addItemTypeResponse.json()
             self.itemTypeId.append(actdata["id"])
-            print("id:" + str(self.itemTypeId))
+            # print("id:" + str(self.itemTypeId))
         except Exception as error:
             log.error("itemtype/题型：添加题型必填项接口失败，失败原因："f'{error}')
         finally:
@@ -62,21 +62,21 @@ class AddItemType(unittest.TestCase):
             log.info("itemtype/题型：添加题型必填项成功用例测试通过！")
 
 
-    # def test_additemtype_subjectIdsErr(self):
-    #     """
-    #     itemtype/题型：添加题型失败用例-科目Id错误
-    #     """
-    #     self.addItemTypeResponse = request.run_main(additemtype["url"], method='POST', headers=additemtype["header"],
-    #                                                 data=additemtype["body_subjectIdsErr"])
-    #     try:
-    #         status_code = self.addItemTypeResponse.status_code
-    #         actmessage = self.addItemTypeResponse.json()["message"]
-    #     except Exception as error:
-    #         log.error("itemtype/题型：添加题型失败用例-科目Id错误，失败原因："f'{error}')
-    #     finally:
-    #         self.assertEqual(status_code, 400, "itemtype/题型：添加题型失败用例-科目Id错误-状态码错误！")
-    #         self.assertEqual(actmessage, "题型编码已存在", "itemtype/题型：添加题型失败用例-科目Id错误message返回信息不一致！")
-    #         log.info("itemtype/题型：添加题型失败用例-科目Id错误测试通过！")
+    def test_additemtype_subjectIdsErr(self):
+        """
+        itemtype/题型：添加题型失败用例-科目Id错误
+        """
+        self.addItemTypeResponse = request.run_main(additemtype["url"], method='POST', headers=additemtype["header"],
+                                                    data=additemtype["body_subjectIdsErr"])
+        try:
+            status_code = self.addItemTypeResponse.status_code
+            actmessage = self.addItemTypeResponse.json()["message"]
+        except Exception as error:
+            log.error("itemtype/题型：添加题型失败用例-科目Id错误，失败原因："f'{error}')
+        finally:
+            self.assertEqual(status_code, 400, "itemtype/题型：添加题型失败用例-科目Id错误-状态码错误！")
+            self.assertEqual(actmessage, "字典ID为NULL", "itemtype/题型：添加题型失败用例-科目Id错误message返回信息不一致！")
+            log.info("itemtype/题型：添加题型失败用例-科目Id错误测试通过！")
 
     def test_additemtype_retypecode(self):
         """
@@ -132,21 +132,21 @@ class AddItemType(unittest.TestCase):
             self.assertEqual(actmessage, "题目模板类型不能为空", "itemtype/题型：添加题型失败用例-题型模版为空message返回信息不一致！")
             log.info("itemtype/题型：添加题型失败用例-题型模版为空测试通过！")
 
-    # def test_additemtype_mouldtypeiserr(self):
-    #     """
-    #     itemtype/题型：添加题型失败用例-题型模版错误
-    #     """
-    #     self.addItemTypeResponse = request.run_main(additemtype["url"], method='POST', headers=additemtype["header"],
-    #                                                 data=additemtype["body_itemMouldTypeIsErr"])
-    #     try:
-    #         status_code = self.addItemTypeResponse.status_code
-    #         actmessage = self.addItemTypeResponse.json()["message"]
-    #     except Exception as error:
-    #         log.error("itemtype/题型：添加题型失败用例-题型模版错误，失败原因："f'{error}')
-    #     finally:
-    #         self.assertEqual(status_code, 400, "itemtype/题型：添加题型失败用例-题型模版错误-状态码错误！")
-    #         self.assertEqual(actmessage, "题型模版错误", "itemtype/题型：添加题型失败用例-题型模版错误message返回信息不一致！")
-    #         log.info("itemtype/题型：添加题型失败用例-题型模版错误测试通过！")
+    def test_additemtype_mouldtypeiserr(self):
+        """
+        itemtype/题型：添加题型失败用例-题型模版错误
+        """
+        self.addItemTypeResponse = request.run_main(additemtype["url"], method='POST', headers=additemtype["header"],
+                                                    data=additemtype["body_itemMouldTypeIsErr"])
+        try:
+            status_code = self.addItemTypeResponse.status_code
+            actmessage = self.addItemTypeResponse.json()["message"]
+        except Exception as error:
+            log.error("itemtype/题型：添加题型失败用例-题型模版错误，失败原因："f'{error}')
+        finally:
+            self.assertEqual(status_code, 400, "itemtype/题型：添加题型失败用例-题型模版错误-状态码错误！")
+            self.assertEqual(actmessage, "参数格式错误", "itemtype/题型：添加题型失败用例-题型模版错误message返回信息不一致！")
+            log.info("itemtype/题型：添加题型失败用例-题型模版错误测试通过！")
 
     def test_additemtype_typecodeisnull(self):
         """
