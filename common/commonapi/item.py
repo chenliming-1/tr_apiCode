@@ -9,6 +9,20 @@ class Item(object):
     def __int__(self):
         pass
 
+    def add_itemType(self):
+        """
+        新增题型
+        """
+        addResponse = request.run_main(additemtype["url"], method='POST', headers=additemtype["header"],
+                                       data=additemtype["body_success"])
+        try:
+            status_code = addResponse.status_code
+            assert status_code == 201, "题型新增失败！"
+            log.info("itemtype/题型：新增题型成功！")
+            return addResponse
+        except AssertionError as error:
+            log.error("itemtype/题型：新增题型失败，失败原因："f'{error}')
+
     def delete_itemtype(self, itemTypeId):
         """
         删除题型
