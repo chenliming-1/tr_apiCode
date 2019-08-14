@@ -3,7 +3,7 @@
 # # !@Author：龚远琪
 from histudy import *
 from module import *
-from data.teacher.itemmould import *
+from data.teacher.datadict import *
 
 
 class GetItemMould(unittest.TestCase):

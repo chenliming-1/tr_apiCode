@@ -40,7 +40,7 @@ additemtype = {
         "description": "",
         "itemMouldType": None,
         "priorityCode": randMethod.getNumByRange(0, 100),
-        "subjectIds": [],
+        "subjectIds": randdata.getsubject(random.randint(1, 10)),
         "typeCode": "ATCode_" + randMethod.getStr(4),
         "typeName": "AT模版_" + randMethod.getChinese(3)
     },
@@ -49,7 +49,7 @@ additemtype = {
         "description": "",
         "itemMouldType": "suiyi",
         "priorityCode": randMethod.getNumByRange(0, 100),
-        "subjectIds": [],
+        "subjectIds": randdata.getsubject(random.randint(1, 10)),
         "typeCode": "ATCode_" + randMethod.getStr(4),
         "typeName": "AT模版_" + randMethod.getChinese(3)
     },
@@ -58,7 +58,7 @@ additemtype = {
         "description": "",
         "itemMouldType": randdata.getitemmouldtype(),
         "priorityCode": randMethod.getNumByRange(0, 100),
-        "subjectIds": [],
+        "subjectIds": randdata.getsubject(random.randint(1, 10)),
         "typeCode": None,
         "typeName": "AT模版_" + randMethod.getChinese(3)
     },
@@ -67,8 +67,15 @@ additemtype = {
         "description": "",
         "itemMouldType": randdata.getitemmouldtype(),
         "priorityCode": randMethod.getNumByRange(0, 100),
-        "subjectIds": [],
+        "subjectIds": randdata.getsubject(random.randint(1, 10)),
         "typeCode": "ATCode_" + randMethod.getStr(4),
         "typeName": None
+    },
+
+    "body_priorityCodeError": {
+        "itemMouldType": randdata.getitemmouldtype(),
+        "priorityCode": 999999999999,
+        "typeCode": "ATCode_" + randMethod.getStr(4),
+        "typeName": "AT模版_" + randMethod.getChinese(3)
     }
 }

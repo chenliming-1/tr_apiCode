@@ -9,7 +9,8 @@ from data.teacher.commonupload import *
 from data.teacher.audio import *
 from data.teacher.video import *
 
-class Upload():
+
+class Upload(object):
     def __int__(self):
         pass
 
