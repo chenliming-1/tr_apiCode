@@ -25,8 +25,8 @@ class RandData(object):
     def getregion(self):
         return random.choice(region)
 
-    def getperiod(self):
-        return random.choice(period)
+    def getperiod(self, length=1):
+        return random.sample(period, length)
 
     def getpicture(self):
         return random.choice(picture)
@@ -39,4 +39,4 @@ class RandData(object):
 
 
 randdata = RandData()
-# print(randdata.getsubject(3))
+# print(randdata.getRandArea())
