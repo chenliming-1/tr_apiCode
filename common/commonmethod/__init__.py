@@ -5,4 +5,4 @@ from .getjendata_url_cookie import *
 from .getprojectpath import *
 from .randdata import *
 
-__all__ = ['sysurl', 'env', 'cookie', 'projectpath', 'db', 'randdata']
+__all__ = ['sysURL', 'env', 'cookie', 'projectpath', 'db', 'randdata']

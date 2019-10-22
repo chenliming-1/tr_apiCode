@@ -5,7 +5,7 @@ from common.commonmethod import *
 from histudy import *
 
 insertexplanation = {
-    "url": f'{sysurl}tr/api/item/explanation',
+    "url": f'{sysURL}tr/api/item/explanation',
 
     "header": {
         "Cookie": cookie,

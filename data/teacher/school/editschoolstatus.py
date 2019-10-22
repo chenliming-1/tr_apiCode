@@ -1,15 +1,14 @@
-# #!Date：2019/7/25 9:54
+# #!Date：2019/8/14 16:20
 # !@Author：龚远琪
 #
 from common.commonmethod import *
 
-getArea = {
-    "url": f'{sysURL}tr/api/tr/administrative-area/tree',
+editSchoolStatus = {
+    "url": f'{sysURL}tr/api/tr/dict/schools/',
 
     "header": {
         "Cookie": cookie,
         "Accept": "application/json",
         "Content-Type": "application/json"
     }
-
 }

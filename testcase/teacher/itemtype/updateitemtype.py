@@ -51,8 +51,8 @@ class UpdateItemType(unittest.TestCase):
         except Exception as error:
             log.error("itemType/题型：修改题型失败用例-科目Id错误，失败原因："f'{error}')
         finally:
-            self.assertEqual(status_code, 400, "itemType/题型：修改题型失败用例-科目Id错误-状态码错误！")
-            self.assertEqual(actmessage, "字典ID为NULL", "itemType/题型：修改题型失败用例-科目Id错误message返回信息不一致！")
+            self.assertEqual(400, status_code, "itemType/题型：修改题型失败用例-科目Id错误-状态码错误！")
+            self.assertEqual("ID不能为NULL", actmessage, "itemType/题型：修改题型失败用例-科目Id错误message返回信息不一致！")
             log.info("itemType/题型：修改题型失败用例-科目Id错误测试通过！")
 
     def test_reTypeName(self):

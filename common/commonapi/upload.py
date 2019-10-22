@@ -15,7 +15,7 @@ class Upload(object):
         pass
 
     def getToken(self):
-        tokenResponse = request.run_main(token["url"],method="GET",headers=token["header"])
+        tokenResponse = request.run_main(token["url"], method="GET", headers=token["header"])
         try:
             actsuccess = tokenResponse.json()["success"]
             assert actsuccess == True, " 获取token失败！"
@@ -35,7 +35,8 @@ class Upload(object):
             actsuccess = uploadimageResponse.json()["success"]
             actdata = uploadimageResponse.json()["data"]
             if actsuccess == True:
-                imagelab = '<img alt='+actdata["reflectImage"]+' src='+actdata["picUrl"]+' id='+actdata["picUuid"]+'>'
+                imagelab = '<img alt=' + actdata["reflectImage"] + ' src=' + actdata["picUrl"] + ' id=' + actdata[
+                    "picUuid"] + '>'
                 return uploadimageResponse, imagelab
             else:
                 log.error("上传图片失败！")
@@ -47,7 +48,7 @@ class Upload(object):
         上传音频
         """
         uploadaudioResponse = request.run_main(uploadaudio["url"], method='POST', headers=uploadaudio["header"],
-                                                    data=uploadaudio[env + "_body_success"])
+                                               data=uploadaudio[env + "_body_success"])
         try:
             actsuccess = uploadaudioResponse.json()["success"]
             assert actsuccess == True, "上传音频失败！"
@@ -60,7 +61,7 @@ class Upload(object):
         上传视频-有上传到resource并存表接口
         """
         resourceResponse = request.run_main(resource["url"], method='POST', headers=resource["header"],
-                                                 data=resource[env + "_body_success"])
+                                            data=resource[env + "_body_success"])
         try:
             actsuccess = resourceResponse.json()["success"]
             assert actsuccess == True, "上传音频失败！"
@@ -73,7 +74,7 @@ class Upload(object):
         上传视频-未上传resource及未存表接口
         """
         uploadfileResponse = request.run_main(uploadfile["url"], method='POST', headers=uploadfile["header"],
-                                                   data=uploadfile[env + "_body_success"][0])
+                                              data=uploadfile[env + "_body_success"][0])
         try:
             actsuccess = uploadfileResponse.json()["success"]
             assert actsuccess == True, "上传音频失败！"
@@ -89,7 +90,7 @@ class Upload(object):
         uploadfiledata = uploadFileResponse.json()["data"]
         uploadfiledata[0]["fileLength"] = uploadfile[env + "_body_success"][0][0]["fsize"]
         createRecordResponse = request.run_main(createrelation[url], method='POST', headers=createrelation["header"],
-                                               data=uploadfiledata)
+                                                data=uploadfiledata)
         try:
             actsuccess = createRecordResponse.json()["success"]
             actdata = createRecordResponse.json()["data"][0]
@@ -104,7 +105,8 @@ class Upload(object):
         """
         删除视频关联
         """
-        deleteResponse = request.run_main(deleterelation["url"]+str(relationId), method='DELETE', headers=deleterelation["header"], data={})
+        deleteResponse = request.run_main(deleterelation["url"] + str(relationId), method='DELETE',
+                                          headers=deleterelation["header"], data={})
         try:
             actsuccess = deleteResponse.json()["success"]
             assert actsuccess == True, "删除视频关联失败！"
@@ -118,4 +120,3 @@ upload = Upload()
 if __name__ == '__main__':
     response, rid = upload.createRelation()
     print(rid)
-

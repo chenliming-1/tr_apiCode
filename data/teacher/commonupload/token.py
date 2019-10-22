@@ -4,7 +4,7 @@
 from common.commonmethod import *
 
 token = {
-    "url": f'{sysurl}tr/api/common/upload/token',
+    "url": f'{sysURL}tr/api/common/upload/token',
 
     "header": {
         "Cookie": cookie,

@@ -33,8 +33,8 @@ def getJenkinsData():
 
 def GetUrl():
     runmode, testcase, project, env = getJenkinsData()
-    sysurl = url.getSysUrl(sys_name, env, project)
-    return sysurl, env
+    sysURL = url.getSysUrl(sys_name, env, project)
+    return sysURL, env
 
 
 def Checkout_user(user_name, pwd, url):
@@ -48,6 +48,6 @@ def GetDbName():
     return sysdbname
 
 
-sysurl, env = GetUrl()
-cookie = Checkout_user("yhyang", "1", url=f'{sysurl}')
+sysURL, env = GetUrl()
+cookie = Checkout_user("yhyang", "1", url=f'{sysURL}')
 db = GetDbName()

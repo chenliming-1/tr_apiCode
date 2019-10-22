@@ -4,7 +4,7 @@
 from common.commonmethod import *
 
 sign = {
-    "url": f'{sysurl}tr/api/video/sign',
+    "url": f'{sysURL}tr/api/video/sign',
 
     "header": {
         "Cookie": cookie,

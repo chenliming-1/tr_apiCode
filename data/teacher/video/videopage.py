@@ -6,15 +6,15 @@ from data.teacher.video import *
 from module import *
 
 videopage = {
-    # "randomUrl": f'{sysurl}tr/api/video?businessId='+randbusinessId + '&businessType=' + random.choice(urldata["businessType"]),
-    # "itemUrl": f'{sysurl}tr/api/video?businessId='+randbusinessId + '&businessType=ITEM',
-    # "pointUrl": f'{sysurl}tr/api/video?businessId='+randbusinessId + '&businessType=POINT',
-    # "textbook_formalUrl": f'{sysurl}tr/api/video/'+randbusinessId + '/TEXTBOOK_CHAPTER_FORMAL/page',   #正课视频#
-    "textbook_lessonUrl": f'{sysurl}tr/api/video/'+randbusinessId + '/TEXTBOOK_CHAPTER_PREPARE_LESSON/page',  #说课视频#
+    # "randomUrl": f'{sysURL}tr/api/video?businessId='+randbusinessId + '&businessType=' + random.choice(urldata["businessType"]),
+    # "itemUrl": f'{sysURL}tr/api/video?businessId='+randbusinessId + '&businessType=ITEM',
+    # "pointUrl": f'{sysURL}tr/api/video?businessId='+randbusinessId + '&businessType=POINT',
+    # "textbook_formalUrl": f'{sysURL}tr/api/video/'+randbusinessId + '/TEXTBOOK_CHAPTER_FORMAL/page',   #正课视频#
+    "textbook_lessonUrl": f'{sysURL}tr/api/video/'+randbusinessId + '/TEXTBOOK_CHAPTER_PREPARE_LESSON/page',  #说课视频#
 
-    "businessIdNull": f'{sysurl}tr/api/video/NULL/' + random.choice(urldata["businessType"])+'/page',
-    "businessTypeNull": f'{sysurl}tr/api/video/'+randbusinessId + '/NULL/page',
-    "businessTypeErr": f'{sysurl}tr/api/video/'+randbusinessId + '/SUIBIAN/page',
+    "businessIdNull": f'{sysURL}tr/api/video/NULL/' + random.choice(urldata["businessType"])+'/page',
+    "businessTypeNull": f'{sysURL}tr/api/video/'+randbusinessId + '/NULL/page',
+    "businessTypeErr": f'{sysURL}tr/api/video/'+randbusinessId + '/SUIBIAN/page',
 
     "header": {
         "Cookie": cookie,
