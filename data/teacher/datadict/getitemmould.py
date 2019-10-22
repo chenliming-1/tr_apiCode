@@ -4,7 +4,7 @@
 from common.commonmethod import *
 
 getitemmould = {
-    "url": f'{sysurl}tr/api/tr/item-mould-types',
+    "url": f'{sysURL}tr/api/tr/item-mould-types',
 
     "header": {
         "Cookie": cookie,

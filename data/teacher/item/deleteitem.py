@@ -4,7 +4,7 @@
 from common.commonmethod import *
 
 deleteitem = {
-    "url": f'{sysurl}tr/api/item/',
+    "url": f'{sysURL}tr/api/item/',
 
     "header": {
         "Cookie": cookie,

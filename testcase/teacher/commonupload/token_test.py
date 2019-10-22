@@ -34,11 +34,13 @@ class Token(unittest.TestCase):
         """
         self.tokenResponse = request.run_main(token["url"], method='POST', headers=token["header"])
         try:
-            actsuccess = self.tokenResponse.json()["success"]
+            status = self.tokenResponse.json()["status"]
+            actsuccess = self.tokenResponse.json()["message"]
         except Exception as error:
             log.error("commonupload/通用上传：获取token接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "commonupload/通用上传-token:success为True！")
+            self.assertEqual(400, status, "commonupload/通用上传-token-状态码错误！")
+            self.assertEqual("请求方法不支持", actsuccess, "commonupload/通用上传-token:message返回不一致！")
             log.info("commonupload/通用上传：获取token失败用例测试通过！")
 
     @classmethod

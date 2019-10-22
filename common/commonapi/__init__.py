@@ -5,6 +5,6 @@
 from common.commonapi import upload
 from common.commonapi import item
 from .datadict import dataDict
-# from common.commonapi import datadict
+# from common.commonapi.datadict import dataDict
 
 __all__ = ['upload', 'item', 'dataDict']

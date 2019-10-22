@@ -4,7 +4,7 @@
 from common.commonmethod import *
 
 getItemType = {
-    "url": f'{sysurl}tr/api/tr/item-types/',
+    "url": f'{sysURL}tr/api/tr/item-types/',
 
     "header": {
         "Cookie": cookie,

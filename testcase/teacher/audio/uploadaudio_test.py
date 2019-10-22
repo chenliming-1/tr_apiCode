@@ -4,6 +4,7 @@
 from histudy import *
 from data.teacher.audio import *
 from common.commonmethod import *
+from common.commonapi.upload import *
 from module import *
 
 
@@ -11,13 +12,14 @@ class UploadAudio(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         self.uploadaudioResponse = {}
+        tokenResponse = upload.getToken()
 
     def test_uploadaudio_success(self):
         """
-        audio/音频：音频上传成功的测试用例
+        audio/上传音频：SUCCESS-音频上传
         """
         self.uploadaudioResponse = request.run_main(uploadaudio["url"], method='POST', headers=uploadaudio["header"],
-                                              data=uploadaudio[env+"_body_success"])
+                                                    data=uploadaudio[env + "_body_success"])
         try:
             actsuccess = self.uploadaudioResponse.json()["success"]
             actdata = self.uploadaudioResponse.json()["data"]
@@ -28,13 +30,14 @@ class UploadAudio(unittest.TestCase):
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
             self.assertTrue(actsuccess, "audio/音频：音频上传success返回false！")
-            self.assertEqual(actdata["audioName"], uploadaudio[env+"_body_success"]["fileName"], "audio/音频：音频上传名称不一致！")
+            self.assertEqual(actdata["audioName"], uploadaudio[env + "_body_success"]["fileName"],
+                             "audio/音频：音频上传名称不一致！")
             self.assertEqual(actdata["businessType"], "audio", "audio/音频：音频上传类型错误！")
-            self.assertEqual(actdata["fileLength"], uploadaudio[env+"_body_success"]["size"], "audio/音频：音频上传文件大小不一致！")
+            self.assertEqual(actdata["fileLength"], uploadaudio[env + "_body_success"]["size"], "audio/音频：音频上传文件大小不一致！")
             self.assertIsNotNone(actdata["id"], "audio/音频：音频上传ID返回为空！")
             self.assertIsNotNone(actaudiourl, "audio/音频：音频上传URL返回为空！")
             self.assertEqual(audioresponse.status, 200, "通过URL获取音频失败！")
-            self.assertEqual(actdata["originalName"], uploadaudio[env+"_body_success"]["fileName"],
+            self.assertEqual(actdata["originalName"], uploadaudio[env + "_body_success"]["fileName"],
                              "audio/音频：音频上传名称不一致！")
             self.assertEqual(actdata["status"], "AVAILABLE", "audio/音频：音频上传返回状态不一致！")
             log.info("audio/音频：音频上传成功用例测试通过！")

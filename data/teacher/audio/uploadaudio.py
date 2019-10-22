@@ -5,7 +5,7 @@ from common.commonmethod import *
 from histudy import *
 
 uploadaudio = {
-    "url": f'{sysurl}tr/api/audio/upload/file',
+    "url": f'{sysURL}tr/api/audio/upload/file',
 
     "header": {
         "Cookie": cookie,

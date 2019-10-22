@@ -5,6 +5,7 @@ from histudy import *
 from module import *
 from data.teacher.itemtype import *
 from data.teacher.datadict import *
+from data.teacher.school import *
 
 
 class DataDict(object):
@@ -39,6 +40,20 @@ class DataDict(object):
         except AssertionError as error:
             log.error("itemType/题型：删除题型失败，失败原因："f'{error}')
 
+    def addSchool(self, addSchoolBody):
+        """
+        新增学校
+        """
+        addSchoolResponse = request.run_main(addSchool["url"], method='POST', headers=addSchool["header"],
+                                             data=addSchoolBody)
+        try:
+            status_code = addSchoolResponse.status_code
+            assert status_code == 201, "学校新增失败！"
+            log.info("school/学校：新增学校成功！")
+            return addSchoolResponse
+        except AssertionError as error:
+            log.error("school/学校：新增学校失败，失败原因："f'{error}')
+
     def getArea(self):
         """
         获取全国省市区
@@ -55,16 +70,19 @@ class DataDict(object):
     def getRandArea(self, flag=1):
         getAreaResponse = self.getArea()
         getData = getAreaResponse.json()
-        getProvince = random.choice(getData)
-        areaList = [{"id": getProvince["id"], "name": getProvince["name"]}]
+        while True:
+            getProvince = random.choice(getData)
+            areaList = [{"id": getProvince["id"], "name": getProvince["name"]}]
+            if len(getProvince["children"]) != 0:
+                break
+        # print("getProvince:" + str(getProvince))
         getCity = random.choice(getProvince["children"])
         areaList.append({"id": getCity["id"], "name": getCity["name"]})
-        if flag:
+        if flag == 1 and len(getCity["children"]) != 0:
             getCounty = random.choice(getCity["children"])
             areaList.append({"id": getCounty["id"], "name": getCounty["name"]})
-            return areaList
         return areaList
 
 
 dataDict = DataDict()
-# print(dataDict.getRandArea(0))
+# dataDict.add_itemType()

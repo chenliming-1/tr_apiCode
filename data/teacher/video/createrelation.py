@@ -17,17 +17,17 @@ urldata = {
 randbusinessId = random.choice(urldata[env+"_businessId"])
 
 createrelation = {
-    "randomUrl": f'{sysurl}tr/api/video?businessId='+randbusinessId + '&businessType=' + random.choice(urldata["businessType"]),
-    "itemUrl": f'{sysurl}tr/api/video?businessId='+randbusinessId + '&businessType=ITEM',
-    "pointUrl": f'{sysurl}tr/api/video?businessId='+randbusinessId + '&businessType=POINT',
-    "textbook_formalUrl": f'{sysurl}tr/api/video?businessId='+randbusinessId +
+    "randomUrl": f'{sysURL}tr/api/video?businessId='+randbusinessId + '&businessType=' + random.choice(urldata["businessType"]),
+    "itemUrl": f'{sysURL}tr/api/video?businessId='+randbusinessId + '&businessType=ITEM',
+    "pointUrl": f'{sysURL}tr/api/video?businessId='+randbusinessId + '&businessType=POINT',
+    "textbook_formalUrl": f'{sysURL}tr/api/video?businessId='+randbusinessId +
                           '&businessType=TEXTBOOK_CHAPTER_FORMAL',   #正课视频#
-    "textbook_lessonUrl": f'{sysurl}tr/api/video?businessId='+randbusinessId +
+    "textbook_lessonUrl": f'{sysURL}tr/api/video?businessId='+randbusinessId +
                           '&businessType=TEXTBOOK_CHAPTER_PREPARE_LESSON',  #说课视频#
 
-    "businessIdIsNull": f'{sysurl}tr/api/video?businessId=&businessType=' + random.choice(urldata["businessType"]),
-    "businessTypeIsNull": f'{sysurl}tr/api/video?businessId='+randbusinessId + '&businessType=',
-    "businessTypeErr": f'{sysurl}tr/api/video?businessId='+randbusinessId + '&businessType=SUIBIAN',
+    "businessIdIsNull": f'{sysURL}tr/api/video?businessId=&businessType=' + random.choice(urldata["businessType"]),
+    "businessTypeIsNull": f'{sysURL}tr/api/video?businessId='+randbusinessId + '&businessType=',
+    "businessTypeErr": f'{sysURL}tr/api/video?businessId='+randbusinessId + '&businessType=SUIBIAN',
 
     "header": {
         "Cookie": cookie,

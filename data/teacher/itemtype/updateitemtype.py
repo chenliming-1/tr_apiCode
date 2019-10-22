@@ -6,7 +6,7 @@ from histudy import *
 from module import *
 
 updateItemType = {
-    "url": f'{sysurl}tr/api/tr/item-types/',
+    "url": f'{sysURL}tr/api/tr/item-types/',
 
     "header": {
         "Cookie": cookie,

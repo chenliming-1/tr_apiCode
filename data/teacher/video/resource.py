@@ -5,7 +5,7 @@ from common.commonmethod import *
 from histudy import *
 
 resource = {
-    "url": f'{sysurl}tr/api/video/upload/file/resource',
+    "url": f'{sysURL}tr/api/video/upload/file/resource',
 
     "header": {
         "Cookie": cookie,
