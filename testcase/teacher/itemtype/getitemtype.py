@@ -33,8 +33,10 @@ class GetItemType(unittest.TestCase):
             self.assertEqual(status_code, 200, "itemType/题型：获取题型成功用例-状态码错误！")
             self.assertEqual(actdata["id"], self.itemTypeId, "itemType/题型：获取题型成功用例-返回Id错误！")
             self.assertEqual(actdata["description"], self.addItemTypeData["description"], "itemType/题型：获取题型成功用例-描述不一致！")
-            self.assertEqual(actdata["itemMouldType"], self.addItemTypeData["itemMouldType"], "itemType/题型：获取题型成功用例-题型模版不一致！")
-            self.assertEqual(actdata["priorityCode"], self.addItemTypeData["priorityCode"], "itemType/题型：获取题型成功用例-排序不一致！")
+            self.assertEqual(actdata["itemMouldType"], self.addItemTypeData["itemMouldType"],
+                             "itemType/题型：获取题型成功用例-题型模版不一致！")
+            self.assertEqual(actdata["priorityCode"], self.addItemTypeData["priorityCode"],
+                             "itemType/题型：获取题型成功用例-排序不一致！")
             self.assertEqual(actdata["typeCode"], self.addItemTypeData["typeCode"], "itemType/题型：获取题型成功用例-题型编码不一致！")
             self.assertEqual(actdata["typeName"], self.addItemTypeData["typeName"], "itemType/题型：获取题型成功用例-题型名称不一致！")
             log.info("itemType/题型：获取题型成功用例测试通过！")

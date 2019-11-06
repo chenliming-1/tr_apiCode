@@ -77,19 +77,18 @@ class GetSchool(unittest.TestCase):
             self.assertEqual("学校不存在，id: 999999", actmessage, "school/获取学校详情：FAIL-学校不存在-message返回信息不一致！")
             log.info("school/获取学校详情：FAIL-学校不存在》测试通过！")
 
-    def test_getSchoolNoID(self):
-        """
-        school/获取学校详情：FAIL-未传入学校ID
-        """
-        self.getSchoolResponse = request.run_main(editSchoolStatus["url"] + "/status/ENABLE",
-                                                  method='PUT', headers=editSchoolStatus["header"])
-        try:
-            status_code = self.getSchoolResponse.status_code
-        except Exception as error:
-            log.error("school/获取学校详情：FAIL-未传入学校ID》接口调用失败，失败原因："f'{error}')
-        finally:
-            self.assertEqual(404, status_code, "school/获取学校详情：FAIL-未传入学校ID-状态码错误！")
-            log.info("school/获取学校详情：FAIL-未传入学校ID》测试通过！")
+    # def test_getSchoolNoID(self):
+    #     """
+    #     school/获取学校详情：FAIL-未传入学校ID
+    #     """
+    #     self.getSchoolResponse = request.run_main(editSchoolStatus["url"], method='GET', headers=editSchoolStatus["header"])
+    #     try:
+    #         status_code = self.getSchoolResponse.status_code
+    #     except Exception as error:
+    #         log.error("school/获取学校详情：FAIL-未传入学校ID》接口调用失败，失败原因："f'{error}')
+    #     finally:
+    #         self.assertEqual(404, status_code, "school/获取学校详情：FAIL-未传入学校ID-状态码错误！")
+    #         log.info("school/获取学校详情：FAIL-未传入学校ID》测试通过！")
 
     @classmethod
     def tearDownClass(self):

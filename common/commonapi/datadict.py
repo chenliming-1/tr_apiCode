@@ -6,6 +6,7 @@ from module import *
 from data.teacher.itemtype import *
 from data.teacher.datadict import *
 from data.teacher.school import *
+from data.teacher.papertype import *
 
 
 class DataDict(object):
@@ -53,6 +54,20 @@ class DataDict(object):
             return addSchoolResponse
         except AssertionError as error:
             log.error("school/学校：新增学校失败，失败原因："f'{error}')
+
+    def addPaperType(self):
+        """
+        新增套卷类型
+        """
+        addPaperTypeResponse = request.run_main(addPaperType["url"], method='POST', headers=addPaperType["header"],
+                                                data=addPaperType["body_success"])
+        try:
+            status_code = addPaperTypeResponse.status_code
+            assert status_code == 201, "新增套卷类型失败！"
+            log.info("paperType/套卷类型：新增套卷类型成功！")
+            return addPaperTypeResponse
+        except AssertionError as error:
+            log.error("paperType/套卷类型：新增套卷类型失败，失败原因："f'{error}')
 
     def getArea(self):
         """
