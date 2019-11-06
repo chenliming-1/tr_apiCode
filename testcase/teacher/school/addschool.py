@@ -23,7 +23,7 @@ class AddSchool(unittest.TestCase):
             schoolBody["countyId"] = None
             schoolBody["schoolName"] = "AT" + getAreaList[1]["name"] + "第" + random.choice("一二三四五六七八九十") + "中学"
         schoolBody["periodIds"] = randdata.getperiod(random.randint(1, 4))
-        schoolBody["seq"] = randMethod.getNumByRange(1, 200)
+        schoolBody["seq"] = randMethod.getNumByRange(1, 2000)
         return schoolBody
 
     @classmethod
@@ -229,11 +229,28 @@ class AddSchool(unittest.TestCase):
             self.assertEqual("学段信息不能为空", actmessage, "school/添加学校：FAIL-学段不存在-message返回信息不一致！")
             log.info("school/添加学校：FAIL-学段不存在》测试通过！")
 
+    def test_addSchoolPeriodNone(self):
+        """
+        school/添加学校：FAIL-学段含空
+        """
+        self.addBodyPeriodErr["periodIds"] = [None, 10001]
+        self.addSchoolResponse = request.run_main(addSchool["url"], method='POST', headers=addSchool["header"],
+                                                  data=self.addBodyPeriodErr)
+        try:
+            status_code = self.addSchoolResponse.status_code
+            actmessage = self.addSchoolResponse.json()["message"]
+        except Exception as error:
+            log.error("school/添加学校：FAIL-学段含空》接口调用失败，失败原因："f'{error}')
+        finally:
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-学段含空-状态码错误！")
+            self.assertEqual("学段id不能为空", actmessage, "school/添加学校：FAIL-学段含空-message返回信息不一致！")
+            log.info("school/添加学校：FAIL-学段含空》测试通过！")
+
     def test_addSchoolPeriodErr(self):
         """
         school/添加学校：FAIL-学段错误
         """
-        self.addBodyPeriodErr["periodIds"] = [None, 10001]
+        self.addBodyPeriodErr["periodIds"] = [10004, 10001]
         self.addSchoolResponse = request.run_main(addSchool["url"], method='POST', headers=addSchool["header"],
                                                   data=self.addBodyPeriodErr)
         try:
@@ -243,8 +260,62 @@ class AddSchool(unittest.TestCase):
             log.error("school/添加学校：FAIL-学段错误》接口调用失败，失败原因："f'{error}')
         finally:
             self.assertEqual(400, status_code, "school/添加学校：FAIL-学段错误-状态码错误！")
-            self.assertEqual("学段id不能为空", actmessage, "school/添加学校：FAIL-学段错误-message返回信息不一致！")
+            self.assertEqual("学段id错误", actmessage, "school/添加学校：FAIL-学段错误-message返回信息不一致！")
             log.info("school/添加学校：FAIL-学段错误》测试通过！")
+
+    def test_addSchoolSeqIsZero(self):
+        """
+        school/添加学校：FAIL-排序不在1-2000范围内
+        """
+        bodySeqErr = self.addBodyNoCounty.copy()
+        bodySeqErr["seq"] = 0
+        self.addSchoolResponse = request.run_main(addSchool["url"], method='POST', headers=addSchool["header"],
+                                                  data=bodySeqErr)
+        try:
+            status_code = self.addSchoolResponse.status_code
+            actmessage = self.addSchoolResponse.json()["message"]
+        except Exception as error:
+            log.error("school/添加学校：FAIL-排序不在1-2000范围内》接口调用失败，失败原因："f'{error}')
+        finally:
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-排序不在1-2000范围内-状态码错误！")
+            self.assertEqual("排序只允许1-2000（包含）之间", actmessage, "school/添加学校：FAIL-排序不在1-2000范围内-message返回信息不一致！")
+            log.info("school/添加学校：FAIL-排序不在1-2000范围内》测试通过！")
+
+    def test_addSchoolSeqErr(self):
+        """
+        school/添加学校：FAIL-排序为2001
+        """
+        bodySeqErr = self.addBodyNoCounty.copy()
+        bodySeqErr["seq"] = 2001
+        self.addSchoolResponse = request.run_main(addSchool["url"], method='POST', headers=addSchool["header"],
+                                                  data=bodySeqErr)
+        try:
+            status_code = self.addSchoolResponse.status_code
+            actmessage = self.addSchoolResponse.json()["message"]
+        except Exception as error:
+            log.error("school/添加学校：FAIL-排序为2001》接口调用失败，失败原因："f'{error}')
+        finally:
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-排序为2001-状态码错误！")
+            self.assertEqual("排序只允许1-2000（包含）之间", actmessage, "school/添加学校：FAIL-排序为2001-message返回信息不一致！")
+            log.info("school/添加学校：FAIL-排序为2001》测试通过！")
+
+    def test_addSchoolNameTooLong(self):
+        """
+        school/添加学校：FAIL-学校名称超出100字符
+        """
+        bodyNameTooLong = self.addBodyNoCounty.copy()
+        bodyNameTooLong["schoolName"] = randMethod.getMessage(101)
+        self.addSchoolResponse = request.run_main(addSchool["url"], method='POST', headers=addSchool["header"],
+                                                  data=bodyNameTooLong)
+        try:
+            status_code = self.addSchoolResponse.status_code
+            actmessage = self.addSchoolResponse.json()["message"]
+        except Exception as error:
+            log.error("school/添加学校：FAIL-学校名称超出100字符》接口调用失败，失败原因："f'{error}')
+        finally:
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-学校名称超出100字符-状态码错误！")
+            self.assertEqual("学校名称过长", actmessage, "school/添加学校：FAIL-学校名称超出100字符-message返回信息不一致！")
+            log.info("school/添加学校：FAIL-学校名称超出100字符》测试通过！")
 
     @classmethod
     def tearDownClass(self):
