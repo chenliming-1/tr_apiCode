@@ -37,6 +37,7 @@ class UploadPicture(unittest.TestCase):
             self.assertIsNotNone(actdata["picUuid"], "item/题库-上传png图片ID返回为空！")
             log.info("item/题库：上传png图片成功用例测试通过！")
 
+
     def test_uploadpicture_jpg(self):
         """
         item/题库：uploadpicture上传jpg图片成功的测试用例

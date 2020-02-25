@@ -3,5 +3,6 @@
 
 from .uploadpicture import uploadpicture
 from .deleteitem import deleteitem
+from .additem import addItem
 
-__all__ = ['uploadpicture', 'deleteitem']
+__all__ = ['uploadpicture', 'deleteitem', 'addItem']

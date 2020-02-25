@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # #!Date：2019/8/13 14:55
 # # !@Author：龚远琪
-from module import *
 from common.commonapi.datadict import *
 
 
