@@ -7,6 +7,7 @@ from data.teacher.itemtype import *
 from data.teacher.datadict import *
 from data.teacher.school import *
 from data.teacher.papertype import *
+from data.teacher.point import *
 
 
 class DataDict(object):
@@ -98,6 +99,24 @@ class DataDict(object):
             areaList.append({"id": getCounty["id"], "name": getCounty["name"]})
         return areaList
 
+    def getPointTree(self, subjectId=8, periodId=100000282):
+        """
+        获取知识树
+        """
+        getPointTreeBody = getPointTree["body_success"].copy()
+        getPointTreeBody["subjectId"] = subjectId
+        getPointTreeBody["periodId"] = periodId
+        getPointTreeResponse = request.run_main(getPointTree["url"], method='POST', headers=getPointTree["header"],
+                                                data=getPointTree["body_success"])
+        try:
+            status_code = getPointTreeResponse.status_code
+            assert status_code == 200, "获取知识树失败！"
+            log.info("point/知识点：获取知识树成功！")
+            return getPointTreeResponse
+        except AssertionError as error:
+            log.error("point/知识点：获取知识树失败，失败原因："f'{error}')
+
 
 dataDict = DataDict()
 # dataDict.add_itemType()
+# dataDict.getPointTree()
