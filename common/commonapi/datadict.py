@@ -99,7 +99,7 @@ class DataDict(object):
             areaList.append({"id": getCounty["id"], "name": getCounty["name"]})
         return areaList
 
-    def getPointTree(self, subjectId=8, periodId=100000282):
+    def getPointTree(self, subjectId, periodId):
         """
         获取知识树
         """
@@ -107,7 +107,7 @@ class DataDict(object):
         getPointTreeBody["subjectId"] = subjectId
         getPointTreeBody["periodId"] = periodId
         getPointTreeResponse = request.run_main(getPointTree["url"], method='POST', headers=getPointTree["header"],
-                                                data=getPointTree["body_success"])
+                                                data=getPointTreeBody)
         try:
             status_code = getPointTreeResponse.status_code
             assert status_code == 200, "获取知识树失败！"
@@ -116,7 +116,23 @@ class DataDict(object):
         except AssertionError as error:
             log.error("point/知识点：获取知识树失败，失败原因："f'{error}')
 
+    def get_rand_point(self, subjectId=8, periodId=100000282):
+        """
+        递归函数，循环获取所有知识点
+        :param point_tree:
+        :return:
+        """
+        try:
+            getPointTreeResponse = self.getPointTree(subjectId, periodId)
+            pointTreeJson = getPointTreeResponse.json()
+            nodeIdList = jsonpath(pointTreeJson, "$..nodeId")
+            randNodeIdList = random.sample(nodeIdList, random.randint(1, 5))
+            return randNodeIdList
+        except AssertionError as error:
+            log.error("point/知识点：获取知识点失败，失败原因："f'{error}')
+
 
 dataDict = DataDict()
 # dataDict.add_itemType()
 # dataDict.getPointTree()
+# dataDict.get_all_point()

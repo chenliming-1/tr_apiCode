@@ -1,6 +1,7 @@
 import unittest
 import requests
 import json
+from jsonpath import jsonpath
 import os, sys, time, datetime, re
 from os.path import dirname
 import warnings
@@ -13,5 +14,5 @@ from urllib.parse import quote
 import string
 import imp
 
-
-__all__ = ['unittest', 'requests', 'json', 'os', 'warnings', 'dirname', 'logging', 'random', 'pymysql', 'subprocess', 'sys', 'time', 'imp', 'datetime', 're', 'urllib', 'quote', 'string']
+__all__ = ['unittest', 'requests', 'json', 'os', 'warnings', 'dirname', 'logging', 'random', 'pymysql', 'subprocess',
+           'sys', 'time', 'imp', 'datetime', 're', 'urllib', 'quote', 'string', 'jsonpath']
