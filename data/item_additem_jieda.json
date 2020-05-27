@@ -1,0 +1,48 @@
+{
+    "name": "/tr/api/tr/v2/item",
+    "request": {
+        "json": {
+            "pointIds": [
+                11647,
+                11880
+            ],
+            "answer": "<p>中国历史上“尊孔”与“反恐”现象都有其特定的时代背景（或与时代特征紧密相关，有一定合理性，也有片面性）；应取其精华，辩证、全面地对待孔子及孔教（或取其精华，去其糟粕）。（2分，其它言之有理也可给分）</p>",
+            "subItems": [],
+            "id": "",
+            "itemTypeId": 4,
+            "itemMouldType": "EXPLANATION",
+            "content": "<p><strong>材料二</strong>&nbsp;明未李贽在《焚书》中说“虽孔夫子亦庸众人类也”；“耕稼陶渔之人即无不可取，则千圣万贤之善，独不可取乎?又何必专门学孔予而后为正脉也“。18世纪法国伏尔泰写诗颂孔子:“他只用健全的理性在解说，他不炫惑世界而是开启心灵，他的讲话只是一个圣人，从不是一个先知，然而人们相信他，就像他自己的国土一样。”</p><p>（2）材料二中李贽的观点是什么？这种观点的出现反映了儒学地位发生了怎样的变化？（2分）</p>",
+            "diffLevelCode": 10016,
+            "detail": "<p>特点：托古改制(打着孔子的旗号宣传维新变法理论)。（1分）</p><p>因素：利用孔子权威减少变法阻力；变法维新面临形势严峻，想依托孔子“避祸”；自幼受儒家文化教育，信奉孔子的学说。（1分，答出一点即可）</p><p>原因：袁世凯实行独裁统治，掀起尊孔复古逆流。（1分）</p><p>影响：动摇了封建正统思想的统治地位，有利于西方民主思想的传播，推动了思想解放的潮流；对传统文化绝对否定，不利于传统文化的继承和发展。（2分，其它言之有理可酌情给分）</p>",
+            "audios": [],
+            "videos": [],
+            "province": 350000,
+            "city": 350200,
+            "county": 350203,
+            "schoolId": 10016,
+            "yearCode": 10241,
+            "schoolYearId": 10257,
+            "gradeId": 26,
+            "semesterId": 10225,
+            "paperTextbookTypeId": 10243,
+            "schoolName": "",
+            "subjectId": 8,
+            "periodId": 10002,
+            "source": "MINI_ITEM"
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/202005063c3d5c746d2d45a4bf5fd5acbbcffc87/chapter/20200508227b8f7b0a5348999918bdb3ee0ea0b4/mainTeachingCase/20200512fd8cb51b363c49748c91c1af4dadca82?chapterId=20200508227b8f7b0a5348999918bdb3ee0ea0b4",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=YzJjNWYxZDItMmM2NC00ODk1LTgxMDItOGE5NDQ3MTk0YjY0"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v2/item",
+        "method": "POST"
+    }
+}

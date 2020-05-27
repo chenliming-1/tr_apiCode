@@ -1,0 +1,9 @@
+[2019-02-20 10:44:09,934] - uploadpicture_test.py - test_uploadpicture_png [Line:31] - [ERROR] - work|作业管理：查询试卷列表getwork 获取数据失败，失败原因：Expecting value: line 1 column 1 (char 0)
+[2019-02-20 16:06:48,421] - uploadpicture_test.py - test_uploadpicture_gif [Line:73] - [INFO] - item/题库：上传gif图片失败用例测试通过！
+[2019-02-20 16:06:48,861] - uploadpicture_test.py - test_uploadpicture_jpg [Line:53] - [INFO] - item/题库：上传jpg图片成功用例测试通过！
+[2019-02-20 16:06:49,268] - uploadpicture_test.py - test_uploadpicture_png [Line:30] - [INFO] - item/题库：上传png图片成功用例测试通过！
+[2019-02-20 17:33:12,129] - token_test.py - test_token_fail [Line:38] - [INFO] - commonupload/通用上传：获取token失败用例测试通过！
+[2019-02-20 17:33:12,179] - token_test.py - test_token_success [Line:23] - [INFO] - commonupload/通用上传：获取token成功用例测试通过！
+[2019-02-20 17:33:12,589] - uploadpicture_test.py - test_uploadpicture_gif [Line:73] - [INFO] - item/题库：上传gif图片失败用例测试通过！
+[2019-02-20 17:33:13,045] - uploadpicture_test.py - test_uploadpicture_jpg [Line:53] - [INFO] - item/题库：上传jpg图片成功用例测试通过！
+[2019-02-20 17:33:13,486] - uploadpicture_test.py - test_uploadpicture_png [Line:30] - [INFO] - item/题库：上传png图片成功用例测试通过！

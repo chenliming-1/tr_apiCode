@@ -1,0 +1,74 @@
+{
+    "name": "/tr/api/tr/v2/item",
+    "request": {
+        "json": {
+            "pointIds": [
+                11633,
+                11695
+            ],
+            "options": [
+                {
+                    "answer": false,
+                    "content": "儒家“民本思想”常有传统",
+                    "optionCode": "A",
+                    "pictures": []
+                },
+                {
+                    "answer": true,
+                    "content": "儒家“仁”的学说停滞不前",
+                    "optionCode": "B",
+                    "pictures": []
+                },
+                {
+                    "answer": false,
+                    "content": "历代统治者均奉儒家为正统",
+                    "optionCode": "C",
+                    "pictures": []
+                },
+                {
+                    "answer": false,
+                    "content": "儒家学者都主张“民贵君轻”",
+                    "optionCode": "D",
+                    "pictures": []
+                }
+            ],
+            "answer": "B",
+            "subItems": [],
+            "id": "",
+            "itemTypeId": 2,
+            "itemMouldType": "SINGLE_CHOICE",
+            "content": "<p>孟子主张“民贵君轻”，陆九渊主张“民为邦本”，黄宗羲提出“民为主，君为客”，由此可见</p>",
+            "diffLevelCode": 10015,
+            "detail": "<p>&nbsp;文化元典是一个民族在社会生活中留存的独特的并产生深远影响的文化典籍。</p>",
+            "audios": [],
+            "videos": [],
+            "province": 110000,
+            "city": 110000,
+            "county": 110108,
+            "schoolId": 2141,
+            "yearCode": 10241,
+            "schoolYearId": 10257,
+            "gradeId": 21,
+            "semesterId": 10224,
+            "paperTextbookTypeId": 10242,
+            "schoolName": "",
+            "subjectId": 8,
+            "periodId": 10002,
+            "source": "SINGLE_CREATE"
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/Base_paperTextbookType/groupLecture/20200423204e1e67e7b24902a1943bd600351d7b?paperTextbookType=true&status=INIT",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=NGU1NTA5ZDMtZTIzMC00Mzg4LWJmN2UtZjBhMjJhOTA1MGEx"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v2/item",
+        "method": "POST"
+    }
+}

@@ -3,11 +3,11 @@
 # # !@Author：龚远琪
 from histudy import *
 from module import *
-from data.teacher.itemtype import *
-from data.teacher.datadict import *
-from data.teacher.school import *
-from data.teacher.papertype import *
-from data.teacher.point import *
+from data.itemtype import *
+from data.datadict import *
+from data.school import *
+from data.papertype import *
+from data.point import *
 
 
 class DataDict(object):
@@ -126,7 +126,7 @@ class DataDict(object):
             getPointTreeResponse = self.getPointTree(subjectId, periodId)
             pointTreeJson = getPointTreeResponse.json()
             nodeIdList = jsonpath(pointTreeJson, "$..nodeId")
-            randNodeIdList = random.sample(nodeIdList, random.randint(1, 5))
+            randNodeIdList = random.sample(nodeIdList, random.randint(1, 4))
             return randNodeIdList
         except AssertionError as error:
             log.error("point/知识点：获取知识点失败，失败原因："f'{error}')
@@ -135,4 +135,4 @@ class DataDict(object):
 dataDict = DataDict()
 # dataDict.add_itemType()
 # dataDict.getPointTree()
-# dataDict.get_all_point()
+# dataDict.get_rand_point()

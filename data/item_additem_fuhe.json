@@ -1,0 +1,97 @@
+{
+    "name": "/tr/api/tr/v2/item",
+    "request": {
+        "json": {
+            "pointIds": [],
+            "subItems": [
+                {
+                    "pointIds": [
+                        11564,
+                        11567
+                    ],
+                    "options": [
+                        {
+                            "answer": false,
+                            "content": "本诗是作者为答谢白居易所作。全诗感情真挚，浓郁中见豪放具有很强的艺术感染力。",
+                            "optionCode": "A",
+                            "pictures": []
+                        },
+                        {
+                            "answer": true,
+                            "content": "颔联运用了“闻笛赋”“烂柯人”的典故，暗示贬谪时间之久，只抒发了诗人对岁月流逝的感叹。",
+                            "optionCode": "B",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "颈联揭示了事物新陈代谢的自然规律： 新生事物无比美好，社会总是向前发展的。",
+                            "optionCode": "C",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "尾联点明酬答之意，诗人表示要振作起来，重新投入到生活中去。",
+                            "optionCode": "D",
+                            "pictures": []
+                        }
+                    ],
+                    "answer": "B",
+                    "subItems": [],
+                    "itemTypeId": 2,
+                    "itemMouldType": "SINGLE_CHOICE",
+                    "id": "",
+                    "content": "<p>下面对这首诗理解分析不正确的一项是（ &nbsp;&nbsp;&nbsp;）（3分）</p>",
+                    "diffLevelCode": 10015,
+                    "detail": "<p>【甲】崇祯五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。是日更定矣，余一小舟，拥毳衣炉火，独往湖心亭看雪。雾凇沆砀，天与云与山与水，上下一白。湖上影子，惟长提一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。</p><p>到亭上，有两人铺毡对坐，一童子烧酒炉正沸。见余，大喜曰：“湖中焉得更有此人！”拉余同饮。余强饮三大白而别。问其姓氏，是金陵人，客此。及下船，舟子喃喃曰：“莫说相公痴，更有痴似相公者！” &nbsp;&nbsp;</p><p style=\"text-align: right;\">（张岱《湖心亭看雪》）</p>",
+                    "audios": [],
+                    "videos": []
+                },
+                {
+                    "pointIds": [],
+                    "answer": "<p>怀才不遇，踌躇满志</p><p>乐观豁达</p>",
+                    "subItems": [],
+                    "itemTypeId": 4,
+                    "itemMouldType": "EXPLANATION",
+                    "id": "",
+                    "content": "<p>诗人的情感经历了一番起伏，前半部分主要是表现了诗人<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>的思想感情，后半部分表达了诗人的<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>。（2分）</p>",
+                    "diffLevelCode": 10001,
+                    "detail": "<p>【乙】风雪大作，时欲登舟至沙市，竟为雨雪所阻。然万竹中雪子①敲戛②，铮铮有声，暗窗红火任意看数卷书亦复有少趣。自叹每有欲往，辄复不遂。然流行坎止③，任之而已。鲁直④所谓“无处不可寄一梦”也。</p><p style=\"text-align: right;\">（袁中道《夜雪》）</p>",
+                    "audios": [],
+                    "videos": []
+                }
+            ],
+            "id": "",
+            "itemTypeId": 104,
+            "itemMouldType": "COMPREHENSIVE",
+            "content": "<p>阅读下面的诗歌，回答4&mdash;5题。（5分）</p><p align=\"center\">酬乐天扬州初逢席上见赠 （唐）刘禹锡</p><p align=\"center\">巴山楚水凄凉地，二十三年弃置身。怀旧空吟闻笛赋，到乡翻似烂柯人。</p><p align=\"center\">沉舟侧畔千帆过，病树前头万木春。今日听君歌一曲，暂凭杯酒长精神。</p>",
+            "diffLevelCode": 10016,
+            "province": 110000,
+            "city": 110000,
+            "county": 110101,
+            "schoolId": 1005,
+            "yearCode": 10241,
+            "schoolYearId": 10257,
+            "gradeId": 21,
+            "semesterId": 10224,
+            "paperTextbookTypeId": 10244,
+            "schoolName": "",
+            "subjectId": 8,
+            "periodId": 10002,
+            "source": "MINI_ITEM"
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/202005063c3d5c746d2d45a4bf5fd5acbbcffc87/chapter/20200508227b8f7b0a5348999918bdb3ee0ea0b4/mainTeachingCase/20200512fd8cb51b363c49748c91c1af4dadca82?chapterId=20200508227b8f7b0a5348999918bdb3ee0ea0b4",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=YWU4NDcwZTItYzYxMi00MWYyLTlkMWEtZjFmZGI3MjQwMTVh"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v2/item",
+        "method": "POST"
+    }
+}

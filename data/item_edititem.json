@@ -1,0 +1,113 @@
+{
+    "name": "/tr/api/tr/v2/item/20200505a9190417059e45dab5c283d22c1d3685",
+    "request": {
+        "json": {
+            "pointIds": [],
+            "subItems": [
+                {
+                    "pointIds": [
+                        12034,
+                        12106
+                    ],
+                    "answer": "过渡句：然而，留给我印象最深的，还是刘老师每年春天放风筝的情景。（10分）\n作用：领起下文（承上启下；衔接上下文的内容，使文章更加连贯、完整）。（5分）",
+                    "subItems": [],
+                    "itemTypeId": 4,
+                    "itemMouldType": "EXPLANATION",
+                    "id": "2020050539e240bf78c440c498ef804932088c0f",
+                    "content": "找出文章的一处过渡句，使文章内容由叙述刘老师的历史课，过渡到对刘老师放风筝的描述。并说说该过渡句的作用。\n$\\underline{\\hspace{10cm}}$",
+                    "diffLevelCode": 10015,
+                    "detail": "审清题干要求进行作答。文章中关于刘老师的历史课的叙述为第④ ⑥段，对刘老师放风筝的具体描述为第⑧段，由此可以判断该处过渡句的位置范围（第⑥段段末、第⑦段或第⑧段段首）。认真阅读文章可知，此处过渡句为“然而，留给我印象最深的，还是刘老师每年春天放风筝的情景。”",
+                    "audios": [],
+                    "videos": []
+                },
+                {
+                    "pointIds": [],
+                    "answer": "风趣幽默、关爱学生、乐观向上（8分）；赞美、怀念（9分）。",
+                    "subItems": [],
+                    "id": "202005054126e6de30a047bdaeffe739eefb371b",
+                    "itemMouldType": "EXPLANATION",
+                    "itemTypeId": 4,
+                    "itemTypeName": "解答题",
+                    "diffLevelCode": 10016,
+                    "diffLevelValue": 4,
+                    "content": "阅读文章，把握文章主题，完成填空。\n$\\quad\\;\\;$全文通过回忆刘老师巧妙解释自己瘸腿的原因、带领我们放风筝等事件，表现了刘老师的$\\underline{\\hspace{3cm}}$的性格品质，抒发了“我”对老师的$\\underline{\\hspace{3cm}}$之情。",
+                    "detail": "结合文中所述具体事件及字里行间作者情感的流露，分析概括文章主题，言之有理即可。",
+                    "reviewAnswer": true
+                },
+                {
+                    "pointIds": [
+                        11562,
+                        11695
+                    ],
+                    "options": [
+                        {
+                            "answer": true,
+                            "content": "艾青在《我爱这土地》这首抒情诗中采用了象征手法表达情意，表达了诗人对处于苦难之中的祖国刻骨铭心、至死不渝的热爱之情。",
+                            "optionCode": "A",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "“一门父子三词客，千古文章四大家”中的“三词客”指苏洵、苏轼、苏辙父子三人，他们同列“唐宋八大家”，合称“三苏”。",
+                            "optionCode": "B",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "《无题》的作者是李商隐，晚唐著名诗人。《无题》是一首思恋之歌，写尽离别之痛，相思之苦。",
+                            "optionCode": "C",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "《沁园春·雪》的体裁是词，这种体裁也叫小令，其中“沁园春”是题目。",
+                            "optionCode": "D",
+                            "pictures": []
+                        }
+                    ],
+                    "answer": "A",
+                    "subItems": [],
+                    "itemTypeId": 2,
+                    "itemMouldType": "SINGLE_CHOICE",
+                    "id": "",
+                    "content": "<p>下列说法有误的一项是（ &nbsp;&nbsp;&nbsp;）（2分）</p>",
+                    "diffLevelCode": 10015,
+                    "detail": "<p>2018年10月23日，港珠澳大桥开通仪式在广东珠海举行，习近平出席仪式并宣布大桥正式开通。港珠澳大桥是世界最长的跨海大桥，是“一国两制”框<u>&nbsp;① </u>（A.kuāng B.ku&agrave;ng）架下三地首次合作建设的世界超大型跨海交通工程，大桥的全线通车，使香港至球海的陆路通行时间将由3小时变成半小时，三地经 <u>&nbsp;&nbsp;② &nbsp;</u>（A.融合 B.溶合）不断加深，珠三角将形成<u>全世界的人都关注着</u>的超级破市群。<u>港珠澳大桥的建成将从根本上解决阻碍三地合作的交通，成为促进三地稳定繁荣的“金桥”。</u></p>",
+                    "audios": [],
+                    "videos": []
+                }
+            ],
+            "id": "20200505a9190417059e45dab5c283d22c1d3685",
+            "itemTypeId": 104,
+            "itemMouldType": "COMPREHENSIVE",
+            "content": "$\\bf\\large 我的老师$\n$\\quad\\;\\;$①春天又到了。\n$\\quad\\;\\;$②柳枝染上了嫩绿，在春风里尽情飘摆，舒展着自己的腰身。迎春花举起金黄的小喇叭，向着春天吹奏着生命之歌。蓝天上，一架架风筝在同白云戏耍，引得无数的人仰望天穹，让自己的心也飞上云端。\n$\\quad\\;\\;$③这时候，我就会情不自尽地想起我的刘老师，想起他放入天空的风筝。\n$\\quad\\;\\;$④刘老师教我们历史课。他有一条强壮的右腿，而左腿从膝以下全部截去，靠一根被用得油亮的圆木棍支撑。有一次，他讲课讲到女娲造人的时候，笑着对我们说：“女娲用手捏泥人捏得累了，便用树枝沾起泥巴向地上甩，甩到地上的泥巴也变成人。由于女娲甩的力量太大了，有的人甩丢了腿和胳膊。我就是那时候被她甩掉了一条腿的。”教室里自然腾起一片笑声，但笑过之后，每个学生的心头都泛起一股酸涩的感情，同时更增添了对刘老师的尊敬。\n$\\quad\\;\\;$⑤他只靠着健壮的右腿和一根木棍，一天站上好几个小时，为我们讲课。写板书的时候，他用木棍撑地，右腿离地，身体急速地一转，便转向黑板。写完了粗壮的粉笔字，又以拐杖为圆心再转向讲台。一个年过半百的老师，一天不知道要这样跳跃旋转多少次。而他每次的一转，都引起学生们一次激动的心跳。\n$\\quad\\;\\;$⑥他的课讲得极好。讲到历代的民族英雄，他慷慨陈词，使我们激动得落泪。讲到祖国近代史上受屈辱的岁月，他常常哽咽，使我们沉重地低下头去。后来，我考入大学历史系，和刘老师的影响有极大的关系。\n$\\quad\\;\\;$⑦然而，留给我印象最深的，还是刘老师每年春天放风筝的情景。\n$\\quad\\;\\;$⑧当一天的功课做完，暮色还没有笼罩校园上空的时候，常常有成群的学生到操场上来看他放风筝。他的腿自然不便于奔跑，然而，他绝不肯失去亲手把风筝送入蓝天的欢乐。他总是让学生远远地擎着风筝，他喊声：“起!”便不断扯动手中的线绳，那纸糊的燕子便抖起翅膀，翩翩起舞，直窜入云霄。他笑着，叫着，拄着拐杖，仰望白云，看那青黑的小燕在风中翱翔盘旋，脸上飘起得意十足的稚气，仿佛他的心也一齐跃上了蓝天。那时候，我常常站在他旁边，看着他的脸，我觉得他不是一位老人，而是一个同我一样的少年。年过五十的有残疾的老师，对生活有着那样纯朴、强烈的爱与追求，一个活泼泼的少年又该怎样呢？\n$\\quad\\;\\;$⑨离开他已经近三十年了，但他仍在我的记忆里行走、微笑，用那双写了无数个粉笔字的手，放飞一架又一架理想的风筝。那些给了我数不清的幻梦的风筝永远陪伴着我的心，在祖国的蓝天上翱翔。",
+            "diffLevelCode": 10015,
+            "province": 110000,
+            "city": 110000,
+            "county": 110101,
+            "schoolId": 1001,
+            "yearCode": "",
+            "schoolYearId": "",
+            "gradeId": 21,
+            "semesterId": 10225,
+            "paperTextbookTypeId": 10238,
+            "schoolName": "",
+            "subjectId": 8,
+            "periodId": 10002
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/question",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=M2U3NjJlNjktNTIzOS00Mzk4LWI4ZWQtYjUxMzMwN2Q4NjM5"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v2/item/20200505a9190417059e45dab5c283d22c1d3685",
+        "method": "PUT"
+    }
+}
