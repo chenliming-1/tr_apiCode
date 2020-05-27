@@ -1,0 +1,32 @@
+{
+    "name": "/tr/api/tr/paper-textbook",
+    "request": {
+        "json": {
+            "province": 330000,
+            "city": 330100,
+            "county": 330112,
+            "gradeId": 1,
+            "schoolYearId": 10257,
+            "schoolId": 10410,
+            "semesterId": 10225,
+            "yearId": 10241,
+            "subjectId": 8,
+            "paperTextbookTypeId": 10244,
+            "lectureId": "20200507b2aa6659340e45768f5bf59b2cedc9f5"
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/Base_paperTextbookType/index?currentPage=1",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=NDE2MjE1NjktMWNjMi00NmEyLTgyYjAtY2VmYmFhMjAxYWFl"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/paper-textbook",
+        "method": "PUT"
+    }
+}

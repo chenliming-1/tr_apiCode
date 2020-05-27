@@ -1,0 +1,34 @@
+{
+    "name": "/tr/api/tr/paper-textbook/manage/list",
+    "request": {
+        "json": {},
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/Base_paperTextbookType/index?currentPage=1",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=MGQ2Y2ZmZjgtMDFhOS00ZjczLWIxN2EtN2FhMmM3MTlmNDZj"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/paper-textbook/manage/list",
+        "params": {
+            "currentPage": 1,
+            "pageSize": 10,
+            "periodId": 10002,
+            "subjectId": 8,
+            "province": 310000,
+            "city": 310000,
+            "county": 310101,
+            "semesterId": 10224,
+            "yearId": 10241,
+            "gradeId": 26,
+            "schoolYearId": 10257,
+            "paperTextbookTypeId": 10238,
+            "status": "DISABLED"
+        },
+        "method": "GET"
+    }
+}

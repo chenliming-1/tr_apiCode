@@ -1,0 +1,20 @@
+{
+    "name": "/tr/api/tr/paper-textbook/201908169fb1aba57e1a407b8c9dea34eb33336b/enable",
+    "request": {
+        "json": {},
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/Base_paperTextbookType/index?currentPage=4",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=ZDhmNzMyOTUtNTFkZC00ZjlmLWJmMTMtOTUwOTUyYWFiZTJm"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/paper-textbook/201908169fb1aba57e1a407b8c9dea34eb33336b/enable",
+        "method": "PUT",
+        "data": ""
+    }
+}

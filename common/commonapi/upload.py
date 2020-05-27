@@ -4,10 +4,10 @@
 from common.commonmethod import *
 from module import *
 from histudy import *
-from data.teacher.item import *
-from data.teacher.commonupload import *
-from data.teacher.audio import *
-from data.teacher.video import *
+from data.item import *
+from data.commonupload import *
+from data.audio import *
+from data.video import *
 
 
 class Upload(object):

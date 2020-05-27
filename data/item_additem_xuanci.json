@@ -1,0 +1,81 @@
+{
+    "name": "/tr/api/tr/v2/item",
+    "request": {
+        "json": {
+            "pointIds": [
+                11796,
+                11916
+            ],
+            "options": [
+                {
+                    "content": "巴山楚水",
+                    "optionCode": "A"
+                },
+                {
+                    "content": "唐",
+                    "optionCode": "B"
+                },
+                {
+                    "content": "刘禹锡",
+                    "optionCode": "C"
+                },
+                {
+                    "content": "烂柯人",
+                    "optionCode": "D"
+                },
+                {
+                    "content": "万木春",
+                    "optionCode": "E"
+                },
+                {
+                    "content": "侧畔",
+                    "optionCode": "F"
+                }
+            ],
+            "subItems": [],
+            "id": "",
+            "itemTypeId": 8,
+            "itemMouldType": "WORD_CHOOSE",
+            "answers": [
+                "B",
+                "C",
+                "A",
+                "D",
+                "F",
+                "E"
+            ],
+            "content": "<p>阅读下面的诗歌，回答4&mdash;5题。（5分）</p><p align=\"center\">酬乐天扬州初逢席上见赠 （<abbr class=\"ql-topic-student-answer\"></abbr>）<abbr class=\"ql-topic-student-answer\"></abbr></p><p align=\"center\"><abbr class=\"ql-topic-student-answer\"></abbr>凄凉地，二十三年弃置身。怀旧空吟闻笛赋，到乡翻似<abbr class=\"ql-topic-student-answer\"></abbr>。</p><p align=\"center\">沉舟<abbr class=\"ql-topic-student-answer\"></abbr>千帆过，病树前头<abbr class=\"ql-topic-student-answer\"></abbr>。今日听君歌一曲，暂凭杯酒长精神。</p>",
+            "diffLevelCode": 10001,
+            "detail": "<p align=\"center\">酬乐天扬州初逢席上见赠 （唐）刘禹锡</p><p align=\"center\">巴山楚水凄凉地，二十三年弃置身。怀旧空吟闻笛赋，到乡翻似烂柯人。</p><p align=\"center\">沉舟侧畔千帆过，病树前头万木春。今日听君歌一曲，暂凭杯酒长精神。</p>",
+            "audios": [],
+            "videos": [],
+            "province": 110000,
+            "city": 110000,
+            "county": 110118,
+            "schoolId": 2003,
+            "yearCode": 10241,
+            "schoolYearId": 10257,
+            "gradeId": 18,
+            "semesterId": 10224,
+            "paperTextbookTypeId": 10242,
+            "schoolName": "",
+            "subjectId": 8,
+            "periodId": 10002,
+            "source": "MINI_ITEM"
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/202005063c3d5c746d2d45a4bf5fd5acbbcffc87/chapter/20200508227b8f7b0a5348999918bdb3ee0ea0b4/mainTeachingCase/20200512fd8cb51b363c49748c91c1af4dadca82?chapterId=20200508227b8f7b0a5348999918bdb3ee0ea0b4",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=NmY4YTVmNTQtYTE0Ny00ZTAxLWFjYWEtNTdmOWE2Yzk4Zjk5"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v2/item",
+        "method": "POST"
+    }
+}

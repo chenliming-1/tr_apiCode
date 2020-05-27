@@ -1,0 +1,28 @@
+{
+    "name": "/tr/api/tr/item/analytic/list",
+    "request": {
+        "json": [
+            "20191226dbeb598d320443f1b2f0deb31599ba76",
+            "201911226b0be01f8c4e413bab57ba82ff6811cd",
+            "20191226b74f30577cde4d70ba093cfab5b8b048",
+            "20191122752a62711ae64391bbe1db0ad2e92462",
+            "2019112278bfbe3d2d674c43ba22bc516d9f6a3f",
+            "20191122c19ea4788d944e2289d3d1eb2b7ac6cc",
+            "201910169a7765e7732940f0a388313b65a16260"
+        ],
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/20200317b6343b6970e44c5d93b06c1c70577083/chapter/202005078f6304e53e39414798e186d31a1f1cd0/mainTeachingCase/20200507ae88142e3b9643c29fec6e33f9844ca8?chapterId=202005078f6304e53e39414798e186d31a1f1cd0",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=YTdjODhlZjYtNzg5ZS00YjgyLTlkMTQtMmU2ODZmZTQyYjZm"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/item/analytic/list",
+        "method": "POST"
+    }
+}

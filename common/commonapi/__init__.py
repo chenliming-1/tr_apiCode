@@ -3,8 +3,8 @@
 # # !@Author：龚远琪
 
 from common.commonapi import upload
-from common.commonapi import item
 from .datadict import dataDict
+# from .paper import paper
 # from common.commonapi.datadict import dataDict
 
-__all__ = ['upload', 'item', 'dataDict']
+__all__ = ['upload', 'dataDict']

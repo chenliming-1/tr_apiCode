@@ -1,0 +1,19 @@
+{
+    "name": "/tr/api/tr/v2/item/20200505a9190417059e45dab5c283d22c1d3685",
+    "request": {
+        "json": {},
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/question",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=M2U3NjJlNjktNTIzOS00Mzk4LWI4ZWQtYjUxMzMwN2Q4NjM5"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v2/item/20200505a9190417059e45dab5c283d22c1d3685",
+        "method": "GET"
+    }
+}

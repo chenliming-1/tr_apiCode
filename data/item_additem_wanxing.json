@@ -1,0 +1,210 @@
+{
+    "name": "/tr/api/tr/v2/item",
+    "request": {
+        "json": {
+            "pointIds": [],
+            "subItems": [
+                {
+                    "pointIds": [
+                        11544,
+                        11551
+                    ],
+                    "options": [
+                        {
+                            "answer": false,
+                            "content": "does",
+                            "optionCode": "A",
+                            "pictures": []
+                        },
+                        {
+                            "answer": true,
+                            "content": "didn’t",
+                            "optionCode": "B",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "do",
+                            "optionCode": "C",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "doesn’t",
+                            "optionCode": "D",
+                            "pictures": []
+                        }
+                    ],
+                    "answer": "B",
+                    "subItems": [],
+                    "itemTypeId": 2,
+                    "itemMouldType": "SINGLE_CHOICE",
+                    "id": "",
+                    "content": "",
+                    "diffLevelCode": 10001,
+                    "detail": "<p>One day I happened to meet an Englishman in the street and soon we began to talk. As I was talking about how I was studying English, the foreigner seemed to be very surprised, gently shaking his head and saying “You don&rsquo;t say!”&nbsp;I was puzzled (疑惑), and I <a href=\"http://www.baidu.com\"><u>thought</u></a>, “Perhaps this is not a right thing to talk about.”&nbsp;So I said to him. “Well, shall we talk about the Great Wall? Have you ever been there?”</p>",
+                    "audios": [],
+                    "videos": []
+                },
+                {
+                    "pointIds": [
+                        11545,
+                        11546
+                    ],
+                    "options": [
+                        {
+                            "answer": true,
+                            "content": "for the moment",
+                            "optionCode": "A",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "for a moment",
+                            "optionCode": "B",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "all the time",
+                            "optionCode": "C",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "from time to time",
+                            "optionCode": "D",
+                            "pictures": []
+                        }
+                    ],
+                    "answer": "A",
+                    "subItems": [],
+                    "itemTypeId": 2,
+                    "itemMouldType": "SINGLE_CHOICE",
+                    "id": "",
+                    "content": "",
+                    "diffLevelCode": 10015,
+                    "detail": "<p>“Certainly! Everyone at home will laugh at me if I leave here without seeing it. The Great Wall is wonderful!”&nbsp;“Yes, it is one of the wonders in the world. And people of many countries have come to visit it.”&nbsp;As I went on more about it, he stopped me again, “You don&rsquo;t say!”</p>",
+                    "audios": [],
+                    "videos": []
+                },
+                {
+                    "pointIds": [
+                        11842,
+                        11844
+                    ],
+                    "options": [
+                        {
+                            "answer": true,
+                            "content": "However",
+                            "optionCode": "A",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "Whatever",
+                            "optionCode": "B",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "Wherever",
+                            "optionCode": "C",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "Whenever",
+                            "optionCode": "D",
+                            "pictures": []
+                        }
+                    ],
+                    "answer": "A",
+                    "subItems": [],
+                    "itemTypeId": 2,
+                    "itemMouldType": "SINGLE_CHOICE",
+                    "id": "",
+                    "content": "",
+                    "diffLevelCode": 10015,
+                    "detail": "<p>I couldn&rsquo;t help asking, “Why do you ask me not to talk about it?”&nbsp;“Well, I don&rsquo;t ask you to do so,”&nbsp;he answered, greatly surprised. “Didn&rsquo;t you say &lsquo;You don&rsquo;t say&rsquo;?”&nbsp;I asked again. Hearing this, the foreigner laughed loudly. He began to explain, “&lsquo;You don&rsquo;t say!&rsquo;&nbsp;means &lsquo;Really?&rsquo;. Perhaps you know little about English idioms (习语).”</p>",
+                    "audios": [],
+                    "videos": []
+                },
+                {
+                    "pointIds": [
+                        11846,
+                        11850
+                    ],
+                    "options": [
+                        {
+                            "answer": false,
+                            "content": "held",
+                            "optionCode": "A",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "worked",
+                            "optionCode": "B",
+                            "pictures": []
+                        },
+                        {
+                            "answer": false,
+                            "content": "rested",
+                            "optionCode": "C",
+                            "pictures": []
+                        },
+                        {
+                            "answer": true,
+                            "content": "stood",
+                            "optionCode": "D",
+                            "pictures": []
+                        }
+                    ],
+                    "answer": "D",
+                    "subItems": [],
+                    "itemTypeId": 2,
+                    "itemMouldType": "SINGLE_CHOICE",
+                    "id": "",
+                    "content": "",
+                    "diffLevelCode": 10016,
+                    "detail": "<p>Wow! How foolish I was! Since then I began to learn more English idioms.</p>",
+                    "audios": [],
+                    "videos": []
+                }
+            ],
+            "id": "",
+            "itemTypeId": 102,
+            "itemMouldType": "CLOZE_TEST",
+            "content": "<p>A lecturer (演讲者) when explaining stress management to an audience (观众), raised a glass of water and asked, “How heavy is this glass of water?”&nbsp;The answers called out ranged from 20g to 500g, to which the lecturer replied, “The weight <u>&nbsp;&nbsp;41 &nbsp;</u>&nbsp;matter. It all <u>&nbsp;&nbsp;42 &nbsp;</u>&nbsp;how long you try to hold it.”&nbsp;</p><p>“If I hold it for a minute, that&rsquo;s not a problem. If I hold it for <u>&nbsp;&nbsp;43 &nbsp;</u>, I&rsquo;ll have an ache in my right arm. If I hold it for a day, you&rsquo;ll have to <u>&nbsp;&nbsp;44 &nbsp;</u>&nbsp;me to the hospital. In each case, it&rsquo;s the <u>&nbsp;&nbsp;45 &nbsp;</u>&nbsp;weight, but the longer I hold it, the <u>&nbsp;&nbsp;46 &nbsp;</u>&nbsp;it becomes.”&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>He continued, “And that&rsquo;s the way it is with stress management. If we carry our burdens (负担) <u>&nbsp;&nbsp;47 &nbsp;</u>, sooner or later, as the burdens become increasingly heavy, we won&rsquo;t be able to carry on. As with the glass of water, you have to put it down for a while and rest before holding it again. When we are refreshed (精神振作), we can carry on with the burden.”</p><p>“So, before you return home tonight, put the burden of work down. Don&rsquo;t carry it home. You can pick it up tomorrow. &nbsp;<u>&nbsp;&nbsp;48 &nbsp;</u>&nbsp;burdens you&rsquo;re carrying now, lay them down for a moment if you can. <u>&nbsp;&nbsp;49 &nbsp;</u>, then pick them up later after you&rsquo;ve <u>&nbsp;&nbsp;50 &nbsp;</u>. Life is short. Enjoy it!”&nbsp;</p>",
+            "diffLevelCode": 10001,
+            "province": 350000,
+            "city": 350200,
+            "county": null,
+            "schoolId": 10005,
+            "yearCode": 10241,
+            "schoolYearId": 10257,
+            "gradeId": 26,
+            "semesterId": 10224,
+            "paperTextbookTypeId": 10242,
+            "schoolName": "",
+            "subjectId": 8,
+            "periodId": 10002,
+            "source": "MINI_ITEM"
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/202005063c3d5c746d2d45a4bf5fd5acbbcffc87/chapter/20200508227b8f7b0a5348999918bdb3ee0ea0b4/mainTeachingCase/20200512fd8cb51b363c49748c91c1af4dadca82?chapterId=20200508227b8f7b0a5348999918bdb3ee0ea0b4",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=Mjc4ZTFjMzYtMGIzZC00MjNmLWIwOWYtYmVkYjM5NTI5MDRk"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v2/item",
+        "method": "POST"
+    }
+}

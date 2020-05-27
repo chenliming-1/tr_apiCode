@@ -1,0 +1,74 @@
+{
+    "name": "/tr/api/tr/v2/item",
+    "request": {
+        "json": {
+            "pointIds": [
+                12535,
+                12565
+            ],
+            "options": [
+                {
+                    "answer": true,
+                    "content": "适应了当时君主需求",
+                    "optionCode": "A",
+                    "pictures": []
+                },
+                {
+                    "answer": false,
+                    "content": "强调严刑峻法必要性",
+                    "optionCode": "B",
+                    "pictures": []
+                },
+                {
+                    "answer": true,
+                    "content": "体现了依法治国理念",
+                    "optionCode": "C",
+                    "pictures": []
+                },
+                {
+                    "answer": false,
+                    "content": "说明因时而变的重要",
+                    "optionCode": "D",
+                    "pictures": []
+                }
+            ],
+            "answer": "A,C",
+            "subItems": [],
+            "id": "",
+            "itemTypeId": 3,
+            "itemMouldType": "MULTIPLE_CHOICE",
+            "content": "<p>韩非子说：“故明主之蓄臣，臣不得越官而有功，不得陈言而不当。越官则死，不当则罪。”这一思想（ &nbsp;&nbsp;&nbsp;）</p>",
+            "diffLevelCode": 10016,
+            "detail": "<p>宋元以后，中华文明开始呈现出复杂的二元性：一是商品经济发展所带来的文化世俗化倾向；二是理学和文化专制强化以后表现出的高雅文化倾向.</p>",
+            "audios": [],
+            "videos": [],
+            "province": 350000,
+            "city": 350200,
+            "county": 350203,
+            "schoolId": 10109,
+            "yearCode": 10241,
+            "schoolYearId": 10257,
+            "gradeId": 5,
+            "semesterId": 10225,
+            "paperTextbookTypeId": 10244,
+            "schoolName": "",
+            "subjectId": 5,
+            "periodId": 100000282,
+            "source": "SINGLE_CREATE"
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/Base_paperTextbookType/groupLecture/2019121739b7a095c2344af1864e6b651717039d?paperTextbookType=true&status=INIT",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=OGY2ZGExYjktNGQxYi00ZjMyLTg1Y2ItM2Q1MzRkZGQxMDUy"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v2/item",
+        "method": "POST"
+    }
+}
