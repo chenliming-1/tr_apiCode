@@ -1,0 +1,28 @@
+{
+    "name": "/tr/api/tr/v3/lecture",
+    "request": {
+        "json": {
+            "subjectId": 8,
+            "regionId": 153,
+            "periodId": 10002,
+            "name": "演示讲义一",
+            "gradeId": 26,
+            "courseTypeId": 10025,
+            "productCode": "HI_STUDY-FULLFILL_CLASS"
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/myCenter/mylecture/index",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=MzIxMjJjMjktZTM4Ny00OGNiLWI2ZmMtZThkYjM5ZDM0YzI4"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v3/lecture",
+        "method": "POST"
+    }
+}
