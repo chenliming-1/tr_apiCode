@@ -15,6 +15,8 @@ itemMouldType = ['SINGLE_CHOICE', 'MULTIPLE_CHOICE', 'EXPLANATION', 'REDUCTIVE_R
                  'CLOZE_TEST']  # 题型模版
 paper_type = [10238, 10240, 10242, 10243, 10244, 10245, 10254, 10255, 10256, 10257, 10258, 10259, 10260, 10261]  # 套卷类型
 school_year = [10247, 10248, 10249, 10250, 10251, 10252, 10253, 10254, 10256, 10257]   # 学年
+paper_status = ['', 'DISABLED', 'OFF_SHELF', 'INIT']   # 试卷状态
+course_type = [10025, 10026, 10027, 10028, 10029]   # 课程类型
 
 
 class RandData(object):
@@ -50,6 +52,12 @@ class RandData(object):
 
     def get_school_year(self):
         return random.choice(school_year)
+
+    def get_paper_status(self):
+        return random.choice(paper_status)
+
+    def get_course_type(self):
+        return random.choice(course_type)
 
 
 randdata = RandData()

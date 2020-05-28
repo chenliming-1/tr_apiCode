@@ -1,0 +1,27 @@
+{
+    "name": "/tr/api/tr/temporary-paper/list",
+    "request": {
+        "json": {},
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/Base_paperTextbookType_temp/index?currentPage=1",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=ZDYyODEzYWMtOTM4MC00MjY5LWE3NDktMGFiMGJkYjA0NjRj"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/temporary-paper/list",
+        "params": {
+            "currentPage": "1",
+            "pageSize": "10",
+            "periodId": "10002",
+            "subjectId": "8",
+            "name": "2020",
+            "status": "INIT"
+        },
+        "method": "GET"
+    }
+}
