@@ -7,7 +7,7 @@ sys_name = "tr"
 
 
 def getJenkinsData():
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 10:
         env = sys.argv[2]
         project = sys.argv[1]  # 取出manage/assignment/teacher
         print('project:' + str(project))
@@ -17,7 +17,7 @@ def getJenkinsData():
         elif runmode == 'single':
             testcase = os.getenv('testcase')
         else:
-            testcase = '*_test.py'
+            testcase = 'test_*.py'
     else:  # local
         env = 'test'
         project = 'teacher'
@@ -27,7 +27,7 @@ def getJenkinsData():
         elif runmode == 'single':
             testcase = 'addofflinescore_test.py'
         else:  # 'all'
-            testcase = '*_test.py'
+            testcase = 'test_*.py'
     return runmode, testcase, project, env
 
 
