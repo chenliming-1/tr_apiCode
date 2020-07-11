@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# @ModuleName: getpointtree.py
+# @ModuleName: test_getpointtree.py
 # @Author：龚远琪
 # @Date：2020/2/24 17:19
 from common.commonmethod import *

@@ -17,6 +17,7 @@ def run_testcase(test_dir):
         discover = unittest.defaultTestLoader.discover(test_dir, pattern=testcase)
     return discover
 
+
 if __name__ == '__main__':
     run_path = './testcase/'
     if project in ('manage', 'assignment', 'teacher'):
