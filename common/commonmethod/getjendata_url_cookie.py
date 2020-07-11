@@ -7,27 +7,27 @@ sys_name = "tr"
 
 
 def getJenkinsData():
-    if len(sys.argv) > 10:
-        env = sys.argv[2]
-        project = sys.argv[1]  # 取出manage/assignment/teacher
-        print('project:' + str(project))
-        runmode = os.getenv('runmode')  # 接收的是跑case的类型：all，suites，single
-        if runmode == 'suites':
-            testcase = os.getenv('testcase').split(',')
-        elif runmode == 'single':
-            testcase = os.getenv('testcase')
-        else:
-            testcase = 'test_*.py'
-    else:  # local
-        env = 'test'
-        project = 'teacher'
-        runmode = 'all'  # 接收的是跑case的类型：all，suites，single
-        if runmode == 'suites':
-            testcase = 'Staff,Staff02,Project01,Project03'.split(',')
-        elif runmode == 'single':
-            testcase = 'addofflinescore_test.py'
-        else:  # 'all'
-            testcase = 'test_*.py'
+    # if len(sys.argv) > 10:
+    #     env = sys.argv[2]
+    #     project = sys.argv[1]  # 取出manage/assignment/teacher
+    #     print('project:' + str(project))
+    #     runmode = os.getenv('runmode')  # 接收的是跑case的类型：all，suites，single
+    #     if runmode == 'suites':
+    #         testcase = os.getenv('testcase').split(',')
+    #     elif runmode == 'single':
+    #         testcase = os.getenv('testcase')
+    #     else:
+    #         testcase = 'test_*.py'
+    # else:  # local
+    env = 'test'
+    project = 'teacher'
+    runmode = 'all'  # 接收的是跑case的类型：all，suites，single
+    if runmode == 'suites':
+        testcase = 'Staff,Staff02,Project01,Project03'.split(',')
+    elif runmode == 'single':
+        testcase = 'addofflinescore_test.py'
+    else:  # 'all'
+        testcase = 'test_*.py'
     return runmode, testcase, project, env
 
 
