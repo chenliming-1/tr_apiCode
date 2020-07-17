@@ -65,12 +65,12 @@ class Resource(unittest.TestCase):
         self.resourceResponse = request.run_main(resource["url"], method='POST', headers=resource["header"], data=[])
         try:
             status_code = self.resourceResponse.status_code
-            # actmessage = self.resourceResponse.json()["message"]
+            actmessage = self.resourceResponse.json()["message"]
         except Exception as error:
             log.error("video/视频：视频上传resource接口失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(status_code, 500, "video/视频：视频上传resource-状态码错误！")
-            # self.assertIn("操作失败", actmessage, "video/视频：视频上传-file为NULL message返回信息不一致！")
+            self.assertEqual(400, status_code, "video/视频：视频上传resource-状态码错误！")
+            self.assertIn("参数格式错误", actmessage, "video/视频：视频上传-file为NULL message返回信息不一致！")
             log.info("video/视频：视频上传resource失败用例--file为NULL测试通过！")
 
     @classmethod

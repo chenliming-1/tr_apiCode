@@ -104,8 +104,7 @@ def test_make_testcase_v2():
                             f.close()
                     if os.path.exists("../../testcase/" + file_to_list[0]) is False:
                         os.mkdir("../../testcase/" + file_to_list[0])
-                        with open(f"../../testcase/{file_to_list[0]}/__init__.py", 'w',
-                                  encoding='utf-8') as fr:
+                        with open(f"../../testcase/{file_to_list[0]}/__init__.py", 'w', encoding='utf-8') as fr:
                             fr.close()
                     if os.path.isfile(f"../../testcase/{file_to_list[0]}/test_{file_to_list[1]}.py"):
                         pass
