@@ -46,12 +46,11 @@ class UploadAudio(unittest.TestCase):
         self.uploadaudioResponse = request.run_main(uploadaudio["url"], method='POST', headers=uploadaudio["header"],
                                                     data=uploadaudio["body_filenameerror"])
         try:
-            actsuccess = self.uploadaudioResponse.json()["success"]
             actmessage = self.uploadaudioResponse.json()["message"]
         except Exception as error:
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "audio/音频：音频上传success返回True！")
+            self.assertEqual(400, self.uploadaudioResponse.status_code, "audio/音频：音频上传状态不一致")
             self.assertEqual(actmessage, "文件名称不能为空", "audio/音频：音频上传message返回信息不一致！")
             log.info("audio/音频：音频上传失败用例-filename为NULL测试通过！")
 
@@ -62,12 +61,11 @@ class UploadAudio(unittest.TestCase):
         self.uploadaudioResponse = request.run_main(uploadaudio["url"], method='POST', headers=uploadaudio["header"],
                                                     data=uploadaudio["body_keyerror"])
         try:
-            actsuccess = self.uploadaudioResponse.json()["success"]
             actmessage = self.uploadaudioResponse.json()["message"]
         except Exception as error:
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "audio/音频：音频上传success返回false！")
+            self.assertEqual(400, self.uploadaudioResponse.status_code, "audio/音频：音频上传状态不一致")
             self.assertEqual(actmessage, "七牛返回key（url相对路径）不能为空", "audio/音频：音频上传message返回信息不一致！")
             log.info("audio/音频：音频上传失败用例-key为NULL测试通过！")
 
@@ -78,12 +76,11 @@ class UploadAudio(unittest.TestCase):
         self.uploadaudioResponse = request.run_main(uploadaudio["url"], method='POST', headers=uploadaudio["header"],
                                                     data=uploadaudio["body_sizeerror"])
         try:
-            actsuccess = self.uploadaudioResponse.json()["success"]
             actmessage = self.uploadaudioResponse.json()["message"]
         except Exception as error:
             log.error("audio/音频：音频上传接口失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "audio/音频：音频上传success返回false！")
+            self.assertEqual(400, self.uploadaudioResponse.status_code, "audio/音频：音频上传状态不一致")
             self.assertEqual(actmessage, "文件大小不能为空", "audio/音频：音频上传message返回信息不一致！")
             log.info("audio/音频：音频上传失败用例-size为NULL测试通过！")
 
