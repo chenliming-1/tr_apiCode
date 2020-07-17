@@ -1,14 +1,7 @@
 {
-    "name": "/tr/api/tr/v1/documents/lectures",
+    "name": "/tr/api/tr/v1/documents/remove",
     "request": {
-        "json": {
-            "subjectId": 8,
-            "periodId": 10001,
-            "parentId": 0,
-            "gradeId": 16,
-            "name": "初一数学上学期复习课",
-            "productCode": "HI_STUDY-INDIVIDUATION"
-        },
+        "json": {},
         "headers": {
             "Access-Control-Allow-Origin": "*",
             "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/myCenter/mylecture/index?path=0%2F2322",
@@ -21,7 +14,7 @@
             "Sec-Fetch-Dest": "empty",
             "Cookie": "SESSION=ODMxYzRiY2QtYmIwMi00OTRmLTk0YmUtOTEyMzk4MjY5MTJj"
         },
-        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v1/documents/lectures",
-        "method": "POST"
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v1/documents/remove",
+        "method": "DELETE"
     }
 }
