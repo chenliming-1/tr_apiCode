@@ -7,6 +7,7 @@ from common.commonmethod.tools import indent
 
 # 需要写一个方法遍历去找这个文件下面的所有的har文件，然后用将这些所有的json转化成接口
 
+
 def _gen_script(scriptname):
     pass
 
@@ -28,14 +29,14 @@ def _gen_2_class_method():
 
 
 def _gen_3_setup_method():
-    return "def setUpClass(self) -> None:"
+    return "def setUpClass(cls) -> None:"
 
 
 def _gen_4_init_data(jsonname):
     # json_init = f"    self.data = todict.data('../../data/{jsonname}.json')" + "\n"
     json_init = indent(
-        "self.data = todict.data(os.path.join(os.path.dirname(__file__), '../../data', '" + jsonname + ".json'))") + "\n"
-    json_init = json_init + indent("self.data['request']['headers']['Cookie'] = cookie", 8) + "\n"
+        "cls.data = todict.data(os.path.join(os.path.dirname(__file__), '../../data', '" + jsonname + ".json'))") + "\n"
+    json_init = json_init + indent("cls.data['request']['headers']['Cookie'] = cookie", 8) + "\n"
     return json_init
 
 
@@ -76,6 +77,11 @@ def _gen_teardown():
 
 
 def test_make_testcase_v2():
+    """
+    1、将.har文件转换成json文件；
+    2、自动生成脚本（测试用例）
+    :return:
+    """
     global testcase, files
     filepath = "../../archives"
     if os.path.exists(filepath):

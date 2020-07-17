@@ -20,9 +20,6 @@ def run_testcase(test_dir):
 
 if __name__ == '__main__':
     run_path = './testcase/'
-    if project in ('manage', 'assignment', 'teacher'):
-        discover = run_testcase(run_path + project)
-    else:
-        discover = run_testcase(run_path)
+    discover = run_testcase(run_path)
     runner = BeautifulReport(discover).report(filename='tr_api', description='教研平台接口测试报告',
                                               log_path='./report/')

@@ -1,17 +1,21 @@
 {
-    "name": "/tr/api/tr/v1/documents/lectures",
+    "name": "/tr/api/tr/double-teacher/textbook/list",
     "request": {
         "json": {
+            "currentPage": 1,
+            "pageSize": 12,
+            "pageTotal": 0,
+            "textbookCategoryId": 10260,
+            "regionId": 153,
+            "hasShow": true,
+            "periodId": 10002,
             "subjectId": 8,
-            "periodId": 10001,
-            "parentId": 0,
-            "gradeId": 16,
-            "name": "初一数学上学期复习课",
-            "productCode": "HI_STUDY-INDIVIDUATION"
+            "textbookType": "DOUBLE_TEACHER",
+            "name": ""
         },
         "headers": {
             "Access-Control-Allow-Origin": "*",
-            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/myCenter/mylecture/index?path=0%2F2322",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/index",
             "Access-Control-Allow-Headers": "NCZ",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
             "Access-Control-Allow-Methods": "*",
@@ -19,9 +23,9 @@
             "Sec-Fetch-Site": "same-origin",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Dest": "empty",
-            "Cookie": "SESSION=ODMxYzRiY2QtYmIwMi00OTRmLTk0YmUtOTEyMzk4MjY5MTJj"
+            "Cookie": "SESSION=N2RlOWI4NGMtNmExNy00NzA0LWI3NjEtOWI3ZGJhOWUwNWQx"
         },
-        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v1/documents/lectures",
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/double-teacher/textbook/list",
         "method": "POST"
     }
 }

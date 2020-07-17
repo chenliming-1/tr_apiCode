@@ -51,7 +51,7 @@ class AddPaperType(unittest.TestCase):
             log.error("paperType/添加套卷类型：SUCCESS-必填项正常添加》接口调用失败，失败原因："f'{error}')
         finally:
             self.assertEqual(201, status_code, "paperType/添加套卷类型：SUCCESS-必填项正常添加-状态码错误！")
-            self.assertEqual(99, actdata["seq"], "paperType/添加套卷类型：SUCCESS-必填项正常添加-返回排名不一致！")
+            self.assertEqual(0, actdata["seq"], "paperType/添加套卷类型：SUCCESS-必填项正常添加-返回排名不一致！")
             self.assertEqual(addPaperType["requiredBody"]["typeCode"], actdata["typeCode"],
                              "paperType/添加套卷类型：SUCCESS-必填项正常添加-返回编码一致！")
             self.assertEqual(addPaperType["requiredBody"]["typeName"], actdata["typeName"],
@@ -255,8 +255,8 @@ class AddPaperType(unittest.TestCase):
         try:
             if len(self.addPaperTypeId) != 0:
                 for i in self.addPaperTypeId:
-                    dao(db, "delete from paper_textbook_type_period_record where paper_textbook_type_id = " + str(
-                        self.addPaperTypeId) + ";")
+                    dao(db,
+                        "delete from paper_textbook_type_period_record where paper_textbook_type_id = " + str(i) + ";")
                     dao(db, "delete from paper_textbook_type where id = " + str(i) + ";")
                     log.info("paperType/套卷类型：删除套卷类型记录成功！")
         except Exception as error:
