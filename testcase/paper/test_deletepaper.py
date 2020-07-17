@@ -37,3 +37,7 @@ class TestDelete(unittest.TestCase):
     @classmethod
     def tearDownClass(cls) -> None:
         pass
+
+
+if __name__ == '__main__':
+    unittest.main()
