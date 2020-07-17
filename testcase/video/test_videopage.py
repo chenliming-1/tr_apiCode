@@ -100,9 +100,9 @@ class VideoPage(unittest.TestCase):
             log.error("video/视频：查询视频列表-未设置列表接口失败，失败原因："f'{error}')
         finally:
             self.assertTrue(actsuccess, "video/视频：查询视频列表-未设置列表success返回false！")
-            self.assertEqual(actdata["currentPage"], 1, "video/视频：查询视频列表-未设置列表当前页不一致")
+            self.assertEqual(1, actdata["currentPage"], "video/视频：查询视频列表-未设置列表当前页不一致")
             self.assertGreaterEqual(len(actdata["list"]), 1, "video/视频：查询视频列表-未设置列表数据错误！")
-            self.assertEqual(actdata["pageSize"], 10, "video/视频：查询视频列表-未设置列表每页大小不一致！")
+            self.assertEqual(10, actdata["pageSize"], "video/视频：查询视频列表-未设置列表每页大小不一致！")
             self.assertGreaterEqual(actdata["total"], 1, "video/视频：查询视频列表总数小于1！")
             self.assertEqual(actmessage, "查询成功", "video/视频：查询视频列表-未设置列表message不一致！")
             log.info("video/视频：查询视频列表-未设置列表成功用例测试通过！")

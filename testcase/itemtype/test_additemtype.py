@@ -75,7 +75,7 @@ class AddItemType(unittest.TestCase):
             log.error("itemType/题型：添加题型失败用例-科目Id错误，失败原因："f'{error}')
         finally:
             self.assertEqual(status_code, 400, "itemType/题型：添加题型失败用例-科目Id错误-状态码错误！")
-            self.assertEqual(actmessage, "字典ID为NULL", "itemType/题型：添加题型失败用例-科目Id错误message返回信息不一致！")
+            self.assertEqual(actmessage, "ID不能为NULL", "itemType/题型：添加题型失败用例-科目Id错误message返回信息不一致！")
             log.info("itemType/题型：添加题型失败用例-科目Id错误测试通过！")
 
     def test_additemtype_retypecode(self):

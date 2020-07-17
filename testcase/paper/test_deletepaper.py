@@ -17,7 +17,7 @@ class TestDelete(unittest.TestCase):
     @classmethod
     def setUpClass(self) -> None:
         add_paper = paper.create_paper()
-        self.data = todict.data(os.path.join(os.path.dirname(__file__), '../../data', 'paper_delete.json'))
+        self.data = todict.data(os.path.join(os.path.dirname(__file__), '../../data', 'paper_deletepaper.json'))
         self.data['request']['headers']['Cookie'] = cookie
         paper_id = add_paper.text
         self.data['name'] = self.getURL(self, self.data['name'], paper_id)

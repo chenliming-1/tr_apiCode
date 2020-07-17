@@ -7,6 +7,7 @@ from data.item import *
 from module import *
 from common.commonmethod import *
 
+
 class UploadPicture(unittest.TestCase):
 
     @classmethod
@@ -21,7 +22,8 @@ class UploadPicture(unittest.TestCase):
         imagepath = os.path.join(projectpath, 'file/image/') + randimage
         image = open(imagepath, "rb")
         files = [("file", (randimage, image, "image/png"))]
-        self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST', headers=uploadpicture["header"], files=files)
+        self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST',
+                                                      headers=uploadpicture["header"], files=files)
         image.close()
         try:
             actsuccess = self.uploadpictureResponse.json()["success"]
@@ -37,7 +39,6 @@ class UploadPicture(unittest.TestCase):
             self.assertIsNotNone(actdata["picUuid"], "item/题库-上传png图片ID返回为空！")
             log.info("item/题库：上传png图片成功用例测试通过！")
 
-
     def test_uploadpicture_jpg(self):
         """
         item/题库：uploadpicture上传jpg图片成功的测试用例
@@ -45,7 +46,8 @@ class UploadPicture(unittest.TestCase):
         imagepath = os.path.join(projectpath, 'file/image/') + "1-1.jpg"
         image = open(imagepath, "rb")
         files = [("file", ("1-1.jpg", image, "image/jpeg"))]
-        self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST', headers=uploadpicture["header"], files=files)
+        self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST',
+                                                      headers=uploadpicture["header"], files=files)
         image.close()
         try:
             actsuccess = self.uploadpictureResponse.json()["success"]
@@ -68,7 +70,8 @@ class UploadPicture(unittest.TestCase):
         imagepath = os.path.join(projectpath, 'file/image/') + "2-1.gif"
         image = open(imagepath, "rb")
         files = [("file", ("2-1.gif", image, "image/gif"))]
-        self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST', headers=uploadpicture["header"], files=files)
+        self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST',
+                                                      headers=uploadpicture["header"], files=files)
         image.close()
         try:
             actsuccess = self.uploadpictureResponse.json()["success"]
@@ -82,13 +85,13 @@ class UploadPicture(unittest.TestCase):
         """
         item/题库：uploadpicture上传图片失败的测试用例-上传列表为空
         """
-        self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST', headers=uploadpicture["header"], files=[])
         try:
-            actsuccess = self.uploadpictureResponse.json()["success"]
+            self.uploadpictureResponse = request.run_main(uploadpicture["url"], method='POST',
+                                                          headers=uploadpicture["header"], files=[])
         except Exception as error:
             log.error("item/题库：上传图片-上传列表为空测试失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "item/题库-上传图片-上传列表为空success为True！")
+            self.assertEqual(400, self.uploadpictureResponse.status_code)
             log.info("item/题库：上传图片失败用例-上传列表为空测试通过！")
 
     @classmethod

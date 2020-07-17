@@ -57,7 +57,7 @@ class EditPaperType(unittest.TestCase):
             log.error("paperType/编辑套卷类型：SUCCESS-必填项正常添加》接口调用失败，失败原因："f'{error}')
         finally:
             self.assertEqual(200, status_code, "paperType/编辑套卷类型：SUCCESS-必填项正常添加-状态码错误！")
-            self.assertEqual(99, actdata["seq"], "paperType/编辑套卷类型：SUCCESS-必填项正常添加-返回排名不一致！")
+            self.assertEqual(0, actdata["seq"], "paperType/编辑套卷类型：SUCCESS-必填项正常添加-返回排名不一致！")
             self.assertIsNone(actdata["description"], "paperType/编辑套卷类型：SUCCESS-必填项正常添加-返回编码一致！")
             self.assertEqual(self.addPaperTypeData["typeCode"], actdata["typeCode"],
                              "paperType/编辑套卷类型：SUCCESS-修改所有参数-返回编码一致！")
