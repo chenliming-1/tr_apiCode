@@ -6,7 +6,7 @@
 from module import *
 
 
-class Token(unittest.TestCase):
+class Test1(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         pass
