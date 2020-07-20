@@ -4,7 +4,7 @@
 from common.commonmethod import *
 
 uploadpicture = {
-    "url": f'{sysURL}tr/api/item/upload/picture',
+    "url": f'{sysURL}tr/api/zuul/item/upload/picture',
 
     "header": {
         "Cookie": cookie

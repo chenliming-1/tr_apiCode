@@ -84,8 +84,8 @@ class DeleteItemType(unittest.TestCase):
         except Exception as error:
             log.error("itemType/题型：删除题型未输入ID接口失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(status_code, 400, "itemType/题型：删除题型未输入ID-状态码错误！")
-            self.assertEqual(actmessage, "请求方法不支持", "itemType/题型：删除题型未输入ID message返回信息不一致！")
+            self.assertEqual(400, status_code, "itemType/题型：删除题型未输入ID-状态码错误！")
+            self.assertEqual("请求方法不支持", actmessage, "itemType/题型：删除题型未输入ID message返回信息不一致！")
             log.info("itemType/题型：删除题型未输入ID用例测试通过！")
 
     @classmethod
