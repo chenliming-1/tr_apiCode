@@ -84,20 +84,21 @@ class EditPaperType(unittest.TestCase):
 
     def test_editPaperTypeCodeRepeat(self):
         """
-        paperType/编辑套卷类型：FAIL-添加同编码套卷类型
+        paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码
         """
         self.editPaperTypeResponse = request.run_main(editPaperType["url"] + str(self.addPaperTypeId), method='PUT',
                                                       headers=editPaperType["header"],
                                                       data=editPaperType["typeCodeRepeatBody"])
         try:
             status_code = self.editPaperTypeResponse.status_code
-            actmessage = self.editPaperTypeResponse.json()["message"]
+            actdata = self.editPaperTypeResponse.json()
         except Exception as error:
-            log.error("paperType/编辑套卷类型：FAIL-添加同编码套卷类型》接口调用失败，失败原因："f'{error}')
+            log.error("paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "paperType/编辑套卷类型：FAIL-添加同编码套卷类型-状态码错误！")
-            self.assertEqual("类型编码已存在", actmessage, "paperType/编辑套卷类型：FAIL-添加同编码套卷类型-message返回信息不一致！")
-            log.info("paperType/编辑套卷类型：FAIL-添加同编码套卷类型》测试通过！")
+            self.assertEqual(200, status_code, "paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码-状态码错误！")
+            self.assertEqual(self.addPaperTypeData["typeCode"], actdata["typeCode"],
+                             "paperType/编辑套卷类型：SUCCESS-修改所有参数-返回编码一致！")
+            log.info("paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码》测试通过！")
 
     def test_editPaperTypeNameNone(self):
         """
@@ -118,20 +119,21 @@ class EditPaperType(unittest.TestCase):
 
     def test_editPaperTypeCodeNone(self):
         """
-        paperType/编辑套卷类型：FAIL-未填写套卷类型编码
+        paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码，不修改编码
         """
         self.editPaperTypeResponse = request.run_main(editPaperType["url"] + str(self.addPaperTypeId), method='PUT',
                                                       headers=editPaperType["header"],
                                                       data=editPaperType["typeCodeNoneBody"])
         try:
             status_code = self.editPaperTypeResponse.status_code
-            actmessage = self.editPaperTypeResponse.json()["message"]
+            actdata = self.editPaperTypeResponse.json()
         except Exception as error:
-            log.error("paperType/编辑套卷类型：FAIL-未填写套卷类型编码》接口调用失败，失败原因："f'{error}')
+            log.error("paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "paperType/编辑套卷类型：FAIL-未填写套卷类型编码-状态码错误！")
-            self.assertEqual("类型编码不能为空", actmessage, "paperType/编辑套卷类型：FAIL-未填写套卷类型编码-message返回信息不一致！")
-            log.info("paperType/编辑套卷类型：FAIL-未填写套卷类型编码》测试通过！")
+            self.assertEqual(200, status_code, "paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码-状态码错误！")
+            self.assertEqual(self.addPaperTypeData["typeCode"], actdata["typeCode"],
+                             "paperType/编辑套卷类型：SUCCESS-修改所有参数-返回编码一致！")
+            log.info("paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码》测试通过！")
 
     def test_editPaperTypePeriodIdsNone(self):
         """
