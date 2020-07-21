@@ -78,7 +78,8 @@ class UploadPicture(unittest.TestCase):
         except Exception as error:
             log.error("item/题库：上传gif图片测试失败，失败原因："f'{error}')
         finally:
-            self.assertFalse(actsuccess, "item/题库-上传gif图片success为True！")
+            self.assertEqual(200, self.uploadpictureResponse.status_code)
+            self.assertTrue(actsuccess, "item/题库-上传gif图片success为True！")
             log.info("item/题库：上传gif图片失败用例测试通过！")
 
     def test_uploadpicture_fail(self):
@@ -91,7 +92,7 @@ class UploadPicture(unittest.TestCase):
         except Exception as error:
             log.error("item/题库：上传图片-上传列表为空测试失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, self.uploadpictureResponse.status_code)
+            self.assertEqual(500, self.uploadpictureResponse.status_code)
             log.info("item/题库：上传图片失败用例-上传列表为空测试通过！")
 
     @classmethod
