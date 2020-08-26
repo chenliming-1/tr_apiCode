@@ -14,7 +14,7 @@ def _gen_script(scriptname):
 
 def _gen_import_package():
     str = "import unittest" + "\n"
-    str = str + "from common.commonmethod import cookie, todict" + "\n"
+    str = str + "from common.commonmethod import cookie, todict, randdata" + "\n"
     str = str + "from histudy import request, randMethod, log" + "\n"
     str = str + "import os" + "\n"
     return str

@@ -1,0 +1,29 @@
+{
+    "name": "/tr/api/tr/v1/documents/lectures/copy",
+    "request": {
+        "json": {
+            "gradeId": 17,
+            "lectureId": "20200717d7ae49da29d841cf83b1ca63a1398f6f",
+            "lectureSource": "MY_DOCUMENT_COPY",
+            "name": "初二数学讲义",
+            "parentId": 2322,
+            "periodId": 10001,
+            "productCode": "DOUBLE_TEACHER",
+            "subjectId": 8
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/myCenter/mylecture/index?path=0%2F2322",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=NmQ3YTA3NjAtMjU3OS00Njc1LWI0NDctMWNjNWYwN2VmOGI4"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v1/documents/lectures/copy",
+        "method": "POST"
+    }
+}

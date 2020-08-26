@@ -17,6 +17,7 @@ paper_type = [10238, 10240, 10242, 10243, 10244, 10245, 10254, 10255, 10256, 102
 school_year = [10247, 10248, 10249, 10250, 10251, 10252, 10253, 10254, 10256, 10257]   # 学年
 paper_status = ['', 'DISABLED', 'OFF_SHELF', 'INIT']   # 试卷状态
 course_type = [10025, 10026, 10027, 10028, 10029]   # 课程类型
+lecture_source = ['USER_DEFINED', 'SYSTEM_IMPORT', 'USER_COPY', 'TEXT_BOOK_COPY', 'MY_DOCUMENT_COPY']  # 复制讲义来源
 
 
 class RandData(object):
@@ -58,6 +59,9 @@ class RandData(object):
 
     def get_course_type(self):
         return random.choice(course_type)
+
+    def get_lecture_resource(self):
+        return random.choice(lecture_source)
 
 
 randdata = RandData()

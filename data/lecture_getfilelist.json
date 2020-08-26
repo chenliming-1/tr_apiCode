@@ -1,0 +1,26 @@
+{
+    "name": "/tr/api/tr/v1/documents/page",
+    "request": {
+        "json": {},
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/myCenter/mylecture/index?path=0",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=NmQ3YTA3NjAtMjU3OS00Njc1LWI0NDctMWNjNWYwN2VmOGI4"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v1/documents/page",
+        "params": {
+            "currentPage": "1",
+            "pageSize": "20",
+            "periodId": "10001",
+            "subjectId": "8",
+            "parentId": "0"
+        },
+        "method": "GET"
+    }
+}

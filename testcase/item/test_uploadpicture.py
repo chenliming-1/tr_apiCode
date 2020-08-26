@@ -65,7 +65,7 @@ class UploadPicture(unittest.TestCase):
 
     def test_uploadpicture_gif(self):
         """
-        item/题库：uploadpicture上传gif图片失败的测试用例
+        item/题库：uploadpicture上传gif图片失败的测试用例--废弃，后端不校验格式
         """
         imagepath = os.path.join(projectpath, 'file/image/') + "2-1.gif"
         image = open(imagepath, "rb")
