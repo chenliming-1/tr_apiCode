@@ -1,0 +1,38 @@
+{
+    "name": "/tr/api/tr/v1/documents/document-file",
+    "request": {
+        "json": {
+            "files": [
+                {
+                    "uri": "1598434424128_907ce981-5998-4531-8130-5b4d57614ba1/2018-2019初三（上）厦门双十中学期中考试-初中语文.doc",
+                    "name": "2018-2019初三（上）厦门双十中学期中考试-初中语文",
+                    "size": 558.5
+                },
+                {
+                    "uri": "1598434424158_a0dfe389-c4bf-4ef1-ad63-f90de668564e/2019暑期新高一化学--第4讲B班--物质的量浓度（黄小微）-定稿6.19.pptx",
+                    "name": "2019暑期新高一化学--第4讲B班--物质的量浓度（黄小微）-定稿6.19",
+                    "size": 3359.53515625
+                }
+            ],
+            "periodId": 10002,
+            "subjectId": 8,
+            "gradeId": 26,
+            "productCode": "DOUBLE_TEACHER",
+            "parentId": 0
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/myCenter/mylecture/index",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=OTdhMDgzMGItYjgzMC00MWNkLTgxYjMtYTkzNjA2ZmZmNGYx"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v1/documents/document-file",
+        "method": "POST"
+    }
+}

@@ -15,7 +15,7 @@ getPointTree = {
     },
 
     "body_success": {
-        "subjectId": random.choice([1, 5, 7, 8, 12]),
+        "subjectId": random.choice([5, 6, 8]),
         "periodId": random.choice([100000282, 10001, 10002]),
         "regionId": randdata.getregion()
     },

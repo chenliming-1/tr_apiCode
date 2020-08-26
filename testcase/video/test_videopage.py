@@ -119,8 +119,8 @@ class VideoPage(unittest.TestCase):
         except Exception as error:
             log.error("video/视频：查询视频列表-业务类型为空接口失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(status_code, 400, "video/视频：查询视频列表-业务类型为空-状态码错误！")
-            self.assertEqual(actmessage, "参数类型不匹配异常", "video/视频：查询视频列表-业务类型为空message不一致！")
+            self.assertEqual(400, status_code, "video/视频：查询视频列表-业务类型为空-状态码错误！")
+            self.assertEqual("参数类型不匹配异常", actmessage, "video/视频：查询视频列表-业务类型为空message不一致！")
             log.info("video/视频：查询视频列表-业务类型为空失败用例测试通过！")
 
     def test_businessTypeErr_fail(self):
@@ -135,8 +135,8 @@ class VideoPage(unittest.TestCase):
         except Exception as error:
             log.error("video/视频：查询视频列表-业务类型错误接口失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(status_code, 400, "video/视频：查询视频列表-业务类型为空-状态码错误！")
-            self.assertEqual(actmessage, "参数类型不匹配异常", "video/视频：查询视频列表-业务类型错误message不一致！")
+            self.assertEqual(400, status_code, "video/视频：查询视频列表-业务类型为空-状态码错误！")
+            self.assertEqual("参数类型不匹配异常", actmessage, "video/视频：查询视频列表-业务类型错误message不一致！")
             log.info("video/视频：查询视频列表-业务类型错误 失败用例测试通过！")
 
     @classmethod
