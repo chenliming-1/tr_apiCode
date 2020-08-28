@@ -1,0 +1,257 @@
+{
+    "name": "/tr/api/tr/v3/lecture/20200828474647759dde4214bb62ebcaf76450e0",
+    "request": {
+        "json": {
+            "lecture": {
+                "id": "20200828474647759dde4214bb62ebcaf76450e0",
+                "name": "第一节-课中互动题",
+                "regionId": 153,
+                "yearId": 10241,
+                "yearName": null,
+                "subjectId": 8,
+                "subjectName": null,
+                "periodId": 10002,
+                "gradeId": 21,
+                "gradeName": null,
+                "seasonId": 10009,
+                "seasonName": null,
+                "productCode": "DOUBLE_TEACHER",
+                "status": "AVAILABLE",
+                "readOnly": false,
+                "mainTeachingCaseSchedule": null
+            },
+            "nodes": [
+                {
+                    "nodes": [
+                        {
+                            "nodes": [],
+                            "nodeId": "20200828722f19879cc94ca59353fcd96dd7a19b",
+                            "type": "LINK",
+                            "data": {
+                                "id": 324,
+                                "linkName": "‪波的干涉‬",
+                                "linkAddr": "https://resource.histudy.com/tr/libs/%e7%89%a9%e7%90%86/%e6%b3%a2/%e6%b3%a2%e7%9a%84%e5%b9%b2%e6%b6%89/wave-interference_zh_CN.html"
+                            },
+                            "metadata": {
+                                "referenceId": "324",
+                                "snapshot": false,
+                                "requiredQuestion": true
+                            },
+                            "hidden": false,
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
+                            "isTargeted": false
+                        },
+                        {
+                            "data": {
+                                "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                "status": "AVAILABLE",
+                                "itemTypeId": 105,
+                                "itemType": "还原型阅读",
+                                "itemMouldType": "WORD_CHOOSE",
+                                "content": "<p style=\"line-height: 120%; margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10.5pt; font-family: Calibri, sans-serif;\"><span style=\"line-height: 120%; font-family: 宋体;\">阅读下列文字，按要求作文。（</span><span style=\"line-height: 120%; font-family: 'Times New Roman', serif;\">60</span><span style=\"line-height: 120%; font-family: 宋体;\">分）</span><p style=\"line-height: 120%; margin: 0cm 0cm 0.0001pt; text-align: justify; font-size: 10.5pt; font-family: Calibri, sans-serif;\"><span style=\"line-height: 120%;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"line-height: 120%; font-family: 楷体_GB2312;\">莫顿&middot;亨特《走一步，再走一步》中的“我”<abbr class=\"ql-topic-student-answer\">​</abbr>，虽然没能像其他孩子一样<abbr class=\"ql-topic-student-answer\">​</abbr>勇敢地爬下悬崖，但是“我”却意外地获得了战胜困难<abbr class=\"ql-topic-student-answer\">​</abbr>的人生启示。在你的<abbr class=\"ql-topic-student-answer\">​</abbr>求学之路上，也一定有过许多意外的收获<abbr class=\"ql-topic-student-answer\">​</abbr>吧：也许是一次<abbr class=\"ql-topic-student-answer\">​</abbr>考试，<abbr class=\"ql-topic-student-answer\">​</abbr>你虽然未能取得好成绩但是你却收获了难得的教训；也许是参加一次挑战赛，你意外地发现了自己的<abbr class=\"ql-topic-student-answer\">​</abbr>某种潜能&hellip;</span><p><span style=\"font-size: 10.5pt; font-family: Calibri, sans-serif;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"font-size: 10.5pt; font-family: 宋体;\">请以“意外的收获”为题写一篇记叙文。要求：①仅限写记叙文，字数不少于</span><span style=\"font-size: 10.5pt; font-family: 'Times New Roman', serif;\">600</span><span style=\"font-size: 10.5pt; font-family: 宋体;\">字；②正文中如需出现本市人名、地名、校名，请用&times;&times;代替。<abbr class=\"ql-topic-student-answer\">​</abbr>新增选项</span></p>",
+                                "options": [
+                                    {
+                                        "id": 756602,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "A",
+                                        "content": "地名"
+                                    },
+                                    {
+                                        "id": 756603,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "B",
+                                        "content": "取名"
+                                    },
+                                    {
+                                        "id": 756604,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "C",
+                                        "content": "校名"
+                                    },
+                                    {
+                                        "id": 756605,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "D",
+                                        "content": "人名"
+                                    },
+                                    {
+                                        "id": 756606,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "E",
+                                        "content": "盛名"
+                                    },
+                                    {
+                                        "id": 756607,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "F",
+                                        "content": "市民"
+                                    },
+                                    {
+                                        "id": 756608,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "G",
+                                        "content": "姓名"
+                                    },
+                                    {
+                                        "id": 756609,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "H",
+                                        "content": "无名"
+                                    },
+                                    {
+                                        "id": 756610,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "I",
+                                        "content": "佚名"
+                                    },
+                                    {
+                                        "id": 756611,
+                                        "itemId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                        "optionCode": "J",
+                                        "content": "新增选项"
+                                    }
+                                ],
+                                "diffLevelValue": 4,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": null,
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "201908167c266a212fcf4dc8aee5596c4873fe3f",
+                                "itemInfo": {
+                                    "201908167c266a212fcf4dc8aee5596c4873fe3f": {
+                                        "showNo": "1",
+                                        "score": 1,
+                                        "requiredQuestion": true
+                                    }
+                                },
+                                "requiredQuestion": true
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "202008282b182cf897f147488a881924b34a8b6b"
+                        },
+                        {
+                            "data": {
+                                "itemId": "2019120249a18d861f4645eda88e4516b455b7bb",
+                                "status": "AVAILABLE",
+                                "itemTypeId": 104,
+                                "itemType": "综合题",
+                                "itemMouldType": "COMPREHENSIVE",
+                                "content": "<pre style=\"margin: 0;\"><span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"10.4ex\" height=\"4.176ex\" style=\"vertical-align: -1.505ex;\" viewBox=\"0 -1150.1 4477.8 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\bf\\large 我的老师</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<text font-family=\"monospace\" font-weight=\"bold\" stroke=\"none\" transform=\"scale(86.1108) matrix(1 0 0 -1 0 0)\">我</text>\n<g transform=\"translate(1119,0)\">\n<text font-family=\"monospace\" font-weight=\"bold\" stroke=\"none\" transform=\"scale(86.1108) matrix(1 0 0 -1 0 0)\">的</text>\n</g>\n<g transform=\"translate(2238,0)\">\n<text font-family=\"monospace\" font-weight=\"bold\" stroke=\"none\" transform=\"scale(86.1108) matrix(1 0 0 -1 0 0)\">老</text>\n</g>\n<g transform=\"translate(3358,0)\">\n<text font-family=\"monospace\" font-weight=\"bold\" stroke=\"none\" transform=\"scale(86.1108) matrix(1 0 0 -1 0 0)\">师</text>\n</g>\n</g>\n</svg></span>测试<br /><span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"3.613ex\" height=\"0.343ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.8 1555.6 147.5\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\quad\\;\\;</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\"></g>\n</svg></span>①春天又到了。<br /><span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"3.613ex\" height=\"0.343ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.8 1555.6 147.5\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\quad\\;\\;</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\"></g>\n</svg></span>②柳枝染上了嫩绿，在春风里尽情飘摆，舒展着自己的腰身。迎春花举起金黄的小喇叭，向着春天吹奏着生命之歌。蓝天上，一架架风筝在同白云戏耍，引得无数的人仰望天穹，让自己的心也飞上云端。<br /><span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"3.613ex\" height=\"0.343ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.8 1555.6 147.5\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\quad\\;\\;</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\"></g>\n</svg></span>③这时候，我就会情不自尽地想起我的刘老师，想起他放入天空的风筝。<br /><span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"3.613ex\" height=\"0.343ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.8 1555.6 147.5\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\quad\\;\\;</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\"></g>\n</svg></span>④刘老师教我们历史课。他有一条强壮的右腿，而左腿从膝以下全部截去，靠一根被用得油亮的圆木棍支撑。有一次，他讲课讲到女娲造人的时候，笑着对我们说：“女娲用手捏泥人捏得累了，便用树枝沾起泥巴向地上甩，甩到地上的泥巴也变成人。由于女娲甩的力量太大了，有的人甩丢了腿和胳膊。我就是那时候被她甩掉了一条腿的。”教室里自然腾起一片笑声，但笑过之后，每个学生的心头都泛起一股酸涩的感情，同时更增添了对刘老师的尊敬。<br /><span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"3.613ex\" height=\"0.343ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.8 1555.6 147.5\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\quad\\;\\;</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\"></g>\n</svg></span>⑤他只靠着健壮的右腿和一根木棍，一天站上好几个小时，为我们讲课。写板书的时候，他用木棍撑地，右腿离地，身体急速地一转，便转向黑板。写完了粗壮的粉笔字，又以拐杖为圆心再转向讲台。一个年过半百的老师，一天不知道要这样跳跃旋转多少次。而他每次的一转，都引起学生们一次激动的心跳。<br /><span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"3.613ex\" height=\"0.343ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.8 1555.6 147.5\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\quad\\;\\;</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\"></g>\n</svg></span>⑥他的课讲得极好。讲到历代的民族英雄，他慷慨陈词，使我们激动得落泪。讲到祖国近代史上受屈辱的岁月，他常常哽咽，使我们沉重地低下头去。后来，我考入大学历史系，和刘老师的影响有极大的关系。</pre>",
+                                "options": [],
+                                "diffLevelValue": 4,
+                                "subItems": [
+                                    {
+                                        "itemId": "20191203ca631150f35249a1b35d81d891e1ee08",
+                                        "status": "INIT",
+                                        "itemTypeId": 4,
+                                        "itemType": "解答题",
+                                        "itemMouldType": "EXPLANATION",
+                                        "content": "<pre style=\"margin: 0;\">找出文章的一处过渡句，使文章内容由叙述刘老师的历史课，过渡到对刘老师放风筝的描述。并说说该过渡句的作用。<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"62.994ex\" height=\"1.509ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.829ex;\" viewBox=\"0 -73.8 27122.5 649.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\underline{\\hspace{10cm}}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n<g transform=\"translate(472.8241364619002,0) scale(52.35172707619963,1)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E1-MJMAIN-2013\" x=\"26622\" y=\"0\"></use>\n</g>\n</g>\n</svg></span></pre>",
+                                        "options": [],
+                                        "diffLevelValue": 4,
+                                        "subItems": [],
+                                        "like": false,
+                                        "readOnly": false,
+                                        "source": null,
+                                        "reviewAnswer": true,
+                                        "phoneticSymbol": null,
+                                        "translation": null,
+                                        "itemScore": 1
+                                    },
+                                    {
+                                        "itemId": "20191203ef688ef171fd4ec2aff023d3d642e75b",
+                                        "status": "INIT",
+                                        "itemTypeId": 4,
+                                        "itemType": "解答题",
+                                        "itemMouldType": "EXPLANATION",
+                                        "content": "<pre style=\"margin: 0;\">阅读文章，把握文章主题，完成填空。<br /><span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"3.613ex\" height=\"0.343ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.8 1555.6 147.5\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\quad\\;\\;</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\"></g>\n</svg></span>全文通过回忆刘老师巧妙解释自己瘸腿的原因、带领我们放风筝等事件，表现了刘老师的<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"18.9ex\" height=\"1.509ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.829ex;\" viewBox=\"0 -73.8 8137.5 649.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\underline{\\hspace{3cm}}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n<g transform=\"translate(491.84724093857005,0) scale(14.30551812285989,1)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E1-MJMAIN-2013\" x=\"7636\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>的性格品质，抒发了“我”对老师的<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"18.9ex\" height=\"1.509ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.829ex;\" viewBox=\"0 -73.8 8137.5 649.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\underline{\\hspace{3cm}}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n<g transform=\"translate(491.84724093857005,0) scale(14.30551812285989,1)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E1-MJMAIN-2013\" x=\"7636\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>之情。</pre>",
+                                        "options": [],
+                                        "diffLevelValue": 5,
+                                        "subItems": [],
+                                        "like": false,
+                                        "readOnly": false,
+                                        "source": null,
+                                        "reviewAnswer": true,
+                                        "phoneticSymbol": null,
+                                        "translation": null,
+                                        "itemScore": 1
+                                    }
+                                ],
+                                "like": true,
+                                "readOnly": true,
+                                "source": null,
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 2
+                            },
+                            "metadata": {
+                                "referenceId": "2019120249a18d861f4645eda88e4516b455b7bb",
+                                "itemInfo": {
+                                    "2019120249a18d861f4645eda88e4516b455b7bb": {
+                                        "showNo": "2",
+                                        "score": 2,
+                                        "requiredQuestion": true
+                                    },
+                                    "20191203ca631150f35249a1b35d81d891e1ee08": {
+                                        "score": 1,
+                                        "requiredQuestion": true
+                                    },
+                                    "20191203ef688ef171fd4ec2aff023d3d642e75b": {
+                                        "score": 1,
+                                        "requiredQuestion": true
+                                    }
+                                },
+                                "requiredQuestion": true
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "202008288ad8d56c1fc4488e87048722d0f15047"
+                        }
+                    ],
+                    "nodeId": "2020082831936062f496473eb83009cb9ffeac2a",
+                    "type": "GENERAL",
+                    "data": null,
+                    "metadata": {
+                        "name": "课中互动题",
+                        "numberType": "DEFAULT",
+                        "snapshot": false
+                    },
+                    "hidden": false,
+                    "mark": "DEFAULT",
+                    "printBlankLine": null,
+                    "isTargeted": true,
+                    "isByJs": false
+                }
+            ],
+            "updateTimeMillis": 1598605458735,
+            "publicLectureVersion": 0,
+            "numberType": "PATTERN_THREE",
+            "requiredQuestion": true
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/202008225fe9dfa3506c4e619017b04a2452b736/chapter/202008253de9732fcc0b444d9ee2e69f656c3b4b/mainTeachingCase/20200828474647759dde4214bb62ebcaf76450e0?mainType=zuJian&seacondary=CLASS_INTERACTION&chapterId=202008253de9732fcc0b444d9ee2e69f656c3b4b&chapterName=%E7%AC%AC%E4%B8%80%E8%8A%82",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=MTZmN2M2MDEtNWI3Ny00MjIxLTk2ZjAtNWY0MWM5NzUwZDQ1"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v3/lecture/20200828474647759dde4214bb62ebcaf76450e0",
+        "method": "PUT"
+    }
+}
