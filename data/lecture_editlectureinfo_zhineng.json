@@ -1,0 +1,579 @@
+{
+    "name": "/tr/api/tr/v3/lecture/20200828cc31dc4877c1432997fd9493cc017626",
+    "request": {
+        "json": {
+            "lecture": {
+                "id": "20200828cc31dc4877c1432997fd9493cc017626",
+                "name": "111-课后练习-01",
+                "regionId": 153,
+                "yearId": 10241,
+                "yearName": null,
+                "subjectId": 5,
+                "subjectName": null,
+                "periodId": 100000282,
+                "gradeId": 24,
+                "gradeName": null,
+                "seasonId": 10008,
+                "seasonName": null,
+                "productCode": "DOUBLE_TEACHER",
+                "status": "AVAILABLE",
+                "readOnly": false,
+                "mainTeachingCaseSchedule": null
+            },
+            "nodes": [
+                {
+                    "data": null,
+                    "metadata": {
+                        "name": "课后练习",
+                        "numberType": "DEFAULT"
+                    },
+                    "hidden": false,
+                    "nodes": [
+                        {
+                            "data": {
+                                "itemId": "20200828c7b0bb812d49432db4b342f445caf8f3",
+                                "status": "INIT",
+                                "itemTypeId": 2,
+                                "itemType": "单选题",
+                                "itemMouldType": "SINGLE_CHOICE",
+                                "content": "下列加点字中，读音正确的是<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"9.247ex\" height=\"3.343ex\" style=\"vertical-align: -1.171ex;\" viewBox=\"0 -934.9 3981.5 1439.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\kuohao</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">（</text>\n<g transform=\"translate(932,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(1865,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(3048,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">）</text>\n</g>\n</g>\n</svg></span>",
+                                "options": [
+                                    {
+                                        "id": 803838,
+                                        "itemId": "20200828c7b0bb812d49432db4b342f445caf8f3",
+                                        "optionCode": "A",
+                                        "content": "<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{挣}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">挣</text>\n</g>\n</g>\n</svg></span>(zhēng)脱"
+                                    },
+                                    {
+                                        "id": 803839,
+                                        "itemId": "20200828c7b0bb812d49432db4b342f445caf8f3",
+                                        "optionCode": "B",
+                                        "content": "<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{配}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">配</text>\n</g>\n</g>\n</svg></span>(péi)得上"
+                                    },
+                                    {
+                                        "id": 803840,
+                                        "itemId": "20200828c7b0bb812d49432db4b342f445caf8f3",
+                                        "optionCode": "C",
+                                        "content": "倒<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{映}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">映</text>\n</g>\n</g>\n</svg></span>(yǐng)"
+                                    },
+                                    {
+                                        "id": 803841,
+                                        "itemId": "20200828c7b0bb812d49432db4b342f445caf8f3",
+                                        "optionCode": "D",
+                                        "content": "池<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{塘}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">塘</text>\n</g>\n</g>\n</svg></span>(táng)"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "SPELLING_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "20200828c7b0bb812d49432db4b342f445caf8f3",
+                                "itemInfo": {
+                                    "20200828c7b0bb812d49432db4b342f445caf8f3": {
+                                        "showNo": "1",
+                                        "score": 1,
+                                        "requiredQuestion": false
+                                    }
+                                },
+                                "requiredQuestion": false
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "202008281d7d2f5555d54d88a54deb94565add78",
+                            "isTargeted": false
+                        },
+                        {
+                            "data": {
+                                "itemId": "2020082876460411feb54dd1a941a94346b4a1d7",
+                                "status": "INIT",
+                                "itemTypeId": 2,
+                                "itemType": "单选题",
+                                "itemMouldType": "SINGLE_CHOICE",
+                                "content": "下列加点字中，读音正确的是$\\kuohao$",
+                                "options": [
+                                    {
+                                        "id": 803842,
+                                        "itemId": "2020082876460411feb54dd1a941a94346b4a1d7",
+                                        "optionCode": "A",
+                                        "content": "$\\d{狮}$(zhī)子"
+                                    },
+                                    {
+                                        "id": 803843,
+                                        "itemId": "2020082876460411feb54dd1a941a94346b4a1d7",
+                                        "optionCode": "B",
+                                        "content": "小$\\d{鹿}$(lù)"
+                                    },
+                                    {
+                                        "id": 803844,
+                                        "itemId": "2020082876460411feb54dd1a941a94346b4a1d7",
+                                        "optionCode": "C",
+                                        "content": "匀$\\d{称}$(chèng)"
+                                    },
+                                    {
+                                        "id": 803845,
+                                        "itemId": "2020082876460411feb54dd1a941a94346b4a1d7",
+                                        "optionCode": "D",
+                                        "content": "别$\\d{致}$(zhī)"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "SPELLING_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "2020082876460411feb54dd1a941a94346b4a1d7",
+                                "itemInfo": {
+                                    "2020082876460411feb54dd1a941a94346b4a1d7": {
+                                        "showNo": "2",
+                                        "score": 1,
+                                        "requiredQuestion": false
+                                    }
+                                },
+                                "requiredQuestion": false
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "20200828765f9c4001fc4ec882efad3826538513",
+                            "isTargeted": false
+                        }
+                    ],
+                    "type": "GENERAL",
+                    "nodeId": "20200828a25cdd56505b4c2e98add0abe3322a7c",
+                    "isEdit": false,
+                    "isTargeted": false,
+                    "isByJs": false
+                },
+                {
+                    "data": null,
+                    "metadata": {
+                        "name": "第二节",
+                        "numberType": "DEFAULT"
+                    },
+                    "hidden": false,
+                    "nodes": [
+                        {
+                            "data": {
+                                "itemId": "2020082838e51464fb1e4385bb5b3f1957ec1117",
+                                "status": "INIT",
+                                "itemTypeId": 2,
+                                "itemType": "单选题",
+                                "itemMouldType": "SINGLE_CHOICE",
+                                "content": "下列词语中没有错别字的一项是<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"9.247ex\" height=\"3.343ex\" style=\"vertical-align: -1.171ex;\" viewBox=\"0 -934.9 3981.5 1439.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\kuohao</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">（</text>\n<g transform=\"translate(932,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(1865,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(3048,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">）</text>\n</g>\n</g>\n</svg></span>",
+                                "options": [
+                                    {
+                                        "id": 803846,
+                                        "itemId": "2020082838e51464fb1e4385bb5b3f1957ec1117",
+                                        "optionCode": "A",
+                                        "content": "忱头"
+                                    },
+                                    {
+                                        "id": 803847,
+                                        "itemId": "2020082838e51464fb1e4385bb5b3f1957ec1117",
+                                        "optionCode": "B",
+                                        "content": "枉费"
+                                    },
+                                    {
+                                        "id": 803848,
+                                        "itemId": "2020082838e51464fb1e4385bb5b3f1957ec1117",
+                                        "optionCode": "C",
+                                        "content": "朝笑"
+                                    },
+                                    {
+                                        "id": 803849,
+                                        "itemId": "2020082838e51464fb1e4385bb5b3f1957ec1117",
+                                        "optionCode": "D",
+                                        "content": "蚕茔"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "SPELLING_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "2020082838e51464fb1e4385bb5b3f1957ec1117",
+                                "itemInfo": {
+                                    "2020082838e51464fb1e4385bb5b3f1957ec1117": {
+                                        "showNo": "3",
+                                        "score": 1,
+                                        "requiredQuestion": false
+                                    }
+                                },
+                                "requiredQuestion": false
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "20200828226a435bf5624e598251f9172339f1f2",
+                            "isTargeted": false
+                        },
+                        {
+                            "data": {
+                                "itemId": "202008285442ae7fbff249079468b4b5a61c30fa",
+                                "status": "INIT",
+                                "itemTypeId": 2,
+                                "itemType": "单选题",
+                                "itemMouldType": "SINGLE_CHOICE",
+                                "content": "下列词语中没有错别字的一项是<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"9.247ex\" height=\"3.343ex\" style=\"vertical-align: -1.171ex;\" viewBox=\"0 -934.9 3981.5 1439.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\kuohao</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">（</text>\n<g transform=\"translate(932,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(1865,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(3048,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">）</text>\n</g>\n</g>\n</svg></span>",
+                                "options": [
+                                    {
+                                        "id": 803850,
+                                        "itemId": "202008285442ae7fbff249079468b4b5a61c30fa",
+                                        "optionCode": "A",
+                                        "content": "出稼"
+                                    },
+                                    {
+                                        "id": 803851,
+                                        "itemId": "202008285442ae7fbff249079468b4b5a61c30fa",
+                                        "optionCode": "B",
+                                        "content": "蜜唐"
+                                    },
+                                    {
+                                        "id": 803852,
+                                        "itemId": "202008285442ae7fbff249079468b4b5a61c30fa",
+                                        "optionCode": "C",
+                                        "content": "偏僻"
+                                    },
+                                    {
+                                        "id": 803853,
+                                        "itemId": "202008285442ae7fbff249079468b4b5a61c30fa",
+                                        "optionCode": "D",
+                                        "content": "蝅丝"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "SPELLING_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "202008285442ae7fbff249079468b4b5a61c30fa",
+                                "itemInfo": {
+                                    "202008285442ae7fbff249079468b4b5a61c30fa": {
+                                        "showNo": "4",
+                                        "score": 1,
+                                        "requiredQuestion": false
+                                    }
+                                },
+                                "requiredQuestion": false
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "202008282828cdef45fa4a4590f8c1a16fd85088",
+                            "isTargeted": false
+                        }
+                    ],
+                    "type": "GENERAL",
+                    "nodeId": "2020082817861a7cbe6147bb81a8b6f2dfb9243d",
+                    "isEdit": false,
+                    "isByJs": false,
+                    "isTargeted": false
+                },
+                {
+                    "data": null,
+                    "metadata": {
+                        "name": "第三节",
+                        "numberType": "DEFAULT"
+                    },
+                    "hidden": false,
+                    "nodes": [
+                        {
+                            "data": {
+                                "itemId": "202008288d5c902e7e514afb946d54995f5c9e7f",
+                                "status": "INIT",
+                                "itemTypeId": 2,
+                                "itemType": "单选题",
+                                "itemMouldType": "SINGLE_CHOICE",
+                                "content": "下列词语中，搭配不当的是<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"9.247ex\" height=\"3.343ex\" style=\"vertical-align: -1.171ex;\" viewBox=\"0 -934.9 3981.5 1439.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\kuohao</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">（</text>\n<g transform=\"translate(932,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(1865,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(3048,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">）</text>\n</g>\n</g>\n</svg></span>",
+                                "options": [
+                                    {
+                                        "id": 803854,
+                                        "itemId": "202008288d5c902e7e514afb946d54995f5c9e7f",
+                                        "optionCode": "A",
+                                        "content": "景色爽朗"
+                                    },
+                                    {
+                                        "id": 803855,
+                                        "itemId": "202008288d5c902e7e514afb946d54995f5c9e7f",
+                                        "optionCode": "B",
+                                        "content": "言谈爽朗"
+                                    },
+                                    {
+                                        "id": 803856,
+                                        "itemId": "202008288d5c902e7e514afb946d54995f5c9e7f",
+                                        "optionCode": "C",
+                                        "content": "脾气爽朗"
+                                    },
+                                    {
+                                        "id": 803857,
+                                        "itemId": "202008288d5c902e7e514afb946d54995f5c9e7f",
+                                        "optionCode": "D",
+                                        "content": "心胸爽朗"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "COLLOCATION_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "202008288d5c902e7e514afb946d54995f5c9e7f",
+                                "itemInfo": {
+                                    "202008288d5c902e7e514afb946d54995f5c9e7f": {
+                                        "showNo": "5",
+                                        "score": 1,
+                                        "requiredQuestion": false
+                                    }
+                                },
+                                "requiredQuestion": false
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "20200828a7041b5fcd5a4705aaa2b0e4023b3b5d",
+                            "isTargeted": false
+                        },
+                        {
+                            "data": {
+                                "itemId": "202008287f0f6a1a7d664e87820dc94cd0524bad",
+                                "status": "INIT",
+                                "itemTypeId": 2,
+                                "itemType": "单选题",
+                                "itemMouldType": "SINGLE_CHOICE",
+                                "content": "下列词语中，搭配不当的是<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"9.247ex\" height=\"3.343ex\" style=\"vertical-align: -1.171ex;\" viewBox=\"0 -934.9 3981.5 1439.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\kuohao</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">（</text>\n<g transform=\"translate(932,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(1865,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(3048,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">）</text>\n</g>\n</g>\n</svg></span>",
+                                "options": [
+                                    {
+                                        "id": 803858,
+                                        "itemId": "202008287f0f6a1a7d664e87820dc94cd0524bad",
+                                        "optionCode": "A",
+                                        "content": "公共事务"
+                                    },
+                                    {
+                                        "id": 803859,
+                                        "itemId": "202008287f0f6a1a7d664e87820dc94cd0524bad",
+                                        "optionCode": "B",
+                                        "content": "公共财产"
+                                    },
+                                    {
+                                        "id": 803860,
+                                        "itemId": "202008287f0f6a1a7d664e87820dc94cd0524bad",
+                                        "optionCode": "C",
+                                        "content": "公共结果"
+                                    },
+                                    {
+                                        "id": 803861,
+                                        "itemId": "202008287f0f6a1a7d664e87820dc94cd0524bad",
+                                        "optionCode": "D",
+                                        "content": "公共建筑"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "COLLOCATION_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "202008287f0f6a1a7d664e87820dc94cd0524bad",
+                                "itemInfo": {
+                                    "202008287f0f6a1a7d664e87820dc94cd0524bad": {
+                                        "showNo": "6",
+                                        "score": 1,
+                                        "requiredQuestion": false
+                                    }
+                                },
+                                "requiredQuestion": false
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "2020082800f3d5ce776b4cdd8eb96cb3e90a8c5c",
+                            "isTargeted": false
+                        }
+                    ],
+                    "type": "GENERAL",
+                    "nodeId": "20200828ad20074ffc1a4764baf6d7ae9ed7269d",
+                    "isEdit": false,
+                    "isByJs": false,
+                    "isTargeted": false
+                },
+                {
+                    "data": null,
+                    "metadata": {
+                        "name": "第四节",
+                        "numberType": "DEFAULT"
+                    },
+                    "hidden": false,
+                    "nodes": [
+                        {
+                            "data": {
+                                "itemId": "20200828f25dd1f7a08e45d5b9d91418be350755",
+                                "status": "INIT",
+                                "itemTypeId": 8,
+                                "itemType": "选词填空",
+                                "itemMouldType": "WORD_CHOOSE",
+                                "content": "<p>请选择合适的词语填入横线内：</p><p>（1）高明的师傅一定能教出技艺<abbr class=\"ql-topic-student-answer\"></abbr>的徒弟。</p><p>（2）我看不出他有什么<abbr class=\"ql-topic-student-answer\"></abbr>的地方。</p><p>（3）这是一座非常<abbr class=\"ql-topic-student-answer\"></abbr>的办公大楼。</p>",
+                                "options": [
+                                    {
+                                        "id": 803862,
+                                        "itemId": "20200828f25dd1f7a08e45d5b9d91418be350755",
+                                        "optionCode": "A",
+                                        "content": "高超"
+                                    },
+                                    {
+                                        "id": 803863,
+                                        "itemId": "20200828f25dd1f7a08e45d5b9d91418be350755",
+                                        "optionCode": "B",
+                                        "content": "高大"
+                                    },
+                                    {
+                                        "id": 803864,
+                                        "itemId": "20200828f25dd1f7a08e45d5b9d91418be350755",
+                                        "optionCode": "C",
+                                        "content": "高明"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "COLLOCATION_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "20200828f25dd1f7a08e45d5b9d91418be350755",
+                                "itemInfo": {
+                                    "20200828f25dd1f7a08e45d5b9d91418be350755": {
+                                        "showNo": "7",
+                                        "score": 1,
+                                        "requiredQuestion": false
+                                    }
+                                },
+                                "requiredQuestion": false
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "20200828c49e2ad722ed402ea23980f6dc07fd5b"
+                        },
+                        {
+                            "data": {
+                                "itemId": "20200828dfe920d504434ace8dad85862706e40a",
+                                "status": "INIT",
+                                "itemTypeId": 8,
+                                "itemType": "选词填空",
+                                "itemMouldType": "WORD_CHOOSE",
+                                "content": "<p>请选择合适的词语填入横线内：</p><p>（1）那时，他的<abbr class=\"ql-topic-student-answer\"></abbr>身份是书店经理。</p><p>（2）班主任<abbr class=\"ql-topic-student-answer\"></abbr>地说：“他不是最恰当的人选。”</p><p>（3）<abbr class=\"ql-topic-student-answer\"></abbr>场所容易传染流行性疾病。</p>",
+                                "options": [
+                                    {
+                                        "id": 803865,
+                                        "itemId": "20200828dfe920d504434ace8dad85862706e40a",
+                                        "optionCode": "A",
+                                        "content": "公开"
+                                    },
+                                    {
+                                        "id": 803866,
+                                        "itemId": "20200828dfe920d504434ace8dad85862706e40a",
+                                        "optionCode": "B",
+                                        "content": "公正"
+                                    },
+                                    {
+                                        "id": 803867,
+                                        "itemId": "20200828dfe920d504434ace8dad85862706e40a",
+                                        "optionCode": "C",
+                                        "content": "公共"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "COLLOCATION_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "20200828dfe920d504434ace8dad85862706e40a",
+                                "itemInfo": {
+                                    "20200828dfe920d504434ace8dad85862706e40a": {
+                                        "showNo": "8",
+                                        "score": 1,
+                                        "requiredQuestion": false
+                                    }
+                                },
+                                "requiredQuestion": false
+                            },
+                            "hidden": false,
+                            "nodes": [],
+                            "type": "ITEM",
+                            "nodeId": "20200828986a822f41cb41aa8c4d2d7ffbdb1128"
+                        }
+                    ],
+                    "type": "GENERAL",
+                    "nodeId": "202008289085eafadcef402cbca71ce97af574de",
+                    "isEdit": false,
+                    "isByJs": false,
+                    "isTargeted": true
+                }
+            ],
+            "updateTimeMillis": 1598606982659,
+            "publicLectureVersion": 0,
+            "numberType": "PATTERN_THREE",
+            "requiredQuestion": false
+        },
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/20200727ae82921126f348148fb45546167aa23e/chapter/20200727dd6edbb6419f43fd9ac1248483ebcd60/mainTeachingCase/20200828cc31dc4877c1432997fd9493cc017626?mainType=zuJian&seacondary=POST_TEST&chapterName=111",
+            "Access-Control-Allow-Headers": "NCZ",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Content-Type": "application/json;charset=UTF-8",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=MTZmN2M2MDEtNWI3Ny00MjIxLTk2ZjAtNWY0MWM5NzUwZDQ1"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v3/lecture/20200828cc31dc4877c1432997fd9493cc017626",
+        "method": "PUT"
+    }
+}
