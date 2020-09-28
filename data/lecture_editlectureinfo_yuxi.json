@@ -1,135 +1,275 @@
 {
-    "name": "/tr/api/tr/v3/lecture/20200828cc4c5fb9c48c4ef293b323021fdfb345",
+    "name": "/tr/api/tr/v3/lecture/202009289ef6896910f941969898f6f9e566bb9c",
     "request": {
         "json": {
             "lecture": {
-                "id": "20200828cc4c5fb9c48c4ef293b323021fdfb345",
-                "name": "圆的概念-预习及预习测",
+                "id": "202009289ef6896910f941969898f6f9e566bb9c",
+                "name": "232-预习及预习测",
                 "regionId": 153,
                 "yearId": 10241,
                 "yearName": null,
-                "subjectId": 8,
+                "subjectId": 5,
                 "subjectName": null,
-                "periodId": 10002,
-                "gradeId": 21,
+                "periodId": 100000282,
+                "gradeId": 3,
                 "gradeName": null,
-                "seasonId": 10009,
+                "seasonId": 10007,
                 "seasonName": null,
-                "productCode": "DOUBLE_TEACHER",
+                "productCode": "HI_STUDY-FULLFILL_CLASS",
                 "status": "AVAILABLE",
                 "readOnly": false,
                 "mainTeachingCaseSchedule": null
             },
             "nodes": [
                 {
-                    "data": null,
-                    "metadata": {
-                        "name": "预习微课",
-                        "numberType": "DEFAULT"
-                    },
-                    "hidden": false,
                     "nodes": [
                         {
+                            "nodes": [],
+                            "nodeId": "2020092847054967478a4ef7a61f24c1771c8593",
+                            "type": "HYPER_TEXT",
                             "data": {
-                                "content": "<p style=\"text-indent: 2em;\">鸦片战争展现在中国人眼前的第一个形象就是西洋人的坚船的迅速、利炮的声势&hellip;&hellip;在两年多的时间里，中国调动了十多万军队，先后有一名总督（裕谦）、两名提督（关天培、陈化成）、七名总兵（张朝发、祥福、江继芸、郑国鸿、王锡朋、葛云飞、谢朝恩）、二名都统（海龄、长喜）以及数千名士兵死于战争。但英国远征军的战死人数据英方统计不足百人，这显现了中国与西方之间巨大的落差。</p>",
-                                "contentTextId": "20200828b2042939b8c1444a984149273ad7288e",
-                                "originalContent": "<p style=\"text-indent: 2em;\">鸦片战争展现在中国人眼前的第一个形象就是西洋人的坚船的迅速、利炮的声势&hellip;&hellip;在两年多的时间里，中国调动了十多万军队，先后有一名总督（裕谦）、两名提督（关天培、陈化成）、七名总兵（张朝发、祥福、江继芸、郑国鸿、王锡朋、葛云飞、谢朝恩）、二名都统（海龄、长喜）以及数千名士兵死于战争。但英国远征军的战死人数据英方统计不足百人，这显现了中国与西方之间巨大的落差。</p>",
-                                "pictureList": null,
-                                "lectureTemplateId": null
+                                "contentTextId": "20200928d7f6a709dc914135b222c16a33b0f9d6",
+                                "originalContent": "<p>【材料一】如今，我所能做的，就是尽可能多地回去陪伴父母，多为他们提供几次为我送行，向我唠叨的机会&mdash;&mdash;这也许是我能为父母做的最后的事。</p><p>【材料二】《孔子家语》：“树欲静而风不止，子欲养而亲不待”。</p><p>【材料三】我北来后，他写了一信给我，信中说道：“我身体平安，惟膀子疼痛厉害，举箸提笔，诸多不便，大约大去之期不远矣。”我读到此处，在晶莹的泪光中，又看见那肥胖的、青布棉袍黑布马褂的背影。唉！我不知何时再能与他相见！&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</p><p style=\"text-align: right;\">&nbsp; &mdash;&mdash;朱自清《背影》</p>",
+                                "content": "<p>【材料一】如今，我所能做的，就是尽可能多地回去陪伴父母，多为他们提供几次为我送行，向我唠叨的机会&mdash;&mdash;这也许是我能为父母做的最后的事。</p><p>【材料二】《孔子家语》：“树欲静而风不止，子欲养而亲不待”。</p><p>【材料三】我北来后，他写了一信给我，信中说道：“我身体平安，惟膀子疼痛厉害，举箸提笔，诸多不便，大约大去之期不远矣。”我读到此处，在晶莹的泪光中，又看见那肥胖的、青布棉袍黑布马褂的背影。唉！我不知何时再能与他相见！&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</p><p style=\"text-align: right;\">&nbsp; &mdash;&mdash;朱自清《背影》</p>",
+                                "pictureList": [],
+                                "lectureTemplateId": "2020092847054967478a4ef7a61f24c1771c8593"
                             },
                             "metadata": {
-                                "referenceId": "20200828b2042939b8c1444a984149273ad7288e",
+                                "referenceId": "20200928d7f6a709dc914135b222c16a33b0f9d6",
+                                "snapshot": false,
                                 "requiredQuestion": true
                             },
                             "hidden": false,
-                            "nodes": [],
-                            "type": "HYPER_TEXT",
-                            "nodeId": "2020082863ce02435a744b359dabdf77322fc358",
-                            "isEdit": false,
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
                             "isTargeted": false
                         },
                         {
+                            "nodes": [],
+                            "nodeId": "2020092806d1db4268594952b60c9d48c5fe2ec8",
+                            "type": "AUDIO",
                             "data": {
-                                "id": "20200828e1c7f80603464ba5a74156aafbeb9b6b",
+                                "id": "202009285e4dc49050574379aaa64f0f50b5e1cb",
                                 "originalName": "示范音频.mp3",
                                 "audioName": "示范音频.mp3",
-                                "linkUrl": "https://image01.cdn.klxuexi.com/resource/tr/courseware/20200828A9FF88140BAB08B1AAF339BEDC406C32/示范音频.mp3",
-                                "audioType": null,
+                                "linkUrl": "https://image01.cdn.klxuexi.com/resource/tr/courseware/202009284AD37BE1761C492EFA4AB8BB4AC9EBFD/示范音频.mp3",
                                 "businessType": "audio",
-                                "status": "AVAILABLE",
-                                "duration": null,
                                 "fileLength": 8853850
                             },
                             "metadata": {
-                                "referenceId": "20200828e1c7f80603464ba5a74156aafbeb9b6b",
+                                "referenceId": "202009285e4dc49050574379aaa64f0f50b5e1cb",
+                                "snapshot": false,
                                 "requiredQuestion": true
                             },
                             "hidden": false,
-                            "nodes": [],
-                            "type": "AUDIO",
-                            "nodeId": "20200828307669481d6841ffa53b5eb64e342c1d",
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
                             "isTargeted": false
                         },
                         {
+                            "nodes": [],
+                            "nodeId": "2020092844d995922b4c4886a2f542adde638270",
+                            "type": "VIDEO",
                             "data": {
-                                "id": "20200828a0c8936811a24dbdb266b07f8a3b8d2e",
-                                "videoUrl": null,
-                                "statusCode": 1,
+                                "id": "20200928172c56675a5e445d893af00ee9ae45f7",
                                 "sourceType": "dingdang",
-                                "createTime": "2020-08-28T16:59:21.000+0800",
-                                "updateTime": null,
-                                "updateUser": null,
-                                "createUser": "gongyq",
-                                "videoName": "示范视频2",
-                                "fileName": "示范视频2.mp4",
-                                "videoNo": "15eaf0b5f35d499d86ea6f87bda73b49",
+                                "videoName": "20200226a2d7d0e96f5241dbbd381d7e0a92e385",
+                                "fileName": "20200226a2d7d0e96f5241dbbd381d7e0a92e385.MP4",
+                                "videoNo": "47e04401b6e9490980b031dc4eda673d",
                                 "videoTimeLength": null,
-                                "defaultShow": false,
-                                "fileLength": 9124352,
-                                "videoCover": null
+                                "fileLength": 4892402
                             },
                             "metadata": {
-                                "referenceId": "20200828a0c8936811a24dbdb266b07f8a3b8d2e",
+                                "referenceId": "20200928172c56675a5e445d893af00ee9ae45f7",
+                                "snapshot": false,
                                 "requiredQuestion": true
                             },
                             "hidden": false,
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
+                            "isTargeted": false
+                        }
+                    ],
+                    "nodeId": "202009289c7d76e52664420da230a661c4474dae",
+                    "type": "GENERAL",
+                    "data": null,
+                    "metadata": {
+                        "name": "预习微课",
+                        "numberType": "DEFAULT",
+                        "snapshot": false
+                    },
+                    "hidden": false,
+                    "mark": "DEFAULT",
+                    "printBlankLine": null,
+                    "isTargeted": false,
+                    "isByJs": false
+                },
+                {
+                    "nodes": [
+                        {
                             "nodes": [],
-                            "type": "VIDEO",
-                            "nodeId": "20200828b33ae96ed1d646f5bddebc7ba00c4fdb",
+                            "nodeId": "2020092890efb3b521464925966d06dc77ef7e8d",
+                            "type": "ITEM",
+                            "data": {
+                                "itemId": "20200928b66f865a6cb44e07a16d223deac38308",
+                                "status": "INIT",
+                                "itemTypeId": 2,
+                                "itemType": "单选题",
+                                "itemMouldType": "SINGLE_CHOICE",
+                                "content": "下列加点字中，读音正确的是<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"9.247ex\" height=\"3.343ex\" style=\"vertical-align: -1.171ex;\" viewBox=\"0 -934.9 3981.5 1439.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\kuohao</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">（</text>\n<g transform=\"translate(932,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(1865,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(3048,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">）</text>\n</g>\n</g>\n</svg></span>",
+                                "options": [
+                                    {
+                                        "id": 804710,
+                                        "itemId": "20200928b66f865a6cb44e07a16d223deac38308",
+                                        "optionCode": "A",
+                                        "content": "形<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{态}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">态</text>\n</g>\n</g>\n</svg></span>(tài)各异"
+                                    },
+                                    {
+                                        "id": 804711,
+                                        "itemId": "20200928b66f865a6cb44e07a16d223deac38308",
+                                        "optionCode": "B",
+                                        "content": "<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{作}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">作</text>\n</g>\n</g>\n</svg></span>(zuò)坊"
+                                    },
+                                    {
+                                        "id": 804712,
+                                        "itemId": "20200928b66f865a6cb44e07a16d223deac38308",
+                                        "optionCode": "C",
+                                        "content": "马<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{笼}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">笼</text>\n</g>\n</g>\n</svg></span>(lǒng)头"
+                                    },
+                                    {
+                                        "id": 804713,
+                                        "itemId": "20200928b66f865a6cb44e07a16d223deac38308",
+                                        "optionCode": "D",
+                                        "content": "小<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{摊}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">摊</text>\n</g>\n</g>\n</svg></span>(nán)"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "SPELLING_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "20200928b66f865a6cb44e07a16d223deac38308",
+                                "snapshot": false,
+                                "itemInfo": {
+                                    "20200928b66f865a6cb44e07a16d223deac38308": {
+                                        "itemId": null,
+                                        "score": 1,
+                                        "showNo": "1",
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    }
+                                },
+                                "requiredQuestion": true
+                            },
+                            "hidden": false,
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
+                            "isTargeted": false
+                        },
+                        {
+                            "nodes": [],
+                            "nodeId": "20200928b47cad3546ae4587a6f94b3ffbc45123",
+                            "type": "ITEM",
+                            "data": {
+                                "itemId": "2020092849af3c2d69b64b2e862ec66475c8ffd9",
+                                "status": "INIT",
+                                "itemTypeId": 2,
+                                "itemType": "单选题",
+                                "itemMouldType": "SINGLE_CHOICE",
+                                "content": "下列加点字中，读音正确的是<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"9.247ex\" height=\"3.343ex\" style=\"vertical-align: -1.171ex;\" viewBox=\"0 -934.9 3981.5 1439.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\kuohao</title>\n<defs aria-hidden=\"true\"></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">（</text>\n<g transform=\"translate(932,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(1865,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">　</text>\n</g>\n<g transform=\"translate(3048,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">）</text>\n</g>\n</g>\n</svg></span>",
+                                "options": [
+                                    {
+                                        "id": 804718,
+                                        "itemId": "2020092849af3c2d69b64b2e862ec66475c8ffd9",
+                                        "optionCode": "A",
+                                        "content": "<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{都}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">都</text>\n</g>\n</g>\n</svg></span>(dōu)城"
+                                    },
+                                    {
+                                        "id": 804719,
+                                        "itemId": "2020092849af3c2d69b64b2e862ec66475c8ffd9",
+                                        "optionCode": "B",
+                                        "content": "一<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{寸}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">寸</text>\n</g>\n</g>\n</svg></span>(chùn)"
+                                    },
+                                    {
+                                        "id": 804720,
+                                        "itemId": "2020092849af3c2d69b64b2e862ec66475c8ffd9",
+                                        "optionCode": "C",
+                                        "content": "马<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{笼}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">笼</text>\n</g>\n</g>\n</svg></span>(lóng)头"
+                                    },
+                                    {
+                                        "id": 804721,
+                                        "itemId": "2020092849af3c2d69b64b2e862ec66475c8ffd9",
+                                        "optionCode": "D",
+                                        "content": "故<span class=\"mathjax-svg-block sdfsdfsdfdsf\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.516ex\" height=\"4.176ex\" style=\"vertical-align: -1.701ex; margin-bottom: -0.304ex;\" viewBox=\"0 -934.9 1083.2 1798\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"MathJax-SVG-1-Title\">\n<title id=\"MathJax-SVG-1-Title\">\\d{宫}</title>\n<defs aria-hidden=\"true\">\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\" aria-hidden=\"true\">\n<g transform=\"translate(300,0)\">\n<g>\n <use transform=\"scale(0.7)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"0\" y=\"-1100\"></use>\n</g>\n</g>\n<g transform=\"translate(150,0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.759) matrix(1 0 0 -1 0 0)\">宫</text>\n</g>\n</g>\n</svg></span>(kōng)"
+                                    }
+                                ],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": true,
+                                "source": "SPELLING_ITEM",
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "2020092849af3c2d69b64b2e862ec66475c8ffd9",
+                                "snapshot": false,
+                                "itemInfo": {
+                                    "2020092849af3c2d69b64b2e862ec66475c8ffd9": {
+                                        "itemId": null,
+                                        "score": 1,
+                                        "showNo": "2",
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    }
+                                },
+                                "requiredQuestion": true
+                            },
+                            "hidden": false,
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
                             "isTargeted": true
                         },
                         {
                             "data": {
-                                "itemId": "57a84766def297386243013d",
+                                "itemId": "20180710f288c5d1aadb49cb9de6a2126e5d317b",
                                 "status": "AVAILABLE",
-                                "itemTypeId": 2,
-                                "itemType": "单选题",
-                                "itemMouldType": "SINGLE_CHOICE",
-                                "content": "已知&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1.162ex\" height=\"2.169ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -788.7 500.5 933.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E1-MJMAIN-32\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>&nbsp;弧度的圆心角所对的弦长为&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1.162ex\" height=\"2.169ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -788.7 500.5 933.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E2-MJMAIN-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E2-MJMAIN-32\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>&nbsp;,则这个圆心角所对的弧长是&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.454ex\" height=\"2.833ex\" style=\"vertical-align: -0.835ex;\" viewBox=\"0 -860.2 2779 1219.9\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-28\" d=\"M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-29\" d=\"M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E3-MJMAIN-28\" x=\"0\" y=\"0\"></use>\n <use xlink:href=\"#E3-MJMAIN-29\" x=\"2389\" y=\"0\"></use>\n</g>\n</svg></span>",
+                                "itemTypeId": 3,
+                                "itemType": "多选题",
+                                "itemMouldType": "MULTIPLE_CHOICE",
+                                "content": "这是集合的题干<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"12.559ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 5407.3 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n<g transform=\"translate(494.58288434456483,0) scale(8.834231310870361,1)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E1-MJMAIN-2013\" x=\"4906\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>.",
                                 "options": [
                                     {
-                                        "id": 184387,
-                                        "itemId": "57a84766def297386243013d",
+                                        "id": 366471,
+                                        "itemId": "20180710f288c5d1aadb49cb9de6a2126e5d317b",
                                         "optionCode": "A",
-                                        "content": "\\(2\\)"
+                                        "content": "选项A"
                                     },
                                     {
-                                        "id": 184388,
-                                        "itemId": "57a84766def297386243013d",
+                                        "id": 366472,
+                                        "itemId": "20180710f288c5d1aadb49cb9de6a2126e5d317b",
                                         "optionCode": "B",
-                                        "content": "<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"4.405ex\" height=\"2.169ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -788.7 1896.7 933.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-73\" d=\"M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-69\" d=\"M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-6E\" d=\"M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q450 438 463 329Q464 322 464 190V104Q464 66 466 59T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E1-MJMAIN-73\"></use>\n <use xlink:href=\"#E1-MJMAIN-69\" x=\"394\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMAIN-6E\" x=\"673\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMAIN-32\" x=\"1396\" y=\"0\"></use>\n</g>\n</svg></span>"
+                                        "content": "选项B"
                                     },
                                     {
-                                        "id": 184389,
-                                        "itemId": "57a84766def297386243013d",
+                                        "id": 366473,
+                                        "itemId": "20180710f288c5d1aadb49cb9de6a2126e5d317b",
                                         "optionCode": "C",
-                                        "content": "<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"5.241ex\" height=\"5.159ex\" style=\"vertical-align: -1.832ex;\" viewBox=\"0 -1432.4 2256.7 2221.1\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-73\" d=\"M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-69\" d=\"M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-6E\" d=\"M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q450 438 463 329Q464 322 464 190V104Q464 66 466 59T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(120,0)\">\n<rect stroke=\"none\" width=\"2016\" height=\"60\" x=\"0\" y=\"220\"></rect>\n <use xlink:href=\"#E1-MJMAIN-32\" x=\"758\" y=\"676\"></use>\n<g transform=\"translate(60,-689)\">\n <use xlink:href=\"#E1-MJMAIN-73\"></use>\n <use xlink:href=\"#E1-MJMAIN-69\" x=\"394\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMAIN-6E\" x=\"673\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMAIN-31\" x=\"1396\" y=\"0\"></use>\n</g>\n</g>\n</g>\n</svg></span>"
+                                        "content": "选项C"
                                     },
                                     {
-                                        "id": 184390,
-                                        "itemId": "57a84766def297386243013d",
+                                        "id": 366474,
+                                        "itemId": "20180710f288c5d1aadb49cb9de6a2126e5d317b",
                                         "optionCode": "D",
-                                        "content": "<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"5.955ex\" height=\"2.169ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -788.7 2563.8 933.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-73\" d=\"M295 316Q295 356 268 385T190 414Q154 414 128 401Q98 382 98 349Q97 344 98 336T114 312T157 287Q175 282 201 278T245 269T277 256Q294 248 310 236T342 195T359 133Q359 71 321 31T198 -10H190Q138 -10 94 26L86 19L77 10Q71 4 65 -1L54 -11H46H42Q39 -11 33 -5V74V132Q33 153 35 157T45 162H54Q66 162 70 158T75 146T82 119T101 77Q136 26 198 26Q295 26 295 104Q295 133 277 151Q257 175 194 187T111 210Q75 227 54 256T33 318Q33 357 50 384T93 424T143 442T187 447H198Q238 447 268 432L283 424L292 431Q302 440 314 448H322H326Q329 448 335 442V310L329 304H301Q295 310 295 316Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-69\" d=\"M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-6E\" d=\"M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q450 438 463 329Q464 322 464 190V104Q464 66 466 59T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E1-MJMAIN-32\" x=\"0\" y=\"0\"></use>\n<g transform=\"translate(667,0)\">\n <use xlink:href=\"#E1-MJMAIN-73\"></use>\n <use xlink:href=\"#E1-MJMAIN-69\" x=\"394\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMAIN-6E\" x=\"673\" y=\"0\"></use>\n</g>\n <use xlink:href=\"#E1-MJMAIN-31\" x=\"2063\" y=\"0\"></use>\n</g>\n</svg></span>"
+                                        "content": "选项D"
                                     }
                                 ],
                                 "diffLevelValue": 3,
@@ -143,79 +283,9 @@
                                 "itemScore": 1
                             },
                             "metadata": {
-                                "referenceId": "57a84766def297386243013d",
+                                "referenceId": "20180710f288c5d1aadb49cb9de6a2126e5d317b",
                                 "itemInfo": {
-                                    "57a84766def297386243013d": {
-                                        "showNo": "1",
-                                        "score": 1,
-                                        "requiredQuestion": true
-                                    }
-                                },
-                                "requiredQuestion": true
-                            },
-                            "hidden": false,
-                            "nodes": [],
-                            "type": "ITEM",
-                            "nodeId": "2020082800259867fa4e4c47b53e43a7cdeeece1"
-                        },
-                        {
-                            "data": {
-                                "itemId": "575d6422def29730398c0835",
-                                "status": "AVAILABLE",
-                                "itemTypeId": 1,
-                                "itemType": "填空题",
-                                "itemMouldType": "EXPLANATION",
-                                "content": "在平面直角坐标系中，当&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"7.461ex\" height=\"2.833ex\" style=\"vertical-align: -0.835ex;\" viewBox=\"0 -860.2 3212.3 1219.9\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMATHI-50\" d=\"M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-28\" d=\"M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMATHI-78\" d=\"M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2C\" d=\"M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMATHI-79\" d=\"M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-29\" d=\"M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E1-MJMATHI-50\" x=\"0\" y=\"0\"></use>\n<g transform=\"translate(918,0)\">\n <use xlink:href=\"#E1-MJMAIN-28\" x=\"0\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMATHI-78\" x=\"389\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMAIN-2C\" x=\"962\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMATHI-79\" x=\"1407\" y=\"0\"></use>\n <use xlink:href=\"#E1-MJMAIN-29\" x=\"1904\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>&nbsp;不是原点时，定义&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1.745ex\" height=\"2.169ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -788.7 751.5 933.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E2-MJMATHI-50\" d=\"M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E2-MJMATHI-50\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>&nbsp;的“伴随点”为&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"23.138ex\" height=\"6.155ex\" style=\"vertical-align: -2.496ex;\" viewBox=\"0 -1575.5 9962.1 2650.3\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E3-MJMATHI-50\" d=\"M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-28\" d=\"M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMATHI-79\" d=\"M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMATHI-78\" d=\"M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-2B\" d=\"M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-2C\" d=\"M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-2212\" d=\"M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-29\" d=\"M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJSZ3-28\" d=\"M701 -940Q701 -943 695 -949H664Q662 -947 636 -922T591 -879T537 -818T475 -737T412 -636T350 -511T295 -362T250 -186T221 17T209 251Q209 962 573 1361Q596 1386 616 1405T649 1437T664 1450H695Q701 1444 701 1441Q701 1436 681 1415T629 1356T557 1261T476 1118T400 927T340 675T308 359Q306 321 306 250Q306 -139 400 -430T690 -924Q701 -936 701 -940Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJSZ3-29\" d=\"M34 1438Q34 1446 37 1448T50 1450H56H71Q73 1448 99 1423T144 1380T198 1319T260 1238T323 1137T385 1013T440 864T485 688T514 485T526 251Q526 134 519 53Q472 -519 162 -860Q139 -885 119 -904T86 -936T71 -949H56Q43 -949 39 -947T34 -937Q88 -883 140 -813Q428 -430 428 251Q428 453 402 628T338 922T245 1146T145 1309T46 1425Q44 1427 42 1429T39 1433T36 1436L34 1438Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E3-MJMATHI-50\" x=\"0\" y=\"0\"></use>\n<g transform=\"translate(918,0)\">\n <use xlink:href=\"#E3-MJSZ3-28\"></use>\n<g transform=\"translate(736,0)\">\n<g transform=\"translate(120,0)\">\n<rect stroke=\"none\" width=\"3322\" height=\"60\" x=\"0\" y=\"220\"></rect>\n <use xlink:href=\"#E3-MJMATHI-79\" x=\"1412\" y=\"724\"></use>\n<g transform=\"translate(60,-780)\">\n <use xlink:href=\"#E3-MJMATHI-78\" x=\"0\" y=\"0\"></use>\n <use transform=\"scale(0.707)\" xlink:href=\"#E3-MJMAIN-32\" x=\"809\" y=\"408\"></use>\n <use xlink:href=\"#E3-MJMAIN-2B\" x=\"1248\" y=\"0\"></use>\n<g transform=\"translate(2249,0)\">\n <use xlink:href=\"#E3-MJMATHI-79\" x=\"0\" y=\"0\"></use>\n <use transform=\"scale(0.707)\" xlink:href=\"#E3-MJMAIN-32\" x=\"706\" y=\"408\"></use>\n</g>\n</g>\n</g>\n</g>\n <use xlink:href=\"#E3-MJMAIN-2C\" x=\"4299\" y=\"0\"></use>\n<g transform=\"translate(4744,0)\">\n<g transform=\"translate(120,0)\">\n<rect stroke=\"none\" width=\"3322\" height=\"60\" x=\"0\" y=\"220\"></rect>\n<g transform=\"translate(985,676)\">\n <use xlink:href=\"#E3-MJMAIN-2212\" x=\"0\" y=\"0\"></use>\n <use xlink:href=\"#E3-MJMATHI-78\" x=\"778\" y=\"0\"></use>\n</g>\n<g transform=\"translate(60,-780)\">\n <use xlink:href=\"#E3-MJMATHI-78\" x=\"0\" y=\"0\"></use>\n <use transform=\"scale(0.707)\" xlink:href=\"#E3-MJMAIN-32\" x=\"809\" y=\"408\"></use>\n <use xlink:href=\"#E3-MJMAIN-2B\" x=\"1248\" y=\"0\"></use>\n<g transform=\"translate(2249,0)\">\n <use xlink:href=\"#E3-MJMATHI-79\" x=\"0\" y=\"0\"></use>\n <use transform=\"scale(0.707)\" xlink:href=\"#E3-MJMAIN-32\" x=\"706\" y=\"408\"></use>\n</g>\n</g>\n</g>\n</g>\n <use xlink:href=\"#E3-MJSZ3-29\" x=\"8307\" y=\"-1\"></use>\n</g>\n</g>\n</svg></span>，当&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1.745ex\" height=\"2.169ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -788.7 751.5 933.8\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E4-MJMATHI-50\" d=\"M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E4-MJMATHI-50\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>&nbsp;是原点时，定义“伴随点”为它自身，现有下列命题：①&nbsp;若点&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1.743ex\" height=\"2.335ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -860.2 750.5 1005.3\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E5-MJMATHI-41\" d=\"M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E5-MJMATHI-41\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>&nbsp;的“伴随点”是点&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.428ex\" height=\"2.335ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -860.2 1045.3 1005.3\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E6-MJMATHI-41\" d=\"M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z\"></path>\n<path stroke-width=\"1\" id=\"E6-MJMAIN-2032\" d=\"M79 43Q73 43 52 49T30 61Q30 68 85 293T146 528Q161 560 198 560Q218 560 240 545T262 501Q262 496 260 486Q259 479 173 263T84 45T79 43Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E6-MJMATHI-41\" x=\"0\" y=\"0\"></use>\n <use transform=\"scale(0.707)\" xlink:href=\"#E6-MJMAIN-2032\" x=\"1061\" y=\"513\"></use>\n</g>\n</svg></span>，则点&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.428ex\" height=\"2.335ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -860.2 1045.3 1005.3\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E7-MJMATHI-41\" d=\"M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z\"></path>\n<path stroke-width=\"1\" id=\"E7-MJMAIN-2032\" d=\"M79 43Q73 43 52 49T30 61Q30 68 85 293T146 528Q161 560 198 560Q218 560 240 545T262 501Q262 496 260 486Q259 479 173 263T84 45T79 43Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E7-MJMATHI-41\" x=\"0\" y=\"0\"></use>\n <use transform=\"scale(0.707)\" xlink:href=\"#E7-MJMAIN-2032\" x=\"1061\" y=\"513\"></use>\n</g>\n</svg></span>&nbsp;的“伴随点”是点&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1.743ex\" height=\"2.335ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -860.2 750.5 1005.3\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E8-MJMATHI-41\" d=\"M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E8-MJMATHI-41\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>．②单位圆上的“伴随点”还在单位圆上．③若两点关于&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1.33ex\" height=\"1.67ex\" style=\"vertical-align: -0.337ex;\" viewBox=\"0 -574.2 572.5 719.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E9-MJMATHI-78\" d=\"M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E9-MJMATHI-78\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>&nbsp;轴对称，则他们的“伴随点”关于&nbsp;<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1.155ex\" height=\"2.003ex\" style=\"vertical-align: -0.669ex;\" viewBox=\"0 -574.2 497.5 862.2\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E10-MJMATHI-79\" d=\"M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E10-MJMATHI-79\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>&nbsp;轴对称④若三点在同一条直线上，则他们的“伴随点”一定共线其中的真命题是(    )．",
-                                "options": [],
-                                "diffLevelValue": 5,
-                                "subItems": [],
-                                "like": false,
-                                "readOnly": true,
-                                "source": null,
-                                "reviewAnswer": true,
-                                "phoneticSymbol": null,
-                                "translation": null,
-                                "itemScore": 1
-                            },
-                            "metadata": {
-                                "referenceId": "575d6422def29730398c0835",
-                                "itemInfo": {
-                                    "575d6422def29730398c0835": {
-                                        "showNo": "2",
-                                        "score": 1,
-                                        "requiredQuestion": true
-                                    }
-                                },
-                                "requiredQuestion": true
-                            },
-                            "hidden": false,
-                            "nodes": [],
-                            "type": "ITEM",
-                            "nodeId": "2020082884dc6121bdc145088bbeafea5e07daa5"
-                        },
-                        {
-                            "data": {
-                                "itemId": "2019061260577c91238842d093b78424f1716eb7",
-                                "status": "AVAILABLE",
-                                "itemTypeId": 1,
-                                "itemType": "填空题",
-                                "itemMouldType": "EXPLANATION",
-                                "content": "△ABC的顶点A（－5，0），B（5，0），△ABC的内切圆圆心在直线x＝3上，则顶点C的轨迹方程是________．\n<img align=\"absmiddle\" width=\"172\" height=\"144\" id=\"图片24\" src=\"//klxxcdn.oss-cn-hangzhou.aliyuncs.com/histudy/st/assets/image/gzsx/20181217/1283f987fbd147d885fe0fc794666b34/content/content.files/image001.png?636806487843623884\">",
-                                "options": [],
-                                "diffLevelValue": 1,
-                                "subItems": [],
-                                "like": false,
-                                "readOnly": true,
-                                "source": null,
-                                "reviewAnswer": true,
-                                "phoneticSymbol": null,
-                                "translation": null,
-                                "itemScore": 1
-                            },
-                            "metadata": {
-                                "referenceId": "2019061260577c91238842d093b78424f1716eb7",
-                                "itemInfo": {
-                                    "2019061260577c91238842d093b78424f1716eb7": {
+                                    "20180710f288c5d1aadb49cb9de6a2126e5d317b": {
                                         "showNo": "3",
                                         "score": 1,
                                         "requiredQuestion": true
@@ -226,24 +296,314 @@
                             "hidden": false,
                             "nodes": [],
                             "type": "ITEM",
-                            "nodeId": "202008282fdeb4f9c08543bbb1e01fbea413c700"
+                            "nodeId": "202009282c6e58f7741541fd9a897f9f892cdd38"
+                        },
+                        {
+                            "nodes": [],
+                            "nodeId": "202009281d088e60393442f681de8fa8c84bfba8",
+                            "type": "ITEM",
+                            "data": {
+                                "itemId": "20191217c879984ee77048efa30117cce4ee8205",
+                                "status": "INIT",
+                                "itemTypeId": 4,
+                                "itemType": "解答题",
+                                "itemMouldType": "EXPLANATION",
+                                "content": "解释词语。（1）狡猾：<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"31.394ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 13516.7 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n<g transform=\"translate(486.457210861412,0) scale(25.085578277175905,1)\">\n <use xlink:href=\"#E1-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E1-MJMAIN-2013\" x=\"13016\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>（2）眉开眼笑：<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"31.394ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 13516.7 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E2-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E2-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E2-MJMAIN-2013\"></use>\n<g transform=\"translate(486.457210861412,0) scale(25.085578277175905,1)\">\n <use xlink:href=\"#E2-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E2-MJMAIN-2013\" x=\"13016\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>",
+                                "options": [],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": false,
+                                "source": null,
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "20191217c879984ee77048efa30117cce4ee8205",
+                                "snapshot": false,
+                                "itemInfo": {
+                                    "20191217c879984ee77048efa30117cce4ee8205": {
+                                        "itemId": null,
+                                        "score": 1,
+                                        "showNo": "4",
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    }
+                                },
+                                "requiredQuestion": true
+                            },
+                            "hidden": false,
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
+                            "isTargeted": false
+                        },
+                        {
+                            "nodes": [],
+                            "nodeId": "2020092827750744ce604d8bb8ed1311b7fa2815",
+                            "type": "ITEM",
+                            "data": {
+                                "itemId": "20191217255890c9f8ca4ec19d7c7f5bdf57503e",
+                                "status": "INIT",
+                                "itemTypeId": 1,
+                                "itemType": "填空题",
+                                "itemMouldType": "EXPLANATION",
+                                "content": "文常知识填空。A．《天净沙<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"0.647ex\" height=\"1.172ex\" style=\"vertical-align: 0.439ex; margin-bottom: -0.61ex;\" viewBox=\"0 -431.1 278.5 504.6\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-22C5\" d=\"M78 250Q78 274 95 292T138 310Q162 310 180 294T199 251Q199 226 182 208T139 190T96 207T78 250Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n <use xlink:href=\"#E1-MJMAIN-22C5\" x=\"0\" y=\"0\"></use>\n</g>\n</svg></span>秋思》的作者是<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.281ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 2704.1 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E2-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E2-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E2-MJMAIN-2013\"></use>\n<g transform=\"translate(497.2914421722824,0) scale(3.4171156554351807,1)\">\n <use xlink:href=\"#E2-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E2-MJMAIN-2013\" x=\"2203\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>，他与<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.281ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 2704.1 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E3-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E3-MJMAIN-2013\"></use>\n<g transform=\"translate(497.2914421722824,0) scale(3.4171156554351807,1)\">\n <use xlink:href=\"#E3-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E3-MJMAIN-2013\" x=\"2203\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>、郑光祖、白朴被称为“元曲四大家”。其中，<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.281ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 2704.1 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E4-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E4-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E4-MJMAIN-2013\"></use>\n<g transform=\"translate(497.2914421722824,0) scale(3.4171156554351807,1)\">\n <use xlink:href=\"#E4-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E4-MJMAIN-2013\" x=\"2203\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>是元杂剧的奠基人，为“元曲四大家”之首，其代表作品有<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.281ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 2704.1 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E5-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E5-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E5-MJMAIN-2013\"></use>\n<g transform=\"translate(497.2914421722824,0) scale(3.4171156554351807,1)\">\n <use xlink:href=\"#E5-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E5-MJMAIN-2013\" x=\"2203\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>。（写出一个即可）B．《三国演义》的作者是<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.281ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 2704.1 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E6-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E6-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E6-MJMAIN-2013\"></use>\n<g transform=\"translate(497.2914421722824,0) scale(3.4171156554351807,1)\">\n <use xlink:href=\"#E6-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E6-MJMAIN-2013\" x=\"2203\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>，是中国第一部长篇<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.281ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 2704.1 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E7-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E7-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E7-MJMAIN-2013\"></use>\n<g transform=\"translate(497.2914421722824,0) scale(3.4171156554351807,1)\">\n <use xlink:href=\"#E7-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E7-MJMAIN-2013\" x=\"2203\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>体历史演义小说。书中塑造了诸多形象鲜明的人物，如才智过人、舌战群儒的<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.281ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 2704.1 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E8-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E8-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E8-MJMAIN-2013\"></use>\n<g transform=\"translate(497.2914421722824,0) scale(3.4171156554351807,1)\">\n <use xlink:href=\"#E8-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E8-MJMAIN-2013\" x=\"2203\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>，狡诈多疑、煮酒论英雄的<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"6.281ex\" height=\"1.504ex\" style=\"vertical-align: -0.509ex; margin-bottom: -0.825ex;\" viewBox=\"0 -73.5 2704.1 647.7\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E9-MJMAIN-5F\" d=\"M0 -62V-25H499V-62H0Z\"></path>\n<path stroke-width=\"1\" id=\"E9-MJMAIN-2013\" d=\"M0 248V285H499V248H0Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<g transform=\"translate(0,-466)\">\n <use xlink:href=\"#E9-MJMAIN-2013\"></use>\n<g transform=\"translate(497.2914421722824,0) scale(3.4171156554351807,1)\">\n <use xlink:href=\"#E9-MJMAIN-2013\"></use>\n</g>\n <use xlink:href=\"#E9-MJMAIN-2013\" x=\"2203\" y=\"0\"></use>\n</g>\n</g>\n</svg></span>等。",
+                                "options": [],
+                                "diffLevelValue": 3,
+                                "subItems": [],
+                                "like": false,
+                                "readOnly": false,
+                                "source": null,
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 1
+                            },
+                            "metadata": {
+                                "referenceId": "20191217255890c9f8ca4ec19d7c7f5bdf57503e",
+                                "snapshot": false,
+                                "itemInfo": {
+                                    "20191217255890c9f8ca4ec19d7c7f5bdf57503e": {
+                                        "itemId": null,
+                                        "score": 1,
+                                        "showNo": "5",
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    }
+                                },
+                                "requiredQuestion": true
+                            },
+                            "hidden": false,
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
+                            "isTargeted": false
+                        },
+                        {
+                            "nodes": [],
+                            "nodeId": "20200928a8e0891c929a417993a2e9c865bb2005",
+                            "type": "ITEM",
+                            "data": {
+                                "itemId": "20190318330e8aa3399d49da9d397dbc5f789a21",
+                                "status": "AVAILABLE",
+                                "itemTypeId": 104,
+                                "itemType": "综合题",
+                                "itemMouldType": "COMPREHENSIVE",
+                                "content": "给下列加点字词选择恰当的解释。",
+                                "options": [],
+                                "diffLevelValue": 3,
+                                "subItems": [
+                                    {
+                                        "itemId": "201903182d3710418d6144eeb88e3712b7e02a82",
+                                        "status": "INIT",
+                                        "itemTypeId": 2,
+                                        "itemType": "单选题",
+                                        "itemMouldType": "SINGLE_CHOICE",
+                                        "content": "风烟望五<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.326ex\" height=\"4.993ex\" style=\"vertical-align: -2.829ex;\" viewBox=\"0 -931.8 1001.3 2149.6\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.52059800664452) matrix(1 0 0 -1 0 0)\">津</text>\n <use transform=\"scale(0.707)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"457\" y=\"-1456\"></use>\n</g>\n</svg></span>（<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"4.645ex\" height=\"0.342ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.5 2000 147\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\"></g>\n</svg></span>）",
+                                        "options": [
+                                            {
+                                                "id": 390225,
+                                                "itemId": "201903182d3710418d6144eeb88e3712b7e02a82",
+                                                "optionCode": "A",
+                                                "content": "渡口"
+                                            },
+                                            {
+                                                "id": 390226,
+                                                "itemId": "201903182d3710418d6144eeb88e3712b7e02a82",
+                                                "optionCode": "B",
+                                                "content": "口水，唾液"
+                                            },
+                                            {
+                                                "id": 390227,
+                                                "itemId": "201903182d3710418d6144eeb88e3712b7e02a82",
+                                                "optionCode": "C",
+                                                "content": "汗水"
+                                            }
+                                        ],
+                                        "diffLevelValue": 3,
+                                        "subItems": [],
+                                        "like": false,
+                                        "readOnly": false,
+                                        "source": null,
+                                        "reviewAnswer": true,
+                                        "phoneticSymbol": null,
+                                        "translation": null,
+                                        "itemScore": 1
+                                    },
+                                    {
+                                        "itemId": "2019031870a44d7e700b4afc885463508911fb04",
+                                        "status": "INIT",
+                                        "itemTypeId": 2,
+                                        "itemType": "单选题",
+                                        "itemMouldType": "SINGLE_CHOICE",
+                                        "content": "无为在<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.326ex\" height=\"4.993ex\" style=\"vertical-align: -2.829ex;\" viewBox=\"0 -931.8 1001.3 2149.6\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.52059800664452) matrix(1 0 0 -1 0 0)\">歧</text>\n <use transform=\"scale(0.707)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"457\" y=\"-1456\"></use>\n</g>\n</svg></span><span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.326ex\" height=\"4.993ex\" style=\"vertical-align: -2.829ex;\" viewBox=\"0 -931.8 1001.3 2149.6\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E2-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.52059800664452) matrix(1 0 0 -1 0 0)\">路</text>\n <use transform=\"scale(0.707)\" xlink:href=\"#E2-MJMAIN-2219\" x=\"457\" y=\"-1456\"></use>\n</g>\n</svg></span>（<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"4.645ex\" height=\"0.342ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.5 2000 147\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\"></g>\n</svg></span>）",
+                                        "options": [
+                                            {
+                                                "id": 390228,
+                                                "itemId": "2019031870a44d7e700b4afc885463508911fb04",
+                                                "optionCode": "A",
+                                                "content": "岔道，偏离正道的小路"
+                                            },
+                                            {
+                                                "id": 390229,
+                                                "itemId": "2019031870a44d7e700b4afc885463508911fb04",
+                                                "optionCode": "B",
+                                                "content": "比喻错误的道路"
+                                            }
+                                        ],
+                                        "diffLevelValue": 3,
+                                        "subItems": [],
+                                        "like": false,
+                                        "readOnly": false,
+                                        "source": null,
+                                        "reviewAnswer": true,
+                                        "phoneticSymbol": null,
+                                        "translation": null,
+                                        "itemScore": 1
+                                    },
+                                    {
+                                        "itemId": "20190318e77c348531c049c684286eff73752926",
+                                        "status": "INIT",
+                                        "itemTypeId": 2,
+                                        "itemType": "单选题",
+                                        "itemMouldType": "SINGLE_CHOICE",
+                                        "content": "随意春芳<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.326ex\" height=\"4.993ex\" style=\"vertical-align: -2.829ex;\" viewBox=\"0 -931.8 1001.3 2149.6\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.52059800664452) matrix(1 0 0 -1 0 0)\">歇</text>\n <use transform=\"scale(0.707)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"457\" y=\"-1456\"></use>\n</g>\n</svg></span>（<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"4.645ex\" height=\"0.342ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.5 2000 147\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\"></g>\n</svg></span>）",
+                                        "options": [
+                                            {
+                                                "id": 390230,
+                                                "itemId": "20190318e77c348531c049c684286eff73752926",
+                                                "optionCode": "A",
+                                                "content": "歇着"
+                                            },
+                                            {
+                                                "id": 390231,
+                                                "itemId": "20190318e77c348531c049c684286eff73752926",
+                                                "optionCode": "B",
+                                                "content": "消散，消失"
+                                            }
+                                        ],
+                                        "diffLevelValue": 3,
+                                        "subItems": [],
+                                        "like": false,
+                                        "readOnly": false,
+                                        "source": null,
+                                        "reviewAnswer": true,
+                                        "phoneticSymbol": null,
+                                        "translation": null,
+                                        "itemScore": 1
+                                    },
+                                    {
+                                        "itemId": "201903186c851f021ee240b69459cf4cb3838c8d",
+                                        "status": "INIT",
+                                        "itemTypeId": 2,
+                                        "itemType": "单选题",
+                                        "itemMouldType": "SINGLE_CHOICE",
+                                        "content": "雪暗<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"2.326ex\" height=\"4.993ex\" style=\"vertical-align: -2.829ex;\" viewBox=\"0 -931.8 1001.3 2149.6\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<path stroke-width=\"1\" id=\"E1-MJMAIN-2219\" d=\"M55 251Q55 328 112 386T249 444T386 388T444 249Q444 171 388 113T250 55Q170 55 113 112T55 251Z\"></path>\n</defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\">\n<text font-family=\"monospace\" stroke=\"none\" transform=\"scale(71.52059800664452) matrix(1 0 0 -1 0 0)\">凋</text>\n <use transform=\"scale(0.707)\" xlink:href=\"#E1-MJMAIN-2219\" x=\"457\" y=\"-1456\"></use>\n</g>\n</svg></span>旗画（<span class=\"mjpage\"><svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"4.645ex\" height=\"0.342ex\" style=\"vertical-align: -0.171ex;\" viewBox=\"0 -73.5 2000 147\" role=\"img\" focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs></defs>\n<g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"matrix(1 0 0 -1 0 0)\"></g>\n</svg></span>）",
+                                        "options": [
+                                            {
+                                                "id": 390232,
+                                                "itemId": "201903186c851f021ee240b69459cf4cb3838c8d",
+                                                "optionCode": "A",
+                                                "content": "凋谢"
+                                            },
+                                            {
+                                                "id": 390233,
+                                                "itemId": "201903186c851f021ee240b69459cf4cb3838c8d",
+                                                "optionCode": "B",
+                                                "content": "使……颜色暗淡"
+                                            }
+                                        ],
+                                        "diffLevelValue": 3,
+                                        "subItems": [],
+                                        "like": false,
+                                        "readOnly": false,
+                                        "source": null,
+                                        "reviewAnswer": true,
+                                        "phoneticSymbol": null,
+                                        "translation": null,
+                                        "itemScore": 1
+                                    }
+                                ],
+                                "like": false,
+                                "readOnly": true,
+                                "source": null,
+                                "reviewAnswer": true,
+                                "phoneticSymbol": null,
+                                "translation": null,
+                                "itemScore": 4
+                            },
+                            "metadata": {
+                                "referenceId": "20190318330e8aa3399d49da9d397dbc5f789a21",
+                                "snapshot": false,
+                                "itemInfo": {
+                                    "2019031870a44d7e700b4afc885463508911fb04": {
+                                        "itemId": null,
+                                        "score": 1,
+                                        "showNo": null,
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    },
+                                    "201903182d3710418d6144eeb88e3712b7e02a82": {
+                                        "itemId": null,
+                                        "score": 1,
+                                        "showNo": null,
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    },
+                                    "201903186c851f021ee240b69459cf4cb3838c8d": {
+                                        "itemId": null,
+                                        "score": 1,
+                                        "showNo": null,
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    },
+                                    "20190318e77c348531c049c684286eff73752926": {
+                                        "itemId": null,
+                                        "score": 1,
+                                        "showNo": null,
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    },
+                                    "20190318330e8aa3399d49da9d397dbc5f789a21": {
+                                        "itemId": null,
+                                        "score": 4,
+                                        "showNo": "6",
+                                        "requiredQuestion": true,
+                                        "printBlankLine": 0
+                                    }
+                                },
+                                "requiredQuestion": true
+                            },
+                            "hidden": false,
+                            "mark": "DEFAULT",
+                            "printBlankLine": null,
+                            "isTargeted": false
                         }
                     ],
+                    "nodeId": "20200928662c38d521774b7da4ad53a33eb08b65",
                     "type": "GENERAL",
-                    "nodeId": "2020082818261b3e13a4413cb4ce6e1d40172e94",
-                    "isEdit": false,
+                    "data": null,
+                    "metadata": {
+                        "name": "第二部分",
+                        "numberType": "DEFAULT",
+                        "snapshot": false
+                    },
+                    "hidden": false,
+                    "mark": "DEFAULT",
+                    "printBlankLine": null,
                     "isTargeted": false,
                     "isByJs": false
                 }
             ],
-            "updateTimeMillis": 1598605312391,
+            "updateTimeMillis": 1601280321434,
             "publicLectureVersion": 0,
             "numberType": "PATTERN_THREE",
             "requiredQuestion": true
         },
         "headers": {
             "Access-Control-Allow-Origin": "*",
-            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/202008225fe9dfa3506c4e619017b04a2452b736/chapter/20200822077178dd559e41d5a22d9b037384f0f5/mainTeachingCase/20200828cc4c5fb9c48c4ef293b323021fdfb345?mainType=zuJian&seacondary=PREPARATION&chapterName=%E5%9C%86%E7%9A%84%E6%A6%82%E5%BF%B5",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/dtextbook/20191217edf8fa22454442b9a05d8a1695fafefe/chapter/20191217f2cce889745d4dbea84ae0d3380755b3/mainTeachingCase/202009289ef6896910f941969898f6f9e566bb9c?mainType=zuJian&seacondary=PREPARATION&chapterName=%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%8B%BF%E5%8A%A8%EF%BC%81%EF%BC%81",
             "Access-Control-Allow-Headers": "NCZ",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
             "Access-Control-Allow-Methods": "*",
@@ -251,9 +611,9 @@
             "Sec-Fetch-Site": "same-origin",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Dest": "empty",
-            "Cookie": "SESSION=MTZmN2M2MDEtNWI3Ny00MjIxLTk2ZjAtNWY0MWM5NzUwZDQ1"
+            "Cookie": "SESSION=YTA2MjAwZTUtNzRhMy00NjU4LWIwODQtZjExMTE5Zjc1MDg0"
         },
-        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v3/lecture/20200828cc4c5fb9c48c4ef293b323021fdfb345",
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/v3/lecture/202009289ef6896910f941969898f6f9e566bb9c",
         "method": "PUT"
     }
 }
