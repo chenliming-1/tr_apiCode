@@ -35,15 +35,15 @@ class Item(object):
         """
         try:
             if item_mould_type != None and subject_id == None:
-                get_max = "select MAX(id) from at_item where item_mould_type = '" + item_mould_type + "'"
-                get_min = "select MIN(id) from at_item where item_mould_type = '" + item_mould_type + "'"
+                get_max = "select MAX(id) from tr_item where item_mould_type = '" + item_mould_type + "'"
+                get_min = "select MIN(id) from tr_item where item_mould_type = '" + item_mould_type + "'"
             else:
-                get_max = "select MAX(id) from at_item where subject_id = " + str(
+                get_max = "select MAX(id) from tr_item where subject_id = " + str(
                     subject_id) + " and item_type_id in (102,103)"
-                get_min = "select MIN(id) from at_item where subject_id = " + str(
+                get_min = "select MIN(id) from tr_item where subject_id = " + str(
                     subject_id) + " and item_type_id in (102,103)"
-            get_rand_one = "select * from at_item where id>=((" + get_max + ") - (" + get_min + "))*RAND() + (" + get_min + ") LIMIT 1;"
-            rand_item = dao("tr_at", get_rand_one)
+            get_rand_one = "select * from tr_item where id>=((" + get_max + ") - (" + get_min + "))*RAND() + (" + get_min + ") LIMIT 1;"
+            rand_item = dao("at_testdata", get_rand_one)
             log.info("获取随机题目成功！")
             return rand_item
         except BaseException as error:
@@ -56,12 +56,12 @@ class Item(object):
         """
         try:
             if subject_id == None:
-                get_rand_one = "select distinct content from at_item_option LIMIT " + str(
-                    randMethod.getNumByRange(2, 1400000)) + "," + str(limit) + ";"
+                get_rand_one = "select distinct content from item_option LIMIT " + str(
+                    randMethod.getNumByRange(2, 1828000)) + "," + str(limit) + ";"
             else:
-                get_rand_one = "select distinct content from at_item_option where subject_id = " + str(
+                get_rand_one = "select distinct content from item_option where subject_id = " + str(
                     subject_id) + " LIMIT " + str(randMethod.getNumByRange(2, 101100)) + "," + str(limit) + ";"
-            rand_option = dao("tr_at", get_rand_one)
+            rand_option = dao("at_testdata", get_rand_one)
             log.info("获取随机选项成功！")
             return rand_option
         except BaseException as error:
