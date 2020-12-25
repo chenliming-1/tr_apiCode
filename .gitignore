@@ -1,3 +1,10 @@
+# 测试报告
+report/
+# 日志
+logs/
+# har文件
+archives/
+
 # PyCharm项目Config目录
 .idea/
 *.pyc
