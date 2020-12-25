@@ -48,8 +48,8 @@ class AddSchool(unittest.TestCase):
             log.error("school/添加学校：SUCCESS-添加学校（带区）》接口调用失败，失败原因："f'{error}')
         finally:
             self.assertEqual(201, status_code,
-                             r"school/添加学校：SUCCESS-添加学校（带区）-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(addSchool["url"],
-                                                                                                self.addSchoolBody))
+                             "school/添加学校：SUCCESS-添加学校（带区）-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], self.addSchoolBody, self.addSchoolResponse.text))
             self.assertEqual(self.addSchoolBody["cityId"], actdata["cityId"], "school/添加学校：SUCCESS-添加学校（带区）-返回市Id不一致！")
             self.assertEqual(self.addSchoolBody["countyId"], actdata["countyId"],
                              "school/添加学校：SUCCESS-添加学校（带区）-返回区Id不一致！")
@@ -75,8 +75,8 @@ class AddSchool(unittest.TestCase):
             log.error("school/添加学校：SUCCESS-添加学校不带区》接口调用失败，失败原因："f'{error}')
         finally:
             self.assertEqual(201, status_code,
-                             "school/添加学校：SUCCESS-添加学校不带区-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(addSchool["url"],
-                                                                                              self.addBodyNoCounty))
+                             "school/添加学校：SUCCESS-添加学校不带区-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], self.addBodyNoCounty, self.addSchoolResponse.text))
             self.assertEqual(self.addBodyNoCounty["cityId"], actdata["cityId"], "school/添加学校：SUCCESS-添加学校不带区-返回市Id不一致！")
             self.assertEqual(self.addBodyNoCounty["provinceId"], actdata["provinceId"],
                              "school/添加学校：SUCCESS-添加学校不带区-返回省Id不一致！")
@@ -103,7 +103,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-添加重复学校》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加重复学校-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加重复学校-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], self.addBodyRepeat, self.addSchoolResponse.text))
             self.assertEqual("该学校已经存在了噢~", actmessage, "school/添加学校：FAIL-添加重复学校-message返回信息不一致！")
             log.info("school/添加学校：FAIL-添加重复学校》测试通过！")
 
@@ -121,7 +122,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-区不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-区不存在-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-区不存在-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodyCountyErr, self.addSchoolResponse.text))
             self.assertEqual("县（区）不存在", actmessage, "school/添加学校：FAIL-区不存在-message返回信息不一致！")
             log.info("school/添加学校：FAIL-区不存在》测试通过！")
 
@@ -139,7 +141,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-添加学校不带市》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加学校不带市-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加学校不带市-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodyNoCity, self.addSchoolResponse.text))
             self.assertEqual("城市id不能为空", actmessage, "school/添加学校：FAIL-添加学校不带市-message返回信息不一致！")
             log.info("school/添加学校：FAIL-添加学校不带市》测试通过！")
 
@@ -157,7 +160,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-添加学校市不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加学校市不存在-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加学校市不存在-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodyCityErr, self.addSchoolResponse.text))
             self.assertEqual("城市不存在", actmessage, "school/添加学校：FAIL-添加学校市不存在-message返回信息不一致！")
             log.info("school/添加学校：FAIL-添加学校市不存在》测试通过！")
 
@@ -175,7 +179,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-添加学校不带省》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加学校不带省-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加学校不带省-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodyNoProvince, self.addSchoolResponse.text))
             self.assertEqual("省份id不能为空", actmessage, "school/添加学校：FAIL-添加学校不带省-message返回信息不一致！")
             log.info("school/添加学校：FAIL-添加学校不带省》测试通过！")
 
@@ -193,7 +198,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-添加学校省份不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加学校省份不存在-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-添加学校省份不存在-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodyProvinceErr, self.addSchoolResponse.text))
             self.assertEqual("省份不存在", actmessage, "school/添加学校：FAIL-添加学校省份不存在-message返回信息不一致！")
             log.info("school/添加学校：FAIL-添加学校省份不存在》测试通过！")
 
@@ -211,7 +217,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-学校名为空》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-学校名为空-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-学校名为空-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodyNoSchoolName, self.addSchoolResponse.text))
             self.assertEqual("学校名称不能为空", actmessage, "school/添加学校：FAIL-学校名为空-message返回信息不一致！")
             log.info("school/添加学校：FAIL-学校名为空》测试通过！")
 
@@ -229,7 +236,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-学段不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-学段不存在-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-学段不存在-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodyNoPeriod, self.addSchoolResponse.text))
             self.assertEqual("学段信息不能为空", actmessage, "school/添加学校：FAIL-学段不存在-message返回信息不一致！")
             log.info("school/添加学校：FAIL-学段不存在》测试通过！")
 
@@ -246,7 +254,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-学段含空》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-学段含空-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-学段含空-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], self.addBodyPeriodErr, self.addSchoolResponse.text))
             self.assertEqual("学段id不能为空", actmessage, "school/添加学校：FAIL-学段含空-message返回信息不一致！")
             log.info("school/添加学校：FAIL-学段含空》测试通过！")
 
@@ -263,7 +272,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-学段错误》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-学段错误-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-学段错误-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], self.addBodyPeriodErr, self.addSchoolResponse.text))
             self.assertEqual("学段id错误", actmessage, "school/添加学校：FAIL-学段错误-message返回信息不一致！")
             log.info("school/添加学校：FAIL-学段错误》测试通过！")
 
@@ -281,7 +291,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-排序不在1-2000范围内》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-排序不在1-2000范围内-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-排序不在1-2000范围内-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodySeqErr, self.addSchoolResponse.text))
             self.assertEqual("排序只允许1-2000（包含）之间", actmessage, "school/添加学校：FAIL-排序不在1-2000范围内-message返回信息不一致！")
             log.info("school/添加学校：FAIL-排序不在1-2000范围内》测试通过！")
 
@@ -299,7 +310,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-排序为2001》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-排序为2001-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-排序为2001-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodySeqErr, self.addSchoolResponse.text))
             self.assertEqual("排序只允许1-2000（包含）之间", actmessage, "school/添加学校：FAIL-排序为2001-message返回信息不一致！")
             log.info("school/添加学校：FAIL-排序为2001》测试通过！")
 
@@ -317,7 +329,8 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：FAIL-学校名称超出100字符》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/添加学校：FAIL-学校名称超出100字符-状态码错误！")
+            self.assertEqual(400, status_code, "school/添加学校：FAIL-学校名称超出100字符-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 addSchool["url"], bodyNameTooLong, self.addSchoolResponse.text))
             self.assertEqual("学校名称过长", actmessage, "school/添加学校：FAIL-学校名称超出100字符-message返回信息不一致！")
             log.info("school/添加学校：FAIL-学校名称超出100字符》测试通过！")
 

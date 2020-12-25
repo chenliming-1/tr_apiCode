@@ -52,7 +52,8 @@ def _gen_5_test_script(moudlename, scriptname):
     script_method = script_method + indent(
         "log.info(f'" + moudlename + "/test_" + scriptname + ": FAIL, error is {error}')", 12) + "\n"
     script_method = script_method + indent("finally:", 8) + "\n"
-    script_method = script_method + indent("self.assertEqual(200, res.status_code)", 12) + "\n"
+    script_method = script_method + indent(
+        "self.assertEqual(200, res.status_code, '接口运行失败！\n 接口：{} \n 入参：{} \n 出参：{}'.format(self.data['request']['url'], self.data['request']['json'], res.text))", 12) + "\n"
     script_method = script_method + indent("log.info('" + moudlename + "/test_" + scriptname + ": SUCCESS！')",
                                            12) + "\n"
     return script_method

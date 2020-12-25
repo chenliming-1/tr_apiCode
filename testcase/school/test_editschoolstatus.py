@@ -47,7 +47,8 @@ class EditSchoolStatus(unittest.TestCase):
         except Exception as error:
             log.error("school/修改状态：SUCCESS-设置学校状态为启用》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(204, status_code, "school/修改状态：SUCCESS-设置学校状态为启用-状态码错误！")
+            self.assertEqual(204, status_code, "school/修改状态：SUCCESS-设置学校状态为启用-状态码错误！\n 接口：{} \n 入参： \n 出参：{}".format(
+                editSchoolStatus["url"] + str(self.schoolId) + "/status/ENABLE", self.editStatusResponse.text))
             log.info("school/修改状态：SUCCESS-设置学校状态为启用》测试通过！")
 
     def test_editSchoolDISABLE(self):
@@ -61,7 +62,8 @@ class EditSchoolStatus(unittest.TestCase):
         except Exception as error:
             log.error("school/修改状态：SUCCESS-设置学校状态为禁用》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(204, status_code, "school/修改状态：SUCCESS-设置学校状态为禁用-状态码错误！")
+            self.assertEqual(204, status_code, "school/修改状态：SUCCESS-设置学校状态为禁用-状态码错误！\n 接口：{} \n 入参： \n 出参：{}".format(
+                editSchoolStatus["url"] + str(self.schoolId) + "/status/DISABLE", self.editStatusResponse.text))
             log.info("school/修改状态：SUCCESS-设置学校状态为禁用》测试通过！")
 
     def test_editSchoolNoExist(self):
@@ -76,7 +78,8 @@ class EditSchoolStatus(unittest.TestCase):
         except Exception as error:
             log.error("school/修改状态：FAIL-学校不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(404, status_code, "school/修改状态：FAIL-学校不存在-状态码错误！")
+            self.assertEqual(404, status_code, "school/修改状态：FAIL-学校不存在-状态码错误！\n 接口：{} \n 入参： \n 出参：{}".format(
+                editSchoolStatus["url"] + str(999999) + "/status/ENABLE", self.editStatusResponse.text))
             self.assertEqual("学校不存在，id: 999999", actmessage, "school/修改状态：FAIL-学校不存在-message返回信息不一致！")
             log.info("school/修改状态：FAIL-学校不存在》测试通过！")
 
@@ -92,7 +95,8 @@ class EditSchoolStatus(unittest.TestCase):
         except Exception as error:
             log.error("school/修改状态：FAIL-输入错误状态》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/修改状态：FAIL-输入错误状态-状态码错误！")
+            self.assertEqual(400, status_code, "school/修改状态：FAIL-输入错误状态-状态码错误！\n 接口：{} \n 入参： \n 出参：{}".format(
+                editSchoolStatus["url"] + str(self.schoolId) + "/status/ABLE", self.editStatusResponse.text))
             self.assertEqual("参数类型不匹配异常", actmessage, "school/修改状态：FAIL-输入错误状态-message返回信息不一致！")
             log.info("school/修改状态：FAIL-输入错误状态》测试通过！")
 
@@ -108,7 +112,8 @@ class EditSchoolStatus(unittest.TestCase):
         except Exception as error:
             log.error("school/修改状态：FAIL-未传入状态》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(404, status_code, "school/修改状态：FAIL-未传入状态-状态码错误！")
+            self.assertEqual(404, status_code, "school/修改状态：FAIL-未传入状态-状态码错误！\n 接口：{} \n 入参： \n 出参：{}".format(
+                editSchoolStatus["url"] + str(self.schoolId) + "/status/", self.editStatusResponse.text))
             # self.assertEqual("参数类型不匹配异常", actmessage, "school/学校：FAIL-未传入状态-message返回信息不一致！")
             log.info("school/修改状态：FAIL-未传入状态》测试通过！")
 
@@ -124,7 +129,8 @@ class EditSchoolStatus(unittest.TestCase):
         except Exception as error:
             log.error("school/修改状态：FAIL-未传入学校ID》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(404, status_code, "school/修改状态：FAIL-未传入学校ID-状态码错误！")
+            self.assertEqual(404, status_code, "school/修改状态：FAIL-未传入学校ID-状态码错误！\n 接口：{} \n 入参： \n 出参：{}".format(
+                editSchoolStatus["url"] + "/status/ENABLE", self.editStatusResponse.text))
             # self.assertEqual("参数类型不匹配异常", actmessage, "school/学校：FAIL-未传入状态-message返回信息不一致！")
             log.info("school/修改状态：FAIL-未传入学校ID》测试通过！")
 

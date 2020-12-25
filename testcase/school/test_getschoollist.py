@@ -48,7 +48,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：SUCCESS-根据学校名称模糊查询》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据学校名称模糊查询-状态码错误！")
+            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据学校名称模糊查询-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], getSchoolList["selectBySchoolNameBody"], self.getSchoolListResponse.text))
             self.assertIn(getSchoolList["selectBySchoolNameBody"]["schoolName"], actdata["list"][0]["schoolName"],
                           "school/获取学校列表：SUCCESS-根据学校名称模糊查询-学校名称不一致！")
             self.assertEqual(getSchoolList["selectBySchoolNameBody"]["currentPage"], actdata["currentPage"],
@@ -72,7 +73,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：SUCCESS-根据学校名称精确查询》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据学校名称精确查询-状态码错误！")
+            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据学校名称精确查询-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], schoolListBody, self.getSchoolListResponse.text))
             self.assertEqual(schoolListBody["schoolName"], actdata["list"][0]["schoolName"],
                              "school/获取学校列表：SUCCESS-根据学校名称精确查询-学校名称不一致！")
             self.assertEqual(schoolListBody["currentPage"], actdata["currentPage"],
@@ -98,7 +100,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：SUCCESS-根据地区查询》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据地区查询-状态码错误！")
+            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据地区查询-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], schoolListBody, self.getSchoolListResponse.text))
             self.assertEqual(schoolListBody["provinceId"], actdata["list"][0]["provinceId"],
                              "school/获取学校列表：SUCCESS-根据地区查询-省份不一致！")
             self.assertEqual(schoolListBody["cityId"], actdata["list"][0]["cityId"],
@@ -128,7 +131,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：SUCCESS-输入错误市ID查询空列表》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-输入错误市ID查询空列表-状态码错误！")
+            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-输入错误市ID查询空列表-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], schoolListBody, self.getSchoolListResponse.text))
             self.assertEqual(schoolListBody["currentPage"], actdata["currentPage"],
                              "school/获取学校列表：SUCCESS-输入错误市ID查询空列表-当前页返回错误！")
             self.assertEqual(schoolListBody["pageSize"], actdata["pageSize"],
@@ -148,7 +152,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：SUCCESS-根据学校名称和学段查询》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据学校名称和学段查询-状态码错误！")
+            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据学校名称和学段查询-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], getSchoolList["selectByPeriodBody"], self.getSchoolListResponse.text))
             self.assertIn(getSchoolList["selectByPeriodBody"]["schoolName"], actdata["list"][0]["schoolName"],
                           "school/获取学校列表：SUCCESS-根据学校名称和学段查询-学校名称不一致！")
             self.assertEqual(getSchoolList["selectByPeriodBody"]["currentPage"], actdata["currentPage"],
@@ -170,7 +175,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：SUCCESS-根据学校名称模糊查询》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据学校名称模糊查询-状态码错误！")
+            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-根据学校名称模糊查询-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], getSchoolList["selectByStatusBody"], self.getSchoolListResponse.text))
             self.assertIn(getSchoolList["selectByStatusBody"]["status"], actdata["list"][0]["status"],
                           "school/获取学校列表：SUCCESS-根据学校名称模糊查询-查询结果状态不一致！")
             self.assertEqual(getSchoolList["selectByStatusBody"]["currentPage"], actdata["currentPage"],
@@ -192,7 +198,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：SUCCESS-输入错误状态查询空列表》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-输入错误状态查询空列表-状态码错误！")
+            self.assertEqual(200, status_code, "school/获取学校列表：SUCCESS-输入错误状态查询空列表-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], getSchoolList["statusErrBody"], self.getSchoolListResponse.text))
             self.assertEqual(0, actdata["total"], "school/获取学校列表：SUCCESS-输入错误状态查询空列表-返回总数不一致！")
             log.info("school/获取学校列表：SUCCESS-输入错误状态查询空列表》测试通过！")
 
@@ -208,7 +215,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：FAIL-输入错误当前页查询》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(500, status_code, "school/获取学校列表：FAIL-输入错误当前页查询-状态码错误！")
+            self.assertEqual(500, status_code, "school/获取学校列表：FAIL-输入错误当前页查询-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], getSchoolList["currentPageErrBody"], self.getSchoolListResponse.text))
             self.assertEqual("Page index must not be less than zero!", actmessage,
                              "school/获取学校列表：FAIL-输入错误当前页查询-message返回信息不一致！")
             log.info("school/获取学校列表：FAIL-输入错误当前页查询》测试通过！")
@@ -225,7 +233,8 @@ class GetSchoolList(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校列表：FAIL-每页大小为负数查询》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(500, status_code, "school/获取学校列表：FAIL-每页大小为负数查询-状态码错误！")
+            self.assertEqual(500, status_code, "school/获取学校列表：FAIL-每页大小为负数查询-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getSchoolList["url"], getSchoolList["pageSizeErrBody"], self.getSchoolListResponse.text))
             self.assertEqual("Page size must not be less than one!", actmessage,
                              "school/获取学校列表：FAIL-每页大小为负数查询-message返回信息不一致！")
             log.info("school/获取学校列表：FAIL-每页大小为负数查询》测试通过！")
