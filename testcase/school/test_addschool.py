@@ -47,7 +47,9 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：SUCCESS-添加学校（带区）》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(201, status_code, "school/添加学校：SUCCESS-添加学校（带区）-状态码错误！")
+            self.assertEqual(201, status_code,
+                             r"school/添加学校：SUCCESS-添加学校（带区）-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(addSchool["url"],
+                                                                                                self.addSchoolBody))
             self.assertEqual(self.addSchoolBody["cityId"], actdata["cityId"], "school/添加学校：SUCCESS-添加学校（带区）-返回市Id不一致！")
             self.assertEqual(self.addSchoolBody["countyId"], actdata["countyId"],
                              "school/添加学校：SUCCESS-添加学校（带区）-返回区Id不一致！")
@@ -72,7 +74,9 @@ class AddSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/添加学校：SUCCESS-添加学校不带区》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(201, status_code, "school/添加学校：SUCCESS-添加学校不带区-状态码错误！")
+            self.assertEqual(201, status_code,
+                             "school/添加学校：SUCCESS-添加学校不带区-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(addSchool["url"],
+                                                                                              self.addBodyNoCounty))
             self.assertEqual(self.addBodyNoCounty["cityId"], actdata["cityId"], "school/添加学校：SUCCESS-添加学校不带区-返回市Id不一致！")
             self.assertEqual(self.addBodyNoCounty["provinceId"], actdata["provinceId"],
                              "school/添加学校：SUCCESS-添加学校不带区-返回省Id不一致！")

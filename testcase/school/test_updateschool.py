@@ -56,7 +56,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：SUCCESS-编辑学校带区》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/编辑学校：SUCCESS-编辑学校带区-状态码错误！")
+            self.assertEqual(200, status_code,
+                             "school/编辑学校：SUCCESS-编辑学校带区-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                             self.updateSchoolBody))
             self.assertEqual(self.updateSchoolBody["cityId"], actdata["cityId"], "school/编辑学校：SUCCESS-编辑学校带区-返回市Id不一致！")
             self.assertEqual(self.updateSchoolBody["countyId"], actdata["countyId"],
                              "school/编辑学校：SUCCESS-编辑学校带区-返回区Id不一致！")
@@ -80,7 +82,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：SUCCESS-编辑学校不带区号》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/编辑学校：SUCCESS-编辑学校不带区号-状态码错误！")
+            self.assertEqual(200, status_code,
+                             "school/编辑学校：SUCCESS-编辑学校不带区号-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                               self.updateBodyNoCounty))
             self.assertEqual(self.updateBodyNoCounty["cityId"], actdata["cityId"],
                              "school/编辑学校：SUCCESS-编辑学校不带区号-返回市Id不一致！")
             self.assertEqual(self.updateBodyNoCounty["provinceId"], actdata["provinceId"],
@@ -104,7 +108,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-编辑重复学校》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-编辑重复学校-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-编辑重复学校-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                          self.addSchoolBody1))
             self.assertEqual("该学校已经存在了噢~", actmessage, "school/编辑学校：FAIL-编辑重复学校-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-编辑重复学校》测试通过！")
 
@@ -122,7 +128,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-区号错误》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-区号错误-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-区号错误-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                        bodyCountyErr))
             self.assertEqual("县（区）不存在", actmessage, "school/编辑学校：FAIL-区号错误-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-区号错误》测试通过！")
 
@@ -140,7 +148,8 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-不带市》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-不带市-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-不带市-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"], bodyNoCity))
             self.assertEqual("城市id不能为空", actmessage, "school/编辑学校：FAIL-不带市-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-不带市》测试通过！")
 
@@ -158,7 +167,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-市不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-市不存在-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-市不存在-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                        bodyCityErr))
             self.assertEqual("城市不存在", actmessage, "school/编辑学校：FAIL-市不存在-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-市不存在》测试通过！")
 
@@ -176,7 +187,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-不带省》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-不带省-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-不带省-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                       bodyNoProvince))
             self.assertEqual("省份id不能为空", actmessage, "school/编辑学校：FAIL-不带省-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-不带省》测试通过！")
 
@@ -194,7 +207,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-省份不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-省份不存在-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-省份不存在-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                         bodyProvinceErr))
             self.assertEqual("省份不存在", actmessage, "school/编辑学校：FAIL-省份不存在-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-省份不存在》测试通过！")
 
@@ -212,7 +227,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-学校名为空》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-学校名为空-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-学校名为空-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                         bodyNoSchoolName))
             self.assertEqual("学校名称不能为空", actmessage, "school/编辑学校：FAIL-学校名为空-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-学校名为空》测试通过！")
 
@@ -230,7 +247,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-学段不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-学段不存在-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-学段不存在-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                         bodyNoPeriod))
             self.assertEqual("学段信息不能为空", actmessage, "school/编辑学校：FAIL-学段不存在-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-学段不存在》测试通过！")
 
@@ -248,7 +267,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-学段错误》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-学段错误-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-学段错误-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                        bodyPeriodErr))
             self.assertEqual("学段id不能为空", actmessage, "school/编辑学校：FAIL-学段错误-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-学段错误》测试通过！")
 
@@ -265,7 +286,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-学校不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(404, status_code, "school/编辑学校：FAIL-学校不存在-状态码错误！")
+            self.assertEqual(404, status_code,
+                             "school/编辑学校：FAIL-学校不存在-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                         bodyNoSchoolName))
             self.assertEqual("学校不存在，id: 999999", actmessage, "school/编辑学校：FAIL-学校不存在-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-学校不存在》测试通过！")
 
@@ -282,7 +305,9 @@ class UpdateSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/编辑学校：FAIL-学校ID不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "school/编辑学校：FAIL-学校ID不存在-状态码错误！")
+            self.assertEqual(400, status_code,
+                             "school/编辑学校：FAIL-学校ID不存在-状态码错误！\n\t 接口：{} \n\t 入参：{}".format(updateSchool["url"],
+                                                                                           bodyNoSchoolName))
             self.assertEqual("请求方法不支持", actmessage, "school/编辑学校：FAIL-学校ID不存在-message返回信息不一致！")
             log.info("school/编辑学校：FAIL-学校ID不存在》测试通过！")
 
