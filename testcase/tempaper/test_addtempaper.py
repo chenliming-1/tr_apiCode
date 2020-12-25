@@ -25,7 +25,8 @@ class TestAddTemPaper(unittest.TestCase):
         except Exception as error:
             log.info(f'tempaper/test_addtempaper: FAIL, error is {error}')
         finally:
-            self.assertEqual(200, res.status_code)
+            self.assertEqual(200, res.status_code, "添加临时试卷失败！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 self.data['request']['url'], self.data['request']['json'], res.text))
             log.info('tempaper/test_addtempaper: SUCCESS！')
 
     @classmethod

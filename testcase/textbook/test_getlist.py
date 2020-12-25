@@ -17,7 +17,8 @@ class TestGetlist(unittest.TestCase):
         except Exception as error:
             log.info(f'textbook/test_getlist: FAIL, error is {error}')
         finally:
-            self.assertEqual(200, res.status_code)
+            self.assertEqual(200, res.status_code, "获取教材列表失败！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 self.data['request']['url'], self.data['request']['json'], res.text))
             log.info('textbook/test_getlist: SUCCESS！')
 
     @classmethod

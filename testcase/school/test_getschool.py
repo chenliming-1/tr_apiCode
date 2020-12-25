@@ -48,7 +48,8 @@ class GetSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校详情：SUCCESS-获取学校详情》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "school/获取学校详情：SUCCESS-获取学校详情-状态码错误！")
+            self.assertEqual(200, status_code, "school/获取学校详情：SUCCESS-获取学校详情-状态码错误！\n 接口：{} \n 入参： \n 出参：{}".format(
+                                 getSchool["url"] + str(self.schoolId), self.getSchoolResponse.text))
             self.assertEqual(self.addSchoolBody["cityId"], actdata["cityId"],
                              "school/获取学校详情：SUCCESS-获取学校详情-返回市Id不一致！")
             self.assertEqual(self.addSchoolBody["countyId"], actdata["countyId"],
@@ -73,7 +74,8 @@ class GetSchool(unittest.TestCase):
         except Exception as error:
             log.error("school/获取学校详情：FAIL-学校不存在》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(404, status_code, "school/获取学校详情：FAIL-学校不存在-状态码错误！")
+            self.assertEqual(404, status_code, "school/获取学校详情：FAIL-学校不存在-状态码错误！\n 接口：{} \n 入参： \n 出参：{}".format(
+                                 getSchool["url"] + str(999999), self.getSchoolResponse.text))
             self.assertEqual("学校不存在，id: 999999", actmessage, "school/获取学校详情：FAIL-学校不存在-message返回信息不一致！")
             log.info("school/获取学校详情：FAIL-学校不存在》测试通过！")
 

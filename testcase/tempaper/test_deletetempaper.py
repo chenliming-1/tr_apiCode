@@ -24,7 +24,8 @@ class TestDeleteTemPaper(unittest.TestCase):
         except Exception as error:
             log.info(f'tempaper/test_deletetempaper: FAIL, error is {error}')
         finally:
-            self.assertEqual(204, res.status_code)
+            self.assertEqual(204, res.status_code, "删除临时试卷失败！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 self.data['request']['url'], self.data['request']['json'], res.text))
             log.info('tempaper/test_deletetempaper: SUCCESS！')
 
     @classmethod

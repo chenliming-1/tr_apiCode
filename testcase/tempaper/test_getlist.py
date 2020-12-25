@@ -23,7 +23,8 @@ class TestGetList(unittest.TestCase):
         except Exception as error:
             log.info(f'tempaper/test_getlist: FAIL, error is {error}')
         finally:
-            self.assertEqual(200, res.status_code)
+            self.assertEqual(200, res.status_code, "获取临时试卷列表失败！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 self.data['request']['url'], self.data['request']['params'], res.text))
             log.info('tempaper/test_getlist: SUCCESS！')
 
     @classmethod

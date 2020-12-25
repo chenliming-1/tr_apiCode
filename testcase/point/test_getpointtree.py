@@ -24,7 +24,8 @@ class GetPointTree(unittest.TestCase):
         except Exception as error:
             log.error("point/知识点：SUCCESS-获取知识树》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "point/知识点：SUCCESS-获取知识树-状态码错误！")
+            self.assertEqual(200, status_code, "point/知识点：SUCCESS-获取知识树-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getPointTree["url"], getPointTree["body_success"], self.getPointTreeResponse.text))
             self.assertNotEqual(0, len(actdata["list"]), "point/知识点：SUCCESS-获取知识树-返回列表为空！")
             log.info("point/知识点：SUCCESS-获取知识树》测试通过！")
 
@@ -40,7 +41,8 @@ class GetPointTree(unittest.TestCase):
         except Exception as error:
             log.error("point/知识点：SUCCESS-输入科目学段查询出空列表》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "point/知识点：SUCCESS-输入科目学段查询出空列表-状态码错误！")
+            self.assertEqual(200, status_code, "point/知识点：SUCCESS-输入科目学段查询出空列表-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getPointTree["url"], getPointTree["listIsNone"], self.getPointTreeResponse.text))
             self.assertEqual(0, len(actdata["list"]), "point/知识点：SUCCESS-输入科目学段查询出空列表-返回列表不为空！")
             log.info("point/知识点：SUCCESS-输入科目学段查询出空列表》测试通过！")
 
@@ -56,7 +58,8 @@ class GetPointTree(unittest.TestCase):
         except Exception as error:
             log.error("point/知识点：SUCCESS-科目不存在，列表返回空》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(200, status_code, "point/知识点：SUCCESS-科目不存在，列表返回空-状态码错误！")
+            self.assertEqual(200, status_code, "point/知识点：SUCCESS-科目不存在，列表返回空-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getPointTree["url"], getPointTree["subjectError"], self.getPointTreeResponse.text))
             self.assertEqual(0, len(actdata["list"]), "point/知识点：SUCCESS-科目不存在，列表返回空-返回列表不为空！")
             log.info("point/知识点：SUCCESS-科目不存在，列表返回空》测试通过！")
             
@@ -72,7 +75,8 @@ class GetPointTree(unittest.TestCase):
         except Exception as error:
             log.error("point/知识点：FAIL-未填写科目》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "point/知识点：FAIL-未填写科目-状态码错误！")
+            self.assertEqual(400, status_code, "point/知识点：FAIL-未填写科目-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getPointTree["url"], getPointTree["subjectIsNone"], self.getPointTreeResponse.text))
             self.assertEqual("科目id为空", actmessage, "point/知识点：FAIL-未填写科目-message返回信息不一致！")
             log.info("point/知识点：FAIL-未填写科目》测试通过！")
 
@@ -88,7 +92,8 @@ class GetPointTree(unittest.TestCase):
         except Exception as error:
             log.error("point/知识点：FAIL-未填写学段》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "point/知识点：FAIL-未填写学段-状态码错误！")
+            self.assertEqual(400, status_code, "point/知识点：FAIL-未填写学段-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getPointTree["url"], getPointTree["periodIsNone"], self.getPointTreeResponse.text))
             self.assertEqual("学段id为空", actmessage, "point/知识点：FAIL-未填写学段-message返回信息不一致！")
             log.info("point/知识点：FAIL-未填写学段》测试通过！")
 
@@ -104,7 +109,8 @@ class GetPointTree(unittest.TestCase):
         except Exception as error:
             log.error("point/知识点：FAIL-未填写地区》接口调用失败，失败原因："f'{error}')
         finally:
-            self.assertEqual(400, status_code, "point/知识点：FAIL-未填写地区-状态码错误！")
+            self.assertEqual(400, status_code, "point/知识点：FAIL-未填写地区-状态码错误！\n 接口：{} \n 入参：{} \n 出参：{}".format(
+                                 getPointTree["url"], getPointTree["regionIsNone"], self.getPointTreeResponse.text))
             self.assertEqual("地区id为空", actmessage, "point/知识点：FAIL-未填写地区-message返回信息不一致！")
             log.info("point/知识点：FAIL-未填写地区》测试通过！")
 
