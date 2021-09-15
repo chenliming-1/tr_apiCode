@@ -13,7 +13,7 @@ class GetPaperTypeList(unittest.TestCase):
 
     def test_getPaperTypeListOne(self):
         """
-        paperType/获取套卷类型列表：SUCCESS-获取一条套卷类型
+        paperType/获取套卷类型列表：SUCCESS-获取一条套卷类型测试
         """
         self.getPaperTypeListResponse = requests.get(getPaperTypeList["url"], headers=getPaperTypeList["header"],
                                                      params=getPaperTypeList["searchOneBody"])

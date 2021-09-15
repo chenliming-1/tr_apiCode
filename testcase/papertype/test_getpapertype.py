@@ -1,4 +1,4 @@
-0  # -*- encoding: utf-8 -*-
+# -*- encoding: utf-8 -*-
 # @ModuleName: getpapertype
 # @Author：龚远琪
 # @Date：2019/11/5 16:08

@@ -46,3 +46,7 @@ class TestAddItemDanxuan(unittest.TestCase):
     @classmethod
     def tearDownClass(cls) -> None:
         pass
+
+
+if __name__ == '__main__':
+    TestAddItemDanxuan().test_additem_danxuan()

@@ -1,11 +1,893 @@
-[2020-07-11 13:08:27,756] - test_addpaper.py - test_addpaper [Line:26] - [INFO] - paper/test_addpaper: SUCCESS！
-[2020-07-11 13:13:33,030] - test_addpaper.py - test_addpaper [Line:26] - [INFO] - paper/test_addpaper: SUCCESS！
-[2020-07-11 13:13:33,584] - test_edittag.py - test_edittag [Line:25] - [INFO] - paper/test_edittag: SUCCESS！
-[2020-07-11 13:13:34,164] - test_enable.py - test_enable [Line:28] - [INFO] - paper/test_enable: SUCCESS！
-[2020-07-11 13:13:34,664] - paper.py - enable_paper [Line:46] - [ERROR] - 启用套卷成功！
-[2020-07-11 13:13:34,829] - test_offshelf.py - test_offshelf [Line:29] - [INFO] - paper/test_offshelf: SUCCESS！
-[2020-07-11 13:13:34,999] - test_paperlist.py - test_paper_list [Line:23] - [INFO] - paper/test_paperlist: SUCCESS！
-[2020-07-11 13:13:35,179] - test_paperlist_randsubject.py - test_paper_list_rand_subject [Line:26] - [INFO] - paper/test_paperlist_randsubject: SUCCESS！
-[2020-07-11 13:13:35,300] - test_standard_paperlist.py - test_standard_paperlist [Line:23] - [INFO] - paper/test_standard_paperlist: SUCCESS！
-[2020-07-11 13:13:35,410] - test_standard_randpaperlist.py - test_standard_rand_paper_list [Line:26] - [INFO] - paper/test_standard_randpaperlist: SUCCESS！
-[2020-07-11 13:13:35,501] - test_viewtag.py - test_viewtag [Line:21] - [INFO] - paper/test_viewtag: SUCCESS！
+[2021-09-03 18:36:54,090] - test_uploadaudio.py - test_uploadaudio_filenameisnull [Line:55] - [INFO] - audio/音频：音频上传失败用例-filename为NULL测试通过！
+[2021-09-03 18:36:54,160] - test_uploadaudio.py - test_uploadaudio_keyisnull [Line:70] - [INFO] - audio/音频：音频上传失败用例-key为NULL测试通过！
+[2021-09-03 18:36:54,215] - test_uploadaudio.py - test_uploadaudio_sizeisnull [Line:85] - [INFO] - audio/音频：音频上传失败用例-size为NULL测试通过！
+[2021-09-03 18:36:54,426] - test_uploadaudio.py - test_uploadaudio_success [Line:40] - [INFO] - audio/音频：音频上传成功用例测试通过！
+[2021-09-03 18:36:54,484] - test_token.py - test_token_fail [Line:44] - [INFO] - commonupload/通用上传：获取token失败用例测试通过！
+[2021-09-03 18:36:54,535] - test_token.py - test_token_success [Line:29] - [INFO] - commonupload/通用上传：获取token成功用例测试通过！
+[2021-09-03 18:36:54,692] - test_getlist.py - test_getlist [Line:45] - [INFO] - documents/test_getlist: SUCCESS！
+[2021-09-03 18:36:54,962] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:36:55,230] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:06,300] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:37:06,640] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:06,828] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:10,823] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:37:11,064] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:11,151] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:11,214] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:11,303] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:11,396] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:11,487] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:11,563] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:11,648] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:11,745] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:44,741] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:37:44,923] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:45,832] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:46,058] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:37:46,179] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:47,100] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:37:47,194] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:47,692] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:37:47,859] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:49,541] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:37:49,647] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:50,197] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:37:50,375] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:37:50,496] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:38:07,893] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:38:08,343] - test_changestatus.py - test_changestatus [Line:25] - [INFO] - item/test_changestatus: SUCCESS！
+[2021-09-03 18:38:08,463] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:38:10,134] - test_edititem.py - test_edititem [Line:25] - [INFO] - item/test_edititem: SUCCESS！
+[2021-09-03 18:38:12,121] - test_getanalytic_list.py - test_getanalytic_list [Line:21] - [INFO] - item/test_getanalytic_list: SUCCESS！
+[2021-09-03 18:38:12,400] - test_getitem.py - test_getitem [Line:21] - [INFO] - item/test_getitem: SUCCESS！
+[2021-09-03 18:38:12,477] - test_like.py - test_like [Line:27] - [INFO] - item/test_like: SUCCESS！
+[2021-09-03 18:38:12,547] - test_review_answer.py - test_review_answer [Line:26] - [INFO] - item/test_review_answer: SUCCESS！
+[2021-09-03 18:38:12,602] - test_uploadpicture.py - test_uploadpicture_fail [Line:96] - [INFO] - item/题库：上传图片失败用例-上传列表为空测试通过！
+[2021-09-03 18:38:12,913] - test_uploadpicture.py - test_uploadpicture_gif [Line:83] - [INFO] - item/题库：上传gif图片失败用例测试通过！
+[2021-09-03 18:38:13,193] - test_uploadpicture.py - test_uploadpicture_jpg [Line:64] - [INFO] - item/题库：上传jpg图片成功用例测试通过！
+[2021-09-03 18:38:13,439] - test_uploadpicture.py - test_uploadpicture_png [Line:40] - [INFO] - item/题库：上传png图片成功用例测试通过！
+[2021-09-03 18:38:13,505] - test_getitemmould.py - test_getitemmould_fail [Line:45] - [INFO] - itemmould/题型模版：获取题型模版失败用例测试通过！
+[2021-09-03 18:38:13,556] - test_getitemmould.py - test_getitemmould_success [Line:29] - [INFO] - itemmould/题型模版：获取题型模版成功用例测试通过！
+[2021-09-03 18:38:13,652] - test_additemtype.py - test_additemtype [Line:38] - [INFO] - itemType/题型：添加题型成功用例测试通过！
+[2021-09-03 18:38:13,722] - test_additemtype.py - test_additemtype_mouldtypeiserr [Line:149] - [INFO] - itemType/题型：添加题型失败用例-题型模版错误测试通过！
+[2021-09-03 18:38:13,774] - test_additemtype.py - test_additemtype_mouldtypeisnull [Line:133] - [INFO] - itemType/题型：添加题型失败用例-题型模版为空测试通过！
+[2021-09-03 18:38:13,969] - test_additemtype.py - test_additemtype_requried [Line:62] - [INFO] - itemType/题型：添加题型必填项成功用例测试通过！
+[2021-09-03 18:38:14,034] - test_additemtype.py - test_additemtype_retypecode [Line:98] - [INFO] - itemType/题型：添加题型失败用例-题型编码重复测试通过！
+[2021-09-03 18:38:14,100] - test_additemtype.py - test_additemtype_retypename [Line:117] - [INFO] - itemType/题型：添加题型失败用例-题型名称重复测试通过！
+[2021-09-03 18:38:14,153] - test_additemtype.py - test_additemtype_subjectIdsErr [Line:79] - [INFO] - itemType/题型：添加题型失败用例-科目Id错误测试通过！
+[2021-09-03 18:38:14,253] - test_additemtype.py - test_additemtype_typecodeisnull [Line:165] - [INFO] - itemType/题型：添加题型失败用例-题型编码为空测试通过！
+[2021-09-03 18:38:14,316] - test_additemtype.py - test_additemtype_typenameisnull [Line:181] - [INFO] - itemType/题型：添加题型失败用例-题型名称为空测试通过！
+[2021-09-03 18:38:14,358] - test_additemtype.py - test_priorityCodeError [Line:197] - [INFO] - itemType/题型：添加题型失败用例-排序超出限制测试通过！
+[2021-09-03 18:38:15,114] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:38:15,941] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:38:17,011] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 18:38:17,484] - test_deleteitemtype.py - test_deleteItemType [Line:43] - [INFO] - itemType/题型：删除题型成功用例测试通过！
+[2021-09-03 18:38:17,543] - test_deleteitemtype.py - test_deleteItemTypeHaveItem [Line:73] - [INFO] - itemType/题型：删除已存在题目的题型用例测试通过！
+[2021-09-03 18:38:17,591] - test_deleteitemtype.py - test_deleteItemTypeNoExist [Line:57] - [INFO] - itemType/题型：删除不存在的题型用例测试通过！
+[2021-09-03 18:38:17,641] - test_deleteitemtype.py - test_deleteItemTypeNoId [Line:89] - [INFO] - itemType/题型：删除题型未输入ID用例测试通过！
+[2021-09-03 18:38:17,728] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 18:38:17,789] - test_getitemtype.py - test_getItemType [Line:41] - [INFO] - itemType/题型：获取题型成功用例测试通过！
+[2021-09-03 18:38:17,848] - test_getitemtype.py - test_getItemTypeNoExist [Line:57] - [INFO] - itemType/题型：获取不存在的题型用例测试通过！
+[2021-09-03 18:38:18,106] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:38:18,212] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 18:38:18,264] - test_getitemtypelist.py - test_currentPageErr [Line:153] - [INFO] - itemType/题型：获取题型列表当前页为负数用例测试通过！
+[2021-09-03 18:38:18,304] - test_getitemtypelist.py - test_currentPageIsZero [Line:136] - [INFO] - itemType/题型：获取题型列表当前页为0用例测试通过！
+[2021-09-03 18:38:18,386] - test_getitemtypelist.py - test_getItemTypeList [Line:119] - [INFO] - itemType/题型：获取题型列表为空用例测试通过！
+[2021-09-03 18:38:18,442] - test_getitemtypelist.py - test_getItemTypeListByCode [Line:102] - [INFO] - itemType/题型：通过题型编码获取列表成功用例测试通过！
+[2021-09-03 18:38:18,489] - test_getitemtypelist.py - test_getItemTypeListByName [Line:79] - [INFO] - itemType/题型：通过题型名称获取列表成功用例测试通过！
+[2021-09-03 18:38:18,664] - test_getitemtypelist.py - test_getItemTypeListDefault [Line:56] - [INFO] - itemType/题型：获取题型列表成功用例测试通过！
+[2021-09-03 18:38:18,708] - test_getitemtypelist.py - test_pageSizeErr [Line:170] - [INFO] - itemType/题型：获取题型列表每页大小为负数用例测试通过！
+[2021-09-03 18:38:18,953] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:38:19,064] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 18:38:19,113] - test_updateitemtype.py - test_priorityCodeError [Line:108] - [INFO] - itemType/题型：修改题型失败用例-排序超出限制测试通过！
+[2021-09-03 18:38:19,166] - test_updateitemtype.py - test_reTypeName [Line:74] - [INFO] - itemType/题型：修改题型失败用例-题型名称重复测试通过！
+[2021-09-03 18:38:19,218] - test_updateitemtype.py - test_subjectIdsErr [Line:56] - [INFO] - itemType/题型：修改题型失败用例-科目Id错误测试通过！
+[2021-09-03 18:38:19,277] - test_updateitemtype.py - test_typeNameIsNull [Line:91] - [INFO] - itemType/题型：修改题型失败用例-题型名称为空测试通过！
+[2021-09-03 18:38:19,379] - test_updateitemtype.py - test_updateItemType [Line:39] - [INFO] - itemType/题型：修改题型成功用例测试通过！
+[2021-09-03 18:38:19,612] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:38:19,724] - test_addfolders.py - test_addfolders [Line:29] - [INFO] - lecture/test_addfolders: SUCCESS！
+[2021-09-03 18:38:19,937] - test_addlecture.py - test_addlecture [Line:31] - [INFO] - lecture/test_addlecture: SUCCESS！
+[2021-09-03 18:38:21,121] - test_copylecture.py - test_copylecture [Line:29] - [INFO] - lecture/test_copylecture: SUCCESS！
+[2021-09-03 18:38:22,064] - test_deletefolders.py - test_deletefolders [Line:28] - [INFO] - lecture/test_deletefolders: SUCCESS！
+[2021-09-03 18:38:22,340] - test_editfolders.py - test_editfolders [Line:30] - [INFO] - lecture/test_editfolders: SUCCESS！
+[2021-09-03 18:38:22,506] - test_editlecture.py - test_editlecture [Line:23] - [INFO] - lecture/test_editlecture: SUCCESS！
+[2021-09-03 18:38:23,288] - test_editlectureinfo_jiaoan.py - test_editlectureinfo_jiaoan [Line:23] - [INFO] - lecture/test_editlectureinfo_jiaoan: SUCCESS！
+[2021-09-03 18:38:23,566] - test_editlectureinfo_kaoshi.py - test_editlectureinfo_kaoshi [Line:23] - [INFO] - lecture/test_editlectureinfo_kaoshi: SUCCESS！
+[2021-09-03 18:38:23,740] - test_editlectureinfo_yuxi.py - test_editlectureinfo_yuxi [Line:23] - [INFO] - lecture/test_editlectureinfo_yuxi: SUCCESS！
+[2021-09-03 18:38:23,941] - test_editlectureinfo_zhineng.py - test_editlectureinfo_zhineng [Line:23] - [INFO] - lecture/test_editlectureinfo_zhineng: SUCCESS！
+[2021-09-03 18:38:24,043] - test_edituploadfile.py - test_edituploadfile [Line:23] - [INFO] - lecture/test_edituploadfile: SUCCESS！
+[2021-09-03 18:38:24,129] - test_getfilelist.py - test_getfilelist [Line:28] - [INFO] - lecture/test_getfilelist: SUCCESS！
+[2021-09-03 18:38:24,186] - test_getfolderstree.py - test_getfolderstree [Line:25] - [INFO] - lecture/test_getfolderstree: SUCCESS！
+[2021-09-03 18:38:24,237] - test_getlectureinfo.py - test_getlectureinfo [Line:22] - [INFO] - lecture/test_getlectureinfo: SUCCESS！
+[2021-09-03 18:38:24,294] - test_lastlecture.py - test_lastlecture [Line:25] - [INFO] - lecture/test_lastlecture: SUCCESS！
+[2021-09-03 18:38:24,729] - test_movefile.py - test_movefile [Line:35] - [INFO] - lecture/test_movefile: SUCCESS！
+[2021-09-03 18:38:26,667] - test_removeinfo.py - test_removeinfo [Line:31] - [INFO] - lecture/test_removeinfo: SUCCESS！
+[2021-09-03 18:38:26,896] - test_searchfiles.py - test_searchfiles [Line:25] - [INFO] - lecture/test_searchfiles: SUCCESS！
+[2021-09-03 18:38:27,230] - test_uploadfiles.py - test_uploadfiles [Line:24] - [INFO] - lecture/test_uploadfiles: SUCCESS！
+[2021-09-03 18:38:27,378] - test_addpaper.py - test_addpaper [Line:26] - [INFO] - paper/test_addpaper: SUCCESS！
+[2021-09-03 18:38:27,549] - test_deletepaper.py - test_delete [Line:35] - [INFO] - paper/test_delete: SUCCESS！
+[2021-09-03 18:38:27,962] - test_enable.py - test_enable [Line:28] - [INFO] - paper/test_enable: SUCCESS！
+[2021-09-03 18:38:28,148] - paper.py - enable_paper [Line:46] - [ERROR] - 启用套卷成功！
+[2021-09-03 18:38:28,234] - test_offshelf.py - test_offshelf [Line:29] - [INFO] - paper/test_offshelf: SUCCESS！
+[2021-09-03 18:38:28,344] - test_paperlist.py - test_paper_list [Line:23] - [INFO] - paper/test_paperlist: SUCCESS！
+[2021-09-03 18:38:28,397] - test_paperlist_randsubject.py - test_paper_list_rand_subject [Line:26] - [INFO] - paper/test_paperlist_randsubject: SUCCESS！
+[2021-09-03 18:38:28,479] - test_standard_paperlist.py - test_standard_paperlist [Line:23] - [INFO] - paper/test_standard_paperlist: SUCCESS！
+[2021-09-03 18:38:28,552] - test_standard_randpaperlist.py - test_standard_rand_paper_list [Line:26] - [INFO] - paper/test_standard_randpaperlist: SUCCESS！
+[2021-09-03 18:38:28,608] - test_viewtag.py - test_viewtag [Line:21] - [INFO] - paper/test_viewtag: SUCCESS！
+[2021-09-03 18:38:28,693] - test_addpapertype.py - test_addPaperType [Line:38] - [INFO] - paperType/添加套卷类型：SUCCESS-所有参数正常添加》测试通过！
+[2021-09-03 18:38:28,754] - test_addpapertype.py - test_addPaperTypeCodeNone [Line:123] - [INFO] - paperType/添加套卷类型：FAIL-未填写套卷类型编码》测试通过！
+[2021-09-03 18:38:28,806] - test_addpapertype.py - test_addPaperTypeCodeRepeat [Line:91] - [INFO] - paperType/添加套卷类型：FAIL-添加同编码套卷类型》测试通过！
+[2021-09-03 18:38:28,852] - test_addpapertype.py - test_addPaperTypeCodeTooLong [Line:219] - [INFO] - paperType/添加套卷类型：FAIL-类型编码超出100字符》测试通过！
+[2021-09-03 18:38:28,900] - test_addpapertype.py - test_addPaperTypeDescriptionTooLong [Line:251] - [INFO] - paperType/添加套卷类型：FAIL-描述超出200字符》测试通过！
+[2021-09-03 18:38:28,948] - test_addpapertype.py - test_addPaperTypeNameNone [Line:107] - [INFO] - paperType/添加套卷类型：FAIL-未填写套卷类型名称》测试通过！
+[2021-09-03 18:38:29,002] - test_addpapertype.py - test_addPaperTypeNameRepeat [Line:75] - [INFO] - paperType/添加套卷类型：FAIL-添加同名称套卷类型》测试通过！
+[2021-09-03 18:38:29,051] - test_addpapertype.py - test_addPaperTypeNameTooLong [Line:235] - [INFO] - paperType/添加套卷类型：FAIL-类型名称超出100字符》测试通过！
+[2021-09-03 18:38:29,093] - test_addpapertype.py - test_addPaperTypePeriodIdsErr [Line:155] - [INFO] - paperType/添加套卷类型：FAIL-输入不存在的学段》测试通过！
+[2021-09-03 18:38:29,144] - test_addpapertype.py - test_addPaperTypePeriodIdsHaveNone [Line:171] - [INFO] - paperType/添加套卷类型：FAIL-学段列表存在空数据》测试通过！
+[2021-09-03 18:38:29,195] - test_addpapertype.py - test_addPaperTypePeriodIdsNone [Line:139] - [INFO] - paperType/添加套卷类型：FAIL-未填写学段》测试通过！
+[2021-09-03 18:38:29,287] - test_addpapertype.py - test_addPaperTypeRequired [Line:59] - [INFO] - paperType/添加套卷类型：SUCCESS-必填项正常添加》测试通过！
+[2021-09-03 18:38:29,347] - test_addpapertype.py - test_addPaperTypeSeqErr [Line:203] - [INFO] - paperType/添加套卷类型：FAIL-排序为201》测试通过！
+[2021-09-03 18:38:29,387] - test_addpapertype.py - test_addPaperTypeSeqIsZero [Line:187] - [INFO] - paperType/添加套卷类型：FAIL-排序为0》测试通过！
+[2021-09-03 18:38:29,414] - test_addpapertype.py - tearDownClass [Line:261] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 18:38:29,445] - test_addpapertype.py - tearDownClass [Line:261] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 18:38:29,543] - datadict.py - addPaperType [Line:68] - [INFO] - paperType/套卷类型：新增套卷类型成功！
+[2021-09-03 18:38:29,656] - test_editpapertype.py - test_editPaperType [Line:44] - [INFO] - paperType/编辑套卷类型：SUCCESS-修改所有参数》测试通过！
+[2021-09-03 18:38:29,733] - test_editpapertype.py - test_editPaperTypeCodeNone [Line:136] - [INFO] - paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码》测试通过！
+[2021-09-03 18:38:29,817] - test_editpapertype.py - test_editPaperTypeCodeRepeat [Line:101] - [INFO] - paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码》测试通过！
+[2021-09-03 18:38:29,870] - test_editpapertype.py - test_editPaperTypeDescriptionTooLong [Line:254] - [INFO] - paperType/编辑套卷类型：FAIL-描述超出200字符》测试通过！
+[2021-09-03 18:38:29,926] - test_editpapertype.py - test_editPaperTypeNameNone [Line:118] - [INFO] - paperType/编辑套卷类型：FAIL-未填写套卷类型名称》测试通过！
+[2021-09-03 18:38:29,983] - test_editpapertype.py - test_editPaperTypeNameRepeat [Line:83] - [INFO] - paperType/编辑套卷类型：FAIL-添加同名称套卷类型》测试通过！
+[2021-09-03 18:38:30,034] - test_editpapertype.py - test_editPaperTypeNameTooLong [Line:237] - [INFO] - paperType/编辑套卷类型：FAIL-类型名称超出100字符》测试通过！
+[2021-09-03 18:38:30,086] - test_editpapertype.py - test_editPaperTypePeriodIdsHaveNone [Line:187] - [INFO] - paperType/编辑套卷类型：FAIL-学段列表存在空字段》测试通过！
+[2021-09-03 18:38:30,141] - test_editpapertype.py - test_editPaperTypePeriodIdsNone [Line:170] - [INFO] - paperType/编辑套卷类型：FAIL-输入不存在的学段》测试通过！
+[2021-09-03 18:38:30,227] - test_editpapertype.py - test_editPaperTypeRequired [Line:66] - [INFO] - paperType/编辑套卷类型：SUCCESS-必填项正常添加》测试通过！
+[2021-09-03 18:38:30,280] - test_editpapertype.py - test_editPaperTypeSeqErr [Line:220] - [INFO] - paperType/编辑套卷类型：FAIL-排序为201》测试通过！
+[2021-09-03 18:38:30,331] - test_editpapertype.py - test_editPaperTypeSeqIsZero [Line:204] - [INFO] - paperType/编辑套卷类型：FAIL-排序为0》测试通过！
+[2021-09-03 18:38:30,356] - test_editpapertype.py - tearDownClass [Line:263] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 18:38:30,706] - datadict.py - addPaperType [Line:68] - [INFO] - paperType/套卷类型：新增套卷类型成功！
+[2021-09-03 18:38:30,765] - test_getpapertype.py - test_getPaperType [Line:42] - [INFO] - paperType/获取套卷类型：SUCCESS-获取套卷类型详情》测试通过！
+[2021-09-03 18:38:30,818] - test_getpapertype.py - test_getPaperTypeIdErr [Line:58] - [INFO] - paperType/获取套卷类型：FAIL-输入不存在的套卷类型ID》测试通过！
+[2021-09-03 18:38:30,879] - test_getpapertype.py - tearDownClass [Line:67] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 18:38:30,958] - test_getpapertypebyperiod.py - test_getPaperTypeByPeriod [Line:29] - [INFO] - paperType/学段获取套卷类型：SUCCESS-获取套卷类型详情》测试通过！
+[2021-09-03 18:38:31,007] - test_getpapertypebyperiod.py - test_getPaperTypeIdErr [Line:45] - [INFO] - paperType/学段获取套卷类型：FAIL-输入不存在的学段ID》测试通过！
+[2021-09-03 18:38:31,062] - test_getpapertypebyperiod.py - test_getPaperTypeIdNone [Line:61] - [INFO] - paperType/学段获取套卷类型：FAIL-未输入学段ID》测试通过！
+[2021-09-03 18:38:31,128] - test_getpapertypelist.py - test_getPaperTypeListAll [Line:76] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取全部套卷类型》测试通过！
+[2021-09-03 18:38:31,176] - test_getpapertypelist.py - test_getPaperTypeListCurrentPageErr [Line:113] - [INFO] - paperType/获取套卷类型列表：FAIL-输入错误当前页查询》测试通过！
+[2021-09-03 18:38:31,221] - test_getpapertypelist.py - test_getPaperTypeListNone [Line:96] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取空列表》测试通过！
+[2021-09-03 18:38:31,266] - test_getpapertypelist.py - test_getPaperTypeListOne [Line:34] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取一条套卷类型》测试通过！
+[2021-09-03 18:38:31,307] - test_getpapertypelist.py - test_getPaperTypeListPageSizeErr [Line:130] - [INFO] - paperType/获取套卷类型列表：FAIL-每页大小为负数查询》测试通过！
+[2021-09-03 18:38:31,357] - test_getpapertypelist.py - test_getPaperTypeListSome [Line:56] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取多条套卷类型》测试通过！
+[2021-09-03 18:38:31,457] - test_getpointtree.py - test_getPointTree [Line:30] - [INFO] - point/知识点：SUCCESS-获取知识树》测试通过！
+[2021-09-03 18:38:31,608] - test_getpointtree.py - test_periodIsNone [Line:98] - [INFO] - point/知识点：FAIL-未填写学段》测试通过！
+[2021-09-03 18:38:31,658] - test_getpointtree.py - test_regionIsNone [Line:115] - [INFO] - point/知识点：FAIL-未填写地区》测试通过！
+[2021-09-03 18:38:31,706] - test_getpointtree.py - test_subjectError [Line:64] - [INFO] - point/知识点：SUCCESS-科目不存在，列表返回空》测试通过！
+[2021-09-03 18:38:31,766] - test_getpointtree.py - test_subjectIsNone [Line:81] - [INFO] - point/知识点：FAIL-未填写科目》测试通过！
+[2021-09-03 18:38:31,841] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:38:31,905] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:38:32,017] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:38:32,083] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:38:32,146] - test_addschool.py - test_addSchool [Line:48] - [ERROR] - school/添加学校：SUCCESS-添加学校（带区）》接口调用失败，失败原因：'id'
+[2021-09-03 18:38:32,378] - test_addschool.py - test_addSchoolNoCity [Line:147] - [INFO] - school/添加学校：FAIL-添加学校不带市》测试通过！
+[2021-09-03 18:38:32,430] - test_addschool.py - test_addSchoolNoCounty [Line:75] - [ERROR] - school/添加学校：SUCCESS-添加学校不带区》接口调用失败，失败原因：'id'
+[2021-09-03 18:38:32,479] - test_addschool.py - test_addSchoolNoPeriod [Line:242] - [INFO] - school/添加学校：FAIL-学段不存在》测试通过！
+[2021-09-03 18:38:32,529] - test_addschool.py - test_addSchoolNoProvince [Line:185] - [INFO] - school/添加学校：FAIL-添加学校不带省》测试通过！
+[2021-09-03 18:38:32,577] - test_addschool.py - test_addSchoolNoSchoolName [Line:223] - [INFO] - school/添加学校：FAIL-学校名为空》测试通过！
+[2021-09-03 18:38:32,928] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:38:32,981] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 18:38:32,983] - test_editschoolstatus.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 18:38:33,039] - test_editschoolstatus.py - test_editSchoolNoExist [Line:84] - [INFO] - school/修改状态：FAIL-学校不存在》测试通过！
+[2021-09-03 18:38:33,204] - test_editschoolstatus.py - test_editSchoolNoID [Line:135] - [INFO] - school/修改状态：FAIL-未传入学校ID》测试通过！
+[2021-09-03 18:38:33,207] - test_editschoolstatus.py - tearDownClass [Line:145] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'EditSchoolStatus' has no attribute 'schoolId'
+[2021-09-03 18:38:33,280] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:38:33,330] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 18:38:33,330] - test_getschool.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 18:38:33,373] - test_getschool.py - test_getSchoolNoExist [Line:80] - [INFO] - school/获取学校详情：FAIL-学校不存在》测试通过！
+[2021-09-03 18:38:33,374] - test_getschool.py - tearDownClass [Line:103] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'GetSchool' has no attribute 'schoolId'
+[2021-09-03 18:38:33,433] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:38:33,485] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 18:38:33,485] - test_getschoollist.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 18:38:33,630] - test_getschoollist.py - test_getListByAreaErr [Line:141] - [INFO] - school/获取学校详情：SUCCESS-输入错误市ID查询空列表》测试通过！
+[2021-09-03 18:38:33,746] - test_getschoollist.py - test_getListByPeriod [Line:164] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称和学段查询》测试通过！
+[2021-09-03 18:38:33,855] - test_getschoollist.py - test_getListByStatus [Line:187] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称模糊查询》测试通过！
+[2021-09-03 18:38:33,897] - test_getschoollist.py - test_getListCurrentPageErr [Line:222] - [INFO] - school/获取学校列表：FAIL-输入错误当前页查询》测试通过！
+[2021-09-03 18:38:33,938] - test_getschoollist.py - test_getListPageSizeErr [Line:240] - [INFO] - school/获取学校列表：FAIL-每页大小为负数查询》测试通过！
+[2021-09-03 18:38:33,985] - test_getschoollist.py - test_getListStatusErr [Line:204] - [INFO] - school/获取学校列表：SUCCESS-输入错误状态查询空列表》测试通过！
+[2021-09-03 18:38:34,055] - test_getschoollist.py - test_getSchoolList [Line:60] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称模糊查询》测试通过！
+[2021-09-03 18:38:34,056] - test_getschoollist.py - tearDownClass [Line:250] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'GetSchoolList' has no attribute 'schoolId'
+[2021-09-03 18:38:34,123] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:38:34,174] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 18:38:34,174] - test_updateschool.py - setUpClass [Line:45] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 18:38:34,348] - test_addtempaper.py - test_addtempaper [Line:30] - [INFO] - tempaper/test_addtempaper: SUCCESS！
+[2021-09-03 18:38:34,512] - test_deletetempaper.py - test_deletetempaper [Line:29] - [INFO] - tempaper/test_deletetempaper: SUCCESS！
+[2021-09-03 18:38:34,571] - test_getlist.py - test_getlist [Line:28] - [INFO] - tempaper/test_getlist: SUCCESS！
+[2021-09-03 18:38:34,862] - test_getlist.py - test_getlist [Line:22] - [INFO] - textbook/test_getlist: SUCCESS！
+[2021-09-03 18:38:35,276] - test_createrelation.py - test_TlessonType_success [Line:52] - [INFO] - video/视频：创建视频记录成功用例测试通过！
+[2021-09-03 18:38:35,332] - test_createrelation.py - test_createrecord_businessIdIsNull [Line:68] - [INFO] - video/视频：创建记录失败用例-关联Id为空测试通过！
+[2021-09-03 18:38:35,386] - test_createrelation.py - test_createrecord_businessTypeErr [Line:100] - [INFO] - video/视频：创建记录失败用例-关联Type为错误值测试通过！
+[2021-09-03 18:38:35,439] - test_createrelation.py - test_createrecord_businessTypeIsNull [Line:84] - [INFO] - video/视频：创建记录失败用例-关联Type为空测试通过！
+[2021-09-03 18:38:35,505] - test_createrelation.py - test_createrecord_dataisnull [Line:116] - [INFO] - video/视频：创建视频记录失败用例-视频列表为空测试通过！
+[2021-09-03 18:38:36,233] - test_deleterelation.py - test_delete_relationIdErr [Line:65] - [INFO] - video/视频：删除视频关联记录失败用例测试通过！
+[2021-09-03 18:38:36,292] - test_deleterelation.py - test_delete_relationIdIsNull [Line:49] - [INFO] - video/视频：删除视频关联记录失败用例测试通过！
+[2021-09-03 18:38:36,374] - test_deleterelation.py - test_delete_success [Line:33] - [INFO] - video/视频：删除视频关联记录成功用例测试通过！
+[2021-09-03 18:38:36,422] - test_resource.py - test_resource_fileisnull [Line:74] - [INFO] - video/视频：视频上传resource失败用例--file为NULL测试通过！
+[2021-09-03 18:38:36,517] - test_resource.py - test_resource_success [Line:43] - [INFO] - video/视频：视频上传resource成功用例测试通过！
+[2021-09-03 18:38:36,600] - test_resource.py - test_resource_typeisnull [Line:59] - [INFO] - video/视频：视频上传resource失败用例-type为NULL测试通过！
+[2021-09-03 18:38:36,671] - test_sign.py - test_sign_fail [Line:44] - [INFO] - video/视频：获取视频上传的签名失败用例测试通过！
+[2021-09-03 18:38:36,728] - test_sign.py - test_sign_success [Line:29] - [INFO] - video/视频：获取视频上传的签名成功用例测试通过！
+[2021-09-03 18:38:36,785] - test_uploadfile.py - test_uploadfile_success [Line:37] - [INFO] - video/视频：视频上传成功用例测试通过！
+[2021-09-03 18:38:36,861] - test_uploadfile.py - test_uploadfile_typeisnull [Line:54] - [INFO] - video/视频：视频上传失败用例-type为NULL测试通过！
+[2021-09-03 18:38:37,421] - test_videopage.py - test_TlessonPage_success [Line:40] - [INFO] - video/视频：查询说课视频列表成功用例测试通过！
+[2021-09-03 18:38:37,485] - test_videopage.py - test_businessTypeErr_fail [Line:140] - [INFO] - video/视频：查询视频列表-业务类型错误 失败用例测试通过！
+[2021-09-03 18:38:37,537] - test_videopage.py - test_businessTypeNull_fail [Line:124] - [INFO] - video/视频：查询视频列表-业务类型为空失败用例测试通过！
+[2021-09-03 18:38:37,796] - test_videopage.py - test_pageNull_success [Line:108] - [INFO] - video/视频：查询视频列表-未设置列表成功用例测试通过！
+[2021-09-03 18:38:37,868] - test_videopage.py - test_pageSet_success [Line:87] - [INFO] - video/视频：查询视频列表-列表设置成功用例测试通过！
+[2021-09-03 18:38:37,941] - test_videopage.py - test_searchPage_success [Line:64] - [INFO] - video/视频：根据名称查询视频列表成功用例测试通过！
+[2021-09-03 18:52:19,810] - test_uploadaudio.py - test_uploadaudio_filenameisnull [Line:55] - [INFO] - audio/音频：音频上传失败用例-filename为NULL测试通过！
+[2021-09-03 18:52:19,859] - test_uploadaudio.py - test_uploadaudio_keyisnull [Line:70] - [INFO] - audio/音频：音频上传失败用例-key为NULL测试通过！
+[2021-09-03 18:52:19,908] - test_uploadaudio.py - test_uploadaudio_sizeisnull [Line:85] - [INFO] - audio/音频：音频上传失败用例-size为NULL测试通过！
+[2021-09-03 18:52:20,326] - test_uploadaudio.py - test_uploadaudio_success [Line:40] - [INFO] - audio/音频：音频上传成功用例测试通过！
+[2021-09-03 18:52:20,392] - test_token.py - test_token_fail [Line:44] - [INFO] - commonupload/通用上传：获取token失败用例测试通过！
+[2021-09-03 18:52:20,474] - test_token.py - test_token_success [Line:29] - [INFO] - commonupload/通用上传：获取token成功用例测试通过！
+[2021-09-03 18:52:20,634] - test_getlist.py - test_getlist [Line:45] - [INFO] - documents/test_getlist: SUCCESS！
+[2021-09-03 18:52:20,708] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:52:20,877] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:52:43,685] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:52:43,802] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:52:43,916] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:52:50,625] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:52:50,770] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:52:50,877] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:52:50,968] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:52:51,060] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:52:51,872] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:53:03,942] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:53:04,042] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:53:04,179] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:53:04,348] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:53:04,441] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:53:04,563] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:53:04,672] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:53:04,902] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:53:05,005] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:53:07,710] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:53:07,888] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:53:08,777] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:53:08,869] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:53:09,449] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:53:09,615] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 18:53:09,717] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:53:09,947] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 18:53:10,195] - test_changestatus.py - test_changestatus [Line:25] - [INFO] - item/test_changestatus: SUCCESS！
+[2021-09-03 18:53:10,260] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 18:53:10,804] - test_edititem.py - test_edititem [Line:25] - [INFO] - item/test_edititem: SUCCESS！
+[2021-09-03 18:53:10,908] - test_getanalytic_list.py - test_getanalytic_list [Line:21] - [INFO] - item/test_getanalytic_list: SUCCESS！
+[2021-09-03 18:53:11,020] - test_getitem.py - test_getitem [Line:21] - [INFO] - item/test_getitem: SUCCESS！
+[2021-09-03 18:53:11,073] - test_like.py - test_like [Line:27] - [INFO] - item/test_like: SUCCESS！
+[2021-09-03 18:53:11,522] - test_review_answer.py - test_review_answer [Line:26] - [INFO] - item/test_review_answer: SUCCESS！
+[2021-09-03 18:53:11,590] - test_uploadpicture.py - test_uploadpicture_fail [Line:96] - [INFO] - item/题库：上传图片失败用例-上传列表为空测试通过！
+[2021-09-03 18:53:11,684] - test_uploadpicture.py - test_uploadpicture_gif [Line:83] - [INFO] - item/题库：上传gif图片失败用例测试通过！
+[2021-09-03 18:53:12,254] - test_uploadpicture.py - test_uploadpicture_jpg [Line:64] - [INFO] - item/题库：上传jpg图片成功用例测试通过！
+[2021-09-03 18:53:12,485] - test_uploadpicture.py - test_uploadpicture_png [Line:40] - [INFO] - item/题库：上传png图片成功用例测试通过！
+[2021-09-03 18:53:12,540] - test_getitemmould.py - test_getitemmould_fail [Line:45] - [INFO] - itemmould/题型模版：获取题型模版失败用例测试通过！
+[2021-09-03 18:53:12,587] - test_getitemmould.py - test_getitemmould_success [Line:29] - [INFO] - itemmould/题型模版：获取题型模版成功用例测试通过！
+[2021-09-03 18:53:12,691] - test_additemtype.py - test_additemtype [Line:38] - [INFO] - itemType/题型：添加题型成功用例测试通过！
+[2021-09-03 18:53:12,742] - test_additemtype.py - test_additemtype_mouldtypeiserr [Line:149] - [INFO] - itemType/题型：添加题型失败用例-题型模版错误测试通过！
+[2021-09-03 18:53:12,789] - test_additemtype.py - test_additemtype_mouldtypeisnull [Line:133] - [INFO] - itemType/题型：添加题型失败用例-题型模版为空测试通过！
+[2021-09-03 18:53:12,853] - test_additemtype.py - test_additemtype_requried [Line:62] - [INFO] - itemType/题型：添加题型必填项成功用例测试通过！
+[2021-09-03 18:53:12,908] - test_additemtype.py - test_additemtype_retypecode [Line:98] - [INFO] - itemType/题型：添加题型失败用例-题型编码重复测试通过！
+[2021-09-03 18:53:12,960] - test_additemtype.py - test_additemtype_retypename [Line:117] - [INFO] - itemType/题型：添加题型失败用例-题型名称重复测试通过！
+[2021-09-03 18:53:13,013] - test_additemtype.py - test_additemtype_subjectIdsErr [Line:79] - [INFO] - itemType/题型：添加题型失败用例-科目Id错误测试通过！
+[2021-09-03 18:53:13,069] - test_additemtype.py - test_additemtype_typecodeisnull [Line:165] - [INFO] - itemType/题型：添加题型失败用例-题型编码为空测试通过！
+[2021-09-03 18:53:13,117] - test_additemtype.py - test_additemtype_typenameisnull [Line:181] - [INFO] - itemType/题型：添加题型失败用例-题型名称为空测试通过！
+[2021-09-03 18:53:13,164] - test_additemtype.py - test_priorityCodeError [Line:197] - [INFO] - itemType/题型：添加题型失败用例-排序超出限制测试通过！
+[2021-09-03 18:53:13,489] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:53:13,818] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:53:13,895] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 18:53:14,148] - test_deleteitemtype.py - test_deleteItemType [Line:43] - [INFO] - itemType/题型：删除题型成功用例测试通过！
+[2021-09-03 18:53:14,226] - test_deleteitemtype.py - test_deleteItemTypeHaveItem [Line:73] - [INFO] - itemType/题型：删除已存在题目的题型用例测试通过！
+[2021-09-03 18:53:14,271] - test_deleteitemtype.py - test_deleteItemTypeNoExist [Line:57] - [INFO] - itemType/题型：删除不存在的题型用例测试通过！
+[2021-09-03 18:53:14,321] - test_deleteitemtype.py - test_deleteItemTypeNoId [Line:89] - [INFO] - itemType/题型：删除题型未输入ID用例测试通过！
+[2021-09-03 18:53:14,394] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 18:53:14,453] - test_getitemtype.py - test_getItemType [Line:41] - [INFO] - itemType/题型：获取题型成功用例测试通过！
+[2021-09-03 18:53:14,501] - test_getitemtype.py - test_getItemTypeNoExist [Line:57] - [INFO] - itemType/题型：获取不存在的题型用例测试通过！
+[2021-09-03 18:53:14,794] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:53:14,871] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 18:53:14,912] - test_getitemtypelist.py - test_currentPageErr [Line:153] - [INFO] - itemType/题型：获取题型列表当前页为负数用例测试通过！
+[2021-09-03 18:53:14,950] - test_getitemtypelist.py - test_currentPageIsZero [Line:136] - [INFO] - itemType/题型：获取题型列表当前页为0用例测试通过！
+[2021-09-03 18:53:14,992] - test_getitemtypelist.py - test_getItemTypeList [Line:119] - [INFO] - itemType/题型：获取题型列表为空用例测试通过！
+[2021-09-03 18:53:15,034] - test_getitemtypelist.py - test_getItemTypeListByCode [Line:102] - [INFO] - itemType/题型：通过题型编码获取列表成功用例测试通过！
+[2021-09-03 18:53:15,075] - test_getitemtypelist.py - test_getItemTypeListByName [Line:79] - [INFO] - itemType/题型：通过题型名称获取列表成功用例测试通过！
+[2021-09-03 18:53:15,135] - test_getitemtypelist.py - test_getItemTypeListDefault [Line:56] - [INFO] - itemType/题型：获取题型列表成功用例测试通过！
+[2021-09-03 18:53:15,176] - test_getitemtypelist.py - test_pageSizeErr [Line:170] - [INFO] - itemType/题型：获取题型列表每页大小为负数用例测试通过！
+[2021-09-03 18:53:15,453] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:53:15,590] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 18:53:15,662] - test_updateitemtype.py - test_priorityCodeError [Line:108] - [INFO] - itemType/题型：修改题型失败用例-排序超出限制测试通过！
+[2021-09-03 18:53:15,715] - test_updateitemtype.py - test_reTypeName [Line:74] - [INFO] - itemType/题型：修改题型失败用例-题型名称重复测试通过！
+[2021-09-03 18:53:15,834] - test_updateitemtype.py - test_subjectIdsErr [Line:56] - [INFO] - itemType/题型：修改题型失败用例-科目Id错误测试通过！
+[2021-09-03 18:53:15,901] - test_updateitemtype.py - test_typeNameIsNull [Line:91] - [INFO] - itemType/题型：修改题型失败用例-题型名称为空测试通过！
+[2021-09-03 18:53:15,982] - test_updateitemtype.py - test_updateItemType [Line:39] - [INFO] - itemType/题型：修改题型成功用例测试通过！
+[2021-09-03 18:53:17,092] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 18:53:17,263] - test_addfolders.py - test_addfolders [Line:29] - [INFO] - lecture/test_addfolders: SUCCESS！
+[2021-09-03 18:53:17,404] - test_addlecture.py - test_addlecture [Line:31] - [INFO] - lecture/test_addlecture: SUCCESS！
+[2021-09-03 18:53:17,598] - test_copylecture.py - test_copylecture [Line:29] - [INFO] - lecture/test_copylecture: SUCCESS！
+[2021-09-03 18:53:18,322] - test_deletefolders.py - test_deletefolders [Line:28] - [INFO] - lecture/test_deletefolders: SUCCESS！
+[2021-09-03 18:53:18,447] - test_editfolders.py - test_editfolders [Line:30] - [INFO] - lecture/test_editfolders: SUCCESS！
+[2021-09-03 18:53:18,615] - test_editlecture.py - test_editlecture [Line:23] - [INFO] - lecture/test_editlecture: SUCCESS！
+[2021-09-03 18:53:18,816] - test_editlectureinfo_jiaoan.py - test_editlectureinfo_jiaoan [Line:23] - [INFO] - lecture/test_editlectureinfo_jiaoan: SUCCESS！
+[2021-09-03 18:53:18,977] - test_editlectureinfo_kaoshi.py - test_editlectureinfo_kaoshi [Line:23] - [INFO] - lecture/test_editlectureinfo_kaoshi: SUCCESS！
+[2021-09-03 18:53:19,114] - test_editlectureinfo_yuxi.py - test_editlectureinfo_yuxi [Line:23] - [INFO] - lecture/test_editlectureinfo_yuxi: SUCCESS！
+[2021-09-03 18:53:19,248] - test_editlectureinfo_zhineng.py - test_editlectureinfo_zhineng [Line:23] - [INFO] - lecture/test_editlectureinfo_zhineng: SUCCESS！
+[2021-09-03 18:53:19,349] - test_edituploadfile.py - test_edituploadfile [Line:23] - [INFO] - lecture/test_edituploadfile: SUCCESS！
+[2021-09-03 18:53:19,415] - test_getfilelist.py - test_getfilelist [Line:28] - [INFO] - lecture/test_getfilelist: SUCCESS！
+[2021-09-03 18:53:19,464] - test_getfolderstree.py - test_getfolderstree [Line:25] - [INFO] - lecture/test_getfolderstree: SUCCESS！
+[2021-09-03 18:53:19,515] - test_getlectureinfo.py - test_getlectureinfo [Line:22] - [INFO] - lecture/test_getlectureinfo: SUCCESS！
+[2021-09-03 18:53:19,561] - test_lastlecture.py - test_lastlecture [Line:25] - [INFO] - lecture/test_lastlecture: SUCCESS！
+[2021-09-03 18:53:20,289] - test_movefile.py - test_movefile [Line:35] - [INFO] - lecture/test_movefile: SUCCESS！
+[2021-09-03 18:53:21,197] - test_removeinfo.py - test_removeinfo [Line:31] - [INFO] - lecture/test_removeinfo: SUCCESS！
+[2021-09-03 18:53:21,938] - test_searchfiles.py - test_searchfiles [Line:25] - [INFO] - lecture/test_searchfiles: SUCCESS！
+[2021-09-03 18:53:22,234] - test_uploadfiles.py - test_uploadfiles [Line:24] - [INFO] - lecture/test_uploadfiles: SUCCESS！
+[2021-09-03 18:53:22,317] - test_addpaper.py - test_addpaper [Line:26] - [INFO] - paper/test_addpaper: SUCCESS！
+[2021-09-03 18:53:22,455] - test_deletepaper.py - test_delete [Line:35] - [INFO] - paper/test_delete: SUCCESS！
+[2021-09-03 18:53:22,678] - test_enable.py - test_enable [Line:28] - [INFO] - paper/test_enable: SUCCESS！
+[2021-09-03 18:53:22,832] - paper.py - enable_paper [Line:46] - [ERROR] - 启用套卷成功！
+[2021-09-03 18:53:22,905] - test_offshelf.py - test_offshelf [Line:29] - [INFO] - paper/test_offshelf: SUCCESS！
+[2021-09-03 18:53:22,973] - test_paperlist.py - test_paper_list [Line:23] - [INFO] - paper/test_paperlist: SUCCESS！
+[2021-09-03 18:53:23,021] - test_paperlist_randsubject.py - test_paper_list_rand_subject [Line:26] - [INFO] - paper/test_paperlist_randsubject: SUCCESS！
+[2021-09-03 18:53:23,074] - test_standard_paperlist.py - test_standard_paperlist [Line:23] - [INFO] - paper/test_standard_paperlist: SUCCESS！
+[2021-09-03 18:53:23,114] - test_standard_randpaperlist.py - test_standard_rand_paper_list [Line:26] - [INFO] - paper/test_standard_randpaperlist: SUCCESS！
+[2021-09-03 18:53:23,168] - test_viewtag.py - test_viewtag [Line:21] - [INFO] - paper/test_viewtag: SUCCESS！
+[2021-09-03 18:53:23,230] - test_addpapertype.py - test_addPaperType [Line:38] - [INFO] - paperType/添加套卷类型：SUCCESS-所有参数正常添加》测试通过！
+[2021-09-03 18:53:23,265] - test_addpapertype.py - test_addPaperTypeCodeNone [Line:123] - [INFO] - paperType/添加套卷类型：FAIL-未填写套卷类型编码》测试通过！
+[2021-09-03 18:53:23,319] - test_addpapertype.py - test_addPaperTypeCodeRepeat [Line:91] - [INFO] - paperType/添加套卷类型：FAIL-添加同编码套卷类型》测试通过！
+[2021-09-03 18:53:23,375] - test_addpapertype.py - test_addPaperTypeCodeTooLong [Line:219] - [INFO] - paperType/添加套卷类型：FAIL-类型编码超出100字符》测试通过！
+[2021-09-03 18:53:23,423] - test_addpapertype.py - test_addPaperTypeDescriptionTooLong [Line:251] - [INFO] - paperType/添加套卷类型：FAIL-描述超出200字符》测试通过！
+[2021-09-03 18:53:23,474] - test_addpapertype.py - test_addPaperTypeNameNone [Line:107] - [INFO] - paperType/添加套卷类型：FAIL-未填写套卷类型名称》测试通过！
+[2021-09-03 18:53:23,541] - test_addpapertype.py - test_addPaperTypeNameRepeat [Line:75] - [INFO] - paperType/添加套卷类型：FAIL-添加同名称套卷类型》测试通过！
+[2021-09-03 18:53:23,590] - test_addpapertype.py - test_addPaperTypeNameTooLong [Line:235] - [INFO] - paperType/添加套卷类型：FAIL-类型名称超出100字符》测试通过！
+[2021-09-03 18:53:23,630] - test_addpapertype.py - test_addPaperTypePeriodIdsErr [Line:155] - [INFO] - paperType/添加套卷类型：FAIL-输入不存在的学段》测试通过！
+[2021-09-03 18:53:23,679] - test_addpapertype.py - test_addPaperTypePeriodIdsHaveNone [Line:171] - [INFO] - paperType/添加套卷类型：FAIL-学段列表存在空数据》测试通过！
+[2021-09-03 18:53:23,716] - test_addpapertype.py - test_addPaperTypePeriodIdsNone [Line:139] - [INFO] - paperType/添加套卷类型：FAIL-未填写学段》测试通过！
+[2021-09-03 18:53:23,789] - test_addpapertype.py - test_addPaperTypeRequired [Line:59] - [INFO] - paperType/添加套卷类型：SUCCESS-必填项正常添加》测试通过！
+[2021-09-03 18:53:23,836] - test_addpapertype.py - test_addPaperTypeSeqErr [Line:203] - [INFO] - paperType/添加套卷类型：FAIL-排序为201》测试通过！
+[2021-09-03 18:53:23,885] - test_addpapertype.py - test_addPaperTypeSeqIsZero [Line:187] - [INFO] - paperType/添加套卷类型：FAIL-排序为0》测试通过！
+[2021-09-03 18:53:23,906] - test_addpapertype.py - tearDownClass [Line:261] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 18:53:23,940] - test_addpapertype.py - tearDownClass [Line:261] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 18:53:23,999] - datadict.py - addPaperType [Line:68] - [INFO] - paperType/套卷类型：新增套卷类型成功！
+[2021-09-03 18:53:24,081] - test_editpapertype.py - test_editPaperType [Line:44] - [INFO] - paperType/编辑套卷类型：SUCCESS-修改所有参数》测试通过！
+[2021-09-03 18:53:24,164] - test_editpapertype.py - test_editPaperTypeCodeNone [Line:136] - [INFO] - paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码》测试通过！
+[2021-09-03 18:53:24,260] - test_editpapertype.py - test_editPaperTypeCodeRepeat [Line:101] - [INFO] - paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码》测试通过！
+[2021-09-03 18:53:24,326] - test_editpapertype.py - test_editPaperTypeDescriptionTooLong [Line:254] - [INFO] - paperType/编辑套卷类型：FAIL-描述超出200字符》测试通过！
+[2021-09-03 18:53:24,377] - test_editpapertype.py - test_editPaperTypeNameNone [Line:118] - [INFO] - paperType/编辑套卷类型：FAIL-未填写套卷类型名称》测试通过！
+[2021-09-03 18:53:24,436] - test_editpapertype.py - test_editPaperTypeNameRepeat [Line:83] - [INFO] - paperType/编辑套卷类型：FAIL-添加同名称套卷类型》测试通过！
+[2021-09-03 18:53:24,488] - test_editpapertype.py - test_editPaperTypeNameTooLong [Line:237] - [INFO] - paperType/编辑套卷类型：FAIL-类型名称超出100字符》测试通过！
+[2021-09-03 18:53:24,544] - test_editpapertype.py - test_editPaperTypePeriodIdsHaveNone [Line:187] - [INFO] - paperType/编辑套卷类型：FAIL-学段列表存在空字段》测试通过！
+[2021-09-03 18:53:24,597] - test_editpapertype.py - test_editPaperTypePeriodIdsNone [Line:170] - [INFO] - paperType/编辑套卷类型：FAIL-输入不存在的学段》测试通过！
+[2021-09-03 18:53:24,698] - test_editpapertype.py - test_editPaperTypeRequired [Line:66] - [INFO] - paperType/编辑套卷类型：SUCCESS-必填项正常添加》测试通过！
+[2021-09-03 18:53:24,748] - test_editpapertype.py - test_editPaperTypeSeqErr [Line:220] - [INFO] - paperType/编辑套卷类型：FAIL-排序为201》测试通过！
+[2021-09-03 18:53:24,804] - test_editpapertype.py - test_editPaperTypeSeqIsZero [Line:204] - [INFO] - paperType/编辑套卷类型：FAIL-排序为0》测试通过！
+[2021-09-03 18:53:24,823] - test_editpapertype.py - tearDownClass [Line:263] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 18:53:24,888] - datadict.py - addPaperType [Line:68] - [INFO] - paperType/套卷类型：新增套卷类型成功！
+[2021-09-03 18:53:24,940] - test_getpapertype.py - test_getPaperType [Line:42] - [INFO] - paperType/获取套卷类型：SUCCESS-获取套卷类型详情》测试通过！
+[2021-09-03 18:53:24,990] - test_getpapertype.py - test_getPaperTypeIdErr [Line:58] - [INFO] - paperType/获取套卷类型：FAIL-输入不存在的套卷类型ID》测试通过！
+[2021-09-03 18:53:25,008] - test_getpapertype.py - tearDownClass [Line:67] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 18:53:25,049] - test_getpapertypebyperiod.py - test_getPaperTypeByPeriod [Line:29] - [INFO] - paperType/学段获取套卷类型：SUCCESS-获取套卷类型详情》测试通过！
+[2021-09-03 18:53:25,103] - test_getpapertypebyperiod.py - test_getPaperTypeIdErr [Line:45] - [INFO] - paperType/学段获取套卷类型：FAIL-输入不存在的学段ID》测试通过！
+[2021-09-03 18:53:25,165] - test_getpapertypebyperiod.py - test_getPaperTypeIdNone [Line:61] - [INFO] - paperType/学段获取套卷类型：FAIL-未输入学段ID》测试通过！
+[2021-09-03 18:53:25,213] - test_getpapertypelist.py - test_getPaperTypeListAll [Line:76] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取全部套卷类型》测试通过！
+[2021-09-03 18:53:25,253] - test_getpapertypelist.py - test_getPaperTypeListCurrentPageErr [Line:113] - [INFO] - paperType/获取套卷类型列表：FAIL-输入错误当前页查询》测试通过！
+[2021-09-03 18:53:25,300] - test_getpapertypelist.py - test_getPaperTypeListNone [Line:96] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取空列表》测试通过！
+[2021-09-03 18:53:25,351] - test_getpapertypelist.py - test_getPaperTypeListOne [Line:34] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取一条套卷类型》测试通过！
+[2021-09-03 18:53:25,394] - test_getpapertypelist.py - test_getPaperTypeListPageSizeErr [Line:130] - [INFO] - paperType/获取套卷类型列表：FAIL-每页大小为负数查询》测试通过！
+[2021-09-03 18:53:25,443] - test_getpapertypelist.py - test_getPaperTypeListSome [Line:56] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取多条套卷类型》测试通过！
+[2021-09-03 18:53:25,543] - test_getpointtree.py - test_getPointTree [Line:30] - [INFO] - point/知识点：SUCCESS-获取知识树》测试通过！
+[2021-09-03 18:53:25,664] - test_getpointtree.py - test_periodIsNone [Line:98] - [INFO] - point/知识点：FAIL-未填写学段》测试通过！
+[2021-09-03 18:53:25,718] - test_getpointtree.py - test_regionIsNone [Line:115] - [INFO] - point/知识点：FAIL-未填写地区》测试通过！
+[2021-09-03 18:53:25,766] - test_getpointtree.py - test_subjectError [Line:64] - [INFO] - point/知识点：SUCCESS-科目不存在，列表返回空》测试通过！
+[2021-09-03 18:53:25,816] - test_getpointtree.py - test_subjectIsNone [Line:81] - [INFO] - point/知识点：FAIL-未填写科目》测试通过！
+[2021-09-03 18:53:25,879] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:53:25,943] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:53:26,035] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:53:26,100] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:53:26,156] - test_addschool.py - test_addSchool [Line:48] - [ERROR] - school/添加学校：SUCCESS-添加学校（带区）》接口调用失败，失败原因：'id'
+[2021-09-03 18:53:26,354] - test_addschool.py - test_addSchoolNoCity [Line:147] - [INFO] - school/添加学校：FAIL-添加学校不带市》测试通过！
+[2021-09-03 18:53:26,394] - test_addschool.py - test_addSchoolNoCounty [Line:75] - [ERROR] - school/添加学校：SUCCESS-添加学校不带区》接口调用失败，失败原因：'id'
+[2021-09-03 18:53:26,443] - test_addschool.py - test_addSchoolNoPeriod [Line:242] - [INFO] - school/添加学校：FAIL-学段不存在》测试通过！
+[2021-09-03 18:53:26,493] - test_addschool.py - test_addSchoolNoProvince [Line:185] - [INFO] - school/添加学校：FAIL-添加学校不带省》测试通过！
+[2021-09-03 18:53:26,546] - test_addschool.py - test_addSchoolNoSchoolName [Line:223] - [INFO] - school/添加学校：FAIL-学校名为空》测试通过！
+[2021-09-03 18:53:26,961] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:53:27,004] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 18:53:27,004] - test_editschoolstatus.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 18:53:27,056] - test_editschoolstatus.py - test_editSchoolNoExist [Line:84] - [INFO] - school/修改状态：FAIL-学校不存在》测试通过！
+[2021-09-03 18:53:27,208] - test_editschoolstatus.py - test_editSchoolNoID [Line:135] - [INFO] - school/修改状态：FAIL-未传入学校ID》测试通过！
+[2021-09-03 18:53:27,209] - test_editschoolstatus.py - tearDownClass [Line:145] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'EditSchoolStatus' has no attribute 'schoolId'
+[2021-09-03 18:53:27,272] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:53:27,322] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 18:53:27,322] - test_getschool.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 18:53:27,370] - test_getschool.py - test_getSchoolNoExist [Line:80] - [INFO] - school/获取学校详情：FAIL-学校不存在》测试通过！
+[2021-09-03 18:53:27,370] - test_getschool.py - tearDownClass [Line:103] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'GetSchool' has no attribute 'schoolId'
+[2021-09-03 18:53:27,434] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:53:27,487] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 18:53:27,487] - test_getschoollist.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 18:53:27,726] - test_getschoollist.py - test_getListByAreaErr [Line:141] - [INFO] - school/获取学校详情：SUCCESS-输入错误市ID查询空列表》测试通过！
+[2021-09-03 18:53:27,781] - test_getschoollist.py - test_getListByPeriod [Line:164] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称和学段查询》测试通过！
+[2021-09-03 18:53:27,877] - test_getschoollist.py - test_getListByStatus [Line:187] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称模糊查询》测试通过！
+[2021-09-03 18:53:27,919] - test_getschoollist.py - test_getListCurrentPageErr [Line:222] - [INFO] - school/获取学校列表：FAIL-输入错误当前页查询》测试通过！
+[2021-09-03 18:53:27,960] - test_getschoollist.py - test_getListPageSizeErr [Line:240] - [INFO] - school/获取学校列表：FAIL-每页大小为负数查询》测试通过！
+[2021-09-03 18:53:28,006] - test_getschoollist.py - test_getListStatusErr [Line:204] - [INFO] - school/获取学校列表：SUCCESS-输入错误状态查询空列表》测试通过！
+[2021-09-03 18:53:28,072] - test_getschoollist.py - test_getSchoolList [Line:60] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称模糊查询》测试通过！
+[2021-09-03 18:53:28,073] - test_getschoollist.py - tearDownClass [Line:250] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'GetSchoolList' has no attribute 'schoolId'
+[2021-09-03 18:53:28,135] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 18:53:28,185] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 18:53:28,185] - test_updateschool.py - setUpClass [Line:45] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 18:53:28,264] - test_addtempaper.py - test_addtempaper [Line:30] - [INFO] - tempaper/test_addtempaper: SUCCESS！
+[2021-09-03 18:53:28,395] - test_deletetempaper.py - test_deletetempaper [Line:29] - [INFO] - tempaper/test_deletetempaper: SUCCESS！
+[2021-09-03 18:53:28,447] - test_getlist.py - test_getlist [Line:28] - [INFO] - tempaper/test_getlist: SUCCESS！
+[2021-09-03 18:53:28,606] - test_getlist.py - test_getlist [Line:22] - [INFO] - textbook/test_getlist: SUCCESS！
+[2021-09-03 18:53:28,834] - test_createrelation.py - test_TlessonType_success [Line:52] - [INFO] - video/视频：创建视频记录成功用例测试通过！
+[2021-09-03 18:53:28,903] - test_createrelation.py - test_createrecord_businessIdIsNull [Line:68] - [INFO] - video/视频：创建记录失败用例-关联Id为空测试通过！
+[2021-09-03 18:53:28,952] - test_createrelation.py - test_createrecord_businessTypeErr [Line:100] - [INFO] - video/视频：创建记录失败用例-关联Type为错误值测试通过！
+[2021-09-03 18:53:28,999] - test_createrelation.py - test_createrecord_businessTypeIsNull [Line:84] - [INFO] - video/视频：创建记录失败用例-关联Type为空测试通过！
+[2021-09-03 18:53:29,056] - test_createrelation.py - test_createrecord_dataisnull [Line:116] - [INFO] - video/视频：创建视频记录失败用例-视频列表为空测试通过！
+[2021-09-03 18:53:29,328] - test_deleterelation.py - test_delete_relationIdErr [Line:65] - [INFO] - video/视频：删除视频关联记录失败用例测试通过！
+[2021-09-03 18:53:29,375] - test_deleterelation.py - test_delete_relationIdIsNull [Line:49] - [INFO] - video/视频：删除视频关联记录失败用例测试通过！
+[2021-09-03 18:53:29,437] - test_deleterelation.py - test_delete_success [Line:33] - [INFO] - video/视频：删除视频关联记录成功用例测试通过！
+[2021-09-03 18:53:29,487] - test_resource.py - test_resource_fileisnull [Line:74] - [INFO] - video/视频：视频上传resource失败用例--file为NULL测试通过！
+[2021-09-03 18:53:29,578] - test_resource.py - test_resource_success [Line:43] - [INFO] - video/视频：视频上传resource成功用例测试通过！
+[2021-09-03 18:53:29,697] - test_resource.py - test_resource_typeisnull [Line:59] - [INFO] - video/视频：视频上传resource失败用例-type为NULL测试通过！
+[2021-09-03 18:53:29,750] - test_sign.py - test_sign_fail [Line:44] - [INFO] - video/视频：获取视频上传的签名失败用例测试通过！
+[2021-09-03 18:53:29,812] - test_sign.py - test_sign_success [Line:29] - [INFO] - video/视频：获取视频上传的签名成功用例测试通过！
+[2021-09-03 18:53:29,879] - test_uploadfile.py - test_uploadfile_success [Line:37] - [INFO] - video/视频：视频上传成功用例测试通过！
+[2021-09-03 18:53:29,954] - test_uploadfile.py - test_uploadfile_typeisnull [Line:54] - [INFO] - video/视频：视频上传失败用例-type为NULL测试通过！
+[2021-09-03 18:53:30,437] - test_videopage.py - test_TlessonPage_success [Line:40] - [INFO] - video/视频：查询说课视频列表成功用例测试通过！
+[2021-09-03 18:53:30,497] - test_videopage.py - test_businessTypeErr_fail [Line:140] - [INFO] - video/视频：查询视频列表-业务类型错误 失败用例测试通过！
+[2021-09-03 18:53:30,551] - test_videopage.py - test_businessTypeNull_fail [Line:124] - [INFO] - video/视频：查询视频列表-业务类型为空失败用例测试通过！
+[2021-09-03 18:53:30,849] - test_videopage.py - test_pageNull_success [Line:108] - [INFO] - video/视频：查询视频列表-未设置列表成功用例测试通过！
+[2021-09-03 18:53:30,924] - test_videopage.py - test_pageSet_success [Line:87] - [INFO] - video/视频：查询视频列表-列表设置成功用例测试通过！
+[2021-09-03 18:53:30,987] - test_videopage.py - test_searchPage_success [Line:64] - [INFO] - video/视频：根据名称查询视频列表成功用例测试通过！
+[2021-09-03 19:51:10,974] - test_uploadaudio.py - test_uploadaudio_filenameisnull [Line:55] - [INFO] - audio/音频：音频上传失败用例-filename为NULL测试通过！
+[2021-09-03 19:51:11,021] - test_uploadaudio.py - test_uploadaudio_keyisnull [Line:70] - [INFO] - audio/音频：音频上传失败用例-key为NULL测试通过！
+[2021-09-03 19:51:11,068] - test_uploadaudio.py - test_uploadaudio_sizeisnull [Line:85] - [INFO] - audio/音频：音频上传失败用例-size为NULL测试通过！
+[2021-09-03 19:51:11,411] - test_uploadaudio.py - test_uploadaudio_success [Line:40] - [INFO] - audio/音频：音频上传成功用例测试通过！
+[2021-09-03 19:51:11,458] - test_token.py - test_token_fail [Line:44] - [INFO] - commonupload/通用上传：获取token失败用例测试通过！
+[2021-09-03 19:51:11,505] - test_token.py - test_token_success [Line:29] - [INFO] - commonupload/通用上传：获取token成功用例测试通过！
+[2021-09-03 19:51:11,646] - test_getlist.py - test_getlist [Line:49] - [INFO] - documents/test_getlist: SUCCESS！
+[2021-09-03 19:51:11,786] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:51:11,943] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:51:23,628] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:51:23,893] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:51:24,049] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:51:50,493] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:51:50,777] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:51:50,824] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:51:50,871] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:51:50,898] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:51:51,008] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:51:51,101] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:52:06,726] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:52:06,817] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:52:06,989] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:52:07,041] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:52:07,076] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:52:36,940] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:52:37,204] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:52:37,321] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:52:37,429] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:52:37,523] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:52:38,335] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:52:38,431] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:52:38,904] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:52:38,988] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:52:41,347] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:52:41,444] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:52:43,012] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:52:43,224] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 19:52:43,349] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:52:49,161] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 19:52:49,470] - test_changestatus.py - test_changestatus [Line:25] - [INFO] - item/test_changestatus: SUCCESS！
+[2021-09-03 19:52:49,564] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 19:52:50,979] - test_edititem.py - test_edititem [Line:25] - [INFO] - item/test_edititem: SUCCESS！
+[2021-09-03 19:52:51,086] - test_getanalytic_list.py - test_getanalytic_list [Line:21] - [INFO] - item/test_getanalytic_list: SUCCESS！
+[2021-09-03 19:52:51,227] - test_getitem.py - test_getitem [Line:21] - [INFO] - item/test_getitem: SUCCESS！
+[2021-09-03 19:52:51,284] - test_like.py - test_like [Line:27] - [INFO] - item/test_like: SUCCESS！
+[2021-09-03 19:52:51,352] - test_review_answer.py - test_review_answer [Line:26] - [INFO] - item/test_review_answer: SUCCESS！
+[2021-09-03 19:52:51,415] - test_uploadpicture.py - test_uploadpicture_fail [Line:96] - [INFO] - item/题库：上传图片失败用例-上传列表为空测试通过！
+[2021-09-03 19:52:51,502] - test_uploadpicture.py - test_uploadpicture_gif [Line:83] - [INFO] - item/题库：上传gif图片失败用例测试通过！
+[2021-09-03 19:52:51,940] - test_uploadpicture.py - test_uploadpicture_jpg [Line:64] - [INFO] - item/题库：上传jpg图片成功用例测试通过！
+[2021-09-03 19:52:52,409] - test_uploadpicture.py - test_uploadpicture_png [Line:40] - [INFO] - item/题库：上传png图片成功用例测试通过！
+[2021-09-03 19:52:52,460] - test_getitemmould.py - test_getitemmould_fail [Line:45] - [INFO] - itemmould/题型模版：获取题型模版失败用例测试通过！
+[2021-09-03 19:52:52,505] - test_getitemmould.py - test_getitemmould_success [Line:29] - [INFO] - itemmould/题型模版：获取题型模版成功用例测试通过！
+[2021-09-03 19:52:52,567] - test_additemtype.py - test_additemtype [Line:38] - [INFO] - itemType/题型：添加题型成功用例测试通过！
+[2021-09-03 19:52:52,617] - test_additemtype.py - test_additemtype_mouldtypeiserr [Line:149] - [INFO] - itemType/题型：添加题型失败用例-题型模版错误测试通过！
+[2021-09-03 19:52:52,653] - test_additemtype.py - test_additemtype_mouldtypeisnull [Line:133] - [INFO] - itemType/题型：添加题型失败用例-题型模版为空测试通过！
+[2021-09-03 19:52:52,712] - test_additemtype.py - test_additemtype_requried [Line:62] - [INFO] - itemType/题型：添加题型必填项成功用例测试通过！
+[2021-09-03 19:52:52,764] - test_additemtype.py - test_additemtype_retypecode [Line:98] - [INFO] - itemType/题型：添加题型失败用例-题型编码重复测试通过！
+[2021-09-03 19:52:52,896] - test_additemtype.py - test_additemtype_retypename [Line:117] - [INFO] - itemType/题型：添加题型失败用例-题型名称重复测试通过！
+[2021-09-03 19:52:52,972] - test_additemtype.py - test_additemtype_subjectIdsErr [Line:79] - [INFO] - itemType/题型：添加题型失败用例-科目Id错误测试通过！
+[2021-09-03 19:52:53,021] - test_additemtype.py - test_additemtype_typecodeisnull [Line:165] - [INFO] - itemType/题型：添加题型失败用例-题型编码为空测试通过！
+[2021-09-03 19:52:53,068] - test_additemtype.py - test_additemtype_typenameisnull [Line:181] - [INFO] - itemType/题型：添加题型失败用例-题型名称为空测试通过！
+[2021-09-03 19:52:53,114] - test_additemtype.py - test_priorityCodeError [Line:197] - [INFO] - itemType/题型：添加题型失败用例-排序超出限制测试通过！
+[2021-09-03 19:52:53,408] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 19:52:53,698] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 19:52:53,846] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 19:52:54,372] - test_deleteitemtype.py - test_deleteItemType [Line:43] - [INFO] - itemType/题型：删除题型成功用例测试通过！
+[2021-09-03 19:52:54,428] - test_deleteitemtype.py - test_deleteItemTypeHaveItem [Line:73] - [INFO] - itemType/题型：删除已存在题目的题型用例测试通过！
+[2021-09-03 19:52:54,465] - test_deleteitemtype.py - test_deleteItemTypeNoExist [Line:57] - [INFO] - itemType/题型：删除不存在的题型用例测试通过！
+[2021-09-03 19:52:54,511] - test_deleteitemtype.py - test_deleteItemTypeNoId [Line:89] - [INFO] - itemType/题型：删除题型未输入ID用例测试通过！
+[2021-09-03 19:52:54,592] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 19:52:54,648] - test_getitemtype.py - test_getItemType [Line:41] - [INFO] - itemType/题型：获取题型成功用例测试通过！
+[2021-09-03 19:52:54,697] - test_getitemtype.py - test_getItemTypeNoExist [Line:57] - [INFO] - itemType/题型：获取不存在的题型用例测试通过！
+[2021-09-03 19:52:56,314] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 19:52:56,406] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 19:52:56,476] - test_getitemtypelist.py - test_currentPageErr [Line:153] - [INFO] - itemType/题型：获取题型列表当前页为负数用例测试通过！
+[2021-09-03 19:52:56,516] - test_getitemtypelist.py - test_currentPageIsZero [Line:136] - [INFO] - itemType/题型：获取题型列表当前页为0用例测试通过！
+[2021-09-03 19:52:56,558] - test_getitemtypelist.py - test_getItemTypeList [Line:119] - [INFO] - itemType/题型：获取题型列表为空用例测试通过！
+[2021-09-03 19:52:56,608] - test_getitemtypelist.py - test_getItemTypeListByCode [Line:102] - [INFO] - itemType/题型：通过题型编码获取列表成功用例测试通过！
+[2021-09-03 19:52:56,655] - test_getitemtypelist.py - test_getItemTypeListByName [Line:79] - [INFO] - itemType/题型：通过题型名称获取列表成功用例测试通过！
+[2021-09-03 19:52:56,706] - test_getitemtypelist.py - test_getItemTypeListDefault [Line:56] - [INFO] - itemType/题型：获取题型列表成功用例测试通过！
+[2021-09-03 19:52:56,748] - test_getitemtypelist.py - test_pageSizeErr [Line:170] - [INFO] - itemType/题型：获取题型列表每页大小为负数用例测试通过！
+[2021-09-03 19:52:57,300] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 19:52:57,458] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 19:52:57,529] - test_updateitemtype.py - test_priorityCodeError [Line:108] - [INFO] - itemType/题型：修改题型失败用例-排序超出限制测试通过！
+[2021-09-03 19:52:57,582] - test_updateitemtype.py - test_reTypeName [Line:74] - [INFO] - itemType/题型：修改题型失败用例-题型名称重复测试通过！
+[2021-09-03 19:52:57,633] - test_updateitemtype.py - test_subjectIdsErr [Line:56] - [INFO] - itemType/题型：修改题型失败用例-科目Id错误测试通过！
+[2021-09-03 19:52:57,679] - test_updateitemtype.py - test_typeNameIsNull [Line:91] - [INFO] - itemType/题型：修改题型失败用例-题型名称为空测试通过！
+[2021-09-03 19:52:57,761] - test_updateitemtype.py - test_updateItemType [Line:39] - [INFO] - itemType/题型：修改题型成功用例测试通过！
+[2021-09-03 19:52:57,971] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 19:52:58,042] - test_addfolders.py - test_addfolders [Line:29] - [INFO] - lecture/test_addfolders: SUCCESS！
+[2021-09-03 19:52:58,220] - test_addlecture.py - test_addlecture [Line:31] - [INFO] - lecture/test_addlecture: SUCCESS！
+[2021-09-03 19:52:58,437] - test_copylecture.py - test_copylecture [Line:29] - [INFO] - lecture/test_copylecture: SUCCESS！
+[2021-09-03 19:52:59,158] - test_deletefolders.py - test_deletefolders [Line:28] - [INFO] - lecture/test_deletefolders: SUCCESS！
+[2021-09-03 19:52:59,368] - test_editfolders.py - test_editfolders [Line:30] - [INFO] - lecture/test_editfolders: SUCCESS！
+[2021-09-03 19:52:59,529] - test_editlecture.py - test_editlecture [Line:23] - [INFO] - lecture/test_editlecture: SUCCESS！
+[2021-09-03 19:52:59,865] - test_editlectureinfo_jiaoan.py - test_editlectureinfo_jiaoan [Line:23] - [INFO] - lecture/test_editlectureinfo_jiaoan: SUCCESS！
+[2021-09-03 19:53:00,970] - test_editlectureinfo_kaoshi.py - test_editlectureinfo_kaoshi [Line:23] - [INFO] - lecture/test_editlectureinfo_kaoshi: SUCCESS！
+[2021-09-03 19:53:01,124] - test_editlectureinfo_yuxi.py - test_editlectureinfo_yuxi [Line:23] - [INFO] - lecture/test_editlectureinfo_yuxi: SUCCESS！
+[2021-09-03 19:53:01,352] - test_editlectureinfo_zhineng.py - test_editlectureinfo_zhineng [Line:23] - [INFO] - lecture/test_editlectureinfo_zhineng: SUCCESS！
+[2021-09-03 19:53:01,450] - test_edituploadfile.py - test_edituploadfile [Line:23] - [INFO] - lecture/test_edituploadfile: SUCCESS！
+[2021-09-03 19:53:01,521] - test_getfilelist.py - test_getfilelist [Line:28] - [INFO] - lecture/test_getfilelist: SUCCESS！
+[2021-09-03 19:53:01,572] - test_getfolderstree.py - test_getfolderstree [Line:25] - [INFO] - lecture/test_getfolderstree: SUCCESS！
+[2021-09-03 19:53:01,620] - test_getlectureinfo.py - test_getlectureinfo [Line:22] - [INFO] - lecture/test_getlectureinfo: SUCCESS！
+[2021-09-03 19:53:01,672] - test_lastlecture.py - test_lastlecture [Line:25] - [INFO] - lecture/test_lastlecture: SUCCESS！
+[2021-09-03 19:53:02,116] - test_movefile.py - test_movefile [Line:35] - [INFO] - lecture/test_movefile: SUCCESS！
+[2021-09-03 19:53:02,977] - test_removeinfo.py - test_removeinfo [Line:31] - [INFO] - lecture/test_removeinfo: SUCCESS！
+[2021-09-03 19:53:03,196] - test_searchfiles.py - test_searchfiles [Line:25] - [INFO] - lecture/test_searchfiles: SUCCESS！
+[2021-09-03 19:53:03,452] - test_uploadfiles.py - test_uploadfiles [Line:24] - [INFO] - lecture/test_uploadfiles: SUCCESS！
+[2021-09-03 19:53:03,563] - test_addpaper.py - test_addpaper [Line:26] - [INFO] - paper/test_addpaper: SUCCESS！
+[2021-09-03 19:53:03,723] - test_deletepaper.py - test_delete [Line:35] - [INFO] - paper/test_delete: SUCCESS！
+[2021-09-03 19:53:03,991] - test_enable.py - test_enable [Line:28] - [INFO] - paper/test_enable: SUCCESS！
+[2021-09-03 19:53:04,197] - paper.py - enable_paper [Line:46] - [ERROR] - 启用套卷成功！
+[2021-09-03 19:53:04,279] - test_offshelf.py - test_offshelf [Line:29] - [INFO] - paper/test_offshelf: SUCCESS！
+[2021-09-03 19:53:04,393] - test_paperlist.py - test_paper_list [Line:23] - [INFO] - paper/test_paperlist: SUCCESS！
+[2021-09-03 19:53:04,470] - test_paperlist_randsubject.py - test_paper_list_rand_subject [Line:26] - [INFO] - paper/test_paperlist_randsubject: SUCCESS！
+[2021-09-03 19:53:04,538] - test_standard_paperlist.py - test_standard_paperlist [Line:23] - [INFO] - paper/test_standard_paperlist: SUCCESS！
+[2021-09-03 19:53:04,581] - test_standard_randpaperlist.py - test_standard_rand_paper_list [Line:26] - [INFO] - paper/test_standard_randpaperlist: SUCCESS！
+[2021-09-03 19:53:04,632] - test_viewtag.py - test_viewtag [Line:21] - [INFO] - paper/test_viewtag: SUCCESS！
+[2021-09-03 19:53:04,732] - test_addpapertype.py - test_addPaperType [Line:38] - [INFO] - paperType/添加套卷类型：SUCCESS-所有参数正常添加》测试通过！
+[2021-09-03 19:53:04,784] - test_addpapertype.py - test_addPaperTypeCodeNone [Line:123] - [INFO] - paperType/添加套卷类型：FAIL-未填写套卷类型编码》测试通过！
+[2021-09-03 19:53:04,843] - test_addpapertype.py - test_addPaperTypeCodeRepeat [Line:91] - [INFO] - paperType/添加套卷类型：FAIL-添加同编码套卷类型》测试通过！
+[2021-09-03 19:53:04,906] - test_addpapertype.py - test_addPaperTypeCodeTooLong [Line:219] - [INFO] - paperType/添加套卷类型：FAIL-类型编码超出100字符》测试通过！
+[2021-09-03 19:53:04,973] - test_addpapertype.py - test_addPaperTypeDescriptionTooLong [Line:251] - [INFO] - paperType/添加套卷类型：FAIL-描述超出200字符》测试通过！
+[2021-09-03 19:53:05,030] - test_addpapertype.py - test_addPaperTypeNameNone [Line:107] - [INFO] - paperType/添加套卷类型：FAIL-未填写套卷类型名称》测试通过！
+[2021-09-03 19:53:05,090] - test_addpapertype.py - test_addPaperTypeNameRepeat [Line:75] - [INFO] - paperType/添加套卷类型：FAIL-添加同名称套卷类型》测试通过！
+[2021-09-03 19:53:05,138] - test_addpapertype.py - test_addPaperTypeNameTooLong [Line:235] - [INFO] - paperType/添加套卷类型：FAIL-类型名称超出100字符》测试通过！
+[2021-09-03 19:53:05,192] - test_addpapertype.py - test_addPaperTypePeriodIdsErr [Line:155] - [INFO] - paperType/添加套卷类型：FAIL-输入不存在的学段》测试通过！
+[2021-09-03 19:53:05,248] - test_addpapertype.py - test_addPaperTypePeriodIdsHaveNone [Line:171] - [INFO] - paperType/添加套卷类型：FAIL-学段列表存在空数据》测试通过！
+[2021-09-03 19:53:05,297] - test_addpapertype.py - test_addPaperTypePeriodIdsNone [Line:139] - [INFO] - paperType/添加套卷类型：FAIL-未填写学段》测试通过！
+[2021-09-03 19:53:05,441] - test_addpapertype.py - test_addPaperTypeRequired [Line:59] - [INFO] - paperType/添加套卷类型：SUCCESS-必填项正常添加》测试通过！
+[2021-09-03 19:53:05,515] - test_addpapertype.py - test_addPaperTypeSeqErr [Line:203] - [INFO] - paperType/添加套卷类型：FAIL-排序为201》测试通过！
+[2021-09-03 19:53:05,555] - test_addpapertype.py - test_addPaperTypeSeqIsZero [Line:187] - [INFO] - paperType/添加套卷类型：FAIL-排序为0》测试通过！
+[2021-09-03 19:53:05,580] - test_addpapertype.py - tearDownClass [Line:261] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 19:53:05,641] - test_addpapertype.py - tearDownClass [Line:261] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 19:53:05,723] - datadict.py - addPaperType [Line:68] - [INFO] - paperType/套卷类型：新增套卷类型成功！
+[2021-09-03 19:53:05,800] - test_editpapertype.py - test_editPaperType [Line:44] - [INFO] - paperType/编辑套卷类型：SUCCESS-修改所有参数》测试通过！
+[2021-09-03 19:53:05,875] - test_editpapertype.py - test_editPaperTypeCodeNone [Line:136] - [INFO] - paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码》测试通过！
+[2021-09-03 19:53:05,948] - test_editpapertype.py - test_editPaperTypeCodeRepeat [Line:101] - [INFO] - paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码》测试通过！
+[2021-09-03 19:53:05,995] - test_editpapertype.py - test_editPaperTypeDescriptionTooLong [Line:254] - [INFO] - paperType/编辑套卷类型：FAIL-描述超出200字符》测试通过！
+[2021-09-03 19:53:06,042] - test_editpapertype.py - test_editPaperTypeNameNone [Line:118] - [INFO] - paperType/编辑套卷类型：FAIL-未填写套卷类型名称》测试通过！
+[2021-09-03 19:53:06,085] - test_editpapertype.py - test_editPaperTypeNameRepeat [Line:83] - [INFO] - paperType/编辑套卷类型：FAIL-添加同名称套卷类型》测试通过！
+[2021-09-03 19:53:06,132] - test_editpapertype.py - test_editPaperTypeNameTooLong [Line:237] - [INFO] - paperType/编辑套卷类型：FAIL-类型名称超出100字符》测试通过！
+[2021-09-03 19:53:06,187] - test_editpapertype.py - test_editPaperTypePeriodIdsHaveNone [Line:187] - [INFO] - paperType/编辑套卷类型：FAIL-学段列表存在空字段》测试通过！
+[2021-09-03 19:53:06,242] - test_editpapertype.py - test_editPaperTypePeriodIdsNone [Line:170] - [INFO] - paperType/编辑套卷类型：FAIL-输入不存在的学段》测试通过！
+[2021-09-03 19:53:06,312] - test_editpapertype.py - test_editPaperTypeRequired [Line:66] - [INFO] - paperType/编辑套卷类型：SUCCESS-必填项正常添加》测试通过！
+[2021-09-03 19:53:06,416] - test_editpapertype.py - test_editPaperTypeSeqErr [Line:220] - [INFO] - paperType/编辑套卷类型：FAIL-排序为201》测试通过！
+[2021-09-03 19:53:06,493] - test_editpapertype.py - test_editPaperTypeSeqIsZero [Line:204] - [INFO] - paperType/编辑套卷类型：FAIL-排序为0》测试通过！
+[2021-09-03 19:53:06,516] - test_editpapertype.py - tearDownClass [Line:263] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 19:53:06,581] - datadict.py - addPaperType [Line:68] - [INFO] - paperType/套卷类型：新增套卷类型成功！
+[2021-09-03 19:53:06,640] - test_getpapertype.py - test_getPaperType [Line:42] - [INFO] - paperType/获取套卷类型：SUCCESS-获取套卷类型详情》测试通过！
+[2021-09-03 19:53:06,689] - test_getpapertype.py - test_getPaperTypeIdErr [Line:58] - [INFO] - paperType/获取套卷类型：FAIL-输入不存在的套卷类型ID》测试通过！
+[2021-09-03 19:53:06,710] - test_getpapertype.py - tearDownClass [Line:67] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 19:53:06,766] - test_getpapertypebyperiod.py - test_getPaperTypeByPeriod [Line:29] - [INFO] - paperType/学段获取套卷类型：SUCCESS-获取套卷类型详情》测试通过！
+[2021-09-03 19:53:06,817] - test_getpapertypebyperiod.py - test_getPaperTypeIdErr [Line:45] - [INFO] - paperType/学段获取套卷类型：FAIL-输入不存在的学段ID》测试通过！
+[2021-09-03 19:53:06,867] - test_getpapertypebyperiod.py - test_getPaperTypeIdNone [Line:61] - [INFO] - paperType/学段获取套卷类型：FAIL-未输入学段ID》测试通过！
+[2021-09-03 19:53:06,913] - test_getpapertypelist.py - test_getPaperTypeListAll [Line:76] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取全部套卷类型》测试通过！
+[2021-09-03 19:53:06,954] - test_getpapertypelist.py - test_getPaperTypeListCurrentPageErr [Line:113] - [INFO] - paperType/获取套卷类型列表：FAIL-输入错误当前页查询》测试通过！
+[2021-09-03 19:53:06,996] - test_getpapertypelist.py - test_getPaperTypeListNone [Line:96] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取空列表》测试通过！
+[2021-09-03 19:53:07,053] - test_getpapertypelist.py - test_getPaperTypeListOne [Line:34] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取一条套卷类型》测试通过！
+[2021-09-03 19:53:07,101] - test_getpapertypelist.py - test_getPaperTypeListPageSizeErr [Line:130] - [INFO] - paperType/获取套卷类型列表：FAIL-每页大小为负数查询》测试通过！
+[2021-09-03 19:53:07,150] - test_getpapertypelist.py - test_getPaperTypeListSome [Line:56] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取多条套卷类型》测试通过！
+[2021-09-03 19:53:07,205] - test_getpointtree.py - test_getPointTree [Line:30] - [INFO] - point/知识点：SUCCESS-获取知识树》测试通过！
+[2021-09-03 19:53:07,254] - test_getpointtree.py - test_listIsNone [Line:47] - [INFO] - point/知识点：SUCCESS-输入科目学段查询出空列表》测试通过！
+[2021-09-03 19:53:07,311] - test_getpointtree.py - test_periodIsNone [Line:98] - [INFO] - point/知识点：FAIL-未填写学段》测试通过！
+[2021-09-03 19:53:07,367] - test_getpointtree.py - test_regionIsNone [Line:115] - [INFO] - point/知识点：FAIL-未填写地区》测试通过！
+[2021-09-03 19:53:07,495] - test_getpointtree.py - test_subjectError [Line:64] - [INFO] - point/知识点：SUCCESS-科目不存在，列表返回空》测试通过！
+[2021-09-03 19:53:07,556] - test_getpointtree.py - test_subjectIsNone [Line:81] - [INFO] - point/知识点：FAIL-未填写科目》测试通过！
+[2021-09-03 19:53:07,617] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 19:53:07,681] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 19:53:07,751] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 19:53:07,843] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 19:53:07,894] - test_addschool.py - test_addSchool [Line:48] - [ERROR] - school/添加学校：SUCCESS-添加学校（带区）》接口调用失败，失败原因：'id'
+[2021-09-03 19:53:08,198] - test_addschool.py - test_addSchoolNoCity [Line:147] - [INFO] - school/添加学校：FAIL-添加学校不带市》测试通过！
+[2021-09-03 19:53:08,261] - test_addschool.py - test_addSchoolNoCounty [Line:75] - [ERROR] - school/添加学校：SUCCESS-添加学校不带区》接口调用失败，失败原因：'id'
+[2021-09-03 19:53:08,328] - test_addschool.py - test_addSchoolNoPeriod [Line:242] - [INFO] - school/添加学校：FAIL-学段不存在》测试通过！
+[2021-09-03 19:53:08,395] - test_addschool.py - test_addSchoolNoProvince [Line:185] - [INFO] - school/添加学校：FAIL-添加学校不带省》测试通过！
+[2021-09-03 19:53:08,460] - test_addschool.py - test_addSchoolNoSchoolName [Line:223] - [INFO] - school/添加学校：FAIL-学校名为空》测试通过！
+[2021-09-03 19:53:08,789] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 19:53:08,839] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 19:53:08,839] - test_editschoolstatus.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 19:53:08,916] - test_editschoolstatus.py - test_editSchoolNoExist [Line:84] - [INFO] - school/修改状态：FAIL-学校不存在》测试通过！
+[2021-09-03 19:53:09,067] - test_editschoolstatus.py - test_editSchoolNoID [Line:135] - [INFO] - school/修改状态：FAIL-未传入学校ID》测试通过！
+[2021-09-03 19:53:09,068] - test_editschoolstatus.py - tearDownClass [Line:145] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'EditSchoolStatus' has no attribute 'schoolId'
+[2021-09-03 19:53:09,129] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 19:53:09,176] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 19:53:09,176] - test_getschool.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 19:53:09,230] - test_getschool.py - test_getSchoolNoExist [Line:80] - [INFO] - school/获取学校详情：FAIL-学校不存在》测试通过！
+[2021-09-03 19:53:09,230] - test_getschool.py - tearDownClass [Line:103] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'GetSchool' has no attribute 'schoolId'
+[2021-09-03 19:53:09,291] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 19:53:09,339] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 19:53:09,339] - test_getschoollist.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 19:53:09,433] - test_getschoollist.py - test_getListByAreaErr [Line:141] - [INFO] - school/获取学校详情：SUCCESS-输入错误市ID查询空列表》测试通过！
+[2021-09-03 19:53:09,490] - test_getschoollist.py - test_getListByPeriod [Line:164] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称和学段查询》测试通过！
+[2021-09-03 19:53:09,604] - test_getschoollist.py - test_getListByStatus [Line:187] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称模糊查询》测试通过！
+[2021-09-03 19:53:09,649] - test_getschoollist.py - test_getListCurrentPageErr [Line:222] - [INFO] - school/获取学校列表：FAIL-输入错误当前页查询》测试通过！
+[2021-09-03 19:53:09,695] - test_getschoollist.py - test_getListPageSizeErr [Line:240] - [INFO] - school/获取学校列表：FAIL-每页大小为负数查询》测试通过！
+[2021-09-03 19:53:09,741] - test_getschoollist.py - test_getListStatusErr [Line:204] - [INFO] - school/获取学校列表：SUCCESS-输入错误状态查询空列表》测试通过！
+[2021-09-03 19:53:09,807] - test_getschoollist.py - test_getSchoolList [Line:60] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称模糊查询》测试通过！
+[2021-09-03 19:53:09,808] - test_getschoollist.py - tearDownClass [Line:250] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'GetSchoolList' has no attribute 'schoolId'
+[2021-09-03 19:53:09,891] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 19:53:09,944] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 19:53:09,944] - test_updateschool.py - setUpClass [Line:45] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 19:53:10,071] - test_addtempaper.py - test_addtempaper [Line:30] - [INFO] - tempaper/test_addtempaper: SUCCESS！
+[2021-09-03 19:53:10,652] - test_deletetempaper.py - test_deletetempaper [Line:29] - [INFO] - tempaper/test_deletetempaper: SUCCESS！
+[2021-09-03 19:53:10,997] - test_getlist.py - test_getlist [Line:28] - [INFO] - tempaper/test_getlist: SUCCESS！
+[2021-09-03 19:53:11,335] - test_getlist.py - test_getlist [Line:22] - [INFO] - textbook/test_getlist: SUCCESS！
+[2021-09-03 19:53:11,599] - test_createrelation.py - test_TlessonType_success [Line:52] - [INFO] - video/视频：创建视频记录成功用例测试通过！
+[2021-09-03 19:53:11,648] - test_createrelation.py - test_createrecord_businessIdIsNull [Line:68] - [INFO] - video/视频：创建记录失败用例-关联Id为空测试通过！
+[2021-09-03 19:53:11,700] - test_createrelation.py - test_createrecord_businessTypeErr [Line:100] - [INFO] - video/视频：创建记录失败用例-关联Type为错误值测试通过！
+[2021-09-03 19:53:11,751] - test_createrelation.py - test_createrecord_businessTypeIsNull [Line:84] - [INFO] - video/视频：创建记录失败用例-关联Type为空测试通过！
+[2021-09-03 19:53:11,799] - test_createrelation.py - test_createrecord_dataisnull [Line:116] - [INFO] - video/视频：创建视频记录失败用例-视频列表为空测试通过！
+[2021-09-03 19:53:12,065] - test_deleterelation.py - test_delete_relationIdErr [Line:65] - [INFO] - video/视频：删除视频关联记录失败用例测试通过！
+[2021-09-03 19:53:12,114] - test_deleterelation.py - test_delete_relationIdIsNull [Line:49] - [INFO] - video/视频：删除视频关联记录失败用例测试通过！
+[2021-09-03 19:53:12,211] - test_deleterelation.py - test_delete_success [Line:33] - [INFO] - video/视频：删除视频关联记录成功用例测试通过！
+[2021-09-03 19:53:12,259] - test_resource.py - test_resource_fileisnull [Line:74] - [INFO] - video/视频：视频上传resource失败用例--file为NULL测试通过！
+[2021-09-03 19:53:12,380] - test_resource.py - test_resource_success [Line:43] - [INFO] - video/视频：视频上传resource成功用例测试通过！
+[2021-09-03 19:53:12,471] - test_resource.py - test_resource_typeisnull [Line:59] - [INFO] - video/视频：视频上传resource失败用例-type为NULL测试通过！
+[2021-09-03 19:53:12,539] - test_sign.py - test_sign_fail [Line:44] - [INFO] - video/视频：获取视频上传的签名失败用例测试通过！
+[2021-09-03 19:53:12,590] - test_sign.py - test_sign_success [Line:29] - [INFO] - video/视频：获取视频上传的签名成功用例测试通过！
+[2021-09-03 19:53:12,653] - test_uploadfile.py - test_uploadfile_success [Line:37] - [INFO] - video/视频：视频上传成功用例测试通过！
+[2021-09-03 19:53:12,727] - test_uploadfile.py - test_uploadfile_typeisnull [Line:54] - [INFO] - video/视频：视频上传失败用例-type为NULL测试通过！
+[2021-09-03 19:53:13,098] - test_videopage.py - test_TlessonPage_success [Line:40] - [INFO] - video/视频：查询说课视频列表成功用例测试通过！
+[2021-09-03 19:53:13,164] - test_videopage.py - test_businessTypeErr_fail [Line:140] - [INFO] - video/视频：查询视频列表-业务类型错误 失败用例测试通过！
+[2021-09-03 19:53:13,214] - test_videopage.py - test_businessTypeNull_fail [Line:124] - [INFO] - video/视频：查询视频列表-业务类型为空失败用例测试通过！
+[2021-09-03 19:53:13,460] - test_videopage.py - test_pageNull_success [Line:108] - [INFO] - video/视频：查询视频列表-未设置列表成功用例测试通过！
+[2021-09-03 19:53:13,530] - test_videopage.py - test_pageSet_success [Line:87] - [INFO] - video/视频：查询视频列表-列表设置成功用例测试通过！
+[2021-09-03 19:53:13,609] - test_videopage.py - test_searchPage_success [Line:64] - [INFO] - video/视频：根据名称查询视频列表成功用例测试通过！
+[2021-09-03 20:21:15,351] - test_uploadaudio.py - test_uploadaudio_filenameisnull [Line:55] - [INFO] - audio/音频：音频上传失败用例-filename为NULL测试通过！
+[2021-09-03 20:21:15,413] - test_uploadaudio.py - test_uploadaudio_keyisnull [Line:70] - [INFO] - audio/音频：音频上传失败用例-key为NULL测试通过！
+[2021-09-03 20:21:15,460] - test_uploadaudio.py - test_uploadaudio_sizeisnull [Line:85] - [INFO] - audio/音频：音频上传失败用例-size为NULL测试通过！
+[2021-09-03 20:21:17,116] - test_uploadaudio.py - test_uploadaudio_success [Line:40] - [INFO] - audio/音频：音频上传成功用例测试通过！
+[2021-09-03 20:21:17,178] - test_token.py - test_token_fail [Line:44] - [INFO] - commonupload/通用上传：获取token失败用例测试通过！
+[2021-09-03 20:21:17,225] - test_token.py - test_token_success [Line:29] - [INFO] - commonupload/通用上传：获取token成功用例测试通过！
+[2021-09-03 20:21:17,381] - test_getlist.py - test_getlist [Line:49] - [INFO] - documents/test_getlist: SUCCESS！
+[2021-09-03 20:21:17,507] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:17,678] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:33,948] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 20:21:34,058] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:34,151] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:38,401] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 20:21:38,525] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:38,635] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:38,697] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:38,760] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:38,853] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:39,010] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:39,119] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:39,213] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:39,291] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:39,760] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 20:21:39,853] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:40,978] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 20:21:41,056] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:42,150] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 20:21:42,228] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:42,556] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 20:21:42,681] - datadict.py - getPointTree [Line:114] - [INFO] - point/知识点：获取知识树成功！
+[2021-09-03 20:21:42,790] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:47,086] - item.py - get_rand_item_option [Line:65] - [INFO] - 获取随机选项成功！
+[2021-09-03 20:21:47,242] - test_changestatus.py - test_changestatus [Line:25] - [INFO] - item/test_changestatus: SUCCESS！
+[2021-09-03 20:21:47,336] - item.py - get_rand_item [Line:47] - [INFO] - 获取随机题目成功！
+[2021-09-03 20:21:47,758] - test_edititem.py - test_edititem [Line:25] - [INFO] - item/test_edititem: SUCCESS！
+[2021-09-03 20:21:47,867] - test_getanalytic_list.py - test_getanalytic_list [Line:21] - [INFO] - item/test_getanalytic_list: SUCCESS！
+[2021-09-03 20:21:47,977] - test_getitem.py - test_getitem [Line:21] - [INFO] - item/test_getitem: SUCCESS！
+[2021-09-03 20:21:48,211] - test_like.py - test_like [Line:27] - [INFO] - item/test_like: SUCCESS！
+[2021-09-03 20:21:48,273] - test_review_answer.py - test_review_answer [Line:26] - [INFO] - item/test_review_answer: SUCCESS！
+[2021-09-03 20:21:48,320] - test_uploadpicture.py - test_uploadpicture_fail [Line:96] - [INFO] - item/题库：上传图片失败用例-上传列表为空测试通过！
+[2021-09-03 20:21:48,398] - test_uploadpicture.py - test_uploadpicture_gif [Line:83] - [INFO] - item/题库：上传gif图片失败用例测试通过！
+[2021-09-03 20:21:48,648] - test_uploadpicture.py - test_uploadpicture_jpg [Line:64] - [INFO] - item/题库：上传jpg图片成功用例测试通过！
+[2021-09-03 20:21:48,883] - test_uploadpicture.py - test_uploadpicture_png [Line:40] - [INFO] - item/题库：上传png图片成功用例测试通过！
+[2021-09-03 20:21:48,945] - test_getitemmould.py - test_getitemmould_fail [Line:45] - [INFO] - itemmould/题型模版：获取题型模版失败用例测试通过！
+[2021-09-03 20:21:49,007] - test_getitemmould.py - test_getitemmould_success [Line:29] - [INFO] - itemmould/题型模版：获取题型模版成功用例测试通过！
+[2021-09-03 20:21:49,211] - test_additemtype.py - test_additemtype [Line:38] - [INFO] - itemType/题型：添加题型成功用例测试通过！
+[2021-09-03 20:21:49,258] - test_additemtype.py - test_additemtype_mouldtypeiserr [Line:149] - [INFO] - itemType/题型：添加题型失败用例-题型模版错误测试通过！
+[2021-09-03 20:21:49,304] - test_additemtype.py - test_additemtype_mouldtypeisnull [Line:133] - [INFO] - itemType/题型：添加题型失败用例-题型模版为空测试通过！
+[2021-09-03 20:21:49,367] - test_additemtype.py - test_additemtype_requried [Line:62] - [INFO] - itemType/题型：添加题型必填项成功用例测试通过！
+[2021-09-03 20:21:49,414] - test_additemtype.py - test_additemtype_retypecode [Line:98] - [INFO] - itemType/题型：添加题型失败用例-题型编码重复测试通过！
+[2021-09-03 20:21:49,460] - test_additemtype.py - test_additemtype_retypename [Line:117] - [INFO] - itemType/题型：添加题型失败用例-题型名称重复测试通过！
+[2021-09-03 20:21:49,507] - test_additemtype.py - test_additemtype_subjectIdsErr [Line:79] - [INFO] - itemType/题型：添加题型失败用例-科目Id错误测试通过！
+[2021-09-03 20:21:49,554] - test_additemtype.py - test_additemtype_typecodeisnull [Line:165] - [INFO] - itemType/题型：添加题型失败用例-题型编码为空测试通过！
+[2021-09-03 20:21:49,601] - test_additemtype.py - test_additemtype_typenameisnull [Line:181] - [INFO] - itemType/题型：添加题型失败用例-题型名称为空测试通过！
+[2021-09-03 20:21:49,648] - test_additemtype.py - test_priorityCodeError [Line:197] - [INFO] - itemType/题型：添加题型失败用例-排序超出限制测试通过！
+[2021-09-03 20:21:49,914] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 20:21:50,257] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 20:21:50,335] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 20:21:51,913] - test_deleteitemtype.py - test_deleteItemType [Line:43] - [INFO] - itemType/题型：删除题型成功用例测试通过！
+[2021-09-03 20:21:51,976] - test_deleteitemtype.py - test_deleteItemTypeHaveItem [Line:73] - [INFO] - itemType/题型：删除已存在题目的题型用例测试通过！
+[2021-09-03 20:21:52,023] - test_deleteitemtype.py - test_deleteItemTypeNoExist [Line:57] - [INFO] - itemType/题型：删除不存在的题型用例测试通过！
+[2021-09-03 20:21:52,069] - test_deleteitemtype.py - test_deleteItemTypeNoId [Line:89] - [INFO] - itemType/题型：删除题型未输入ID用例测试通过！
+[2021-09-03 20:21:52,132] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 20:21:52,179] - test_getitemtype.py - test_getItemType [Line:41] - [INFO] - itemType/题型：获取题型成功用例测试通过！
+[2021-09-03 20:21:52,226] - test_getitemtype.py - test_getItemTypeNoExist [Line:57] - [INFO] - itemType/题型：获取不存在的题型用例测试通过！
+[2021-09-03 20:21:52,616] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 20:21:52,679] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 20:21:52,725] - test_getitemtypelist.py - test_currentPageErr [Line:153] - [INFO] - itemType/题型：获取题型列表当前页为负数用例测试通过！
+[2021-09-03 20:21:52,772] - test_getitemtypelist.py - test_currentPageIsZero [Line:136] - [INFO] - itemType/题型：获取题型列表当前页为0用例测试通过！
+[2021-09-03 20:21:52,819] - test_getitemtypelist.py - test_getItemTypeList [Line:119] - [INFO] - itemType/题型：获取题型列表为空用例测试通过！
+[2021-09-03 20:21:52,866] - test_getitemtypelist.py - test_getItemTypeListByCode [Line:102] - [INFO] - itemType/题型：通过题型编码获取列表成功用例测试通过！
+[2021-09-03 20:21:52,897] - test_getitemtypelist.py - test_getItemTypeListByName [Line:79] - [INFO] - itemType/题型：通过题型名称获取列表成功用例测试通过！
+[2021-09-03 20:21:52,960] - test_getitemtypelist.py - test_getItemTypeListDefault [Line:56] - [INFO] - itemType/题型：获取题型列表成功用例测试通过！
+[2021-09-03 20:21:53,007] - test_getitemtypelist.py - test_pageSizeErr [Line:170] - [INFO] - itemType/题型：获取题型列表每页大小为负数用例测试通过！
+[2021-09-03 20:21:53,256] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 20:21:53,319] - datadict.py - add_itemType [Line:26] - [INFO] - itemType/题型：新增题型成功！
+[2021-09-03 20:21:53,366] - test_updateitemtype.py - test_priorityCodeError [Line:108] - [INFO] - itemType/题型：修改题型失败用例-排序超出限制测试通过！
+[2021-09-03 20:21:53,428] - test_updateitemtype.py - test_reTypeName [Line:74] - [INFO] - itemType/题型：修改题型失败用例-题型名称重复测试通过！
+[2021-09-03 20:21:53,507] - test_updateitemtype.py - test_subjectIdsErr [Line:56] - [INFO] - itemType/题型：修改题型失败用例-科目Id错误测试通过！
+[2021-09-03 20:21:53,553] - test_updateitemtype.py - test_typeNameIsNull [Line:91] - [INFO] - itemType/题型：修改题型失败用例-题型名称为空测试通过！
+[2021-09-03 20:21:53,632] - test_updateitemtype.py - test_updateItemType [Line:39] - [INFO] - itemType/题型：修改题型成功用例测试通过！
+[2021-09-03 20:21:53,975] - datadict.py - delete_itemtype [Line:40] - [INFO] - itemType/题型：删除题型成功！
+[2021-09-03 20:21:54,038] - test_addfolders.py - test_addfolders [Line:29] - [INFO] - lecture/test_addfolders: SUCCESS！
+[2021-09-03 20:21:54,194] - test_addlecture.py - test_addlecture [Line:31] - [INFO] - lecture/test_addlecture: SUCCESS！
+[2021-09-03 20:21:54,366] - test_copylecture.py - test_copylecture [Line:29] - [INFO] - lecture/test_copylecture: SUCCESS！
+[2021-09-03 20:21:55,022] - test_deletefolders.py - test_deletefolders [Line:28] - [INFO] - lecture/test_deletefolders: SUCCESS！
+[2021-09-03 20:21:55,241] - test_editfolders.py - test_editfolders [Line:30] - [INFO] - lecture/test_editfolders: SUCCESS！
+[2021-09-03 20:21:55,381] - test_editlecture.py - test_editlecture [Line:23] - [INFO] - lecture/test_editlecture: SUCCESS！
+[2021-09-03 20:21:56,834] - test_editlectureinfo_jiaoan.py - test_editlectureinfo_jiaoan [Line:23] - [INFO] - lecture/test_editlectureinfo_jiaoan: SUCCESS！
+[2021-09-03 20:21:56,990] - test_editlectureinfo_kaoshi.py - test_editlectureinfo_kaoshi [Line:23] - [INFO] - lecture/test_editlectureinfo_kaoshi: SUCCESS！
+[2021-09-03 20:21:57,131] - test_editlectureinfo_yuxi.py - test_editlectureinfo_yuxi [Line:23] - [INFO] - lecture/test_editlectureinfo_yuxi: SUCCESS！
+[2021-09-03 20:21:57,271] - test_editlectureinfo_zhineng.py - test_editlectureinfo_zhineng [Line:23] - [INFO] - lecture/test_editlectureinfo_zhineng: SUCCESS！
+[2021-09-03 20:21:57,349] - test_edituploadfile.py - test_edituploadfile [Line:23] - [INFO] - lecture/test_edituploadfile: SUCCESS！
+[2021-09-03 20:21:57,412] - test_getfilelist.py - test_getfilelist [Line:28] - [INFO] - lecture/test_getfilelist: SUCCESS！
+[2021-09-03 20:21:57,459] - test_getfolderstree.py - test_getfolderstree [Line:25] - [INFO] - lecture/test_getfolderstree: SUCCESS！
+[2021-09-03 20:21:57,506] - test_getlectureinfo.py - test_getlectureinfo [Line:22] - [INFO] - lecture/test_getlectureinfo: SUCCESS！
+[2021-09-03 20:21:57,552] - test_lastlecture.py - test_lastlecture [Line:25] - [INFO] - lecture/test_lastlecture: SUCCESS！
+[2021-09-03 20:21:58,255] - test_movefile.py - test_movefile [Line:35] - [INFO] - lecture/test_movefile: SUCCESS！
+[2021-09-03 20:21:59,708] - test_removeinfo.py - test_removeinfo [Line:31] - [INFO] - lecture/test_removeinfo: SUCCESS！
+[2021-09-03 20:21:59,989] - test_searchfiles.py - test_searchfiles [Line:25] - [INFO] - lecture/test_searchfiles: SUCCESS！
+[2021-09-03 20:22:00,271] - test_uploadfiles.py - test_uploadfiles [Line:24] - [INFO] - lecture/test_uploadfiles: SUCCESS！
+[2021-09-03 20:22:00,349] - test_addpaper.py - test_addpaper [Line:26] - [INFO] - paper/test_addpaper: SUCCESS！
+[2021-09-03 20:22:00,552] - test_deletepaper.py - test_delete [Line:35] - [INFO] - paper/test_delete: SUCCESS！
+[2021-09-03 20:22:01,442] - test_enable.py - test_enable [Line:28] - [INFO] - paper/test_enable: SUCCESS！
+[2021-09-03 20:22:01,645] - paper.py - enable_paper [Line:46] - [ERROR] - 启用套卷成功！
+[2021-09-03 20:22:01,754] - test_offshelf.py - test_offshelf [Line:29] - [INFO] - paper/test_offshelf: SUCCESS！
+[2021-09-03 20:22:01,817] - test_paperlist.py - test_paper_list [Line:23] - [INFO] - paper/test_paperlist: SUCCESS！
+[2021-09-03 20:22:01,911] - test_paperlist_randsubject.py - test_paper_list_rand_subject [Line:26] - [INFO] - paper/test_paperlist_randsubject: SUCCESS！
+[2021-09-03 20:22:01,973] - test_standard_paperlist.py - test_standard_paperlist [Line:23] - [INFO] - paper/test_standard_paperlist: SUCCESS！
+[2021-09-03 20:22:02,020] - test_standard_randpaperlist.py - test_standard_rand_paper_list [Line:26] - [INFO] - paper/test_standard_randpaperlist: SUCCESS！
+[2021-09-03 20:22:02,067] - test_viewtag.py - test_viewtag [Line:21] - [INFO] - paper/test_viewtag: SUCCESS！
+[2021-09-03 20:22:02,145] - test_addpapertype.py - test_addPaperType [Line:38] - [INFO] - paperType/添加套卷类型：SUCCESS-所有参数正常添加》测试通过！
+[2021-09-03 20:22:02,223] - test_addpapertype.py - test_addPaperTypeCodeNone [Line:123] - [INFO] - paperType/添加套卷类型：FAIL-未填写套卷类型编码》测试通过！
+[2021-09-03 20:22:02,270] - test_addpapertype.py - test_addPaperTypeCodeRepeat [Line:91] - [INFO] - paperType/添加套卷类型：FAIL-添加同编码套卷类型》测试通过！
+[2021-09-03 20:22:02,333] - test_addpapertype.py - test_addPaperTypeCodeTooLong [Line:219] - [INFO] - paperType/添加套卷类型：FAIL-类型编码超出100字符》测试通过！
+[2021-09-03 20:22:02,379] - test_addpapertype.py - test_addPaperTypeDescriptionTooLong [Line:251] - [INFO] - paperType/添加套卷类型：FAIL-描述超出200字符》测试通过！
+[2021-09-03 20:22:02,426] - test_addpapertype.py - test_addPaperTypeNameNone [Line:107] - [INFO] - paperType/添加套卷类型：FAIL-未填写套卷类型名称》测试通过！
+[2021-09-03 20:22:02,473] - test_addpapertype.py - test_addPaperTypeNameRepeat [Line:75] - [INFO] - paperType/添加套卷类型：FAIL-添加同名称套卷类型》测试通过！
+[2021-09-03 20:22:02,536] - test_addpapertype.py - test_addPaperTypeNameTooLong [Line:235] - [INFO] - paperType/添加套卷类型：FAIL-类型名称超出100字符》测试通过！
+[2021-09-03 20:22:02,583] - test_addpapertype.py - test_addPaperTypePeriodIdsErr [Line:155] - [INFO] - paperType/添加套卷类型：FAIL-输入不存在的学段》测试通过！
+[2021-09-03 20:22:02,645] - test_addpapertype.py - test_addPaperTypePeriodIdsHaveNone [Line:171] - [INFO] - paperType/添加套卷类型：FAIL-学段列表存在空数据》测试通过！
+[2021-09-03 20:22:02,692] - test_addpapertype.py - test_addPaperTypePeriodIdsNone [Line:139] - [INFO] - paperType/添加套卷类型：FAIL-未填写学段》测试通过！
+[2021-09-03 20:22:02,754] - test_addpapertype.py - test_addPaperTypeRequired [Line:59] - [INFO] - paperType/添加套卷类型：SUCCESS-必填项正常添加》测试通过！
+[2021-09-03 20:22:02,801] - test_addpapertype.py - test_addPaperTypeSeqErr [Line:203] - [INFO] - paperType/添加套卷类型：FAIL-排序为201》测试通过！
+[2021-09-03 20:22:02,848] - test_addpapertype.py - test_addPaperTypeSeqIsZero [Line:187] - [INFO] - paperType/添加套卷类型：FAIL-排序为0》测试通过！
+[2021-09-03 20:22:02,879] - test_addpapertype.py - tearDownClass [Line:261] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 20:22:02,911] - test_addpapertype.py - tearDownClass [Line:261] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 20:22:02,973] - datadict.py - addPaperType [Line:68] - [INFO] - paperType/套卷类型：新增套卷类型成功！
+[2021-09-03 20:22:03,051] - test_editpapertype.py - test_editPaperType [Line:44] - [INFO] - paperType/编辑套卷类型：SUCCESS-修改所有参数》测试通过！
+[2021-09-03 20:22:03,129] - test_editpapertype.py - test_editPaperTypeCodeNone [Line:136] - [INFO] - paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码》测试通过！
+[2021-09-03 20:22:03,207] - test_editpapertype.py - test_editPaperTypeCodeRepeat [Line:101] - [INFO] - paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码》测试通过！
+[2021-09-03 20:22:03,254] - test_editpapertype.py - test_editPaperTypeDescriptionTooLong [Line:254] - [INFO] - paperType/编辑套卷类型：FAIL-描述超出200字符》测试通过！
+[2021-09-03 20:22:03,301] - test_editpapertype.py - test_editPaperTypeNameNone [Line:118] - [INFO] - paperType/编辑套卷类型：FAIL-未填写套卷类型名称》测试通过！
+[2021-09-03 20:22:03,348] - test_editpapertype.py - test_editPaperTypeNameRepeat [Line:83] - [INFO] - paperType/编辑套卷类型：FAIL-添加同名称套卷类型》测试通过！
+[2021-09-03 20:22:03,395] - test_editpapertype.py - test_editPaperTypeNameTooLong [Line:237] - [INFO] - paperType/编辑套卷类型：FAIL-类型名称超出100字符》测试通过！
+[2021-09-03 20:22:03,442] - test_editpapertype.py - test_editPaperTypePeriodIdsHaveNone [Line:187] - [INFO] - paperType/编辑套卷类型：FAIL-学段列表存在空字段》测试通过！
+[2021-09-03 20:22:03,504] - test_editpapertype.py - test_editPaperTypePeriodIdsNone [Line:170] - [INFO] - paperType/编辑套卷类型：FAIL-输入不存在的学段》测试通过！
+[2021-09-03 20:22:03,582] - test_editpapertype.py - test_editPaperTypeRequired [Line:66] - [INFO] - paperType/编辑套卷类型：SUCCESS-必填项正常添加》测试通过！
+[2021-09-03 20:22:03,629] - test_editpapertype.py - test_editPaperTypeSeqErr [Line:220] - [INFO] - paperType/编辑套卷类型：FAIL-排序为201》测试通过！
+[2021-09-03 20:22:03,676] - test_editpapertype.py - test_editPaperTypeSeqIsZero [Line:204] - [INFO] - paperType/编辑套卷类型：FAIL-排序为0》测试通过！
+[2021-09-03 20:22:03,707] - test_editpapertype.py - tearDownClass [Line:263] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 20:22:03,801] - datadict.py - addPaperType [Line:68] - [INFO] - paperType/套卷类型：新增套卷类型成功！
+[2021-09-03 20:22:03,848] - test_getpapertype.py - test_getPaperType [Line:42] - [INFO] - paperType/获取套卷类型：SUCCESS-获取套卷类型详情》测试通过！
+[2021-09-03 20:22:03,910] - test_getpapertype.py - test_getPaperTypeIdErr [Line:58] - [INFO] - paperType/获取套卷类型：FAIL-输入不存在的套卷类型ID》测试通过！
+[2021-09-03 20:22:03,926] - test_getpapertype.py - tearDownClass [Line:67] - [INFO] - paperType/套卷类型：删除套卷类型记录成功！
+[2021-09-03 20:22:03,988] - test_getpapertypebyperiod.py - test_getPaperTypeByPeriod [Line:29] - [INFO] - paperType/学段获取套卷类型：SUCCESS-获取套卷类型详情》测试通过！
+[2021-09-03 20:22:04,051] - test_getpapertypebyperiod.py - test_getPaperTypeIdErr [Line:45] - [INFO] - paperType/学段获取套卷类型：FAIL-输入不存在的学段ID》测试通过！
+[2021-09-03 20:22:04,098] - test_getpapertypebyperiod.py - test_getPaperTypeIdNone [Line:61] - [INFO] - paperType/学段获取套卷类型：FAIL-未输入学段ID》测试通过！
+[2021-09-03 20:22:04,145] - test_getpapertypelist.py - test_getPaperTypeListAll [Line:76] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取全部套卷类型》测试通过！
+[2021-09-03 20:22:04,192] - test_getpapertypelist.py - test_getPaperTypeListCurrentPageErr [Line:113] - [INFO] - paperType/获取套卷类型列表：FAIL-输入错误当前页查询》测试通过！
+[2021-09-03 20:22:04,238] - test_getpapertypelist.py - test_getPaperTypeListNone [Line:96] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取空列表》测试通过！
+[2021-09-03 20:22:04,285] - test_getpapertypelist.py - test_getPaperTypeListOne [Line:34] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取一条套卷类型》测试通过！
+[2021-09-03 20:22:04,332] - test_getpapertypelist.py - test_getPaperTypeListPageSizeErr [Line:130] - [INFO] - paperType/获取套卷类型列表：FAIL-每页大小为负数查询》测试通过！
+[2021-09-03 20:22:04,379] - test_getpapertypelist.py - test_getPaperTypeListSome [Line:56] - [INFO] - paperType/获取套卷类型列表：SUCCESS-获取多条套卷类型》测试通过！
+[2021-09-03 20:22:04,473] - test_getpointtree.py - test_getPointTree [Line:30] - [INFO] - point/知识点：SUCCESS-获取知识树》测试通过！
+[2021-09-03 20:22:04,520] - test_getpointtree.py - test_listIsNone [Line:47] - [INFO] - point/知识点：SUCCESS-输入科目学段查询出空列表》测试通过！
+[2021-09-03 20:22:04,582] - test_getpointtree.py - test_periodIsNone [Line:98] - [INFO] - point/知识点：FAIL-未填写学段》测试通过！
+[2021-09-03 20:22:04,629] - test_getpointtree.py - test_regionIsNone [Line:115] - [INFO] - point/知识点：FAIL-未填写地区》测试通过！
+[2021-09-03 20:22:04,676] - test_getpointtree.py - test_subjectError [Line:64] - [INFO] - point/知识点：SUCCESS-科目不存在，列表返回空》测试通过！
+[2021-09-03 20:22:04,723] - test_getpointtree.py - test_subjectIsNone [Line:81] - [INFO] - point/知识点：FAIL-未填写科目》测试通过！
+[2021-09-03 20:22:04,770] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 20:22:04,848] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 20:22:04,941] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 20:22:04,988] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 20:22:05,051] - test_addschool.py - test_addSchool [Line:48] - [ERROR] - school/添加学校：SUCCESS-添加学校（带区）》接口调用失败，失败原因：'id'
+[2021-09-03 20:22:05,238] - test_addschool.py - test_addSchoolNoCity [Line:147] - [INFO] - school/添加学校：FAIL-添加学校不带市》测试通过！
+[2021-09-03 20:22:05,285] - test_addschool.py - test_addSchoolNoCounty [Line:75] - [ERROR] - school/添加学校：SUCCESS-添加学校不带区》接口调用失败，失败原因：'id'
+[2021-09-03 20:22:05,332] - test_addschool.py - test_addSchoolNoPeriod [Line:242] - [INFO] - school/添加学校：FAIL-学段不存在》测试通过！
+[2021-09-03 20:22:05,363] - test_addschool.py - test_addSchoolNoProvince [Line:185] - [INFO] - school/添加学校：FAIL-添加学校不带省》测试通过！
+[2021-09-03 20:22:05,410] - test_addschool.py - test_addSchoolNoSchoolName [Line:223] - [INFO] - school/添加学校：FAIL-学校名为空》测试通过！
+[2021-09-03 20:22:05,754] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 20:22:05,801] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 20:22:05,801] - test_editschoolstatus.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 20:22:05,847] - test_editschoolstatus.py - test_editSchoolNoExist [Line:84] - [INFO] - school/修改状态：FAIL-学校不存在》测试通过！
+[2021-09-03 20:22:05,988] - test_editschoolstatus.py - test_editSchoolNoID [Line:135] - [INFO] - school/修改状态：FAIL-未传入学校ID》测试通过！
+[2021-09-03 20:22:05,988] - test_editschoolstatus.py - tearDownClass [Line:145] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'EditSchoolStatus' has no attribute 'schoolId'
+[2021-09-03 20:22:06,051] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 20:22:06,113] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 20:22:06,113] - test_getschool.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 20:22:06,160] - test_getschool.py - test_getSchoolNoExist [Line:80] - [INFO] - school/获取学校详情：FAIL-学校不存在》测试通过！
+[2021-09-03 20:22:06,160] - test_getschool.py - tearDownClass [Line:103] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'GetSchool' has no attribute 'schoolId'
+[2021-09-03 20:22:06,207] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 20:22:06,269] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 20:22:06,269] - test_getschoollist.py - setUpClass [Line:37] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 20:22:06,347] - test_getschoollist.py - test_getListByAreaErr [Line:141] - [INFO] - school/获取学校详情：SUCCESS-输入错误市ID查询空列表》测试通过！
+[2021-09-03 20:22:06,410] - test_getschoollist.py - test_getListByPeriod [Line:164] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称和学段查询》测试通过！
+[2021-09-03 20:22:06,504] - test_getschoollist.py - test_getListByStatus [Line:187] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称模糊查询》测试通过！
+[2021-09-03 20:22:06,550] - test_getschoollist.py - test_getListCurrentPageErr [Line:222] - [INFO] - school/获取学校列表：FAIL-输入错误当前页查询》测试通过！
+[2021-09-03 20:22:06,597] - test_getschoollist.py - test_getListPageSizeErr [Line:240] - [INFO] - school/获取学校列表：FAIL-每页大小为负数查询》测试通过！
+[2021-09-03 20:22:06,644] - test_getschoollist.py - test_getListStatusErr [Line:204] - [INFO] - school/获取学校列表：SUCCESS-输入错误状态查询空列表》测试通过！
+[2021-09-03 20:22:06,707] - test_getschoollist.py - test_getSchoolList [Line:60] - [INFO] - school/获取学校详情：SUCCESS-根据学校名称模糊查询》测试通过！
+[2021-09-03 20:22:06,707] - test_getschoollist.py - tearDownClass [Line:250] - [ERROR] - school/学校：删除学校记录失败，失败原因：type object 'GetSchoolList' has no attribute 'schoolId'
+[2021-09-03 20:22:06,753] - datadict.py - getArea [Line:81] - [INFO] - getArea/地区：获取地区成功！
+[2021-09-03 20:22:06,816] - datadict.py - addSchool [Line:57] - [ERROR] - school/学校：新增学校失败，失败原因：学校新增失败！
+[2021-09-03 20:22:06,816] - test_updateschool.py - setUpClass [Line:45] - [ERROR] - school/学校：学校新增失败，失败原因：'NoneType' object has no attribute 'json'
+[2021-09-03 20:22:06,894] - test_addtempaper.py - test_addtempaper [Line:30] - [INFO] - tempaper/test_addtempaper: SUCCESS！
+[2021-09-03 20:22:07,019] - test_deletetempaper.py - test_deletetempaper [Line:29] - [INFO] - tempaper/test_deletetempaper: SUCCESS！
+[2021-09-03 20:22:07,066] - test_getlist.py - test_getlist [Line:28] - [INFO] - tempaper/test_getlist: SUCCESS！
+[2021-09-03 20:22:07,269] - test_getlist.py - test_getlist [Line:22] - [INFO] - textbook/test_getlist: SUCCESS！
+[2021-09-03 20:22:07,456] - test_createrelation.py - test_TlessonType_success [Line:52] - [INFO] - video/视频：创建视频记录成功用例测试通过！
+[2021-09-03 20:22:07,503] - test_createrelation.py - test_createrecord_businessIdIsNull [Line:68] - [INFO] - video/视频：创建记录失败用例-关联Id为空测试通过！
+[2021-09-03 20:22:07,566] - test_createrelation.py - test_createrecord_businessTypeErr [Line:100] - [INFO] - video/视频：创建记录失败用例-关联Type为错误值测试通过！
+[2021-09-03 20:22:07,628] - test_createrelation.py - test_createrecord_businessTypeIsNull [Line:84] - [INFO] - video/视频：创建记录失败用例-关联Type为空测试通过！
+[2021-09-03 20:22:07,675] - test_createrelation.py - test_createrecord_dataisnull [Line:116] - [INFO] - video/视频：创建视频记录失败用例-视频列表为空测试通过！
+[2021-09-03 20:22:08,206] - test_deleterelation.py - test_delete_relationIdErr [Line:65] - [INFO] - video/视频：删除视频关联记录失败用例测试通过！
+[2021-09-03 20:22:08,253] - test_deleterelation.py - test_delete_relationIdIsNull [Line:49] - [INFO] - video/视频：删除视频关联记录失败用例测试通过！
+[2021-09-03 20:22:08,316] - test_deleterelation.py - test_delete_success [Line:33] - [INFO] - video/视频：删除视频关联记录成功用例测试通过！
+[2021-09-03 20:22:08,362] - test_resource.py - test_resource_fileisnull [Line:74] - [INFO] - video/视频：视频上传resource失败用例--file为NULL测试通过！
+[2021-09-03 20:22:08,456] - test_resource.py - test_resource_success [Line:43] - [INFO] - video/视频：视频上传resource成功用例测试通过！
+[2021-09-03 20:22:08,519] - test_resource.py - test_resource_typeisnull [Line:59] - [INFO] - video/视频：视频上传resource失败用例-type为NULL测试通过！
+[2021-09-03 20:22:08,581] - test_sign.py - test_sign_fail [Line:44] - [INFO] - video/视频：获取视频上传的签名失败用例测试通过！
+[2021-09-03 20:22:08,644] - test_sign.py - test_sign_success [Line:29] - [INFO] - video/视频：获取视频上传的签名成功用例测试通过！
+[2021-09-03 20:22:08,706] - test_uploadfile.py - test_uploadfile_success [Line:37] - [INFO] - video/视频：视频上传成功用例测试通过！
+[2021-09-03 20:22:08,784] - test_uploadfile.py - test_uploadfile_typeisnull [Line:54] - [INFO] - video/视频：视频上传失败用例-type为NULL测试通过！
+[2021-09-03 20:22:09,190] - test_videopage.py - test_TlessonPage_success [Line:40] - [INFO] - video/视频：查询说课视频列表成功用例测试通过！
+[2021-09-03 20:22:09,237] - test_videopage.py - test_businessTypeErr_fail [Line:140] - [INFO] - video/视频：查询视频列表-业务类型错误 失败用例测试通过！
+[2021-09-03 20:22:09,284] - test_videopage.py - test_businessTypeNull_fail [Line:124] - [INFO] - video/视频：查询视频列表-业务类型为空失败用例测试通过！
+[2021-09-03 20:22:09,518] - test_videopage.py - test_pageNull_success [Line:108] - [INFO] - video/视频：查询视频列表-未设置列表成功用例测试通过！
+[2021-09-03 20:22:09,597] - test_videopage.py - test_pageSet_success [Line:87] - [INFO] - video/视频：查询视频列表-列表设置成功用例测试通过！
+[2021-09-03 20:22:09,675] - test_videopage.py - test_searchPage_success [Line:64] - [INFO] - video/视频：根据名称查询视频列表成功用例测试通过！
