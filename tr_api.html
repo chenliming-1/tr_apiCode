@@ -7159,13 +7159,13 @@ body.skin-3 {
 
 
     var resultData = {
-    "testPass": 157,
+    "testPass": 130,
     "testResult": [
         {
             "className": "UploadAudio",
             "methodName": "test_uploadaudio_filenameisnull",
             "description": "\n        audio/音频：音频上传失败的测试用例-filename为NULL\n        ",
-            "spendTime": "0.0781 s",
+            "spendTime": "0.0618 s",
             "status": "成功",
             "log": [
                 ""
@@ -7175,7 +7175,7 @@ body.skin-3 {
             "className": "UploadAudio",
             "methodName": "test_uploadaudio_keyisnull",
             "description": "\n        audio/音频：音频上传失败的测试用例-key为NULL\n        ",
-            "spendTime": "0.0624 s",
+            "spendTime": "0.0489 s",
             "status": "成功",
             "log": [
                 ""
@@ -7185,7 +7185,7 @@ body.skin-3 {
             "className": "UploadAudio",
             "methodName": "test_uploadaudio_sizeisnull",
             "description": "\n        audio/音频：音频上传失败的测试用例-size为NULL\n        ",
-            "spendTime": "0.0468 s",
+            "spendTime": "0.0479 s",
             "status": "成功",
             "log": [
                 ""
@@ -7195,7 +7195,7 @@ body.skin-3 {
             "className": "UploadAudio",
             "methodName": "test_uploadaudio_success",
             "description": "\n        audio/上传音频：SUCCESS-音频上传\n        ",
-            "spendTime": "1.66 s",
+            "spendTime": "9.49 s",
             "status": "成功",
             "log": [
                 ""
@@ -7205,7 +7205,7 @@ body.skin-3 {
             "className": "Token",
             "methodName": "test_token_fail",
             "description": "\n        commonupload/通用上传：获取token接口失败的测试用例\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0608 s",
             "status": "成功",
             "log": [
                 ""
@@ -7215,9 +7215,40 @@ body.skin-3 {
             "className": "Token",
             "methodName": "test_token_success",
             "description": "\n        commonupload/通用上传：获取token接口成功的测试用例\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0459 s",
             "status": "成功",
             "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestAddonedoc",
+            "methodName": "test_addOneDoc",
+            "description": null,
+            "spendTime": "0.0798 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestAddonefolders",
+            "methodName": "test_addOneFolders",
+            "description": null,
+            "spendTime": "0.0787 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestDelonedoc",
+            "methodName": "test_delOneDoc",
+            "description": null,
+            "spendTime": "0.0648 s",
+            "status": "成功",
+            "log": [
+                "4225",
                 ""
             ]
         },
@@ -7225,9 +7256,13 @@ body.skin-3 {
             "className": "TestGetlist",
             "methodName": "test_getlist",
             "description": "\n        documents/我的文档：获取我的文档列表数据成功\n\n        ",
-            "spendTime": "0.156 s",
+            "spendTime": "0.0599 s",
             "status": "成功",
             "log": [
+                "{'start': 0, 'limit': 15, 'total': 1, 'currentPage': 1, 'pageSize': 20, 'list': [{'id': 4221, 'directory': False, 'level': 1, 'name': '测试的文档20210903', 'refType': 'LECTURE', 'refId': '202109294c322b9a601d48b79af4b615944b6578', 'createTime': '2021-09-29T17:37:05.000+0800', 'updateTime': '2021-09-29T17:37:05.000+0800', 'lecture': {'shareFlag': False, 'gradeId': 26, 'productCode': 'DOUBLE_TEACHER', 'status': 'AVAILABLE'}, 'parentId': 0, 'gradeId': 26, 'productCode': 'DOUBLE_TEACHER'}]}",
+                "name 测试的文档20210903",
+                "directorytype False",
+                "文件sql [{'id': 4221, 'create_time': datetime.datetime(2021, 9, 29, 17, 37, 5), 'create_user': 'gongyq', 'update_time': datetime.datetime(2021, 9, 29, 17, 37, 5), 'update_user': 'gongyq', 'subject_id': 8, 'period_id': 10002, 'name': '测试的文档20210903', 'ref_type': 'LECTURE', 'ref_id': '202109294c322b9a601d48b79af4b615944b6578', 'parent_id': 0, 'level': 1, 'is_directory': 0, 'path': '/0/', 'grade_id': 26, 'product_code': 'DOUBLE_TEACHER'}]",
                 ""
             ]
         },
@@ -7235,7 +7270,7 @@ body.skin-3 {
             "className": "TestAddItemDanxuan",
             "methodName": "test_additem_danxuan",
             "description": null,
-            "spendTime": "0.0625 s",
+            "spendTime": "0.217 s",
             "status": "失败",
             "log": [
                 "",
@@ -7252,7 +7287,7 @@ body.skin-3 {
             "className": "TestAddItemDuoxuan",
             "methodName": "test_additem_duoxuan",
             "description": null,
-            "spendTime": "0.0624 s",
+            "spendTime": "0.174 s",
             "status": "失败",
             "log": [
                 "",
@@ -7269,7 +7304,7 @@ body.skin-3 {
             "className": "TestAddItemFuhe",
             "methodName": "test_additem_fuhe",
             "description": null,
-            "spendTime": "0.0782 s",
+            "spendTime": "0.211 s",
             "status": "失败",
             "log": [
                 "",
@@ -7286,7 +7321,7 @@ body.skin-3 {
             "className": "TestAddItemJieda",
             "methodName": "test_additem_jieda",
             "description": null,
-            "spendTime": "0.0469 s",
+            "spendTime": "0.105 s",
             "status": "失败",
             "log": [
                 "",
@@ -7303,7 +7338,7 @@ body.skin-3 {
             "className": "TestAddItemWanxing",
             "methodName": "test_additem_wanxing",
             "description": null,
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0946 s",
             "status": "失败",
             "log": [
                 "",
@@ -7320,7 +7355,7 @@ body.skin-3 {
             "className": "TestAddItemXuanci",
             "methodName": "test_additem_xuanci",
             "description": null,
-            "spendTime": "0.0782 s",
+            "spendTime": "0.159 s",
             "status": "失败",
             "log": [
                 "",
@@ -7337,7 +7372,7 @@ body.skin-3 {
             "className": "TestChangeStatus",
             "methodName": "test_changestatus",
             "description": null,
-            "spendTime": "0.078 s",
+            "spendTime": "0.304 s",
             "status": "成功",
             "log": [
                 ""
@@ -7347,7 +7382,7 @@ body.skin-3 {
             "className": "TestEditItem",
             "methodName": "test_edititem",
             "description": null,
-            "spendTime": "0.422 s",
+            "spendTime": "1.58 s",
             "status": "成功",
             "log": [
                 ""
@@ -7357,7 +7392,7 @@ body.skin-3 {
             "className": "TestGetAnalyticList",
             "methodName": "test_getanalytic_list",
             "description": null,
-            "spendTime": "0.109 s",
+            "spendTime": "0.646 s",
             "status": "成功",
             "log": [
                 ""
@@ -7367,7 +7402,7 @@ body.skin-3 {
             "className": "TestGetItem",
             "methodName": "test_getitem",
             "description": null,
-            "spendTime": "0.109 s",
+            "spendTime": "0.261 s",
             "status": "成功",
             "log": [
                 ""
@@ -7377,7 +7412,7 @@ body.skin-3 {
             "className": "TestLike",
             "methodName": "test_like",
             "description": null,
-            "spendTime": "0.234 s",
+            "spendTime": "0.366 s",
             "status": "成功",
             "log": [
                 ""
@@ -7387,7 +7422,7 @@ body.skin-3 {
             "className": "TestReviewAnswer",
             "methodName": "test_review_answer",
             "description": null,
-            "spendTime": "0.0626 s",
+            "spendTime": "0.115 s",
             "status": "成功",
             "log": [
                 ""
@@ -7397,7 +7432,7 @@ body.skin-3 {
             "className": "UploadPicture",
             "methodName": "test_uploadpicture_fail",
             "description": "\n        item/题库：uploadpicture上传图片失败的测试用例-上传列表为空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0828 s",
             "status": "成功",
             "log": [
                 ""
@@ -7407,7 +7442,7 @@ body.skin-3 {
             "className": "UploadPicture",
             "methodName": "test_uploadpicture_gif",
             "description": "\n        item/题库：uploadpicture上传gif图片失败的测试用例--废弃，后端不校验格式\n        ",
-            "spendTime": "0.0781 s",
+            "spendTime": "0.396 s",
             "status": "成功",
             "log": [
                 ""
@@ -7417,7 +7452,7 @@ body.skin-3 {
             "className": "UploadPicture",
             "methodName": "test_uploadpicture_jpg",
             "description": "\n        item/题库：uploadpicture上传jpg图片成功的测试用例\n        ",
-            "spendTime": "0.25 s",
+            "spendTime": "9.36 s",
             "status": "成功",
             "log": [
                 ""
@@ -7427,7 +7462,7 @@ body.skin-3 {
             "className": "UploadPicture",
             "methodName": "test_uploadpicture_png",
             "description": "\n        item/题库：uploadpicture上传png图片成功的测试用例\n        ",
-            "spendTime": "0.234 s",
+            "spendTime": "9.56 s",
             "status": "成功",
             "log": [
                 ""
@@ -7437,7 +7472,7 @@ body.skin-3 {
             "className": "GetItemMould",
             "methodName": "test_getitemmould_fail",
             "description": "\n        itemmould/题型模版：获取题型模版失败用例\n        ",
-            "spendTime": "0.0624 s",
+            "spendTime": "0.0549 s",
             "status": "成功",
             "log": [
                 ""
@@ -7447,7 +7482,7 @@ body.skin-3 {
             "className": "GetItemMould",
             "methodName": "test_getitemmould_success",
             "description": "\n        itemmould/题型模版：获取题型模版成功用例\n        ",
-            "spendTime": "0.0624 s",
+            "spendTime": "0.0588 s",
             "status": "成功",
             "log": [
                 ""
@@ -7457,7 +7492,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype",
             "description": "\n        itemType/题型：添加题型成功用例\n        ",
-            "spendTime": "0.203 s",
+            "spendTime": "0.403 s",
             "status": "成功",
             "log": [
                 ""
@@ -7467,7 +7502,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype_mouldtypeiserr",
             "description": "\n        itemType/题型：添加题型失败用例-题型模版错误\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0588 s",
             "status": "成功",
             "log": [
                 ""
@@ -7477,7 +7512,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype_mouldtypeisnull",
             "description": "\n        itemType/题型：添加题型失败用例-题型模版为空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0768 s",
             "status": "成功",
             "log": [
                 ""
@@ -7487,7 +7522,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype_requried",
             "description": "\n        itemType/题型：添加题型必填项成功用例\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.29 s",
             "status": "成功",
             "log": [
                 ""
@@ -7497,7 +7532,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype_retypecode",
             "description": "\n        itemType/题型：添加题型失败用例-题型编码重复\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0499 s",
             "status": "成功",
             "log": [
                 ""
@@ -7507,7 +7542,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype_retypename",
             "description": "\n        itemType/题型：添加题型失败用例-题型名称重复\n        ",
-            "spendTime": "0.0467 s",
+            "spendTime": "0.0648 s",
             "status": "成功",
             "log": [
                 ""
@@ -7517,7 +7552,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype_subjectIdsErr",
             "description": "\n        itemType/题型：添加题型失败用例-科目Id错误\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0479 s",
             "status": "成功",
             "log": [
                 ""
@@ -7527,7 +7562,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype_typecodeisnull",
             "description": "\n        itemType/题型：添加题型失败用例-题型编码为空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.108 s",
             "status": "成功",
             "log": [
                 ""
@@ -7537,7 +7572,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_additemtype_typenameisnull",
             "description": "\n        itemType/题型：添加题型失败用例-题型名称为空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0509 s",
             "status": "成功",
             "log": [
                 ""
@@ -7547,7 +7582,7 @@ body.skin-3 {
             "className": "AddItemType",
             "methodName": "test_priorityCodeError",
             "description": "\n        itemType/题型：添加题型失败用例-排序超出限制\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0638 s",
             "status": "成功",
             "log": [
                 ""
@@ -7557,7 +7592,7 @@ body.skin-3 {
             "className": "DeleteItemType",
             "methodName": "test_deleteItemType",
             "description": "\n        itemType/题型：删除题型成功用例\n        ",
-            "spendTime": "1.58 s",
+            "spendTime": "0.295 s",
             "status": "成功",
             "log": [
                 ""
@@ -7567,7 +7602,7 @@ body.skin-3 {
             "className": "DeleteItemType",
             "methodName": "test_deleteItemTypeHaveItem",
             "description": "\n        itemType/题型：删除已存在题目的题型\n        ",
-            "spendTime": "0.0624 s",
+            "spendTime": "0.0519 s",
             "status": "成功",
             "log": [
                 ""
@@ -7577,7 +7612,7 @@ body.skin-3 {
             "className": "DeleteItemType",
             "methodName": "test_deleteItemTypeNoExist",
             "description": "\n        itemType/题型：删除不存在的题型\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0429 s",
             "status": "成功",
             "log": [
                 ""
@@ -7587,7 +7622,7 @@ body.skin-3 {
             "className": "DeleteItemType",
             "methodName": "test_deleteItemTypeNoId",
             "description": "\n        itemType/题型：删除题型未输入ID\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0568 s",
             "status": "成功",
             "log": [
                 ""
@@ -7597,7 +7632,7 @@ body.skin-3 {
             "className": "GetItemType",
             "methodName": "test_getItemType",
             "description": "\n        itemType/题型：获取题型成功用例\n        ",
-            "spendTime": "0.0468 s",
+            "spendTime": "0.0499 s",
             "status": "成功",
             "log": [
                 ""
@@ -7607,7 +7642,7 @@ body.skin-3 {
             "className": "GetItemType",
             "methodName": "test_getItemTypeNoExist",
             "description": "\n        itemType/题型：获取不存在的题型\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0459 s",
             "status": "成功",
             "log": [
                 ""
@@ -7617,77 +7652,259 @@ body.skin-3 {
             "className": "GetItemTypeList",
             "methodName": "test_currentPageErr",
             "description": "\n        itemType/题型：获取题型列表当前页为负数\n        ",
-            "spendTime": "0.0468 s",
-            "status": "成功",
+            "spendTime": "0.0608 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=-1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_getitemtypelist.py\", line 143, in test_currentPageErr\n    params=getItemTypeList[\"body_currentPageErr\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=-1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetItemTypeList",
             "methodName": "test_currentPageIsZero",
             "description": "\n        itemType/题型：获取题型列表当前页为0\n        ",
-            "spendTime": "0.047 s",
-            "status": "成功",
+            "spendTime": "0.019 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=0 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_getitemtypelist.py\", line 126, in test_currentPageIsZero\n    params=getItemTypeList[\"body_currentPageIsZero\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=0 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetItemTypeList",
             "methodName": "test_getItemTypeList",
             "description": "\n        itemType/题型：获取题型列表为空\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.0189 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=1&pageSize=10&typeName=%E6%96%97%E6%97%A0%E7%94%BB (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_getitemtypelist.py\", line 109, in test_getItemTypeList\n    params=getItemTypeList[\"body_randTypeName\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=1&pageSize=10&typeName=%E6%96%97%E6%97%A0%E7%94%BB (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetItemTypeList",
             "methodName": "test_getItemTypeListByCode",
             "description": "\n        itemType/题型：通过题型编码获取列表成功用例\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.0179 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=1&pageSize=10&typeName=ATCode_fjxh (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_getitemtypelist.py\", line 88, in test_getItemTypeListByCode\n    params=getItemTypeListBody)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=1&pageSize=10&typeName=ATCode_fjxh (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetItemTypeList",
             "methodName": "test_getItemTypeListByName",
             "description": "\n        itemType/题型：通过题型名称获取列表成功用例\n        ",
-            "spendTime": "0.0312 s",
-            "status": "成功",
+            "spendTime": "0.024 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=1&pageSize=10&typeName=AT%E6%A8%A1%E7%89%88_%E8%BF%99%E5%B8%88%E7%B3%BB (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_getitemtypelist.py\", line 65, in test_getItemTypeListByName\n    params=getItemTypeListBody)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?currentPage=1&pageSize=10&typeName=AT%E6%A8%A1%E7%89%88_%E8%BF%99%E5%B8%88%E7%B3%BB (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetItemTypeList",
             "methodName": "test_getItemTypeListDefault",
             "description": "\n        itemType/题型：获取题型列表成功用例\n        ",
-            "spendTime": "0.0625 s",
-            "status": "成功",
+            "spendTime": "0.0219 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_getitemtypelist.py\", line 44, in test_getItemTypeListDefault\n    self.getItemTypeListResponse = requests.get(getItemTypeList[\"url\"], headers=getItemTypeList[\"header\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetItemTypeList",
             "methodName": "test_pageSizeErr",
             "description": "\n        itemType/题型：获取题型列表每页大小为负数\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.02 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?pageSize=-1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_getitemtypelist.py\", line 160, in test_pageSizeErr\n    params=getItemTypeList[\"body_pageSizeErr\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/item-types?pageSize=-1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "UpdateItemType",
             "methodName": "test_priorityCodeError",
             "description": "\n        itemType/题型：修改题型失败用例-排序超出限制\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0578 s",
             "status": "成功",
             "log": [
                 ""
@@ -7697,27 +7914,43 @@ body.skin-3 {
             "className": "UpdateItemType",
             "methodName": "test_reTypeName",
             "description": "\n        itemType/题型：修改题型失败用例-题型名称重复\n        ",
-            "spendTime": "0.0625 s",
-            "status": "成功",
+            "spendTime": "0.0748 s",
+            "status": "失败",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_updateitemtype.py\", line 73, in test_reTypeName\n    self.assertEqual(actmessage, \"题型名称已存在\", \"itemType/题型：修改题型失败用例-题型名称重复message返回信息不一致！\")\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
+                "AssertionError: '题型编码不能为空' != '题型名称已存在'\n- 题型编码不能为空\n+ 题型名称已存在\n : itemType/题型：修改题型失败用例-题型名称重复message返回信息不一致！\n"
             ]
         },
         {
             "className": "UpdateItemType",
             "methodName": "test_subjectIdsErr",
             "description": "\n        itemType/题型：修改题型失败用例-科目Id错误\n        ",
-            "spendTime": "0.0781 s",
-            "status": "成功",
+            "spendTime": "0.0459 s",
+            "status": "失败",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_updateitemtype.py\", line 55, in test_subjectIdsErr\n    self.assertEqual(\"ID不能为NULL\", actmessage, \"itemType/题型：修改题型失败用例-科目Id错误message返回信息不一致！\")\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
+                "AssertionError: 'ID不能为NULL' != '题型编码不能为空'\n- ID不能为NULL\n+ 题型编码不能为空\n : itemType/题型：修改题型失败用例-科目Id错误message返回信息不一致！\n"
             ]
         },
         {
             "className": "UpdateItemType",
             "methodName": "test_typeNameIsNull",
             "description": "\n        itemType/题型：修改题型失败用例-题型名称为空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0479 s",
             "status": "成功",
             "log": [
                 ""
@@ -7727,17 +7960,24 @@ body.skin-3 {
             "className": "UpdateItemType",
             "methodName": "test_updateItemType",
             "description": "\n        itemType/题型：修改题型成功用例\n        ",
-            "spendTime": "0.0781 s",
-            "status": "成功",
+            "spendTime": "0.0489 s",
+            "status": "失败",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\itemtype\\test_updateitemtype.py\", line 34, in test_updateItemType\n    self.assertEqual(status_code, 200, \"itemType/题型：修改题型成功用例-状态码错误！\")\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 832, in _baseAssertEqual\n    raise self.failureException(msg)\n",
+                "AssertionError: 400 != 200 : itemType/题型：修改题型成功用例-状态码错误！\n"
             ]
         },
         {
             "className": "TestAddFolders",
             "methodName": "test_addfolders",
             "description": null,
-            "spendTime": "0.0626 s",
+            "spendTime": "0.0698 s",
             "status": "成功",
             "log": [
                 ""
@@ -7747,7 +7987,7 @@ body.skin-3 {
             "className": "TestAddLecture",
             "methodName": "test_addlecture",
             "description": null,
-            "spendTime": "0.078 s",
+            "spendTime": "0.0868 s",
             "status": "成功",
             "log": [
                 ""
@@ -7757,7 +7997,7 @@ body.skin-3 {
             "className": "TestCopylecture",
             "methodName": "test_copylecture",
             "description": null,
-            "spendTime": "0.125 s",
+            "spendTime": "0.73 s",
             "status": "成功",
             "log": [
                 ""
@@ -7767,7 +8007,7 @@ body.skin-3 {
             "className": "TestDeletefolders",
             "methodName": "test_deletefolders",
             "description": null,
-            "spendTime": "0.219 s",
+            "spendTime": "0.0867 s",
             "status": "成功",
             "log": [
                 ""
@@ -7777,7 +8017,7 @@ body.skin-3 {
             "className": "TestEditFolders",
             "methodName": "test_editfolders",
             "description": null,
-            "spendTime": "0.156 s",
+            "spendTime": "0.0688 s",
             "status": "成功",
             "log": [
                 ""
@@ -7787,17 +8027,24 @@ body.skin-3 {
             "className": "TestEditlecture",
             "methodName": "test_editlecture",
             "description": null,
-            "spendTime": "0.0937 s",
-            "status": "成功",
+            "spendTime": "0.105 s",
+            "status": "失败",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\lecture\\test_editlecture.py\", line 22, in test_editlecture\n    self.assertEqual(200, res.status_code)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 832, in _baseAssertEqual\n    raise self.failureException(msg)\n",
+                "AssertionError: 200 != 500\n"
             ]
         },
         {
             "className": "TestEditlectureinfo_jiaoan",
             "methodName": "test_editlectureinfo_jiaoan",
             "description": null,
-            "spendTime": "1.45 s",
+            "spendTime": "0.572 s",
             "status": "成功",
             "log": [
                 ""
@@ -7807,7 +8054,7 @@ body.skin-3 {
             "className": "TestEditlectureinfo_kaoshi",
             "methodName": "test_editlectureinfo_kaoshi",
             "description": null,
-            "spendTime": "0.156 s",
+            "spendTime": "0.265 s",
             "status": "成功",
             "log": [
                 ""
@@ -7817,7 +8064,7 @@ body.skin-3 {
             "className": "TestEditlectureinfo_shiyan",
             "methodName": "test_editlectureinfo_shiyan",
             "description": null,
-            "spendTime": "0.0782 s",
+            "spendTime": "0.0848 s",
             "status": "失败",
             "log": [
                 "",
@@ -7834,7 +8081,7 @@ body.skin-3 {
             "className": "TestEditlectureinfo_yuxi",
             "methodName": "test_editlectureinfo_yuxi",
             "description": null,
-            "spendTime": "0.0625 s",
+            "spendTime": "0.103 s",
             "status": "成功",
             "log": [
                 ""
@@ -7844,7 +8091,7 @@ body.skin-3 {
             "className": "TestEditlectureinfo_zhineng",
             "methodName": "test_editlectureinfo_zhineng",
             "description": null,
-            "spendTime": "0.14 s",
+            "spendTime": "0.175 s",
             "status": "成功",
             "log": [
                 ""
@@ -7854,17 +8101,24 @@ body.skin-3 {
             "className": "TestEdituploadfile",
             "methodName": "test_edituploadfile",
             "description": null,
-            "spendTime": "0.0782 s",
-            "status": "成功",
+            "spendTime": "0.0808 s",
+            "status": "失败",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\lecture\\test_edituploadfile.py\", line 22, in test_edituploadfile\n    self.assertEqual(200, res.status_code)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 832, in _baseAssertEqual\n    raise self.failureException(msg)\n",
+                "AssertionError: 200 != 400\n"
             ]
         },
         {
             "className": "TestGetFileList",
             "methodName": "test_getfilelist",
             "description": null,
-            "spendTime": "0.0625 s",
+            "spendTime": "0.114 s",
             "status": "成功",
             "log": [
                 ""
@@ -7874,17 +8128,22 @@ body.skin-3 {
             "className": "TestGetfolderstree",
             "methodName": "test_getfolderstree",
             "description": null,
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.028 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\lecture\\test_getfolderstree.py\", line 24, in test_getfolderstree\n    self.assertEqual(200, res.status_code)\n",
+                "NameError: name 'res' is not defined\n"
             ]
         },
         {
             "className": "TestGetlectureinfo",
             "methodName": "test_getlectureinfo",
             "description": null,
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0638 s",
             "status": "成功",
             "log": [
                 ""
@@ -7894,17 +8153,22 @@ body.skin-3 {
             "className": "TestLastlecture",
             "methodName": "test_lastlecture",
             "description": null,
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.0269 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\lecture\\test_lastlecture.py\", line 24, in test_lastlecture\n    self.assertEqual(200, res.status_code)\n",
+                "NameError: name 'res' is not defined\n"
             ]
         },
         {
             "className": "TestMovefile",
             "methodName": "test_movefile",
             "description": null,
-            "spendTime": "0.109 s",
+            "spendTime": "0.115 s",
             "status": "成功",
             "log": [
                 ""
@@ -7914,7 +8178,7 @@ body.skin-3 {
             "className": "TestRemoveinfo",
             "methodName": "test_removeinfo",
             "description": null,
-            "spendTime": "0.125 s",
+            "spendTime": "0.0858 s",
             "status": "成功",
             "log": [
                 ""
@@ -7924,7 +8188,7 @@ body.skin-3 {
             "className": "TestSearchfiles",
             "methodName": "test_searchfiles",
             "description": null,
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0798 s",
             "status": "成功",
             "log": [
                 ""
@@ -7934,7 +8198,7 @@ body.skin-3 {
             "className": "TestUploadfiles",
             "methodName": "test_uploadfiles",
             "description": null,
-            "spendTime": "0.281 s",
+            "spendTime": "0.843 s",
             "status": "成功",
             "log": [
                 ""
@@ -7944,7 +8208,7 @@ body.skin-3 {
             "className": "TestAddPaper",
             "methodName": "test_addpaper",
             "description": null,
-            "spendTime": "0.0782 s",
+            "spendTime": "0.127 s",
             "status": "成功",
             "log": [
                 ""
@@ -7954,7 +8218,7 @@ body.skin-3 {
             "className": "TestDelete",
             "methodName": "test_delete",
             "description": null,
-            "spendTime": "0.0936 s",
+            "spendTime": "0.117 s",
             "status": "成功",
             "log": [
                 ""
@@ -7964,7 +8228,7 @@ body.skin-3 {
             "className": "TestEdittag",
             "methodName": "test_edittag",
             "description": null,
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0818 s",
             "status": "失败",
             "log": [
                 "",
@@ -7981,7 +8245,7 @@ body.skin-3 {
             "className": "TestEnable",
             "methodName": "test_enable",
             "description": null,
-            "spendTime": "0.359 s",
+            "spendTime": "0.115 s",
             "status": "成功",
             "log": [
                 ""
@@ -7991,7 +8255,7 @@ body.skin-3 {
             "className": "TestOffShelf",
             "methodName": "test_offshelf",
             "description": null,
-            "spendTime": "0.109 s",
+            "spendTime": "0.0828 s",
             "status": "成功",
             "log": [
                 ""
@@ -8001,47 +8265,67 @@ body.skin-3 {
             "className": "TestPaperList",
             "methodName": "test_paper_list",
             "description": null,
-            "spendTime": "0.0626 s",
-            "status": "成功",
+            "spendTime": "0.0289 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\paper\\test_paperlist.py\", line 22, in test_paper_list\n    self.assertEqual(200, res.status_code)\n",
+                "NameError: name 'res' is not defined\n"
             ]
         },
         {
             "className": "TestPaperListRandSubject",
             "methodName": "test_paper_list_rand_subject",
             "description": null,
-            "spendTime": "0.0936 s",
-            "status": "成功",
+            "spendTime": "0.0269 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\paper\\test_paperlist_randsubject.py\", line 25, in test_paper_list_rand_subject\n    self.assertEqual(200, res.status_code)\n",
+                "NameError: name 'res' is not defined\n"
             ]
         },
         {
             "className": "TestStandard_paperlist",
             "methodName": "test_standard_paperlist",
             "description": null,
-            "spendTime": "0.0625 s",
-            "status": "成功",
+            "spendTime": "0.0289 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\paper\\test_standard_paperlist.py\", line 22, in test_standard_paperlist\n    self.assertEqual(200, res.status_code)\n",
+                "NameError: name 'res' is not defined\n"
             ]
         },
         {
             "className": "TestStandardRandPaperList",
             "methodName": "test_standard_rand_paper_list",
             "description": null,
-            "spendTime": "0.047 s",
-            "status": "成功",
+            "spendTime": "0.0229 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\paper\\test_standard_randpaperlist.py\", line 25, in test_standard_rand_paper_list\n    self.assertEqual(200, res.status_code)\n",
+                "NameError: name 'res' is not defined\n"
             ]
         },
         {
             "className": "TestViewtag",
             "methodName": "test_viewtag",
             "description": null,
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0698 s",
             "status": "成功",
             "log": [
                 ""
@@ -8051,7 +8335,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperType",
             "description": "\n        paperType/添加套卷类型：SUCCESS-所有参数正常添加\n        ",
-            "spendTime": "0.0781 s",
+            "spendTime": "0.0908 s",
             "status": "成功",
             "log": [
                 ""
@@ -8061,7 +8345,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeCodeNone",
             "description": "\n        paperType/添加套卷类型：FAIL-未填写套卷类型编码\n        ",
-            "spendTime": "0.078 s",
+            "spendTime": "0.0608 s",
             "status": "成功",
             "log": [
                 ""
@@ -8071,7 +8355,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeCodeRepeat",
             "description": "\n        paperType/添加套卷类型：FAIL-添加同编码套卷类型\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0549 s",
             "status": "成功",
             "log": [
                 ""
@@ -8081,7 +8365,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeCodeTooLong",
             "description": "\n        paperType/添加套卷类型：FAIL-类型编码超出100字符\n        ",
-            "spendTime": "0.0626 s",
+            "spendTime": "0.0598 s",
             "status": "成功",
             "log": [
                 ""
@@ -8091,7 +8375,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeDescriptionTooLong",
             "description": "\n        paperType/添加套卷类型：FAIL-描述超出200字符\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0519 s",
             "status": "成功",
             "log": [
                 ""
@@ -8101,7 +8385,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeNameNone",
             "description": "\n        paperType/添加套卷类型：FAIL-未填写套卷类型名称\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0479 s",
             "status": "成功",
             "log": [
                 ""
@@ -8111,7 +8395,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeNameRepeat",
             "description": "\n        paperType/添加套卷类型：FAIL-添加同名称套卷类型\n        ",
-            "spendTime": "0.0468 s",
+            "spendTime": "0.0509 s",
             "status": "成功",
             "log": [
                 ""
@@ -8121,7 +8405,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeNameTooLong",
             "description": "\n        paperType/添加套卷类型：FAIL-类型名称超出100字符\n        ",
-            "spendTime": "0.0626 s",
+            "spendTime": "0.0499 s",
             "status": "成功",
             "log": [
                 ""
@@ -8131,7 +8415,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypePeriodIdsErr",
             "description": "\n        paperType/添加套卷类型：FAIL-输入不存在的学段\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0549 s",
             "status": "成功",
             "log": [
                 ""
@@ -8141,7 +8425,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypePeriodIdsHaveNone",
             "description": "\n        paperType/添加套卷类型：FAIL-学段列表存在空数据\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0608 s",
             "status": "成功",
             "log": [
                 ""
@@ -8151,7 +8435,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypePeriodIdsNone",
             "description": "\n        paperType/添加套卷类型：FAIL-未填写学段\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0608 s",
             "status": "成功",
             "log": [
                 ""
@@ -8161,7 +8445,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeRequired",
             "description": "\n        paperType/添加套卷类型：SUCCESS-必填项正常添加\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.106 s",
             "status": "成功",
             "log": [
                 ""
@@ -8171,7 +8455,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeSeqErr",
             "description": "\n        paperType/添加套卷类型：FAIL-排序不在（1,200）范围内，排序为201\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0509 s",
             "status": "成功",
             "log": [
                 ""
@@ -8181,7 +8465,7 @@ body.skin-3 {
             "className": "AddPaperType",
             "methodName": "test_addPaperTypeSeqIsZero",
             "description": "\n        paperType/添加套卷类型：FAIL-排序不在（1,200）范围内，排序为0\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0588 s",
             "status": "成功",
             "log": [
                 ""
@@ -8191,7 +8475,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperType",
             "description": "\n        paperType/编辑套卷类型：SUCCESS-修改所有参数\n        ",
-            "spendTime": "0.0782 s",
+            "spendTime": "0.0997 s",
             "status": "成功",
             "log": [
                 ""
@@ -8201,7 +8485,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypeCodeNone",
             "description": "\n        paperType/编辑套卷类型：SUCCESS-未填写套卷类型编码，不修改编码\n        ",
-            "spendTime": "0.0781 s",
+            "spendTime": "0.0688 s",
             "status": "成功",
             "log": [
                 ""
@@ -8211,7 +8495,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypeCodeRepeat",
             "description": "\n        paperType/编辑套卷类型：SUCCESS-添加同编码套卷类型，不修改编码\n        ",
-            "spendTime": "0.078 s",
+            "spendTime": "0.0848 s",
             "status": "成功",
             "log": [
                 ""
@@ -8231,7 +8515,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypeNameNone",
             "description": "\n        paperType/编辑套卷类型：FAIL-未填写套卷类型名称\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0489 s",
             "status": "成功",
             "log": [
                 ""
@@ -8241,7 +8525,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypeNameRepeat",
             "description": "\n        paperType/编辑套卷类型：FAIL-添加同名称套卷类型\n        ",
-            "spendTime": "0.0468 s",
+            "spendTime": "0.0539 s",
             "status": "成功",
             "log": [
                 ""
@@ -8251,7 +8535,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypeNameTooLong",
             "description": "\n        paperType/编辑套卷类型：FAIL-类型名称超出100字符\n        ",
-            "spendTime": "0.0467 s",
+            "spendTime": "0.0459 s",
             "status": "成功",
             "log": [
                 ""
@@ -8261,7 +8545,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypePeriodIdsHaveNone",
             "description": "\n        paperType/编辑套卷类型：FAIL-学段列表存在空字段\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0578 s",
             "status": "成功",
             "log": [
                 ""
@@ -8271,7 +8555,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypePeriodIdsNone",
             "description": "\n        paperType/编辑套卷类型：FAIL-输入不存在的学段\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0788 s",
             "status": "成功",
             "log": [
                 ""
@@ -8281,7 +8565,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypeRequired",
             "description": "\n        paperType/编辑套卷类型：SUCCESS-非必填项放空\n        ",
-            "spendTime": "0.0781 s",
+            "spendTime": "0.144 s",
             "status": "成功",
             "log": [
                 ""
@@ -8291,7 +8575,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypeSeqErr",
             "description": "\n        paperType/编辑套卷类型：FAIL-排序不在（1,200）范围内，排序为201\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0559 s",
             "status": "成功",
             "log": [
                 ""
@@ -8301,7 +8585,7 @@ body.skin-3 {
             "className": "EditPaperType",
             "methodName": "test_editPaperTypeSeqIsZero",
             "description": "\n        paperType/编辑套卷类型：FAIL-排序不在（1,200）范围内，排序为0\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0748 s",
             "status": "成功",
             "log": [
                 ""
@@ -8311,7 +8595,7 @@ body.skin-3 {
             "className": "GetPaperType",
             "methodName": "test_getPaperType",
             "description": "\n        paperType/获取套卷类型：SUCCESS-获取套卷类型详情\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0678 s",
             "status": "成功",
             "log": [
                 ""
@@ -8321,7 +8605,7 @@ body.skin-3 {
             "className": "GetPaperType",
             "methodName": "test_getPaperTypeIdErr",
             "description": "\n        paperType/获取套卷类型：FAIL-输入不存在的套卷类型ID\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0638 s",
             "status": "成功",
             "log": [
                 ""
@@ -8331,7 +8615,7 @@ body.skin-3 {
             "className": "GetPaperTypeByPeriod",
             "methodName": "test_getPaperTypeByPeriod",
             "description": "\n        paperType/学段获取套卷类型：SUCCESS-获取套卷类型详情\n        ",
-            "spendTime": "0.078 s",
+            "spendTime": "0.0976 s",
             "status": "成功",
             "log": [
                 ""
@@ -8341,7 +8625,7 @@ body.skin-3 {
             "className": "GetPaperTypeByPeriod",
             "methodName": "test_getPaperTypeIdErr",
             "description": "\n        paperType/学段获取套卷类型：FAIL-输入不存在的学段ID\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0558 s",
             "status": "成功",
             "log": [
                 ""
@@ -8351,7 +8635,7 @@ body.skin-3 {
             "className": "GetPaperTypeByPeriod",
             "methodName": "test_getPaperTypeIdNone",
             "description": "\n        paperType/学段获取套卷类型：FAIL-未输入学段ID\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0658 s",
             "status": "成功",
             "log": [
                 ""
@@ -8361,67 +8645,223 @@ body.skin-3 {
             "className": "GetPaperTypeList",
             "methodName": "test_getPaperTypeListAll",
             "description": "\n        paperType/获取套卷类型列表：SUCCESS-获取全部套卷类型\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.0509 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=2&pageSize=5 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\papertype\\test_getpapertypelist.py\", line 63, in test_getPaperTypeListAll\n    params=getPaperTypeList[\"searchAllBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=2&pageSize=5 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetPaperTypeList",
             "methodName": "test_getPaperTypeListCurrentPageErr",
             "description": "\n        paperType/获取套卷类型列表：FAIL-输入错误当前页查询\n        ",
-            "spendTime": "0.0468 s",
-            "status": "成功",
+            "spendTime": "0.018 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=0 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\papertype\\test_getpapertypelist.py\", line 103, in test_getPaperTypeListCurrentPageErr\n    params=getPaperTypeList[\"currentPageErrBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=0 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetPaperTypeList",
             "methodName": "test_getPaperTypeListNone",
             "description": "\n        paperType/获取套卷类型列表：SUCCESS-获取空列表\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.017 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=1&pageSize=10&typeName=zhijiankao (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\papertype\\test_getpapertypelist.py\", line 83, in test_getPaperTypeListNone\n    params=getPaperTypeList[\"searchNoneBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=1&pageSize=10&typeName=zhijiankao (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetPaperTypeList",
             "methodName": "test_getPaperTypeListOne",
             "description": "\n        paperType/获取套卷类型列表：SUCCESS-获取一条套卷类型测试\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.0259 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=1&pageSize=10&typeName=%E6%9C%9F%E4%B8%AD%E8%80%83 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\papertype\\test_getpapertypelist.py\", line 19, in test_getPaperTypeListOne\n    params=getPaperTypeList[\"searchOneBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=1&pageSize=10&typeName=%E6%9C%9F%E4%B8%AD%E8%80%83 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetPaperTypeList",
             "methodName": "test_getPaperTypeListPageSizeErr",
             "description": "\n        paperType/获取套卷类型列表：FAIL-每页大小为负数查询\n        ",
-            "spendTime": "0.0467 s",
-            "status": "成功",
+            "spendTime": "0.018 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?pageSize=-1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\papertype\\test_getpapertypelist.py\", line 120, in test_getPaperTypeListPageSizeErr\n    params=getPaperTypeList[\"pageSizeErrBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?pageSize=-1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetPaperTypeList",
             "methodName": "test_getPaperTypeListSome",
             "description": "\n        paperType/获取套卷类型列表：SUCCESS-获取多条套卷类型\n        ",
-            "spendTime": "0.047 s",
-            "status": "成功",
+            "spendTime": "0.0189 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=1&pageSize=10&typeName=%E8%80%83 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\papertype\\test_getpapertypelist.py\", line 41, in test_getPaperTypeListSome\n    params=getPaperTypeList[\"searchSomeBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/paper-textbook-types/?currentPage=1&pageSize=10&typeName=%E8%80%83 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetPointTree",
             "methodName": "test_getPointTree",
             "description": "\n        point/知识点：SUCCESS-获取知识树\n        ",
-            "spendTime": "0.0936 s",
+            "spendTime": "0.0638 s",
             "status": "成功",
             "log": [
                 ""
@@ -8431,7 +8871,7 @@ body.skin-3 {
             "className": "GetPointTree",
             "methodName": "test_listIsNone",
             "description": "\n        point/知识点：SUCCESS-输入科目学段查询出空列表\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0439 s",
             "status": "成功",
             "log": [
                 ""
@@ -8441,7 +8881,7 @@ body.skin-3 {
             "className": "GetPointTree",
             "methodName": "test_periodIsNone",
             "description": "\n        point/知识点：FAIL-未填写学段\n        ",
-            "spendTime": "0.0623 s",
+            "spendTime": "0.0628 s",
             "status": "成功",
             "log": [
                 ""
@@ -8451,7 +8891,7 @@ body.skin-3 {
             "className": "GetPointTree",
             "methodName": "test_regionIsNone",
             "description": "\n        point/知识点：FAIL-未填写地区\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0578 s",
             "status": "成功",
             "log": [
                 ""
@@ -8461,7 +8901,7 @@ body.skin-3 {
             "className": "GetPointTree",
             "methodName": "test_subjectError",
             "description": "\n        point/知识点：SUCCESS-科目不存在，列表返回空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0499 s",
             "status": "成功",
             "log": [
                 ""
@@ -8471,7 +8911,7 @@ body.skin-3 {
             "className": "GetPointTree",
             "methodName": "test_subjectIsNone",
             "description": "\n        point/知识点：FAIL-未填写科目\n        ",
-            "spendTime": "0.0467 s",
+            "spendTime": "0.0649 s",
             "status": "成功",
             "log": [
                 ""
@@ -8481,7 +8921,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchool",
             "description": "\n        school/添加学校：SUCCESS-添加学校（带区）\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0728 s",
             "status": "失败",
             "log": [
                 "",
@@ -8491,14 +8931,14 @@ body.skin-3 {
                 "  File \"D:\\tr_api\\testcase\\school\\test_addschool.py\", line 52, in test_addSchool\n    addSchool[\"url\"], self.addSchoolBody, self.addSchoolResponse.text))\n",
                 "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
                 "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 832, in _baseAssertEqual\n    raise self.failureException(msg)\n",
-                "AssertionError: 201 != 400 : school/添加学校：SUCCESS-添加学校（带区）-状态码错误！\n 接口：https://teacher-tr.test.klxuexi.net/tr/api/tr/dict/schools \n 入参：{'periodIds': [100000282, 10003], 'seq': 1018, 'provinceId': 110000, 'cityId': 110000, 'countyId': 110101, 'schoolName': 'AT东城区第四中学'} \n 出参：{\"timestamp\":1630671725536,\"status\":400,\"exception\":\"org.springframework.web.bind.MethodArgumentNotValidException\",\"message\":\"学段信息不能为空\",\"path\":\"/dict/schools\"}\n"
+                "AssertionError: 201 != 400 : school/添加学校：SUCCESS-添加学校（带区）-状态码错误！\n 接口：https://teacher-tr.test.klxuexi.net/tr/api/tr/dict/schools \n 入参：{'periodIds': [10003, 100000282], 'seq': 284, 'provinceId': 650000, 'cityId': 654200, 'countyId': 654224, 'schoolName': 'AT托里县第二中学'} \n 出参：{\"timestamp\":1632909360580,\"status\":400,\"exception\":\"org.springframework.web.bind.MethodArgumentNotValidException\",\"message\":\"学段信息不能为空\",\"path\":\"/dict/schools\"}\n"
             ]
         },
         {
             "className": "AddSchool",
             "methodName": "test_addSchoolCityErr",
             "description": "\n        school/添加学校：FAIL-添加学校市不存在\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0539 s",
             "status": "失败",
             "log": [
                 "",
@@ -8516,7 +8956,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolCountyErr",
             "description": "\n        school/添加学校：FAIL-区不存在\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0618 s",
             "status": "失败",
             "log": [
                 "",
@@ -8534,25 +8974,17 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolNameTooLong",
             "description": "\n        school/添加学校：FAIL-学校名称超出100字符\n        ",
-            "spendTime": "0.0469 s",
-            "status": "失败",
+            "spendTime": "0.0569 s",
+            "status": "成功",
             "log": [
-                "",
-                "Traceback (most recent call last):\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
-                "  File \"D:\\tr_api\\testcase\\school\\test_addschool.py\", line 334, in test_addSchoolNameTooLong\n    self.assertEqual(\"学校名称过长\", actmessage, \"school/添加学校：FAIL-学校名称超出100字符-message返回信息不一致！\")\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
-                "AssertionError: '学校名称过长' != '学段信息不能为空'\n- 学校名称过长\n+ 学段信息不能为空\n : school/添加学校：FAIL-学校名称超出100字符-message返回信息不一致！\n"
+                ""
             ]
         },
         {
             "className": "AddSchool",
             "methodName": "test_addSchoolNoCity",
             "description": "\n        school/添加学校：FAIL-添加学校不带市\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0539 s",
             "status": "成功",
             "log": [
                 ""
@@ -8562,7 +8994,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolNoCounty",
             "description": "\n        school/添加学校：SUCCESS-添加学校不带区\n        ",
-            "spendTime": "0.0467 s",
+            "spendTime": "0.0728 s",
             "status": "失败",
             "log": [
                 "",
@@ -8572,14 +9004,14 @@ body.skin-3 {
                 "  File \"D:\\tr_api\\testcase\\school\\test_addschool.py\", line 79, in test_addSchoolNoCounty\n    addSchool[\"url\"], self.addBodyNoCounty, self.addSchoolResponse.text))\n",
                 "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
                 "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 832, in _baseAssertEqual\n    raise self.failureException(msg)\n",
-                "AssertionError: 201 != 400 : school/添加学校：SUCCESS-添加学校不带区-状态码错误！\n 接口：https://teacher-tr.test.klxuexi.net/tr/api/tr/dict/schools \n 入参：{'periodIds': [100000282, 10003, 10001], 'seq': 666, 'provinceId': 140000, 'cityId': 141000, 'countyId': None, 'schoolName': 'AT临汾市第五中学'} \n 出参：{\"timestamp\":1630671725763,\"status\":400,\"exception\":\"org.springframework.web.bind.MethodArgumentNotValidException\",\"message\":\"学段信息不能为空\",\"path\":\"/dict/schools\"}\n"
+                "AssertionError: 201 != 400 : school/添加学校：SUCCESS-添加学校不带区-状态码错误！\n 接口：https://teacher-tr.test.klxuexi.net/tr/api/tr/dict/schools \n 入参：{'periodIds': [10001, 10002], 'seq': 61, 'provinceId': 420000, 'cityId': 422800, 'countyId': None, 'schoolName': 'AT恩施土家族苗族自治州第一中学'} \n 出参：{\"timestamp\":1632909360877,\"status\":400,\"exception\":\"org.springframework.web.bind.MethodArgumentNotValidException\",\"message\":\"学段信息不能为空\",\"path\":\"/dict/schools\"}\n"
             ]
         },
         {
             "className": "AddSchool",
             "methodName": "test_addSchoolNoPeriod",
             "description": "\n        school/添加学校：FAIL-学段不存在\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0529 s",
             "status": "成功",
             "log": [
                 ""
@@ -8589,7 +9021,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolNoProvince",
             "description": "\n        school/添加学校：FAIL-添加学校不带省\n        ",
-            "spendTime": "0.0312 s",
+            "spendTime": "0.0628 s",
             "status": "成功",
             "log": [
                 ""
@@ -8599,7 +9031,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolNoSchoolName",
             "description": "\n        school/添加学校：FAIL-学校名为空\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0598 s",
             "status": "成功",
             "log": [
                 ""
@@ -8609,7 +9041,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolPeriodErr",
             "description": "\n        school/添加学校：FAIL-学段错误\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0688 s",
             "status": "失败",
             "log": [
                 "",
@@ -8627,7 +9059,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolPeriodNone",
             "description": "\n        school/添加学校：FAIL-学段含空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0458 s",
             "status": "失败",
             "log": [
                 "",
@@ -8645,7 +9077,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolProvinceErr",
             "description": "\n        school/添加学校：FAIL-添加学校省份不存在\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0489 s",
             "status": "失败",
             "log": [
                 "",
@@ -8663,7 +9095,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolRepeat",
             "description": "\n        school/添加学校：FAIL-添加重复学校\n        ",
-            "spendTime": "0.0468 s",
+            "spendTime": "0.0529 s",
             "status": "错误",
             "log": [
                 "",
@@ -8678,7 +9110,7 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolSeqErr",
             "description": "\n        school/添加学校：FAIL-排序为2001\n        ",
-            "spendTime": "0.0467 s",
+            "spendTime": "0.0549 s",
             "status": "失败",
             "log": [
                 "",
@@ -8696,25 +9128,17 @@ body.skin-3 {
             "className": "AddSchool",
             "methodName": "test_addSchoolSeqIsZero",
             "description": "\n        school/添加学校：FAIL-排序不在1-2000范围内\n        ",
-            "spendTime": "0.0469 s",
-            "status": "失败",
+            "spendTime": "0.0628 s",
+            "status": "成功",
             "log": [
-                "",
-                "Traceback (most recent call last):\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
-                "  File \"D:\\tr_api\\testcase\\school\\test_addschool.py\", line 296, in test_addSchoolSeqIsZero\n    self.assertEqual(\"排序只允许1-2000（包含）之间\", actmessage, \"school/添加学校：FAIL-排序不在1-2000范围内-message返回信息不一致！\")\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
-                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
-                "AssertionError: '排序只允许1-2000（包含）之间' != '学段信息不能为空'\n- 排序只允许1-2000（包含）之间\n+ 学段信息不能为空\n : school/添加学校：FAIL-排序不在1-2000范围内-message返回信息不一致！\n"
+                ""
             ]
         },
         {
             "className": "EditSchoolStatus",
             "methodName": "test_editSchoolDISABLE",
             "description": "\n        school/修改学校状态：SUCCESS-设置学校状态为禁用\n        ",
-            "spendTime": "0.0 s",
+            "spendTime": "0.00698 s",
             "status": "错误",
             "log": [
                 "",
@@ -8729,7 +9153,7 @@ body.skin-3 {
             "className": "EditSchoolStatus",
             "methodName": "test_editSchoolENABLE",
             "description": "\n        school/修改学校状态：SUCCESS-设置学校状态为启用\n        ",
-            "spendTime": "0.0 s",
+            "spendTime": "0.000996 s",
             "status": "错误",
             "log": [
                 "",
@@ -8744,7 +9168,7 @@ body.skin-3 {
             "className": "EditSchoolStatus",
             "methodName": "test_editSchoolNoExist",
             "description": "\n        school/修改学校状态：FAIL-学校不存在\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0529 s",
             "status": "成功",
             "log": [
                 ""
@@ -8754,7 +9178,7 @@ body.skin-3 {
             "className": "EditSchoolStatus",
             "methodName": "test_editSchoolNoID",
             "description": "\n        school/修改学校状态：FAIL-未传入学校ID\n        ",
-            "spendTime": "0.141 s",
+            "spendTime": "0.209 s",
             "status": "成功",
             "log": [
                 ""
@@ -8764,7 +9188,7 @@ body.skin-3 {
             "className": "EditSchoolStatus",
             "methodName": "test_editSchoolNoStatus",
             "description": "\n        school/修改学校状态：FAIL-未传入状态\n        ",
-            "spendTime": "0.0 s",
+            "spendTime": "0.000997 s",
             "status": "错误",
             "log": [
                 "",
@@ -8794,7 +9218,7 @@ body.skin-3 {
             "className": "GetSchool",
             "methodName": "test_getSchool",
             "description": "\n        school/获取学校详情：SUCCESS-获取学校详情\n        ",
-            "spendTime": "0.0 s",
+            "spendTime": "0.000997 s",
             "status": "错误",
             "log": [
                 "",
@@ -8809,7 +9233,7 @@ body.skin-3 {
             "className": "GetSchool",
             "methodName": "test_getSchoolNoExist",
             "description": "\n        school/获取学校详情：FAIL-学校不存在\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0648 s",
             "status": "成功",
             "log": [
                 ""
@@ -8819,107 +9243,331 @@ body.skin-3 {
             "className": "GetSchoolList",
             "methodName": "test_getListByArea",
             "description": "\n        school/获取学校列表：SUCCESS-根据地区查询\n        ",
-            "spendTime": "0.0467 s",
+            "spendTime": "0.0459 s",
             "status": "错误",
             "log": [
                 "",
                 "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=100&cityId=650100&countyId=650107&provinceId=650000 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
                 "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
                 "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
-                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 105, in test_getListByArea\n    self.assertEqual(schoolListBody[\"provinceId\"], actdata[\"list\"][0][\"provinceId\"],\n",
-                "IndexError: list index out of range\n"
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 96, in test_getListByArea\n    params=schoolListBody)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=100&cityId=650100&countyId=650107&provinceId=650000 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetSchoolList",
             "methodName": "test_getListByAreaErr",
             "description": "\n        school/获取学校列表：SUCCESS-输入错误市ID查询空列表\n        ",
-            "spendTime": "0.0314 s",
-            "status": "成功",
+            "spendTime": "0.018 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=100&cityId=99999&countyId=650107&provinceId=650000 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 127, in test_getListByAreaErr\n    params=schoolListBody)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=100&cityId=99999&countyId=650107&provinceId=650000 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetSchoolList",
             "methodName": "test_getListByPeriod",
             "description": "\n        school/获取学校列表：SUCCESS-根据学校名称和学段查询\n        ",
-            "spendTime": "0.0623 s",
-            "status": "成功",
+            "spendTime": "0.02 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=2&pageSize=5&periodIds=10001&schoolName=%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 148, in test_getListByPeriod\n    params=getSchoolList[\"selectByPeriodBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=2&pageSize=5&periodIds=10001&schoolName=%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetSchoolList",
             "methodName": "test_getListBySchoolName",
             "description": "\n        school/获取学校列表：SUCCESS-根据学校名称精确查询\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.018 s",
             "status": "错误",
             "log": [
                 "",
                 "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=10&schoolName=AT%E8%BE%BE%E5%9D%82%E5%9F%8E%E5%8C%BA%E7%AC%AC%E5%85%AD%E4%B8%AD%E5%AD%A6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
                 "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
                 "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
-                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 78, in test_getListBySchoolName\n    self.assertEqual(schoolListBody[\"schoolName\"], actdata[\"list\"][0][\"schoolName\"],\n",
-                "IndexError: list index out of range\n"
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 69, in test_getListBySchoolName\n    params=schoolListBody)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=10&schoolName=AT%E8%BE%BE%E5%9D%82%E5%9F%8E%E5%8C%BA%E7%AC%AC%E5%85%AD%E4%B8%AD%E5%AD%A6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetSchoolList",
             "methodName": "test_getListByStatus",
             "description": "\n        school/获取学校列表：SUCCESS-根据学校状态查询\n        ",
-            "spendTime": "0.047 s",
-            "status": "成功",
+            "spendTime": "0.0179 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=10&status=DISABLE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 171, in test_getListByStatus\n    params=getSchoolList[\"selectByStatusBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=10&status=DISABLE (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetSchoolList",
             "methodName": "test_getListCurrentPageErr",
             "description": "\n        school/获取学校列表：FAIL-输入错误当前页查询\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.023 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=0 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 211, in test_getListCurrentPageErr\n    params=getSchoolList[\"currentPageErrBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=0 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetSchoolList",
             "methodName": "test_getListPageSizeErr",
             "description": "\n        school/获取学校列表：FAIL-每页大小为负数查询\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.0209 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?pageSize=-1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 229, in test_getListPageSizeErr\n    params=getSchoolList[\"pageSizeErrBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?pageSize=-1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetSchoolList",
             "methodName": "test_getListStatusErr",
             "description": "\n        school/获取学校列表：SUCCESS-输入错误状态查询空列表\n        ",
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.018 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=10&status=DISAB (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 194, in test_getListStatusErr\n    params=getSchoolList[\"statusErrBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=10&status=DISAB (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "GetSchoolList",
             "methodName": "test_getSchoolList",
             "description": "\n        school/获取学校列表：SUCCESS-根据学校名称模糊查询\n        ",
-            "spendTime": "0.0625 s",
-            "status": "成功",
+            "spendTime": "0.0199 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 594, in urlopen\n    self._prepare_proxy(conn)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 815, in _prepare_proxy\n    conn.connect()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connection.py\", line 356, in connect\n    ssl_context=context)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\ssl_.py\", line 359, in ssl_wrap_socket\n    return context.wrap_socket(sock, server_hostname=server_hostname)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 412, in wrap_socket\n    session=session\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 853, in _create\n    self.do_handshake()\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\ssl.py\", line 1117, in do_handshake\n    self._sslobj.do_handshake()\n",
+                "ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 449, in send\n    timeout=timeout\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py\", line 638, in urlopen\n    _stacktrace=sys.exc_info()[2])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\util\\retry.py\", line 398, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\n",
+                "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=10&schoolName=%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n",
+                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\school\\test_getschoollist.py\", line 44, in test_getSchoolList\n    params=getSchoolList[\"selectBySchoolNameBody\"])\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 76, in get\n    return request('get', url, params=params, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\api.py\", line 61, in request\n    return session.request(method=method, url=url, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 530, in request\n    resp = self.send(prep, **send_kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\sessions.py\", line 643, in send\n    r = adapter.send(request, **kwargs)\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\requests\\adapters.py\", line 514, in send\n    raise SSLError(e, request=request)\n",
+                "requests.exceptions.SSLError: HTTPSConnectionPool(host='teacher-tr.test.klxuexi.net', port=443): Max retries exceeded with url: /tr/api/tr/dict/schools/?currentPage=1&pageSize=10&schoolName=%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1051)')))\n"
             ]
         },
         {
             "className": "UpdateSchool",
             "methodName": "test_addSchoolRepeat",
             "description": "\n        school/编辑学校：FAIL-编辑重复学校\n        ",
-            "spendTime": "0.0 s",
+            "spendTime": "0.0299 s",
             "status": "错误",
             "log": [
                 "",
@@ -8949,7 +9597,7 @@ body.skin-3 {
             "className": "UpdateSchool",
             "methodName": "test_updateSchoolCityErr",
             "description": "\n        school/编辑学校：FAIL-市不存在\n        ",
-            "spendTime": "0.0 s",
+            "spendTime": "0.000997 s",
             "status": "错误",
             "log": [
                 "",
@@ -8994,7 +9642,7 @@ body.skin-3 {
             "className": "UpdateSchool",
             "methodName": "test_updateSchoolNoCounty",
             "description": "\n        school/编辑学校：SUCCESS-编辑学校不带区号\n        ",
-            "spendTime": "0.0 s",
+            "spendTime": "0.000998 s",
             "status": "错误",
             "log": [
                 "",
@@ -9024,7 +9672,7 @@ body.skin-3 {
             "className": "UpdateSchool",
             "methodName": "test_updateSchoolNoID",
             "description": "\n        school/编辑学校：FAIL-学校ID不存在\n        ",
-            "spendTime": "0.0156 s",
+            "spendTime": "0.000997 s",
             "status": "错误",
             "log": [
                 "",
@@ -9069,7 +9717,7 @@ body.skin-3 {
             "className": "UpdateSchool",
             "methodName": "test_updateSchoolNoSchoolName",
             "description": "\n        school/编辑学校：FAIL-学校名为空\n        ",
-            "spendTime": "0.0 s",
+            "spendTime": "0.000999 s",
             "status": "错误",
             "log": [
                 "",
@@ -9114,7 +9762,7 @@ body.skin-3 {
             "className": "TestAddTemPaper",
             "methodName": "test_addtempaper",
             "description": null,
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0828 s",
             "status": "成功",
             "log": [
                 ""
@@ -9124,7 +9772,7 @@ body.skin-3 {
             "className": "TestDeleteTemPaper",
             "methodName": "test_deletetempaper",
             "description": null,
-            "spendTime": "0.0626 s",
+            "spendTime": "0.0818 s",
             "status": "成功",
             "log": [
                 ""
@@ -9134,17 +9782,22 @@ body.skin-3 {
             "className": "TestGetList",
             "methodName": "test_getlist",
             "description": null,
-            "spendTime": "0.0469 s",
-            "status": "成功",
+            "spendTime": "0.024 s",
+            "status": "错误",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\tr_api\\testcase\\tempaper\\test_getlist.py\", line 26, in test_getlist\n    self.assertEqual(200, res.status_code, \"获取临时试卷列表失败！\\n 接口：{} \\n 入参：{} \\n 出参：{}\".format(\n",
+                "NameError: name 'res' is not defined\n"
             ]
         },
         {
             "className": "TestGetlist",
             "methodName": "test_getlist",
             "description": null,
-            "spendTime": "0.203 s",
+            "spendTime": "0.295 s",
             "status": "成功",
             "log": [
                 ""
@@ -9154,7 +9807,7 @@ body.skin-3 {
             "className": "CreateRelation",
             "methodName": "test_TlessonType_success",
             "description": "\n        video/视频：创建视频记录成功的测试用例-绑定教材章节\n        ",
-            "spendTime": "0.0936 s",
+            "spendTime": "0.102 s",
             "status": "成功",
             "log": [
                 ""
@@ -9164,7 +9817,7 @@ body.skin-3 {
             "className": "CreateRelation",
             "methodName": "test_createrecord_businessIdIsNull",
             "description": "\n        video/视频：创建视频记录失败的测试用例-关联Id为空\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0638 s",
             "status": "成功",
             "log": [
                 ""
@@ -9174,7 +9827,7 @@ body.skin-3 {
             "className": "CreateRelation",
             "methodName": "test_createrecord_businessTypeErr",
             "description": "\n        video/视频：创建视频记录失败的测试用例-- 关联Type为错误值\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0559 s",
             "status": "成功",
             "log": [
                 ""
@@ -9184,7 +9837,7 @@ body.skin-3 {
             "className": "CreateRelation",
             "methodName": "test_createrecord_businessTypeIsNull",
             "description": "\n        video/视频：创建视频记录失败的测试用例-关联Type为空\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0499 s",
             "status": "成功",
             "log": [
                 ""
@@ -9194,7 +9847,7 @@ body.skin-3 {
             "className": "CreateRelation",
             "methodName": "test_createrecord_dataisnull",
             "description": "\n        video/视频：创建视频记录失败的测试用例-视频列表为空\n        ",
-            "spendTime": "0.0467 s",
+            "spendTime": "0.0559 s",
             "status": "成功",
             "log": [
                 ""
@@ -9204,7 +9857,7 @@ body.skin-3 {
             "className": "DeleteRelation",
             "methodName": "test_delete_relationIdErr",
             "description": "\n        video/视频：删除视频关联记录失败用例--Id不存在\n        ",
-            "spendTime": "0.0626 s",
+            "spendTime": "0.0587 s",
             "status": "成功",
             "log": [
                 ""
@@ -9214,7 +9867,7 @@ body.skin-3 {
             "className": "DeleteRelation",
             "methodName": "test_delete_relationIdIsNull",
             "description": "\n        video/视频：删除视频关联记录失败用例--Id为空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0559 s",
             "status": "成功",
             "log": [
                 ""
@@ -9224,7 +9877,7 @@ body.skin-3 {
             "className": "DeleteRelation",
             "methodName": "test_delete_success",
             "description": "\n        video/视频：删除视频关联记录成功用例\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0698 s",
             "status": "成功",
             "log": [
                 ""
@@ -9234,7 +9887,7 @@ body.skin-3 {
             "className": "Resource",
             "methodName": "test_resource_fileisnull",
             "description": "\n        video/视频：视频上传resource失败的测试用例-上传file为NULL\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0568 s",
             "status": "成功",
             "log": [
                 ""
@@ -9244,7 +9897,7 @@ body.skin-3 {
             "className": "Resource",
             "methodName": "test_resource_success",
             "description": "\n        video/视频：视频上传resource成功的测试用例\n        ",
-            "spendTime": "0.0937 s",
+            "spendTime": "0.0919 s",
             "status": "成功",
             "log": [
                 ""
@@ -9254,7 +9907,7 @@ body.skin-3 {
             "className": "Resource",
             "methodName": "test_resource_typeisnull",
             "description": "\n        video/视频：视频上传resource失败的测试用例-type为NULL\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.149 s",
             "status": "成功",
             "log": [
                 ""
@@ -9264,7 +9917,7 @@ body.skin-3 {
             "className": "Sign",
             "methodName": "test_sign_fail",
             "description": "\n        video/视频：获取视频上传的签名失败的测试用例\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0559 s",
             "status": "成功",
             "log": [
                 ""
@@ -9274,7 +9927,7 @@ body.skin-3 {
             "className": "Sign",
             "methodName": "test_sign_success",
             "description": "\n        video/视频：获取视频上传的签名成功的测试用例\n        ",
-            "spendTime": "0.0625 s",
+            "spendTime": "0.0678 s",
             "status": "成功",
             "log": [
                 ""
@@ -9284,7 +9937,7 @@ body.skin-3 {
             "className": "UploadFile",
             "methodName": "test_uploadfile_success",
             "description": "\n        video/视频：视频上传成功的测试用例\n        ",
-            "spendTime": "0.0624 s",
+            "spendTime": "0.0658 s",
             "status": "成功",
             "log": [
                 ""
@@ -9294,7 +9947,7 @@ body.skin-3 {
             "className": "UploadFile",
             "methodName": "test_uploadfile_typeisnull",
             "description": "\n        video/视频：视频上传失败的测试用例-type为NULL\n        ",
-            "spendTime": "0.0781 s",
+            "spendTime": "0.0898 s",
             "status": "成功",
             "log": [
                 ""
@@ -9304,7 +9957,7 @@ body.skin-3 {
             "className": "VideoPage",
             "methodName": "test_TlessonPage_success",
             "description": "\n        video/视频：查询视频列表成功的测试用例-双师教材章节\n        ",
-            "spendTime": "0.266 s",
+            "spendTime": "0.381 s",
             "status": "成功",
             "log": [
                 ""
@@ -9314,7 +9967,7 @@ body.skin-3 {
             "className": "VideoPage",
             "methodName": "test_businessTypeErr_fail",
             "description": "\n        video/视频：查询视频列表失败测试用例--业务类型错误\n        ",
-            "spendTime": "0.047 s",
+            "spendTime": "0.0549 s",
             "status": "成功",
             "log": [
                 ""
@@ -9324,7 +9977,7 @@ body.skin-3 {
             "className": "VideoPage",
             "methodName": "test_businessTypeNull_fail",
             "description": "\n        video/视频：查询视频列表失败测试用例--业务类型为空\n        ",
-            "spendTime": "0.0469 s",
+            "spendTime": "0.0578 s",
             "status": "成功",
             "log": [
                 ""
@@ -9334,7 +9987,7 @@ body.skin-3 {
             "className": "VideoPage",
             "methodName": "test_pageNull_success",
             "description": "\n        video/视频：查询视频列表成功测试用例--未设置列表（取默认值）\n        ",
-            "spendTime": "0.234 s",
+            "spendTime": "0.297 s",
             "status": "成功",
             "log": [
                 ""
@@ -9344,7 +9997,7 @@ body.skin-3 {
             "className": "VideoPage",
             "methodName": "test_pageSet_success",
             "description": "\n        video/视频：查询视频列表成功测试用例--设置每页显示大小及当前页\n        ",
-            "spendTime": "0.0781 s",
+            "spendTime": "0.0908 s",
             "status": "成功",
             "log": [
                 ""
@@ -9354,7 +10007,7 @@ body.skin-3 {
             "className": "VideoPage",
             "methodName": "test_searchPage_success",
             "description": "\n        video/视频：查询视频列表成功的测试用例--根据名称查询视频列表\n        ",
-            "spendTime": "0.0781 s",
+            "spendTime": "0.0858 s",
             "status": "成功",
             "log": [
                 ""
@@ -9362,10 +10015,10 @@ body.skin-3 {
         }
     ],
     "testName": "教研平台接口测试报告",
-    "testAll": 196,
-    "testFail": 39,
-    "beginTime": "2021-09-03 20:21:15",
-    "totalTime": "54s",
+    "testAll": 199,
+    "testFail": 69,
+    "beginTime": "2021-09-29 17:54:05",
+    "totalTime": "120s",
     "testSkip": 0,
     "testError": 0
 };
