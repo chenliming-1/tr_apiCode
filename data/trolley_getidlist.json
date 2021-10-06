@@ -1,0 +1,23 @@
+{
+    "name": "/tr/api/tr/item/source/trolley/10002/8/id/list",
+    "request": {
+        "json": {},
+        "headers": {
+            "sec-ch-ua": "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"",
+            "X-Router-Url": "https://teacher-tr.test.klxuexi.net/#/question",
+            "X-Klxx-Version": "1.9.6",
+            "sec-ch-ua-mobile": "?0",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36",
+            "Access-Control-Allow-Methods": "*",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "NCZ",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Dest": "empty",
+            "Cookie": "SESSION=Njc1YmUzYzQtZjYxOS00MmI4LWJhOGEtOWIyY2VmMWIyODZi"
+        },
+        "url": "https://teacher-tr.test.klxuexi.net/tr/api/tr/item/source/trolley/10002/8/id/list",
+        "method": "GET"
+    }
+}
