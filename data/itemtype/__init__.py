@@ -6,5 +6,6 @@ from .deleteitemtype import deleteitemtype
 from .getitemtype import getItemType
 from .updateitemtype import updateItemType
 from .getitemtypelist import getItemTypeList
+from .getitemtypelistnew import getItemTypeListNew
 
-__all__ = ['additemtype', 'deleteitemtype', 'getItemType', 'updateItemType', 'getItemTypeList']
+__all__ = ['additemtype', 'deleteitemtype', 'getItemType', 'updateItemType', 'getItemTypeList','getItemTypeListNew']

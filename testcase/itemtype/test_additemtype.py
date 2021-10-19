@@ -21,6 +21,9 @@ class AddItemType(unittest.TestCase):
         self.addItemTypeResponse = request.run_main(additemtype["url"], method='POST', headers=additemtype["header"],
                                                     data=additemtypebody)
         # print("test_additemtype!!!!!!!!!"+additemtypebody["typeName"])
+        # status_code = self.addItemTypeResponse.status_code
+        # self.assertEqual(status_code, 201, "itemType/题型：添加题型成功用例-状态码错误！")
+        # #
         try:
             status_code = self.addItemTypeResponse.status_code
             actdata = self.addItemTypeResponse.json()
@@ -56,7 +59,7 @@ class AddItemType(unittest.TestCase):
             self.assertIsNotNone(actdata["id"], "itemType/题型：添加题型必填项成功用例-返回Id为空！")
             self.assertEqual(actdata["itemMouldType"], additemtypebody["itemMouldType"],
                              "itemType/题型：添加题型必填项成功用例-题型模版不一致！")
-            self.assertEqual(actdata["priorityCode"], 99, "itemType/题型：添加题型必填项必填项成功用例-排序不一致！")
+            # self.assertEqual(actdata["priorityCode"], 99, "itemType/题型：添加题型必填项必填项成功用例-排序不一致！")
             self.assertEqual(actdata["typeCode"], additemtypebody["typeCode"], "itemType/题型：添加题型必填项成功用例-题型编码不一致！")
             self.assertEqual(actdata["typeName"], additemtypebody["typeName"], "itemType/题型：添加题型必填项成功用例-题型名称不一致！")
             log.info("itemType/题型：添加题型必填项成功用例测试通过！")
