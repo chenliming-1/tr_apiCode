@@ -1,5 +1,4 @@
 import unittest
-from common.commonmethod import cookie, todict, randdata
 from histudy import request, randMethod, log
 from data.itemtype import  *
 import os
